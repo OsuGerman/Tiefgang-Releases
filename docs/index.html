@@ -144,7 +144,7 @@ nav.top ul a:hover { color: var(--abyssal); text-decoration: none; opacity: 1; }
 .card h3 { font-size: 20px; color: var(--text); margin-bottom: 8px; }
 .card p { margin: 0; color: var(--dim); font-size: 16px; }
 .card .num { font-family: "Cinzel", serif; color: var(--brass); }
-.card.soon { border-style: dashed; }
+.card.soon { border-style: dashed; grid-column: 1 / -1; }
 .tag { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ember); border: 1px solid rgba(255, 106, 31, 0.5); padding: 2px 8px; border-radius: 2px; margin-left: 6px; vertical-align: 3px; font-family: "Barlow", sans-serif; }
 
 /* Areas strip */
@@ -194,7 +194,8 @@ td:first-child { color: var(--dim); white-space: nowrap; padding-right: 14px; }
 kbd { display: inline-block; min-width: 24px; padding: 1px 7px; margin: 1px 2px 1px 0; font: 600 13px/1.6 "Barlow", sans-serif; text-align: center; color: var(--text); background: #0d303b; border: 1px solid var(--brass-dark); border-bottom-width: 2px; border-radius: 3px; }
 .steps { counter-reset: s; list-style: none; padding: 0; margin: 0; }
 .steps li { counter-increment: s; position: relative; padding: 0 0 16px 46px; color: var(--dim); }
-.steps li::before { content: counter(s); position: absolute; left: 0; top: -2px; width: 30px; height: 30px; display: grid; place-items: center; font-family: "Cinzel", serif; font-weight: 700; color: var(--abyssal); border: 1px solid var(--brass); transform: rotate(45deg); }
+.steps li::before { content: counter(s); position: absolute; left: 0; top: -2px; width: 30px; height: 30px; display: grid; place-items: center; font-family: "Cinzel", serif; font-weight: 700; color: var(--abyssal); z-index: 1; }
+.steps li::after { content: ""; position: absolute; left: 5px; top: 3px; width: 20px; height: 20px; border: 1px solid var(--brass); background: rgba(6, 26, 34, 0.9); transform: rotate(45deg); }
 .steps li b { color: var(--text); font-weight: 600; }
 .small { font-size: 14px; color: var(--dim); margin: 12px 0 0; }
 
@@ -342,11 +343,11 @@ footer .credits a { color: var(--dim); text-decoration: underline; text-decorati
       </article>
     </div>
     <div class="areas reveal" aria-label="Die fünf Gebiete">
-      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/tempelvorhof.jpg" alt="Tempelvorhof" loading="lazy"><div><b>Tempelvorhof</b><span>Tiefe 1–4</span></div></div>
-      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/bohrstation.jpg" alt="Bohrstation" loading="lazy"><div><b>Bohrstation</b><span>Tiefe 1–4</span></div></div>
-      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/korallenkathedrale.jpg" alt="Korallenkathedrale" loading="lazy"><div><b>Korallenkathedrale</b><span>Tiefe 5–8</span></div></div>
-      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/versunkene_archive.jpg" alt="Versunkene Archive" loading="lazy"><div><b>Versunkene Archive</b><span>Tiefe 9–12</span></div></div>
-      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/abgrund_portal.jpg" alt="Der Abgrund" loading="lazy"><div><b>Der Abgrund</b><span>Tiefe 13–14</span></div></div>
+      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_tempelvorhof.jpg" alt="Tempelvorhof" loading="lazy"><div><b>Tempelvorhof</b><span>Tiefe 1–4</span></div></div>
+      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_bohrstation.jpg" alt="Bohrstation" loading="lazy"><div><b>Bohrstation</b><span>Tiefe 1–4</span></div></div>
+      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_korallenkathedrale.jpg" alt="Korallenkathedrale" loading="lazy"><div><b>Korallenkathedrale</b><span>Tiefe 5–8</span></div></div>
+      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_versunkene_archive.jpg" alt="Versunkene Archive" loading="lazy"><div><b>Versunkene Archive</b><span>Tiefe 9–12</span></div></div>
+      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_abgrund.jpg" alt="Der Abgrund" loading="lazy"><div><b>Der Abgrund</b><span>Tiefe 13–14</span></div></div>
     </div>
   </div>
 </section>

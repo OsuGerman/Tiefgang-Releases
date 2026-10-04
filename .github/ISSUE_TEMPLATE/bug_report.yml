@@ -1,0 +1,83 @@
+name: Fehler melden
+description: Ein Fehler, Absturz oder Grafikproblem im Test-Build
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke fürs Testen! Je genauer die Angaben, desto schneller lässt sich der Fehler finden.
+        Bitte pro Issue nur einen Fehler melden.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Steht unten rechts im Hauptmenü, z. B. v2026.10.04.1128-68aba1d
+      placeholder: v2026.10.04.1128-68aba1d
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Gebiet
+      options:
+        - U-Boot (Hub)
+        - Tempelvorhof
+        - Bohrstation
+        - Korallenkathedrale
+        - Versunkene Archive
+        - Der Abgrund
+        - Hauptmenü / Einstellungen
+        - Weiß nicht
+    validations:
+      required: true
+  - type: input
+    id: depth
+    attributes:
+      label: Tiefe / Raum
+      description: Steht oben links im HUD, z. B. „Tiefe 6 · Raum 2/5“ oder „Bossarena“
+      placeholder: Tiefe 6 · Raum 2/5
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zum Nachstellen
+      description: Was hast du getan, bevor der Fehler auftrat?
+      placeholder: |
+        1. Run gestartet mit …
+        2. In Tiefe … den Raum … betreten
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartet
+      description: Was hätte passieren sollen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Tatsächlich
+      description: Was ist stattdessen passiert? Bei Abstürzen bitte auch, ob das Spiel einfror oder sich beendete.
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: Wie oft?
+      options:
+        - Jedes Mal
+        - Manchmal
+        - Einmal
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot oder Video
+      description: Bild oder kurzes Video hier hineinziehen (optional, aber sehr hilfreich).
+  - type: input
+    id: system
+    attributes:
+      label: System (optional)
+      description: Grafikkarte, Windows-Version, Auflösung
+      placeholder: Windows 11, 2560×1440

@@ -27,12 +27,13 @@
 ## Trailer
 
 <!-- TRAILER -->
-<!-- Hier den Trailer einsetzen: Vorschaubild (media/trailer_preview.jpg) durch ein Standbild des Trailers ersetzen
-     und den Link (href) auf das Video setzen, z. B. YouTube-URL oder eine MP4 aus einem Release. -->
 <p align="center">
-  <a href="https://github.com/OsuGerman/Tiefgang-Releases/releases/latest">
-    <img src="media/trailer_preview.jpg" alt="Trailer – erscheint in Kürze" width="80%">
+  <a href="https://osugerman.github.io/Tiefgang-Releases/#trailer">
+    <img src="media/trailer_preview.webp" alt="TIEFGANG – Gameplay-Trailer (Vorschau)" width="80%">
   </a>
+  <br>
+  <a href="https://osugerman.github.io/Tiefgang-Releases/#trailer"><b>▶ Gameplay-Trailer ansehen (82 s)</b></a>
+  · <a href="docs/media/tiefgang_trailer.mp4">MP4 herunterladen</a>
 </p>
 <!-- /TRAILER -->
 

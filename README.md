@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <b>Pazifik, 1887. Unter dem Meeresboden liegen die Ruinen der Thalassari – und das größte Abyssalit-Vorkommen aller Zeiten.</b><br>
-  Steig im Messing-Taucheranzug hinab, kämpf dich Raum für Raum durch leuchtende Ruinen in erdrückender Dunkelheit<br>
+  <b>Pazifik, 1887. Unter dem Meeresboden liegen die Ruinen der Thalassari – und das größte Abyssalit-Vorkommen aller Zeiten.</b>
+  Steig im Messing-Taucheranzug hinab, kämpf dich Raum für Raum durch leuchtende Ruinen in erdrückender Dunkelheit
   und bau dir mit jedem Raum einen stärkeren, verrückteren Build. Bis etwas am Grund aufwacht.
 </p>
 

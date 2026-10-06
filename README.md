@@ -37,6 +37,26 @@
 </p>
 <!-- /TRAILER -->
 
+## Neu im Test-Build (v2026.10.06.1900-00541a6)
+
+- **7 neue Gegner-Varianten** – Steinbeißer-Veteran, Splitterspeier, Vorarbeiter, Überdruck-Kesselträger, Brutlarve, Fallenkopist und Bannleser.
+- **Boss-Tode und lebendigere Bosse** – eigene Todes-Sequenz je Boss, sichtbare Phasenwechsel, Zucken bei schweren Treffern.
+- **Blickfänge in den großen Hallen** der Archive und der Bohrstation, **klügere Gegnergruppen** und **Einschläge je Oberfläche**.
+- **Neu gemessene Balance** – ab Gebiet 2 zähere Gegner, Heilschrein vor dem Endboss. Feedback zu Tiefe 5–11 ist besonders willkommen.
+
+Alle Änderungen: **[CHANGELOG.md](CHANGELOG.md)**
+
+<table>
+  <tr>
+    <td width="50%"><a href="media/neu_xaltuun_tod.jpg"><img src="media/neu_xaltuun_tod.jpg" alt="Xal-Tuun zerbricht in glühende Steinblöcke"></a></td>
+    <td width="50%"><a href="media/neu_archiv_himmelsglobus.jpg"><img src="media/neu_archiv_himmelsglobus.jpg" alt="Himmelsglobus in den Versunkenen Archiven"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="media/neu_bohrstation_getriebe.jpg"><img src="media/neu_bohrstation_getriebe.jpg" alt="Bohrturm-Getriebe in der Bohrstation"></a></td>
+    <td width="50%"><a href="media/neu_uboot_bullauge.jpg"><img src="media/neu_uboot_bullauge.jpg" alt="Leviathan vor dem Bullauge des U-Boots"></a></td>
+  </tr>
+</table>
+
 ## Das Spiel
 
 **TIEFGANG** ist ein schneller Ego-Shooter mit Roguelike-Runs. Jede Expedition führt dich linear durch 14 Tiefen – Kampfräume, Schatzkammern, Prüfungen und Bossarenen – bis hinunter in den Abgrund. Stillstand ist tödlich: Sprints, Dashes und Doppelsprünge sind deine wichtigste Verteidigung. Zwischen den Tauchgängen kehrst du in dein U-Boot zurück, forschst, rüstest auf und tauchst erneut.
@@ -46,10 +66,10 @@
 - **5 Gebiete** – Tempelvorhof und Bohrstation als Startgebiete, danach Korallenkathedrale, Versunkene Archive und der Abgrund. Jedes mit eigener Architektur, Atmosphäre, eigenen Gegnern und Gefahren.
 - **Bosse mit Phasen** – Xal-Tuun, die Bohrmutter, Ysmera, der Archivar, die Herolde und das Ohr des Schläfers. Jeder Boss mit eigenem Auftritt, Phasenwechseln und Schwachstellen.
 - **Waffen und Fähigkeiten** – 9 Waffen vom Gouverneur bis zur Stimme der Tiefe, jede mit Sekundärfeuer und aktivem Nachladen, dazu 6 Fähigkeiten wie Wachposten, Phasensprung oder Anker-Slam.
-- **Charms und Segen** – 50 Charms, die sich stapeln und kombinieren, und 21 Segen mit Element-Effekten (Flut, Blut, Blitz, Leere) und Reaktionen. Absurde Builds sind ausdrücklich erwünscht.
+- **Charms und Segen** – 55 Charms, die sich stapeln und kombinieren, und 21 Segen mit Element-Effekten (Flut, Blut, Blitz, Leere) und Reaktionen. Absurde Builds sind ausdrücklich erwünscht.
 - **Roguelike-Runs mit 14 Tiefen** – jeder Run neu zusammengesetzt, Raum für Raum stärker, Belohnungen nach jeder Arena. Ein voller Tauchgang dauert etwa 25–40 Minuten.
 - **U-Boot-Hub** – dein Stützpunkt zwischen den Expeditionen: Werkbank, Forschungstisch, Waffenständer, Reliquienschrein und Kodex.
-- **Koop in Vorbereitung** – gemeinsam mit bis zu vier Tiefgängern abtauchen ist geplant und wird schrittweise eingebaut.
+- **Koop im Test** – bis zu vier Tiefgänger über LAN oder Internet (Lobby-Code), mit gemeinsamer Expedition, Wiederbeleben und Pings. Läuft in einem eigenen Test-Build und kommt nach der Abnahme ins Hauptspiel.
 
 ## Galerie
 
@@ -143,7 +163,7 @@ Schriften: Cinzel und Barlow (SIL Open Font License). Musik mit Instrumentenaufn
 
 ## About / Download (English)
 
-**TIEFGANG** is a fast-paced first-person roguelike shooter set in 1887, deep beneath the Pacific. Dive in a brass diving suit through the glowing ruins of a forgotten civilisation, fight your way room by room through **5 areas and 14 depths**, face multi-phase bosses, and stack **9 weapons, 6 abilities, 50 charms and 21 elemental blessings** into ever more absurd builds. Between runs you return to your submarine hub to research and gear up. Co-op for up to four players is in preparation.
+**TIEFGANG** is a fast-paced first-person roguelike shooter set in 1887, deep beneath the Pacific. Dive in a brass diving suit through the glowing ruins of a forgotten civilisation, fight your way room by room through **5 areas and 14 depths**, face multi-phase bosses, and stack **9 weapons, 6 abilities, 55 charms and 21 elemental blessings** into ever more absurd builds. Between runs you return to your submarine hub to research and gear up. Co-op for up to four players is in testing.
 
 - **Download:** [Tiefgang-Windows.zip](https://github.com/OsuGerman/Tiefgang-Releases/releases/latest/download/Tiefgang-Windows.zip) (Windows 10/11, 64-bit, Vulkan-capable GPU). Extract the `Tiefgang` folder somewhere writable (not `C:\Program Files`) and run `Tiefgang.exe`. The build is unsigned: click *More info → Run anyway* if Windows SmartScreen appears.
 - **Updates:** the main menu checks for new test builds and updates itself with one click; save games are kept.

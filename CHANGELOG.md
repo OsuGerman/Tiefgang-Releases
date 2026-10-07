@@ -6,6 +6,18 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 07.10.2026 – Hotfix (v2026.10.07.1724-bebfbd8f)
+
+### Behoben
+- **Prüfungsräume: Man konnte eingesperrt bleiben.** Starben die Prüfungsgegner sehr schnell (direkt beim Erscheinen),
+  endete die Prüfung nie und die Tür blieb zu – bei „Nimm keinen Schaden“ und „Nur Nahkampf“ für immer. Die Prüfung
+  erkennt das jetzt zuverlässig.
+- **Neu: Prüfung aufgeben.** Während einer Prüfung an der Prüfungstruhe **E gedrückt halten** – die Prüfung gilt als
+  gescheitert, die Türen öffnen sich. So kommt man immer heraus.
+- Pumpenhalle (Bohrstation): Steuerpult und Manometer standen vor bzw. in der Ausgangstür – jetzt rechts daneben.
+
+---
+
 ## 06.10.2026 – Abend-Update (v2026.10.06.1900-00541a6)
 
 ### Neu

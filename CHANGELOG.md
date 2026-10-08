@@ -6,6 +6,28 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 08.10.2026 – Testspieler-Update (v2026.10.08.1755-1cae1bb6)
+
+### Neu / Verbessert
+- **Run aufgeben mit Sicherheitsabfrage:** kein versehentliches Aufgeben mehr per Leertaste – „Aufgeben“ muss gehalten werden, Fokus steht auf „Abbrechen“.
+- **Q-Fähigkeiten mit fester Mindest-Abklingzeit:** Charms können Abklingzeiten nicht mehr auf fast 0 s drücken. Anker-Slam 20 s (dafür mehr Schaden: 200), Wachposten 22 s; „Zweiter Wachposten“ stellt jetzt ein zusätzliches Geschütz auf.
+- **Geschütze und Zielhilfen ignorieren unsichtbare Gegner** (verraten getarnte Tintenschatten/Papiergeister nicht mehr).
+- **Urnen lassen sich per Dash zerschlagen.**
+- **Glücksventil:** länger halten und kurze Sperre nach jeder Drehung – kein doppeltes Bezahlen mehr.
+- **Neue Modelle:** Ventile („Notdruck ablassen“, mit Handrad, Manometer und Blasen) und Bohrturm („Bohrer schützen“, Kernleuchten zeigt das Leben).
+- **Waffenständer im U-Boot neu:** Waffenliste mit Icons und Detailkarte mit Werten.
+- **Bohrturm in der Bohrstation** nicht mehr durchsichtig.
+
+### Behoben
+- Fadenkreuz wurde bei kleiner Größe teilweise schwarz.
+- Status eines Raums (z. B. „PRÜFUNG“) blieb in anderen Räumen stehen – jetzt nur im jeweiligen Raum.
+- Sichtfeld (FOV) im Pausemenü sofort sichtbar; Untertitel-Größe ändert sich live; Nebel-Qualität bei „Niedrig“ ausgegraut.
+
+### Bekannt / in Arbeit
+- Hand am Revolver clippt beim Nachladen kurz (Ursache gefunden, Fix folgt), Run speichern & fortsetzen, Ritter-Guard, Oktopus-Arme, Truhen in Wänden, zuverlässigerer Autoupdater.
+
+---
+
 ## 07.10.2026 – Hotfix (v2026.10.07.1724-bebfbd8f)
 
 ### Behoben

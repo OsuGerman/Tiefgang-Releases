@@ -6,6 +6,13 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 08.10.2026 – Nachtrag (v2026.10.08.1811-d277d31b)
+
+### Neu
+- **FPS-Anzeige:** Einstellungen → Grafik → „FPS anzeigen“ – Bildrate und Bildzeit oben rechts (türkis = flüssig, gelb, rot = niedrig). Wirkt im Hauptmenü, im U-Boot und in der Expedition.
+
+---
+
 ## 08.10.2026 – Testspieler-Update (v2026.10.08.1755-1cae1bb6)
 
 ### Neu / Verbessert

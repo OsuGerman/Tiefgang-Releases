@@ -6,6 +6,17 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 08.10.2026 – Abend (v2026.10.08.1932-19fa964f)
+
+### Verbessert
+- **Gouverneur nachladen:** Die linke Hand steckt beim Halten der Trommel und am Schnelllader deutlich weniger im Griff (Eindringen etwa halbiert). Ein ganz kurzer Moment beim Einschieben ist noch nicht ganz sauber.
+- **Forschungstisch:** Perlen und Abyssalit-Kerne bleiben beim Scrollen oben sichtbar; eine Forschung startet erst nach Bestätigung (Knopf halten) – keine versehentlichen Ausgaben mehr.
+
+### Behoben
+- Unsichtbare Tintenschatten nahmen Flächenschaden (Explosionen, Minen) und verrieten so ihre Position.
+
+---
+
 ## 08.10.2026 – Nachtrag (v2026.10.08.1811-d277d31b)
 
 ### Neu

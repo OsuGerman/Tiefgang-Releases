@@ -6,6 +6,21 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 09.10.2026 – Update (v2026.10.09.2250-ec874f2a)
+
+### Neu
+- **Run speichern & fortsetzen:** Im Pausemenü „Speichern & Beenden“, im Hauptmenü „Run fortsetzen · Tiefe N“. Der Run startet am Anfang der gespeicherten Tiefe mit gleichem Build; nach Tod, Aufgeben oder Sieg ist der Spielstand weg.
+- **Run-Übersicht im Hauptmenü:** die letzten 30 Runs mit Zeit, Tiefe, Schaden, größtem Treffer, Ressourcen, Todesursache und Build.
+- **Perfekt nachladen auch mit Linksklick** (Controller: rechter Trigger), frei belegbar unter Einstellungen → Belegung. Der Klick schießt dabei nicht.
+
+### Verbessert
+- **Aktives Nachladen zuverlässig:** Das Perfekt-Fenster steht beim Start fest und ist bei gleicher Waffe immer gleich. Ein Fehlversuch klemmt kurz (Zeiger rot, Fenster grau) statt den Zeiger zurückzusetzen; Reflex-Drücken direkt nach dem Auto-Nachladen zählt nicht mehr; Hit-Stop hält das Nachladen nicht mehr an.
+
+### In Arbeit
+- Ritter-Guard/Schild, Oktopus-Arme, Truhen in Wänden, zuverlässigerer Autoupdater.
+
+---
+
 ## 08.10.2026 – Abend (v2026.10.08.1932-19fa964f)
 
 ### Verbessert

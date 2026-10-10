@@ -6,6 +6,18 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 10.10.2026 – Abend (v2026.10.10.1820-5f2ec06a)
+
+### Verbessert
+- **Pickups eindeutig:** Muscheln sind jetzt goldene Kammmuscheln, Schlüssel echte Messing-Bartschlüssel – auch aus 10 m im dunklen Raum klar erkennbar.
+- **Glücksventil neu gestaltet:** Kupferkessel mit Handrad, Zifferblatt und drehender Glücksperle.
+- **Gegner stehen auf dem Boden:** Bei 21 Gegnerarten steckten Teile in Animationen im Boden (bis über 2 m beim Tod) – jetzt höchstens wenige Zentimeter.
+
+### Behoben
+- Der Händler stand mit dem Rücken zum Spieler – jetzt schaut er zum Eingang.
+
+---
+
 ## 10.10.2026 – Update (v2026.10.10.1015-2318e3fa)
 
 ### Verbessert

@@ -6,6 +6,23 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 11.10.2026 – Update (v2026.10.10.2338-3d33be1f)
+
+### Neu
+- **Run-Ende bei korrumpierten Runs:** neue Spalte „Portale & Modifikatoren“ – welches Portal je Tiefe gewählt wurde, ob es das schwere war und welche Modifikatoren darauf lagen (auch in der Run-Übersicht).
+
+### Verbessert
+- **Kielbrecher:** deutlich wuchtiger im Nahkampf (festes Schrotbild, weniger Streuung, mehr Schaden auf kurze Distanz, kräftigerer Klang und Rückstoß).
+- **Gouverneur:** Linksklick = Präzision (höherer Schwachpunkt-Bonus), Rechtsklick = Fächerfeuer mit Streuung und längerem Nachladen danach („TROMMEL HEISS“).
+- **Werftlied:** Rechtsklick halten = Überdruck mit 30 schnellen Schüssen, danach 2 s Überhitzung; deutlich sichtbar (glühende Läufe, Anzeige „ÜBERDRUCK n/30“).
+- **HUD:** eigene Symbole für Muscheln und Schlüssel; Fähigkeits-Anzeige mit großem Abklingring und gut lesbarer Taste.
+- Todesursachen im Run-Ende lesbar; „Meistgenutzte Waffe“ zeigt nur echte Waffen.
+
+### Behoben
+- Boss-Objekte (Siegel, Riss-Ringe, Eisäcke, Kühltanks, Tempelsteine) blieben nach dem Bosskampf in der nächsten Tiefe stehen.
+
+---
+
 ## 10.10.2026 – Abend (v2026.10.10.1820-5f2ec06a)
 
 ### Verbessert

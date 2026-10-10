@@ -6,6 +6,21 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 10.10.2026 – Update (v2026.10.10.1015-2318e3fa)
+
+### Verbessert
+- **Ritter (Schildwächter, Steinbeißer-Veteran):** größere Schilde; in Deckung blockt der Schild Treffer von vorn sichtbar, der Schwachpunkt ist dann unsichtbar und nicht treffbar.
+- **Autoupdater:** lädt Updates automatisch im Hintergrund (abschaltbar unter Gameplay), prüft den Download, installiert nur im Hauptmenü, beim Beenden oder beim nächsten Start – nie mitten im Run – und meldet Erfolg oder Fehler. Die neue Technik greift ab dem übernächsten Update.
+
+### Behoben
+- Truhen in Schatzkammern standen quer oder in Wänden (52 Fälle) – jetzt richtig ausgerichtet und frei.
+- Deko lag auf Rohren, Treppen und Kanten (281 Fälle → 7).
+- Ventile der Bohrmutter blieben nach dem Bosskampf in den Räumen der nächsten Tiefe stehen.
+- Oktopus (Krakling): Beine steckten im Boden – jetzt bleiben sie auf dem Boden.
+- Schwert-Push: Kleine Gegner flogen bis zu 20 m weit und schräg in den Boden – jetzt alle gleich weit (6 m) und waagerecht.
+
+---
+
 ## 09.10.2026 – Update (v2026.10.09.2250-ec874f2a)
 
 ### Neu

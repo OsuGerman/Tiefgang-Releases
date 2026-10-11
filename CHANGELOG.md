@@ -6,6 +6,16 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 11.10.2026 – Abend (v2026.10.11.1032-ab5a15f9)
+
+### Verbessert
+- **Tiefenruf neu:** statt eines dünnen Strichs eine 5 m lange Geister-Muräne, die aus einem Ring vor dir erscheint, in Kurven kreist und mit offenem Maul zubeißt (Geisterkiefer am Gegner).
+- **Gezeitenklinge flüssig:** keine Sprünge mehr zwischen Kombo-Schlägen, Abwehr und Konter; beim Blocken blitzt keine zweite Klinge mehr auf, beim Ziehen kommt die Klinge sauber ins Bild.
+- **Quest-Einblendung:** Raumziele, Prüfungen und Funk-Aufträge erscheinen kurz groß in der Bildmitte und fliegen dann in die Zielzeile; alle Zieltexte nennen klarer den nächsten Schritt.
+- **Revolver-Nachladen:** Die Stützhand nimmt einen Bogen um die Waffe und steckt deutlich weniger im Griff (ganz sauber ist es noch nicht).
+
+---
+
 ## 11.10.2026 – Update (v2026.10.10.2338-3d33be1f)
 
 ### Neu

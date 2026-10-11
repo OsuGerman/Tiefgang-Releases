@@ -6,6 +6,19 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 12.10.2026 – Abend (v2026.10.11.2026-f70be013)
+
+### Neu
+- **Schildbruch „Visier-Riss“:** Bricht der Schild, springt das Helmglas sternförmig von der Trefferseite – Blitz, kurzer Stoß, Glasknacken, Blasen, der Schildbogen zerspringt. Ohne Schild bleibt ein dezenter Riss am Rand (Fadenkreuz bleibt frei); beim Aufladen verheilt er türkis. Abschaltbar unter Barrierefreiheit.
+- **Heilung sichtbarer:** grüner Schwall vom Rand, Funken an den Händen, der Lebensbogen füllt sich sichtbar.
+
+### Verbessert
+- **Fähigkeiten neu gestaltet:** Anker-Slam (kein weißer Bildschirm mehr; Bodenrisse, Schollen, Geisterketten), Phasensprung (violetter Sog, Ankunftsring, Leere-Riss), Druckwellen-Mine (echte Seemine, blinkt vor der Explosion).
+- **Glyphenwände des Herolds der Archive:** Wand aus leuchtenden Glyphenkarten, Lücke mit goldenen Lichtsäulen klar markiert, zerschellt an Wänden.
+- **Hände:** Fingerkuppen sind rund statt abgeschnitten, die Beule am Daumen ist weg.
+
+---
+
 ## 12.10.2026 – Update (v2026.10.11.1540-fc65643e)
 
 ### Neu

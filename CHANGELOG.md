@@ -6,6 +6,19 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 12.10.2026 – Update (v2026.10.11.1540-fc65643e)
+
+### Neu
+- **Ressourcen erklärt:** Im Tauchgang zeigt das HUD die bereits verdienten Perlen („+N“); **Tab halten** blendet eine Erklärung von Muscheln, Perlen und Kernen ein; Werkbank, Forschungstisch und Schrein zeigen Perlen und Kerne mit Symbol; neuer Kodex-Eintrag unter „Grundlagen“ und ein Hinweis von Dr. Marsh bei der ersten Muschel.
+
+### Verbessert
+- **Lebenspuls neu:** Der Bildrand pulsiert zweimal wie ein Herzschlag, eine Lebenswelle läuft über den Boden, Lichtteilchen steigen auf.
+
+### Behoben
+- Das Planetarium im Glyphenrund (Archive) ragte beim Drehen in die Deckenbalken.
+
+---
+
 ## 11.10.2026 – Abend (v2026.10.11.1032-ab5a15f9)
 
 ### Verbessert

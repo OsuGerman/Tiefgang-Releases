@@ -6,6 +6,60 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 13.10.2026 – Nacht, großes Update (v2026.10.13.2110-18d62a60)
+
+### Neu
+- **13 Legendäre Charms mit eigenen Mechaniken.** Beispiele:
+  - **Ankerminen:** Jeder 3. Dash legt eine Mine.
+  - **Sogkern:** Jeder 5. Kill öffnet einen Sog.
+  - **Letzte Patrone:** Der letzte Schuss trifft ×3.
+  - **Fächerentladung:** Restpatronen feuern als Fächer.
+  - **Zeitdehnung:** Unter 30 % Leben verlangsamt ein Kill die Welt.
+  - Weitere: Prisma der Tiefe, Gegendruckmantel, Sturmkrone, Spiegelscherben, Wuchtfaust, Blutmotor und andere.
+  - Pro Auswahl gibt es höchstens einen Legendären, ab Tiefe 2.
+- **16 neue Segen:** Sie lösen jetzt auch in der Luft, im Nahkampf, beim Nachladen, bei wenig Leben, beim Fähigkeiten-Einsatz und nach dem Dash aus.
+- **24 neue Charms:** Sie stärken Fähigkeiten, Schild und kritische Treffer. Neu ist außerdem die Kategorie **RISIKO** mit Fluchkarten wie Blutschwur und Verfluchte Münze.
+- **Jeder Charm und jeder Segen hat jetzt ein eigenes Symbol.** Die Fähigkeiten haben neue Symbole im Sechseck-Rahmen und einen neuen Q-Slot mit Abklinganzeige.
+- **Nachladen von Hand für alle Waffen:** Kielbrecher, Werftlied, Walfänger, Leuchtfeuer, Tiefenbombe und Stimme der Tiefe nutzen jetzt die bewegliche Stützhand. Jede Waffe hat ein Perfekt- und ein Klemm-Nachladen.
+- **Treffer-Feedback:**
+  - Bei jedem Treffer sprühen Funken, eisblau am Schild, gelb am Schwachpunkt und orange bei Krit.
+  - Explosionen haben einen glühenden Kern.
+  - Das Mündungsfeuer verdeckt das Ziel nicht mehr.
+- **Neue Gegnermodelle der Ertrunkenen Mannschaft:** Taucher in Segeltuchanzügen, Schlickkriecher mit Stielaugen, Rostdrohne mit Mantelpropeller.
+- **Neue Klänge:**
+  - beim Aufheben von Charms
+  - Händler-Gruß und Kaufen
+  - Steintafel lesen
+  - Waffenwechsel
+  - Horn ab Welle 2
+  - Sog vor dem Erscheinen eines Gegners
+- **Eigene Umgebungsklänge** in jedem Gebiet.
+
+### Verbessert
+- **Räume:**
+  - Kreuzgang und Brunnenkreis im Tempel sind neu gestaltet.
+  - Hallen und Galerien haben Rundwege und Plattformen.
+  - Gegner erscheinen nicht mehr direkt vor oder neben der Eingangstür.
+- **Klang im Gefecht:**
+  - Die eigene Waffe behält ihren Wumms.
+  - Bossangriffe sind in der ganzen Arena hörbar.
+  - Die Bossmusik ist lauter.
+- **Leistung mit vielen Gegnern:** Die Gegner-KI rechnet sparsamer, Gegnermodelle bestehen aus weniger Teilen, und das Nachladen kostet weniger Rechenzeit.
+- **Oberfläche:**
+  - Schrein als Kartenansicht.
+  - Kodex-Reiter.
+  - Symbole im Todesbildschirm und im Hauptmenü.
+  - Schließen-Hinweis mit Tastensymbol.
+- **Logbuchseite (Funk-Auftrag):** Die goldene Karte am Boden ist jetzt als Logbuchseite mit Siegel und Beschriftung erkennbar.
+
+### Behoben
+- **Tab-Übersicht:** Nichts überschneidet sich mehr, auch bei sehr vielen Charms und auf 4:3 bzw. 21:9.
+- **Tintenschatten:** Getarnt verrät er sich nicht mehr durch Affix-Symbole, Elite-Name oder Lebensbalken.
+- **Sauberere Schwebeteilchen:** Der Sog zeigt keine weißen Quadrate mehr, und der Heil-Ring ist dünner.
+
+
+---
+
 ## 13.10.2026 – Abend (v2026.10.13.1609-7a45aa68)
 
 ### Neu

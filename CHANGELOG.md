@@ -6,6 +6,19 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 13.10.2026 – Nacht (v2026.10.13.1040-c2ff8406)
+
+### Neu
+- **Komplett auf Englisch spielbar:** Waffen, Fähigkeiten, alle Charms und Segen, Gegner- und Bossnamen, Funksprüche von Dr. Marsh, Kodex und Lore, Hinweise und Ladebildschirm – Einstellungen → Gameplay → „Sprache · Language“.
+- **Eigene Nachlade-Klänge für den Gouverneur:** Riegel, Dampf, Hülsen, Einsetzen, Snap und Ratschen; perfektes Nachladen klingt satt, eine Klemme hakelig.
+- **Lesbare Zustände:** betäubte Gegner zeigen silberweiße Sterne; große Gegner und Elites leuchten beim Ausholen orange; einheitliche Farben für Elite, Schwachpunkt und Affixe; Gouverneur-Trommel glüht nach dem Fächerfeuer, Werftlied zeigt Überdruck und Überhitzung klar getrennt.
+
+### Behoben
+- Mittelgroße Gegner (Tafelträger, Schildwächter, Springer, Stachelläufer) blieben an geraden Treppen hängen.
+
+
+---
+
 ## 13.10.2026 – Abend (v2026.10.13.0837-9611357d)
 
 ### Neu

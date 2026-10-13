@@ -4,14 +4,24 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>TIEFGANG – Tiefsee-Roguelike-Shooter</title>
-<meta name="description" content="TIEFGANG: schneller Ego-Shooter mit Roguelike-Runs in den versunkenen Ruinen der Thalassari. 5 Gebiete, 14 Tiefen, Bosse, Waffen, Charms und Segen. Kostenloser Test-Build für Windows.">
+<meta name="description" content="TIEFGANG: schneller Ego-Shooter mit Roguelike-Runs in den versunkenen Ruinen der Thalassari. 5 Gebiete, 14 Tiefen, Bosse, Waffen, Charms und Segen. Auf Deutsch und Englisch. A fast first-person roguelike shooter in the sunken ruins of the Thalassari – free Windows test build, in English and German.">
 <meta name="theme-color" content="#061a22">
 <meta property="og:type" content="website">
-<meta property="og:title" content="TIEFGANG – Tiefsee-Roguelike-Shooter">
-<meta property="og:description" content="Steig im Messing-Taucheranzug hinab in die Ruinen der Thalassari. Test-Build für Windows.">
+<meta property="og:title" content="TIEFGANG – Tiefsee-Roguelike-Shooter · Deep-Sea Roguelike Shooter">
+<meta property="og:description" content="Steig im Messing-Taucheranzug hinab in die Ruinen der Thalassari. Descend in a brass diving suit into the ruins of the Thalassari. Test-Build für Windows · Free Windows test build.">
 <meta property="og:image" content="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/banner.jpg">
 <meta property="og:url" content="https://osugerman.github.io/Tiefgang-Releases/">
 <meta name="twitter:card" content="summary_large_image">
+<script>
+// Sprache vor dem ersten Zeichnen festlegen: gespeicherte Wahl, sonst Browsersprache (de* = Deutsch, sonst Englisch)
+(function () {
+  var l = null;
+  try { l = window.localStorage.getItem("tiefgang-lang"); } catch (e) { l = null; }
+  if (l !== "de" && l !== "en") l = /^de/i.test(navigator.language || "") ? "de" : "en";
+  document.documentElement.lang = l;
+  if (l === "en") document.title = "TIEFGANG – Deep-Sea Roguelike Shooter";
+})();
+</script>
 <style>
 @font-face { font-family: "Cinzel"; src: url("fonts/Cinzel.woff") format("woff"); font-weight: 400 900; font-display: swap; }
 @font-face { font-family: "Barlow"; src: url("fonts/Barlow-Regular.woff") format("woff"); font-weight: 400; font-display: swap; }
@@ -74,6 +84,19 @@ nav.top .brand:hover { text-decoration: none; color: var(--abyssal); }
 nav.top ul { list-style: none; display: flex; gap: 26px; margin: 0; padding: 0; }
 nav.top ul a { color: var(--text); font-weight: 600; font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.85; }
 nav.top ul a:hover { color: var(--abyssal); text-decoration: none; opacity: 1; }
+nav.top .right { display: flex; align-items: center; gap: 30px; }
+
+/* Sprachumschalter: nur die Inhalte der aktiven Sprache sind sichtbar */
+html[lang="de"] [data-l="en"], html[lang="en"] [data-l="de"] { display: none !important; }
+.lang { display: flex; align-items: center; gap: 2px; font-weight: 600; font-size: 13px; letter-spacing: 0.14em; }
+.lang span { color: var(--brass-dark); padding: 0 2px; }
+.lang button {
+  font: inherit; letter-spacing: inherit; color: var(--dim); background: none; cursor: pointer;
+  padding: 5px 7px; border: 1px solid transparent; border-radius: 2px;
+  transition: color 0.15s ease-out, border-color 0.15s ease-out;
+}
+.lang button:hover { color: var(--text); }
+.lang button[aria-pressed="true"] { color: var(--abyssal); border-color: var(--line); text-shadow: 0 0 10px rgba(47, 245, 210, 0.5); }
 
 /* Hero */
 .hero {
@@ -154,7 +177,7 @@ nav.top ul a:hover { color: var(--abyssal); text-decoration: none; opacity: 1; }
 .area:hover img { transform: scale(1.06); filter: saturate(1.05) brightness(1); }
 .area div { position: absolute; left: 0; right: 0; bottom: 0; padding: 40px 14px 14px; background: linear-gradient(180deg, transparent, rgba(3, 16, 15, 0.92)); }
 .area b { display: block; font-family: "Cinzel", serif; font-size: 16px; letter-spacing: 0.04em; }
-.area span { font-size: 13px; color: var(--brass); letter-spacing: 0.1em; text-transform: uppercase; }
+.area div > span { font-size: 13px; color: var(--brass); letter-spacing: 0.1em; text-transform: uppercase; }
 
 /* Gallery */
 .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 52px; }
@@ -243,16 +266,23 @@ footer .credits a { color: var(--dim); text-decoration: underline; text-decorati
 </head>
 <body>
 
-<nav class="top" id="nav" aria-label="Hauptnavigation">
+<nav class="top" id="nav" data-de-label="Hauptnavigation" data-en-label="Main navigation" aria-label="Hauptnavigation">
   <a class="brand" href="#top">TIEFGANG</a>
-  <ul>
-    <li><a href="#neu">Neu</a></li>
-    <li><a href="#trailer">Trailer</a></li>
-    <li><a href="#features">Features</a></li>
-    <li><a href="#galerie">Galerie</a></li>
-    <li><a href="#download">Download</a></li>
-    <li><a href="#feedback">Feedback</a></li>
-  </ul>
+  <div class="right">
+    <ul>
+      <li><a href="#neu"><span data-l="de">Neu</span><span data-l="en">New</span></a></li>
+      <li><a href="#trailer">Trailer</a></li>
+      <li><a href="#features"><span data-l="de">Features</span><span data-l="en">Features</span></a></li>
+      <li><a href="#galerie"><span data-l="de">Galerie</span><span data-l="en">Gallery</span></a></li>
+      <li><a href="#download">Download</a></li>
+      <li><a href="#feedback">Feedback</a></li>
+    </ul>
+    <div class="lang" role="group" aria-label="Sprache · Language">
+      <button type="button" data-set-lang="de" lang="de" aria-pressed="true" title="Deutsch">DE</button>
+      <span aria-hidden="true">|</span>
+      <button type="button" data-set-lang="en" lang="en" aria-pressed="false" title="English">EN</button>
+    </div>
+  </div>
 </nav>
 
 <header class="hero" id="top">
@@ -260,19 +290,21 @@ footer .credits a { color: var(--dim); text-decoration: underline; text-decorati
   <div class="wrap">
     <h1 class="logo">TIEFGANG</h1>
     <div class="divider" aria-hidden="true"><i></i></div>
-    <p class="tagline">Pazifik, 1887. Steig im Messing-Taucheranzug hinab in die Ruinen der Thalassari, kämpf dich Raum für Raum durch leuchtende Dunkelheit – und bau dir einen Build, der eigentlich gar nicht funktionieren dürfte.</p>
-    <div class="sub">Tiefsee-Roguelike-Shooter · Windows · Kostenloser Test-Build</div>
+    <p class="tagline" data-l="de">Pazifik, 1887. Steig im Messing-Taucheranzug hinab in die Ruinen der Thalassari, kämpf dich Raum für Raum durch leuchtende Dunkelheit – und bau dir einen Build, der eigentlich gar nicht funktionieren dürfte.</p>
+    <p class="tagline" data-l="en">The Pacific, 1887. Descend in a brass diving suit into the ruins of the Thalassari, fight your way room by room through luminous darkness – and assemble a build that has no right to work.</p>
+    <div class="sub"><span data-l="de">Tiefsee-Roguelike-Shooter · Windows · Kostenloser Test-Build</span><span data-l="en">Deep-sea roguelike shooter · Windows · Free test build</span></div>
     <div class="cta">
       <a class="btn primary" href="https://github.com/OsuGerman/Tiefgang-Releases/releases/latest/download/Tiefgang-Windows.zip">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 19h16"/></svg>
-        <span>Download für Windows<small>Neuester Test-Build · ZIP</small></span>
+        <span data-l="de">Download für Windows<small>Neuester Test-Build · ZIP</small></span>
+        <span data-l="en">Download for Windows<small>Latest test build · ZIP</small></span>
       </a>
       <a class="btn" href="#trailer">
         <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         <span>Trailer</span>
       </a>
     </div>
-    <p class="version" id="version">Neueste Version: siehe <a href="https://github.com/OsuGerman/Tiefgang-Releases/releases/latest">Releases</a></p>
+    <p class="version" id="version"><span data-l="de">Neueste Version: siehe</span><span data-l="en">Latest version: see</span> <a href="https://github.com/OsuGerman/Tiefgang-Releases/releases/latest">Releases</a></p>
   </div>
   <span class="scroll-hint" aria-hidden="true"></span>
 </header>
@@ -282,35 +314,42 @@ footer .credits a { color: var(--dim); text-decoration: underline; text-decorati
 <section id="neu">
   <div class="wrap">
     <div class="reveal">
-      <span class="eyebrow">Neu im Test-Build · v2026.10.06.1900-00541a6</span>
-      <h2>Frisch aus der Tiefe</h2>
+      <span class="eyebrow"><span data-l="de">Neu im Test-Build · Oktober 2026</span><span data-l="en">New in the test build · October 2026</span></span>
+      <h2><span data-l="de">Frisch aus der Tiefe</span><span data-l="en">Fresh from the Deep</span></h2>
       <div class="divider" aria-hidden="true"><i></i></div>
-      <p class="lead">Das Abend-Update vom 6. Oktober bringt neue Gegner, epische Boss-Tode, Blickfänge in den großen Hallen und eine neu gemessene Schwierigkeit. Alle Änderungen stehen im <a href="https://github.com/OsuGerman/Tiefgang-Releases/blob/main/CHANGELOG.md">Changelog</a>.</p>
+      <p class="lead" data-l="de">TIEFGANG spricht jetzt Englisch, der Gouverneur wird von Hand nachgeladen, und neue Laser-Flieger halten dich in Bewegung. Alle Änderungen stehen im <a href="https://github.com/OsuGerman/Tiefgang-Releases/blob/main/CHANGELOG.md">Changelog</a>.</p>
+      <p class="lead" data-l="en">TIEFGANG now speaks English, the Governor is reloaded by hand, and new laser fliers keep you on the move. Every change is listed in the <a href="https://github.com/OsuGerman/Tiefgang-Releases/blob/main/CHANGELOG.md">changelog</a> (mostly German).</p>
     </div>
     <div class="features">
       <article class="card reveal">
-        <h3><span class="num">7</span> neue Gegner-Varianten</h3>
-        <p>Steinbeißer-Veteran mit Schild-Ansturm, Splitterspeier, Vorarbeiter mit Schichtpfiff, Überdruck-Kesselträger, Brutlarve, Fallenkopist und Bannleser – jede mit eigenem Angriff und Schwachpunkt.</p>
+        <h3><span data-l="de">Jetzt auf Englisch</span><span data-l="en">Now in English</span></h3>
+        <p data-l="de">Komplett übersetzt – vom Hauptmenü über Waffen, Charms und Gegner bis zu Dr. Marshs Funksprüchen und dem Kodex. Umschalten unter Einstellungen → Gameplay → „Sprache · Language“, sofort und ohne Neustart.</p>
+        <p data-l="en">Fully translated – from the main menu through weapons, charms and enemies to Dr. Marsh’s radio messages and the Codex. Switch under Settings → Gameplay → “Sprache · Language”, instantly and without a restart.</p>
       </article>
       <article class="card reveal">
-        <h3>Boss-Tode mit Wucht</h3>
-        <p>Xal-Tuun zerbricht in glühende Steinblöcke, die Bohrmutter überhitzt, der Archivar zerfällt zu Seiten. Dazu sichtbare Phasenwechsel und Bosse, die dir mit dem Kopf folgen.</p>
+        <h3><span data-l="de">Gouverneur: Nachladen neu</span><span data-l="en">Governor: a new reload</span></h3>
+        <p data-l="de">Die Hand greift wirklich zu: Riegel lösen, die Trommel schwingt im Dampf aus, Hülsen fliegen, Schnelllader einsetzen und drehen, Trommel zu. Perfekt getroffen schnappt sie von selbst zu – mit goldenem Dampf.</p>
+        <p data-l="en">The hand really works the gun now: slip the latch, the cylinder swings out in a puff of steam, casings fly, speedloader in, twist, cylinder shut. Nail the perfect reload and it snaps shut on its own in golden steam.</p>
       </article>
       <article class="card reveal">
-        <h3>Blickfänge in jeder großen Halle</h3>
-        <p>Himmelsglobus, Siegelorgel und Kronleuchter-Kaskade in den Archiven; Bohrturm-Getriebe, Brückenkran und Kesselbatterie in der Bohrstation.</p>
+        <h3><span data-l="de">Visier-Riss</span><span data-l="en">Visor cracks</span></h3>
+        <p data-l="de">Bricht dein Schild, springt das Helmglas sternförmig von der Trefferseite: Blitz, Stoß, Glasknacken, Blasen. Ein feiner Riss bleibt am Rand und verheilt türkis, sobald der Schild lädt. Abschaltbar unter Barrierefreiheit.</p>
+        <p data-l="en">When your shield breaks, the helmet glass stars outward from the side you were hit: a flash, a jolt, the crack of glass, a burst of bubbles. A hairline crack lingers at the edge and heals turquoise as the shield recharges. Can be turned off under Accessibility.</p>
       </article>
       <article class="card reveal">
-        <h3>Klügere Gegnergruppen</h3>
-        <p>Gegner flankieren, Schützen wechseln die Position, Unterstützer bleiben hinter der Front – und keine gestapelten Angriffe mehr aus dem Rücken.</p>
+        <h3><span data-l="de"><span class="num">4</span> Laser-Flieger</span><span data-l="en"><span class="num">4</span> laser fliers</span></h3>
+        <p data-l="de">Ab der 3. Tiefe jedes Gebiets: Brennglasmotte, Schneiddrohne, Strahlqualle und Brennseite. Eine Ziellinie folgt dir, rastet ein, blinkt – dann feuert der Strahl. Ein Seitenschritt rettet dich; nie mehr als zwei Strahlen zugleich, nie aus dem Rücken.</p>
+        <p data-l="en">From the third depth of every area: the Burning-Glass Moth, Cutter Drone, Lantern Jelly and Burning Page. A targeting line tracks you, locks on, flashes – then the beam fires. One sidestep saves you; never more than two beams at once, never from behind.</p>
       </article>
       <article class="card reveal">
-        <h3>Einschläge je Oberfläche</h3>
-        <p>Funken auf Metall, Späne aus Holz, Kalkstaub aus Korallen, Sandwolken – mit eigenen Einschusslöchern und Klängen je Waffe.</p>
+        <h3><span data-l="de">Klang und Bossmusik</span><span data-l="en">Sound and boss music</span></h3>
+        <p data-l="de">Im U-Boot klingt alles nach Metallrumpf, unter Wasser dumpf, beim Abtauchen flutet die Kammer hörbar. Die Bossmusik treibt ab Phase 1, wird mit jeder Phase dichter und hat unter 15 % Boss-Leben ihren eigenen Höhepunkt.</p>
+        <p data-l="en">Inside the submarine everything rings off the metal hull, underwater it turns muffled, and you hear the chamber flood as you dive. Boss music drives from the first phase, thickens with every phase and saves its own climax for the last 15 % of the boss’s health.</p>
       </article>
       <article class="card reveal">
-        <h3>Neue Balance <span class="tag">Bitte testen</span></h3>
-        <p>Die Schwierigkeit wurde ohne Rechnerlast neu gemessen: Ab Gebiet 2 sind Gegner deutlich zäher, Bosse dauern etwa 1–1,5 Minuten, vor dem Endboss steht ein Heilschrein. Rückmeldung zu Tiefe 5–11 hilft besonders.</p>
+        <h3><span data-l="de">Run speichern</span><span data-l="en">Save your run</span></h3>
+        <p data-l="de">„Speichern &amp; Beenden“ im Pausemenü, „Run fortsetzen“ im Hauptmenü: Du startest am Anfang der gespeicherten Tiefe mit demselben Build. Dazu neu im Hauptmenü: die Run-Übersicht deiner letzten 30 Runs.</p>
+        <p data-l="en">“Save &amp; Quit” in the pause menu, “Resume Run” in the main menu: you pick up at the start of the saved depth with the same build. Also new in the main menu: a Run History of your last 30 runs.</p>
       </article>
     </div>
   </div>
@@ -319,11 +358,11 @@ footer .credits a { color: var(--dim); text-decoration: underline; text-decorati
 <section id="trailer">
   <div class="wrap reveal">
     <span class="eyebrow">Trailer</span>
-    <h2>Abtauchen</h2>
+    <h2><span data-l="de">Abtauchen</span><span data-l="en">Dive</span></h2>
     <div class="divider" aria-hidden="true"><i></i></div>
     <!-- TRAILER -->
     <div class="trailer-frame">
-      <video src="media/tiefgang_trailer.mp4" poster="media/trailer_thumb.jpg" controls preload="metadata" playsinline title="TIEFGANG – Gameplay-Trailer"></video>
+      <video src="media/tiefgang_trailer.mp4" poster="media/trailer_thumb.jpg" controls preload="metadata" playsinline title="TIEFGANG – Gameplay-Trailer" data-de-title="TIEFGANG – Gameplay-Trailer" data-en-title="TIEFGANG – Gameplay trailer"></video>
     </div>
     <!-- /TRAILER -->
   </div>
@@ -332,54 +371,80 @@ footer .credits a { color: var(--dim); text-decoration: underline; text-decorati
 <section id="features">
   <div class="wrap">
     <div class="reveal">
-      <span class="eyebrow">Das Spiel</span>
-      <h2>Tempo. Build-Rausch. Druck.</h2>
+      <span class="eyebrow"><span data-l="de">Das Spiel</span><span data-l="en">The Game</span></span>
+      <h2><span data-l="de">Tempo. Build-Rausch. Druck.</span><span data-l="en">Speed. Builds. Pressure.</span></h2>
       <div class="divider" aria-hidden="true"><i></i></div>
-      <p class="lead">Jede Expedition führt dich linear durch 14 Tiefen – Kampfräume, Schatzkammern, Prüfungen und Bossarenen – bis hinunter in den Abgrund. Stillstand ist tödlich: Sprints, Dashes und Doppelsprünge sind deine wichtigste Verteidigung.</p>
+      <p class="lead" data-l="de">Jede Expedition führt dich durch 14 Tiefen – Kampfräume, Schatzkammern, Prüfungen und Bossarenen – bis hinunter in den Abgrund. Stillstand ist tödlich: Sprints, Dashes und Doppelsprünge sind deine wichtigste Verteidigung.</p>
+      <p class="lead" data-l="en">Every expedition takes you down through 14 depths – combat rooms, treasure vaults, trials and boss arenas – all the way into the Abyss. Standing still is fatal: sprints, dashes and double jumps are your best defence.</p>
     </div>
     <div class="features">
       <article class="card reveal">
-        <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 40l10-16 7 9 6-8 13 15z"/><circle cx="34" cy="12" r="5"/></svg>
-        <h3><span class="num">5</span> Gebiete</h3>
-        <p>Tempelvorhof und Bohrstation als Startgebiete, danach Korallenkathedrale, Versunkene Archive und der Abgrund – jedes mit eigener Architektur, Atmosphäre und eigenen Gegnern.</p>
+        <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 40l10-16 7 9 6-8 13 15z"/><circle cx="34" cy="12" r="5"/></svg>
+        <h3><span class="num">5</span> <span data-l="de">Gebiete</span><span data-l="en">areas</span></h3>
+        <p data-l="de">Tempelvorhof und Bohrstation als Startgebiete, danach Korallenkathedrale, Versunkene Archive und der Abgrund – jedes mit eigener Architektur, Atmosphäre und eigenen Gegnern.</p>
+        <p data-l="en">The Temple Forecourt and the Drilling Station as starting areas, then the Coral Cathedral, the Sunken Archives and the Abyss – each with its own architecture, atmosphere and enemies.</p>
       </article>
       <article class="card reveal">
-        <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><circle cx="24" cy="20" r="11"/><path d="M18 19h.01M30 19h.01M19 26c3 2 7 2 10 0M14 30l-5 12M34 30l5 12M24 31v11"/></svg>
-        <h3>Bosse mit Phasen</h3>
-        <p>Xal-Tuun, die Bohrmutter, Ysmera, der Archivar, die Herolde und das Ohr des Schläfers. Eigene Auftritte, Phasenwechsel, Schwachstellen und Todes-Sequenzen.</p>
+        <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="24" cy="20" r="11"/><path d="M18 19h.01M30 19h.01M19 26c3 2 7 2 10 0M14 30l-5 12M34 30l5 12M24 31v11"/></svg>
+        <h3><span data-l="de"><span class="num">5</span> Bosse, <span class="num">4</span> Herolde</span><span data-l="en"><span class="num">5</span> bosses, <span class="num">4</span> Heralds</span></h3>
+        <p data-l="de">Xal-Tuun, die Bohrmutter, Ysmera, der Archivar und das Ohr des Schläfers, dazu ein Herold je Fraktion. Eigene Auftritte, Phasenwechsel, Schwachstellen, Todes-Sequenzen – und Musik, die mit jeder Phase anzieht.</p>
+        <p data-l="en">Xal-Tuun, the Drill Mother, Ysmera, the Archivist and the Sleeper’s Ear, plus a Herald for every faction. Each with its own entrance, phase changes, weak points and death sequence – and music that tightens with every phase.</p>
       </article>
       <article class="card reveal">
-        <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 20h26l6-4h4v10h-4l-6-4H22v6l-4 10h-6l3-10V22H6z"/></svg>
-        <h3><span class="num">9</span> Waffen, <span class="num">6</span> Fähigkeiten</h3>
-        <p>Vom Dampfrevolver Gouverneur bis zur Stimme der Tiefe – jede Waffe mit Zweitfeuer und aktivem Nachladen. Dazu Wachposten, Phasensprung, Anker-Slam und mehr.</p>
+        <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 30c4-12 12-18 24-18 4 0 8 2 8 6s-4 6-8 6H22l-6 12z"/><circle cx="31" cy="17" r="1.5" fill="currentColor"/><path d="M40 34l4 6M34 36l2 6"/></svg>
+        <h3><span data-l="de">Fast <span class="num">50</span> Gegnerarten</span><span data-l="en">Nearly <span class="num">50</span> enemy types</span></h3>
+        <p data-l="de">Steinwächter, Ertrunkene Mannschaft, Korallenbrut und Ertrunkene Schreiber: Schützen, Flankierer, Schildträger und Kolosse, dazu Affixe, Elite-Kämpfe und die neuen Laser-Flieger.</p>
+        <p data-l="en">Stone Wardens, Drowned Crew, Coral Brood and Drowned Scribes: marksmen, flankers, shield-bearers and colossi, plus affixes, elite fights and the new laser fliers.</p>
       </article>
       <article class="card reveal">
-        <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M24 4l6 12 13 2-9 9 2 13-12-6-12 6 2-13-9-9 13-2z"/></svg>
-        <h3><span class="num">55</span> Charms, <span class="num">21</span> Segen</h3>
-        <p>Charms stapeln sich und kombinieren sich, Segen bringen Elemente wie Flut, Blut, Blitz und Leere samt Reaktionen. Absurde Builds sind ausdrücklich erwünscht.</p>
+        <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 20h26l6-4h4v10h-4l-6-4H22v6l-4 10h-6l3-10V22H6z"/></svg>
+        <h3><span data-l="de"><span class="num">9</span> Waffen, <span class="num">6</span> Fähigkeiten</span><span data-l="en"><span class="num">9</span> weapons, <span class="num">6</span> abilities</span></h3>
+        <p data-l="de">Vom Dampfrevolver Gouverneur über Kielbrecher und Gezeitenklinge bis zur Stimme der Tiefe – jede Waffe mit Zweitfeuer und aktivem Nachladen. Dazu Wachposten, Phasensprung, Anker-Slam und mehr.</p>
+        <p data-l="en">From the Governor steam revolver via the Keelbreaker and the Tide Blade to the Voice of the Deep – every weapon with an alt-fire and active reload. Plus Sentry, Phase Jump, Anchor Slam and more.</p>
       </article>
       <article class="card reveal">
-        <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M24 4v40M14 10h20M10 18h28M14 26h20M18 34h12"/><circle cx="24" cy="44" r="2" fill="currentColor"/></svg>
-        <h3>Roguelike-Runs, <span class="num">14</span> Tiefen</h3>
-        <p>Jeder Run neu zusammengesetzt, Raum für Raum stärker, Belohnungen nach jeder Arena. Ein voller Tauchgang dauert etwa 25–40 Minuten.</p>
+        <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M24 4l6 12 13 2-9 9 2 13-12-6-12 6 2-13-9-9 13-2z"/></svg>
+        <h3><span data-l="de"><span class="num">55</span> Charms, <span class="num">21</span> Segen</span><span data-l="en"><span class="num">55</span> charms, <span class="num">21</span> blessings</span></h3>
+        <p data-l="de">Charms stapeln und kombinieren sich, Segen bringen die Elemente Flut, Blut, Blitz und Leere samt Reaktionen. Absurde Builds sind ausdrücklich erwünscht.</p>
+        <p data-l="en">Charms stack and combine; blessings bring the elements Tide, Blood, Lightning and Void, complete with reactions. Absurd builds are actively encouraged.</p>
       </article>
       <article class="card reveal">
-        <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 28c0-6 8-10 20-10s20 4 20 10-8 10-20 10S4 34 4 28z"/><path d="M20 18v-6h8v6"/><circle cx="16" cy="28" r="3"/><circle cx="26" cy="28" r="3"/><circle cx="36" cy="28" r="3"/></svg>
-        <h3>U-Boot-Hub</h3>
-        <p>Dein Stützpunkt zwischen den Expeditionen: Werkbank, Forschungstisch, Waffenständer, Reliquienschrein und Kodex – mit Trophäen besiegter Bosse, Tiefenmesser und Leviathanen vor den Bullaugen.</p>
+        <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M24 4v40M14 10h20M10 18h28M14 26h20M18 34h12"/><circle cx="24" cy="44" r="2" fill="currentColor"/></svg>
+        <h3><span data-l="de">Roguelike-Runs, <span class="num">14</span> Tiefen</span><span data-l="en">Roguelike runs, <span class="num">14</span> depths</span></h3>
+        <p data-l="de">Jeder Run neu zusammengesetzt, Raum für Raum stärker, Belohnungen nach jeder Arena. Ein voller Tauchgang dauert etwa 25–40 Minuten – und lässt sich zwischendurch speichern.</p>
+        <p data-l="en">Every run assembled anew, stronger room by room, rewards after every arena. A full dive takes about 25–40 minutes – and you can save and resume along the way.</p>
+      </article>
+      <article class="card reveal">
+        <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 28c0-6 8-10 20-10s20 4 20 10-8 10-20 10S4 34 4 28z"/><path d="M20 18v-6h8v6"/><circle cx="16" cy="28" r="3"/><circle cx="26" cy="28" r="3"/><circle cx="36" cy="28" r="3"/></svg>
+        <h3><span data-l="de">U-Boot-Hub</span><span data-l="en">Submarine hub</span></h3>
+        <p data-l="de">Dein Stützpunkt zwischen den Expeditionen: Werkbank, Forschungstisch, Waffenständer, Reliquienschrein und Kodex – mit Trophäen besiegter Bosse, Tiefenmesser und Leviathanen vor den Bullaugen.</p>
+        <p data-l="en">Your base between expeditions: Workbench, Research Desk, Weapon Rack, Reliquary Shrine and Codex Shelf – with trophies of fallen bosses, a depth gauge and leviathans drifting past the portholes.</p>
+      </article>
+      <article class="card reveal">
+        <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 8h22v16H18l-6 5v-5H8z"/><path d="M30 18h10v14h-3v4l-5-4h-8v-6"/></svg>
+        <h3><span data-l="de">Deutsch &amp; English</span><span data-l="en">English &amp; Deutsch</span></h3>
+        <p data-l="de">Das ganze Spiel auf Deutsch und Englisch: Menüs, HUD, Waffen, Charms, Gegner, Funksprüche und Kodex. Live umschaltbar unter Einstellungen → Gameplay → „Sprache · Language“.</p>
+        <p data-l="en">The whole game in English and German: menus, HUD, weapons, charms, enemies, radio messages and the Codex. Switch live under Settings → Gameplay → “Sprache · Language”.</p>
+      </article>
+      <article class="card reveal">
+        <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M24 30V12"/><path d="M16 18a11 11 0 0 1 16 0M11 13a18 18 0 0 1 26 0"/><circle cx="24" cy="34" r="4"/><path d="M14 44h20"/></svg>
+        <h3><span data-l="de">Dr. Marsh am Funk</span><span data-l="en">Dr. Marsh on the radio</span></h3>
+        <p data-l="de">Die Meeresforscherin Dr. Adelheid Marsh begleitet jeden Tauchgang mit trockenem Humor: über 200 Funksprüche, ein Kodex mit 72 Lore-Einträgen und ein Bestiarium zu jedem Gegner.</p>
+        <p data-l="en">Marine scientist Dr. Adelheid Marsh talks you through every dive with bone-dry humour: more than 200 radio lines, a Codex of 72 lore entries and a Bestiary entry for every enemy.</p>
       </article>
       <article class="card soon reveal">
-        <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><circle cx="16" cy="16" r="6"/><circle cx="32" cy="16" r="6"/><path d="M4 40c0-7 5-12 12-12s12 5 12 12M24 40c0-7 4-12 8-12 7 0 12 5 12 12"/></svg>
-        <h3>Koop <span class="tag">Im Test</span></h3>
-        <p>Bis zu vier Tiefgänger über LAN oder Internet (Lobby-Code): gemeinsame Expedition, geteilte Muscheln, Wiederbeleben, Pings und Bosse. Läuft in einem eigenen Test-Build und kommt nach der Abnahme ins Hauptspiel.</p>
+        <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="16" cy="16" r="6"/><circle cx="32" cy="16" r="6"/><path d="M4 40c0-7 5-12 12-12s12 5 12 12M24 40c0-7 4-12 8-12 7 0 12 5 12 12"/></svg>
+        <h3><span data-l="de">Koop <span class="tag">Im Test</span></span><span data-l="en">Co-op <span class="tag">In testing</span></span></h3>
+        <p data-l="de">Bis zu vier Tiefgänger über LAN oder Internet: gemeinsame Expedition, geteilte Muscheln, Wiederbeleben, Pings und Bosse. Läuft in einem eigenen Test-Build und kommt nach der Abnahme ins Hauptspiel.</p>
+        <p data-l="en">Up to four Deepwalkers over LAN or the internet: a shared expedition, shared shells, revives, pings and bosses. It runs in a separate test build and joins the main game once it has been signed off.</p>
       </article>
     </div>
-    <div class="areas reveal" aria-label="Die fünf Gebiete">
-      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_tempelvorhof.jpg" alt="Tempelvorhof" loading="lazy"><div><b>Tempelvorhof</b><span>Tiefe 1–4</span></div></div>
-      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_bohrstation.jpg" alt="Bohrstation" loading="lazy"><div><b>Bohrstation</b><span>Tiefe 1–4</span></div></div>
-      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_korallenkathedrale.jpg" alt="Korallenkathedrale" loading="lazy"><div><b>Korallenkathedrale</b><span>Tiefe 5–8</span></div></div>
-      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_versunkene_archive.jpg" alt="Versunkene Archive" loading="lazy"><div><b>Versunkene Archive</b><span>Tiefe 9–12</span></div></div>
-      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_abgrund.jpg" alt="Der Abgrund" loading="lazy"><div><b>Der Abgrund</b><span>Tiefe 13–14</span></div></div>
+    <div class="areas reveal" data-de-label="Die fünf Gebiete" data-en-label="The five areas" aria-label="Die fünf Gebiete">
+      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_tempelvorhof.jpg" alt="Tempelvorhof" data-de-alt="Tempelvorhof" data-en-alt="Temple Forecourt" loading="lazy"><div><b><span data-l="de">Tempelvorhof</span><span data-l="en">Temple Forecourt</span></b><span><span data-l="de">Tiefe</span><span data-l="en">Depth</span> 1–4</span></div></div>
+      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_bohrstation.jpg" alt="Bohrstation" data-de-alt="Bohrstation" data-en-alt="Drilling Station" loading="lazy"><div><b><span data-l="de">Bohrstation</span><span data-l="en">Drilling Station</span></b><span><span data-l="de">Tiefe</span><span data-l="en">Depth</span> 1–4</span></div></div>
+      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_korallenkathedrale.jpg" alt="Korallenkathedrale" data-de-alt="Korallenkathedrale" data-en-alt="Coral Cathedral" loading="lazy"><div><b><span data-l="de">Korallenkathedrale</span><span data-l="en">Coral Cathedral</span></b><span><span data-l="de">Tiefe</span><span data-l="en">Depth</span> 5–8</span></div></div>
+      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_versunkene_archive.jpg" alt="Versunkene Archive" data-de-alt="Versunkene Archive" data-en-alt="Sunken Archives" loading="lazy"><div><b><span data-l="de">Versunkene Archive</span><span data-l="en">Sunken Archives</span></b><span><span data-l="de">Tiefe</span><span data-l="en">Depth</span> 9–12</span></div></div>
+      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_abgrund.jpg" alt="Der Abgrund" data-de-alt="Der Abgrund" data-en-alt="The Abyss" loading="lazy"><div><b><span data-l="de">Der Abgrund</span><span data-l="en">The Abyss</span></b><span><span data-l="de">Tiefe</span><span data-l="en">Depth</span> 13–14</span></div></div>
     </div>
   </div>
 </section>
@@ -387,35 +452,35 @@ footer .credits a { color: var(--dim); text-decoration: underline; text-decorati
 <section id="galerie">
   <div class="wrap">
     <div class="reveal">
-      <span class="eyebrow">Galerie</span>
-      <h2>Aus der Tiefe</h2>
+      <span class="eyebrow"><span data-l="de">Galerie</span><span data-l="en">Gallery</span></span>
+      <h2><span data-l="de">Aus der Tiefe</span><span data-l="en">From the Deep</span></h2>
       <div class="divider" aria-hidden="true"><i></i></div>
     </div>
     <div class="gallery reveal" id="gallery">
-      <button class="wide" data-src="neu_xaltuun_tod.jpg" data-caption="Neu: Xal-Tuun zerbricht"><img alt="Xal-Tuun zerbricht in glühende Steinblöcke" loading="lazy"></button>
-      <button data-src="neu_archiv_himmelsglobus.jpg" data-caption="Neu: Himmelsglobus im Glyphenrund"><img alt="Himmelsglobus in den Versunkenen Archiven" loading="lazy"></button>
-      <button data-src="neu_bohrstation_getriebe.jpg" data-caption="Neu: Bohrturm-Getriebe"><img alt="Bohrturm-Getriebe in der Bohrstation" loading="lazy"></button>
-      <button data-src="neu_grosse_halle.jpg" data-caption="Neu: Große Halle mit dem Thron der Steinwächter"><img alt="Große Halle mit Thron" loading="lazy"></button>
-      <button data-src="neu_archiv_kronleuchter.jpg" data-caption="Neu: Kronleuchter-Kaskade im Kreuzgang"><img alt="Kronleuchter-Kaskade in den Archiven" loading="lazy"></button>
-      <button data-src="neu_uboot_bullauge.jpg" data-caption="Neu: Leviathan vor dem Bullauge"><img alt="Leviathan vor dem Bullauge des U-Boots" loading="lazy"></button>
-      <button data-src="neu_uboot_tauchkammer.jpg" data-caption="Neu: Waffenständer mit Detailkarte und Kernwerten"><img alt="Waffenständer im U-Boot mit Waffenliste und Detailkarte" loading="lazy"></button>
-      <button data-src="boss_xal_tuun.jpg" data-caption="Xal-Tuun im Tempelvorhof"><img alt="Xal-Tuun im Tempelvorhof" loading="lazy"></button>
-      <button data-src="boss_ysmera.jpg" data-caption="Ysmera, Mutter der Brut"><img alt="Ysmera, Mutter der Brut" loading="lazy"></button>
-      <button data-src="korallenkathedrale.jpg" data-caption="Korallenkathedrale"><img alt="Korallenkathedrale" loading="lazy"></button>
-      <button data-src="bosskampf_hud.jpg" data-caption="Bosskampf: Phasenwechsel"><img alt="Bosskampf mit Phasenwechsel" loading="lazy"></button>
-      <button data-src="boss_bohrmutter.jpg" data-caption="Die Bohrmutter"><img alt="Die Bohrmutter" loading="lazy"></button>
-      <button data-src="abgrund_portal.jpg" data-caption="Portal im Abgrund"><img alt="Portal im Abgrund" loading="lazy"></button>
-      <button data-src="boss_archivar.jpg" data-caption="Der Archivar"><img alt="Der Archivar" loading="lazy"></button>
-      <button data-src="versunkene_archive.jpg" data-caption="Versunkene Archive"><img alt="Versunkene Archive" loading="lazy"></button>
-      <button data-src="boss_ohr_des_schlaefers.jpg" data-caption="Das Ohr des Schläfers"><img alt="Das Ohr des Schläfers" loading="lazy"></button>
-      <button data-src="korallen_muschel.jpg" data-caption="Riesenmuschel unter der Lichtsäule"><img alt="Riesenmuschel unter der Lichtsäule" loading="lazy"></button>
-      <button data-src="tempelvorhof.jpg" data-caption="Tempelvorhof"><img alt="Tempelvorhof" loading="lazy"></button>
-      <button data-src="bohrstation.jpg" data-caption="Bohrstation"><img alt="Bohrstation" loading="lazy"></button>
-      <button data-src="uboot_tauchkammer.jpg" data-caption="U-Boot: Tauchkammer"><img alt="U-Boot: Tauchkammer" loading="lazy"></button>
-      <button data-src="uboot_forschung.jpg" data-caption="U-Boot: Forschungstisch und Reliquienschrein"><img alt="U-Boot: Forschungstisch und Reliquienschrein" loading="lazy"></button>
-      <button data-src="hauptmenue.jpg" data-caption="Hauptmenü"><img alt="Hauptmenü" loading="lazy"></button>
+      <button class="wide" data-src="neu_xaltuun_tod.jpg" data-de-caption="Xal-Tuun zerbricht in glühende Steinblöcke" data-en-caption="Xal-Tuun shatters into glowing blocks of stone"><img alt="" loading="lazy"></button>
+      <button data-src="neu_archiv_himmelsglobus.jpg" data-de-caption="Himmelsglobus in den Versunkenen Archiven" data-en-caption="Celestial globe in the Sunken Archives"><img alt="" loading="lazy"></button>
+      <button data-src="neu_bohrstation_getriebe.jpg" data-de-caption="Bohrturm-Getriebe in der Bohrstation" data-en-caption="Derrick gearworks in the Drilling Station"><img alt="" loading="lazy"></button>
+      <button data-src="neu_grosse_halle.jpg" data-de-caption="Große Halle mit dem Thron der Steinwächter" data-en-caption="Great hall with the throne of the Stone Wardens"><img alt="" loading="lazy"></button>
+      <button data-src="neu_archiv_kronleuchter.jpg" data-de-caption="Kronleuchter-Kaskade im Kreuzgang der Archive" data-en-caption="Cascade of chandeliers in the Archives’ cloister"><img alt="" loading="lazy"></button>
+      <button data-src="neu_uboot_bullauge.jpg" data-de-caption="Leviathan vor dem Bullauge" data-en-caption="A leviathan outside the porthole"><img alt="" loading="lazy"></button>
+      <button data-src="neu_uboot_tauchkammer.jpg" data-de-caption="Waffenständer mit Detailkarte und Kernwerten" data-en-caption="Weapon Rack with detail card and core stats"><img alt="" loading="lazy"></button>
+      <button data-src="boss_xal_tuun.jpg" data-de-caption="Xal-Tuun im Tempelvorhof" data-en-caption="Xal-Tuun in the Temple Forecourt"><img alt="" loading="lazy"></button>
+      <button data-src="boss_ysmera.jpg" data-de-caption="Ysmera, die Korallenmutter" data-en-caption="Ysmera, the Coral Mother"><img alt="" loading="lazy"></button>
+      <button data-src="korallenkathedrale.jpg" data-de-caption="Korallenkathedrale" data-en-caption="Coral Cathedral"><img alt="" loading="lazy"></button>
+      <button data-src="bosskampf_hud.jpg" data-de-caption="Bosskampf: Phasenwechsel" data-en-caption="Boss fight: phase change"><img alt="" loading="lazy"></button>
+      <button data-src="boss_bohrmutter.jpg" data-de-caption="Die Bohrmutter" data-en-caption="The Drill Mother"><img alt="" loading="lazy"></button>
+      <button data-src="abgrund_portal.jpg" data-de-caption="Portal im Abgrund" data-en-caption="Portal in the Abyss"><img alt="" loading="lazy"></button>
+      <button data-src="boss_archivar.jpg" data-de-caption="Der Archivar" data-en-caption="The Archivist"><img alt="" loading="lazy"></button>
+      <button data-src="versunkene_archive.jpg" data-de-caption="Versunkene Archive" data-en-caption="Sunken Archives"><img alt="" loading="lazy"></button>
+      <button data-src="boss_ohr_des_schlaefers.jpg" data-de-caption="Das Ohr des Schläfers" data-en-caption="The Sleeper’s Ear"><img alt="" loading="lazy"></button>
+      <button data-src="korallen_muschel.jpg" data-de-caption="Riesenmuschel unter der Lichtsäule" data-en-caption="Giant clam beneath a shaft of light"><img alt="" loading="lazy"></button>
+      <button data-src="tempelvorhof.jpg" data-de-caption="Tempelvorhof" data-en-caption="Temple Forecourt"><img alt="" loading="lazy"></button>
+      <button data-src="bohrstation.jpg" data-de-caption="Bohrstation" data-en-caption="Drilling Station"><img alt="" loading="lazy"></button>
+      <button data-src="uboot_tauchkammer.jpg" data-de-caption="U-Boot: Tauchkammer" data-en-caption="Submarine: Diving Chamber"><img alt="" loading="lazy"></button>
+      <button data-src="uboot_forschung.jpg" data-de-caption="U-Boot: Forschungstisch und Reliquienschrein" data-en-caption="Submarine: Research Desk and Reliquary Shrine"><img alt="" loading="lazy"></button>
+      <button data-src="hauptmenue.jpg" data-de-caption="Hauptmenü" data-en-caption="Main menu"><img alt="" loading="lazy"></button>
     </div>
-    <p class="note">Alle Bilder sind echte Aufnahmen aus dem aktuellen Test-Build.</p>
+    <p class="note"><span data-l="de">Alle Bilder sind echte Aufnahmen aus dem Test-Build.</span><span data-l="en">Every image is a real capture from the test build.</span></p>
   </div>
 </section>
 
@@ -423,47 +488,55 @@ footer .credits a { color: var(--dim); text-decoration: underline; text-decorati
   <div class="wrap">
     <div class="reveal">
       <span class="eyebrow">Download</span>
-      <h2>Bereit zum Tauchgang</h2>
+      <h2><span data-l="de">Bereit zum Tauchgang</span><span data-l="en">Ready to Dive</span></h2>
       <div class="divider" aria-hidden="true"><i></i></div>
     </div>
     <div class="two">
       <div class="panel reveal">
         <h3>Installation</h3>
-        <ol class="steps">
+        <ol class="steps" data-l="de">
           <li><b><a href="https://github.com/OsuGerman/Tiefgang-Releases/releases/latest/download/Tiefgang-Windows.zip">Tiefgang-Windows.zip</a> herunterladen.</b> Ältere Versionen unter <a href="https://github.com/OsuGerman/Tiefgang-Releases/releases">Releases</a>.</li>
           <li><b>Ordner „Tiefgang“ entpacken</b> – dorthin, wo du schreiben darfst, z. B. Desktop oder Dokumente. Nicht nach „C:\Programme“, sonst klappt das Auto-Update nicht.</li>
           <li><b>Tiefgang.exe starten.</b> Meldet Windows „Der Computer wurde durch Windows geschützt“: Weitere Informationen → Trotzdem ausführen (der Test-Build ist nicht signiert).</li>
         </ol>
+        <ol class="steps" data-l="en">
+          <li><b>Download <a href="https://github.com/OsuGerman/Tiefgang-Releases/releases/latest/download/Tiefgang-Windows.zip">Tiefgang-Windows.zip</a>.</b> Older versions are under <a href="https://github.com/OsuGerman/Tiefgang-Releases/releases">Releases</a>.</li>
+          <li><b>Extract the “Tiefgang” folder</b> somewhere you can write to, such as Desktop or Documents. Not into “C:\Program Files”, or the auto-update won’t work.</li>
+          <li><b>Run Tiefgang.exe.</b> If Windows says “Windows protected your PC”: More info → Run anyway (the test build is not signed).</li>
+        </ol>
         <h3 style="margin-top:10px">Auto-Update</h3>
-        <p class="small" style="margin-top:0">Das Hauptmenü prüft beim Start, ob es einen neueren Test-Build gibt, und zeigt dann unten rechts „Jetzt aktualisieren“. Das Spiel lädt das Update, ersetzt die Dateien und startet neu. Spielstände bleiben erhalten. Ohne Internet startet das Spiel ganz normal.</p>
+        <p class="small" style="margin-top:0" data-l="de">Das Spiel lädt neue Test-Builds automatisch im Hintergrund (abschaltbar unter Einstellungen → Gameplay) und installiert sie nur im Hauptmenü, beim Beenden oder beim nächsten Start – nie mitten im Run. Spielstände bleiben erhalten. Ohne Internet startet das Spiel ganz normal.</p>
+        <p class="small" style="margin-top:0" data-l="en">The game downloads new test builds automatically in the background (can be turned off under Settings → Gameplay) and installs them only in the main menu, on quitting or at the next start – never mid-run. Your saves are kept. Without an internet connection the game simply starts as usual.</p>
       </div>
       <div class="panel reveal">
-        <h3>Systemanforderungen</h3>
+        <h3><span data-l="de">Systemanforderungen</span><span data-l="en">System requirements</span></h3>
         <table>
-          <thead><tr><th></th><th>Minimum</th><th>Empfohlen</th></tr></thead>
+          <thead><tr><th></th><th>Minimum</th><th><span data-l="de">Empfohlen</span><span data-l="en">Recommended</span></th></tr></thead>
           <tbody>
-            <tr><td>System</td><td>Windows 10, 64 Bit</td><td>Windows 10/11, 64 Bit</td></tr>
-            <tr><td>Grafik</td><td>Vulkan-fähig, 4 GB VRAM</td><td>Aktuelle Mittelklasse, 8 GB VRAM</td></tr>
-            <tr><td>Prozessor</td><td>4 Kerne</td><td>6 Kerne oder mehr</td></tr>
-            <tr><td>Speicher</td><td>8 GB RAM</td><td>16 GB RAM</td></tr>
-            <tr><td>Platz</td><td>ca. 1 GB</td><td>ca. 1 GB</td></tr>
+            <tr><td>System</td><td><span data-l="de">Windows 10, 64 Bit</span><span data-l="en">Windows 10, 64-bit</span></td><td><span data-l="de">Windows 10/11, 64 Bit</span><span data-l="en">Windows 10/11, 64-bit</span></td></tr>
+            <tr><td><span data-l="de">Grafik</span><span data-l="en">Graphics</span></td><td><span data-l="de">Vulkan-fähig, 4 GB VRAM</span><span data-l="en">Vulkan-capable, 4 GB VRAM</span></td><td><span data-l="de">Aktuelle Mittelklasse, 8 GB VRAM</span><span data-l="en">Current mid-range, 8 GB VRAM</span></td></tr>
+            <tr><td><span data-l="de">Prozessor</span><span data-l="en">Processor</span></td><td><span data-l="de">4 Kerne</span><span data-l="en">4 cores</span></td><td><span data-l="de">6 Kerne oder mehr</span><span data-l="en">6 cores or more</span></td></tr>
+            <tr><td><span data-l="de">Speicher</span><span data-l="en">Memory</span></td><td>8 GB RAM</td><td>16 GB RAM</td></tr>
+            <tr><td><span data-l="de">Platz</span><span data-l="en">Storage</span></td><td><span data-l="de">ca. 1 GB</span><span data-l="en">approx. 1 GB</span></td><td><span data-l="de">ca. 1 GB</span><span data-l="en">approx. 1 GB</span></td></tr>
           </tbody>
         </table>
-        <p class="small">Vorläufige Werte, das Spiel ist in Entwicklung. Maus und Tastatur oder Controller. Sprache: Deutsch.</p>
-        <h3 style="margin-top:22px">Steuerung</h3>
+        <p class="small" data-l="de">Vorläufige Werte, das Spiel ist in Entwicklung. Maus und Tastatur oder Controller. Sprachen: Deutsch und Englisch.</p>
+        <p class="small" data-l="en">Provisional figures – the game is in development. Mouse and keyboard or controller. Languages: English and German.</p>
+        <h3 style="margin-top:22px"><span data-l="de">Steuerung</span><span data-l="en">Controls</span></h3>
         <table>
           <tbody>
-            <tr><td>Bewegen · Zielen</td><td><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> · Maus</td></tr>
-            <tr><td>Schießen · Zweitfeuer</td><td>Linke · Rechte Maustaste</td></tr>
-            <tr><td>Springen · Dash</td><td><kbd>Leertaste</kbd> · <kbd>Shift</kbd></td></tr>
-            <tr><td>Fähigkeit · Nahkampf</td><td><kbd>Q</kbd> · <kbd>V</kbd></td></tr>
-            <tr><td>Heilen · Benutzen · Nachladen</td><td><kbd>H</kbd> · <kbd>E</kbd> · <kbd>R</kbd></td></tr>
-            <tr><td>Waffe wechseln</td><td><kbd>1</kbd><kbd>2</kbd> oder Mausrad</td></tr>
-            <tr><td>Waffe ansehen · Charms</td><td><kbd>F</kbd> · <kbd>Tab</kbd></td></tr>
+            <tr><td><span data-l="de">Bewegen · Zielen</span><span data-l="en">Move · Aim</span></td><td><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> · <span data-l="de">Maus</span><span data-l="en">Mouse</span></td></tr>
+            <tr><td><span data-l="de">Schießen · Zweitfeuer</span><span data-l="en">Fire · Alt-fire</span></td><td><span data-l="de">Linke · Rechte Maustaste</span><span data-l="en">Left · Right mouse button</span></td></tr>
+            <tr><td><span data-l="de">Springen · Dash</span><span data-l="en">Jump · Dash</span></td><td><kbd><span data-l="de">Leertaste</span><span data-l="en">Space</span></kbd> · <kbd>Shift</kbd></td></tr>
+            <tr><td><span data-l="de">Fähigkeit · Nahkampf</span><span data-l="en">Ability · Melee</span></td><td><kbd>Q</kbd> · <kbd>V</kbd></td></tr>
+            <tr><td><span data-l="de">Heilen · Benutzen · Nachladen</span><span data-l="en">Heal · Use · Reload</span></td><td><kbd>H</kbd> · <kbd>E</kbd> · <kbd>R</kbd></td></tr>
+            <tr><td><span data-l="de">Waffe wechseln</span><span data-l="en">Switch weapon</span></td><td><kbd>1</kbd><kbd>2</kbd> <span data-l="de">oder Mausrad</span><span data-l="en">or mouse wheel</span></td></tr>
+            <tr><td><span data-l="de">Waffe ansehen · Charms</span><span data-l="en">Inspect weapon · Charms</span></td><td><kbd>F</kbd> · <kbd>Tab</kbd></td></tr>
             <tr><td>Pause</td><td><kbd>Esc</kbd></td></tr>
           </tbody>
         </table>
-        <p class="small">Controller wird unterstützt, alle Tasten lassen sich in den Einstellungen ändern.</p>
+        <p class="small" data-l="de">Controller wird unterstützt, alle Tasten lassen sich in den Einstellungen ändern.</p>
+        <p class="small" data-l="en">Controllers are supported, and every key can be rebound in the settings.</p>
       </div>
     </div>
   </div>
@@ -472,22 +545,13 @@ footer .credits a { color: var(--dim); text-decoration: underline; text-decorati
 <section id="feedback" class="feedback">
   <div class="wrap reveal">
     <span class="eyebrow">Feedback</span>
-    <h2>Funkspruch an die Oberfläche</h2>
+    <h2><span data-l="de">Funkspruch an die Oberfläche</span><span data-l="en">Radio to the Surface</span></h2>
     <div class="divider" aria-hidden="true"><i></i></div>
-    <p class="lead">Fehler gefunden, Absturz erlebt oder eine Meinung zum Spielgefühl? Melde es als Issue – am besten mit Versionsnummer (unten rechts im Hauptmenü), Gebiet und Tiefe, was passiert ist und einem Screenshot.</p>
+    <p class="lead" data-l="de">Fehler gefunden, Absturz erlebt oder eine Meinung zum Spielgefühl? Melde es als Issue – am besten mit Versionsnummer (unten rechts im Hauptmenü), Gebiet und Tiefe, was passiert ist und einem Screenshot. Gern auch auf Englisch.</p>
+    <p class="lead" data-l="en">Found a bug, hit a crash or have thoughts on how it plays? Report it as an issue – ideally with the version number (bottom right of the main menu), area and depth, what happened and a screenshot. English or German, both are welcome.</p>
     <div class="cta">
-      <a class="btn primary" href="https://github.com/OsuGerman/Tiefgang-Releases/issues/new/choose">Fehler melden</a>
-      <a class="btn" href="https://github.com/OsuGerman/Tiefgang-Releases/issues">Alle Issues</a>
-    </div>
-  </div>
-</section>
-
-<section id="english" style="padding-top:0">
-  <div class="wrap reveal">
-    <div class="panel">
-      <h3>About / Download (English)</h3>
-      <p class="small" style="margin-top:0;color:var(--text)">TIEFGANG is a fast-paced first-person roguelike shooter set in 1887, deep beneath the Pacific. Dive in a brass diving suit through the glowing ruins of a forgotten civilisation, fight room by room through 5 areas and 14 depths, face multi-phase bosses and stack 9 weapons, 6 abilities, 55 charms and 21 elemental blessings into ever more absurd builds. Co-op for up to four players is in testing. What's new: <a href="https://github.com/OsuGerman/Tiefgang-Releases/blob/main/CHANGELOG.md">changelog</a> (German).</p>
-      <p class="small"><a href="https://github.com/OsuGerman/Tiefgang-Releases/releases/latest/download/Tiefgang-Windows.zip">Download Tiefgang-Windows.zip</a> (Windows 10/11, 64-bit, Vulkan GPU) · extract the folder somewhere writable (not “Program Files”) · run Tiefgang.exe · the game updates itself from the main menu · currently German only · feedback via <a href="https://github.com/OsuGerman/Tiefgang-Releases/issues">GitHub issues</a>.</p>
+      <a class="btn primary" href="https://github.com/OsuGerman/Tiefgang-Releases/issues/new/choose"><span data-l="de">Fehler melden</span><span data-l="en">Report a bug</span></a>
+      <a class="btn" href="https://github.com/OsuGerman/Tiefgang-Releases/issues"><span data-l="de">Alle Issues</span><span data-l="en">All issues</span></a>
     </div>
   </div>
 </section>
@@ -499,7 +563,7 @@ footer .credits a { color: var(--dim); text-decoration: underline; text-decorati
     <div class="cols">
       <div>
         <div class="brand">TIEFGANG</div>
-        <div>Tiefsee-Roguelike-Shooter · in Entwicklung</div>
+        <div><span data-l="de">Tiefsee-Roguelike-Shooter · in Entwicklung</span><span data-l="en">Deep-sea roguelike shooter · in development</span></div>
       </div>
       <ul>
         <li><a href="https://github.com/OsuGerman/Tiefgang-Releases/releases">Releases</a></li>
@@ -508,24 +572,31 @@ footer .credits a { color: var(--dim); text-decoration: underline; text-decorati
         <li><a href="https://github.com/OsuGerman/Tiefgang-Releases">GitHub</a></li>
       </ul>
     </div>
-    <p class="credits">
+    <p class="credits" data-l="de">
       Entwickelt mit der Godot Engine 4.7. Vollständige Namensnennungen in <code>CREDITS.md</code> im Release-Zip.
       CC-BY-Assets: „11 male human pain/death sounds“ von Michel Baradari (<a href="https://opengameart.org/content/11-male-human-paindeath-sounds">OpenGameArt</a>, <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>);
       „WWS Welding“ von Work With Sounds / Technical Museum of Slovenia (<a href="https://commons.wikimedia.org/wiki/File:WWS_Welding.ogg">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>);
       „WWS Quern-stones“ von Work With Sounds / Museum of Municipal Engineering (<a href="https://commons.wikimedia.org/wiki/File:WWS_Quern-stones.ogg">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>) – jeweils bearbeitet.
       Schriften Cinzel und Barlow unter der <a href="fonts/Cinzel_OFL.txt">SIL Open Font License</a>. Musik mit Aufnahmen von Sam Gossner / Versilian Studios (CC0).
     </p>
+    <p class="credits" data-l="en">
+      Built with the Godot Engine 4.7. Full attributions in <code>CREDITS.md</code> inside the release zip.
+      CC BY assets: “11 male human pain/death sounds” by Michel Baradari (<a href="https://opengameart.org/content/11-male-human-paindeath-sounds">OpenGameArt</a>, <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>);
+      “WWS Welding” by Work With Sounds / Technical Museum of Slovenia (<a href="https://commons.wikimedia.org/wiki/File:WWS_Welding.ogg">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>);
+      “WWS Quern-stones” by Work With Sounds / Museum of Municipal Engineering (<a href="https://commons.wikimedia.org/wiki/File:WWS_Quern-stones.ogg">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>) – all edited.
+      Fonts Cinzel and Barlow under the <a href="fonts/Cinzel_OFL.txt">SIL Open Font License</a>. Music using recordings by Sam Gossner / Versilian Studios (CC0).
+    </p>
   </div>
 </footer>
 
-<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Bildansicht">
-  <button class="lb-btn lb-close" id="lbClose" aria-label="Schließen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
-  <button class="lb-btn lb-prev" id="lbPrev" aria-label="Vorheriges Bild"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 5l-7 7 7 7"/></svg></button>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Bildansicht" data-de-label="Bildansicht" data-en-label="Image viewer">
+  <button class="lb-btn lb-close" id="lbClose" aria-label="Schließen" data-de-label="Schließen" data-en-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  <button class="lb-btn lb-prev" id="lbPrev" aria-label="Vorheriges Bild" data-de-label="Vorheriges Bild" data-en-label="Previous image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 5l-7 7 7 7"/></svg></button>
   <figure>
     <img id="lbImg" alt="">
     <figcaption id="lbCap"></figcaption>
   </figure>
-  <button class="lb-btn lb-next" id="lbNext" aria-label="Nächstes Bild"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5l7 7-7 7"/></svg></button>
+  <button class="lb-btn lb-next" id="lbNext" aria-label="Nächstes Bild" data-de-label="Nächstes Bild" data-en-label="Next image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5l7 7-7 7"/></svg></button>
 </div>
 
 <script>
@@ -533,6 +604,11 @@ footer .credits a { color: var(--dim); text-decoration: underline; text-decorati
   "use strict";
   var MEDIA = "https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/";
   var REPO = "OsuGerman/Tiefgang-Releases";
+  var TITLES = { de: "TIEFGANG – Tiefsee-Roguelike-Shooter", en: "TIEFGANG – Deep-Sea Roguelike Shooter" };
+  // Übersetzte Attribute: data-<sprache>-<schlüssel> → Zielattribut
+  var ATTRS = { label: "aria-label", alt: "alt", title: "title", caption: "data-caption" };
+  var lang = document.documentElement.lang === "en" ? "en" : "de";
+  var release = null;
 
   // Navigation wird beim Scrollen fest hinterlegt
   var nav = document.getElementById("nav");
@@ -575,9 +651,9 @@ footer .credits a { color: var(--dim); text-decoration: underline; text-decorati
     current = (i + buttons.length) % buttons.length;
     var b = buttons[current];
     lbImg.src = MEDIA + b.dataset.src;
-    lbImg.alt = b.dataset.caption;
-    lbCap.innerHTML = "";
-    lbCap.appendChild(document.createTextNode(b.dataset.caption));
+    lbImg.alt = b.dataset.caption || "";
+    lbCap.textContent = "";
+    lbCap.appendChild(document.createTextNode(b.dataset.caption || ""));
     var n = document.createElement("span");
     n.textContent = (current + 1) + " / " + buttons.length;
     lbCap.appendChild(n);
@@ -604,24 +680,52 @@ footer .credits a { color: var(--dim); text-decoration: underline; text-decorati
     touchX = null;
   });
 
-  // Neueste Version aus der GitHub-API (ohne Internet bleibt der statische Text stehen)
+  // Versionszeile aus den Release-Daten (ohne Internet bleibt der statische Text stehen)
+  function renderVersion() {
+    if (!release) return;
+    var el = document.getElementById("version");
+    var d = release.published_at ? new Date(release.published_at).toLocaleDateString(lang === "en" ? "en-GB" : "de-DE", { day: "numeric", month: "long", year: "numeric" }) : "";
+    var size = "";
+    (release.assets || []).forEach(function (a) { if (a.name === "Tiefgang-Windows.zip") size = " · " + Math.round(a.size / 1048576) + " MB"; });
+    el.textContent = "";
+    el.appendChild(document.createTextNode(lang === "en" ? "Latest version: " : "Neueste Version: "));
+    var a = document.createElement("a");
+    a.href = release.html_url;
+    a.textContent = release.tag_name;
+    el.appendChild(a);
+    el.appendChild(document.createTextNode((d ? (lang === "en" ? " from " : " vom ") + d : "") + size));
+  }
+
+  // Sprache anwenden: Sichtbarkeit läuft über CSS (html[lang]), hier nur Attribute, Titel und Umschalter
+  function applyLang(l) {
+    lang = l === "en" ? "en" : "de";
+    document.documentElement.lang = lang;
+    document.title = TITLES[lang];
+    Object.keys(ATTRS).forEach(function (key) {
+      document.querySelectorAll("[data-" + lang + "-" + key + "]").forEach(function (el) {
+        el.setAttribute(ATTRS[key], el.getAttribute("data-" + lang + "-" + key));
+      });
+    });
+    buttons.forEach(function (b) { b.querySelector("img").alt = b.dataset.caption || ""; });
+    document.querySelectorAll("[data-set-lang]").forEach(function (btn) {
+      btn.setAttribute("aria-pressed", btn.getAttribute("data-set-lang") === lang ? "true" : "false");
+    });
+    if (lb.classList.contains("open")) show(current);
+    renderVersion();
+  }
+  document.querySelectorAll("[data-set-lang]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var l = btn.getAttribute("data-set-lang");
+      try { window.localStorage.setItem("tiefgang-lang", l); } catch (e) { /* Speicher gesperrt: Wahl gilt nur für diesen Besuch */ }
+      applyLang(l);
+    });
+  });
+  applyLang(lang);
+
   if (window.fetch) {
     fetch("https://api.github.com/repos/" + REPO + "/releases/latest")
       .then(function (r) { return r.ok ? r.json() : null; })
-      .then(function (j) {
-        if (!j || !j.tag_name) return;
-        var el = document.getElementById("version");
-        var d = j.published_at ? new Date(j.published_at).toLocaleDateString("de-DE", { day: "2-digit", month: "long", year: "numeric" }) : "";
-        var size = "";
-        (j.assets || []).forEach(function (a) { if (a.name === "Tiefgang-Windows.zip") size = " · " + Math.round(a.size / 1048576) + " MB"; });
-        el.textContent = "";
-        el.appendChild(document.createTextNode("Neueste Version: "));
-        var a = document.createElement("a");
-        a.href = j.html_url;
-        a.textContent = j.tag_name;
-        el.appendChild(a);
-        el.appendChild(document.createTextNode((d ? " vom " + d : "") + size));
-      })
+      .then(function (j) { if (j && j.tag_name) { release = j; renderVersion(); } })
       .catch(function () {});
   }
 })();

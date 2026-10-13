@@ -6,6 +6,22 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 13.10.2026 – Mittag (v2026.10.13.1330-fec547ba)
+
+### Neu
+- **Kielbrecher-Nachladen neu:** Die Hand greift am Vorderschaft, schiebt ein Patronenpaar ein und dreht das Ventilrad. Perfektes Nachladen und Klemme sind sichtbar unterschiedlich.
+
+### Verbessert
+- **Englisch auch in Bosskämpfen:** Alle Bossrufe, Phasenmeldungen und die Archivar-Regeln („LECTURE: …“) sind übersetzt.
+- **Gegner in den Archiven:** Der Kopist pendelt nicht mehr am Bücherstapel hin und her, der Grabwurm steckt nach dem Ausbruch nicht mehr in der Wand.
+
+### Behoben
+- Forschungstisch: Esc oder Controller-B in der Kauf-Abfrage schloss die ganze Station statt nur die Abfrage.
+- Charm-Fund: Die Aufforderung zeigte immer „[V] zerschlagen“. Jetzt steht dort die echte Taste, auch am Controller.
+
+
+---
+
 ## 13.10.2026 – Hotfix (v2026.10.13.1053-d5254fa2)
 
 ### Behoben

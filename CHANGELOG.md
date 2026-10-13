@@ -6,6 +6,22 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 13.10.2026 – Abend (v2026.10.13.0837-9611357d)
+
+### Neu
+- **English language (Stage A):** Settings → Gameplay → „Sprache · Language“ – menus, settings, HUD, objectives, run end and submarine stations in English, switchable live. Weapons, charms, enemies, radio and codex follow in the next updates.
+- **Revolver-Nachladen komplett neu (Gouverneur):** Die Hand greift jetzt wirklich zu – Riegel, Trommel schwingt aus (Dampf), Hülsen auswerfen, Schnelllader einsetzen und drehen, Trommel zuschlagen, Manometer steigt. Perfektes Nachladen: Trommel schnappt selbst zu, goldener Dampf; Klemme: Lader verkantet und wird nachgerichtet.
+
+### Verbessert
+- **Weniger Überstrahlen:** Feuerschalen glühen orange statt weiß, kleinere Glow-Höfe an Türen und Portalen; Raumlichter scheinen nicht mehr durch Wände in Nachbarräume.
+
+### Behoben
+- Bossankündigung blendete manchmal nicht aus.
+- Bestiarium zeigte bei den Laser-Fliegern zu viele Lebenspunkte.
+
+
+---
+
 ## 13.10.2026 – Update (v2026.10.13.0657-029fd9c7)
 
 ### Neu

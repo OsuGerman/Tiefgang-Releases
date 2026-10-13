@@ -6,6 +6,18 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 13.10.2026 – Update (v2026.10.13.0657-029fd9c7)
+
+### Neu
+- **Laser-Flieger ab der 3. Tiefe jedes Gebiets:** Brennglasmotte, Schneiddrohne, Strahlqualle und Brennseite – wenig Leben, aber starke Laser. Eine Ziellinie folgt dir, rastet ein und blinkt, dann feuert der Strahl – mit einem Seitenschritt ausweichbar; höchstens zwei Strahlen gleichzeitig, nie aus dem Rücken.
+- **Klang im U-Boot und unter Wasser:** Im U-Boot klingt alles nach Metallrumpf, unter Wasser dumpf; beim Abtauchen flutet die Kammer hörbar und der Klang blendet um.
+- **Bossmusik intensiver:** treibt ab Phase 1, wird mit jeder Phase dichter, eigener Höhepunkt unter 15 % Boss-Leben, Stinger bei Phasenwechsel und Sieg.
+
+### Behoben
+- **Einstellungen:** Fenstermodus passt das Fenster jetzt mit Titelleiste in den Bildschirm; V-Sync begrenzt auch auf Nebenmonitoren mit anderer Bildrate; Auflösung im Vollbild ausgegraut (mit Hinweis); Qualitätsstufen Mittel/Hoch/Ultra sichtbar verschieden; „Hohe Kontraste für Gegner“ deutlich stärker; zweiter Controller und Stick-Deadzone wirken; „Updates automatisch laden“ startet sofort.
+
+---
+
 ## 12.10.2026 – Abend (v2026.10.11.2026-f70be013)
 
 ### Neu

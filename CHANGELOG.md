@@ -6,6 +6,14 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 13.10.2026 – Hotfix (v2026.10.13.1053-d5254fa2)
+
+### Behoben
+- **Prüfungsraum:** Wurde ein Prüfungsgegner auf besondere Weise entfernt, konnte die Prüfung nicht mehr abgeschlossen werden (Türen blieben zu). Jetzt wird das sauber erkannt. (Notfalls hilft weiterhin: E an der Prüfungstruhe halten = aufgeben.)
+
+
+---
+
 ## 13.10.2026 – Nacht (v2026.10.13.1040-c2ff8406)
 
 ### Neu

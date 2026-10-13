@@ -6,6 +6,38 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 13.10.2026 – Abend (v2026.10.13.1609-7a45aa68)
+
+### Neu
+- **Werftlied-Nachladen neu:** Die Hand ruht am Seitengriff, die Trommel wird gewechselt und das Druckventil aufgedreht.
+- **Neue Raumtüren:** Statt glatter Blöcke gibt es behauene Steintüren mit Siegelscheibe. Ihre Fugen leuchten in der Siegelfarbe: rot verschlossen, gold mit Schlüssel.
+- **Abgrund:** Hinter den Türen der Herold- und Endboss-Arenen steht jetzt eine schwebende Basaltklippe mit Tor statt einer flachen Wand.
+- **Viele neue Klänge:** Raumtür auf und zu, Urnen zerspringen, Glücksventil, eigener „geht nicht“-Ton, Forschung, Schatzschloss, Fähigkeit bereit, eigene Ankündigungen für Laser- und Dampfgegner. Einstellungs- und Pausemenü klicken jetzt.
+
+### Verbessert
+- **Klangmischung im Gedränge:** Bei vielen Gegnern übersteuert der Ton nicht mehr. Gegner-Ankündigungen sind über dem eigenen Feuer gut hörbar. Die Musik ist etwas lauter.
+- **Oberfläche:**
+  - Tooltips im Spielstil.
+  - Der Controller-Fokus ist auf den Stationskarten klar zu erkennen.
+  - Bossleiste mit Messingrahmen.
+  - Die Zielzeile ist auch auf hellem Grund lesbar.
+  - Echte Tastensymbole bei Interaktion und Belohnungswahl.
+  - Deckendere HUD-Plaketten.
+  - Aufgeräumtes Pausemenü.
+- **Optik:**
+  - Die Glyphenwände im Tempel leuchten in den Zeichen statt als oranges Gitter.
+  - Deckungsmauern in passenden Längen statt gestreckt.
+  - Maschinenblock in der Bohrstation mit Rückseite.
+  - Korallen ohne Zickzack-Ränder.
+  - Riesenmuschel ohne grelle Streifen.
+- **Leistung:**
+  - Mit 80 Gegnern bis zu 45 % mehr FPS (Archive, Abgrund).
+  - Das Nachladen kostet deutlich weniger Rechenzeit.
+- **Archive:** Der Kopist pendelt nicht mehr an der Kartengrube. Gegner werden nicht mehr in die Plattformecke von Glyphenrund zurückgesetzt.
+
+
+---
+
 ## 13.10.2026 – Mittag (v2026.10.13.1330-fec547ba)
 
 ### Neu

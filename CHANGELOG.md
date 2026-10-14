@@ -6,6 +6,24 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 14.10.2026 – Online-Bestenliste (v2026.10.14.1956-674cb99f)
+
+### Neu
+- **Online-Bestenliste** (Hauptmenü → Bestenliste) mit vier Ranglisten:
+  - **Schnellster Sieg**
+  - **Höchste Drucktiefe** (korrumpierte Runs)
+  - **Meister Schaden**
+  - **Tagesrun**: alle spielen am selben Tag denselben Seed (Karte in der Tauchkammer).
+- **Ansicht:** Podest für die Top 3, Plätze bis 100 mit Build-Symbolen, deine eigene Zeile immer sichtbar. Am Run-Ende siehst du deinen Platz bzw. „NEUER RANG #X“.
+- **Freiwillig:** Beim ersten Run-Ende fragt das Spiel, ob du mitmachen willst. Unter Einstellungen → Online kannst du deinen Namen ändern oder die Teilnahme abschalten. Gesendet werden nur dein Name, die Run-Werte und eine zufällige Spieler-ID.
+- **Deine bisherigen Runs zählen mit:** Beim Einschalten kannst du deine alten Runs aus der Run-Übersicht und deine Rekorde hochladen.
+
+### Verbessert
+- **Gegner-Knurren nicht mehr im Dauerfeuer:** Jede Angriffswarnung spielt höchstens alle 2 s laut, nähere Gegner und Bosse immer. Reine Stimmungslaute kommen seltener und leiser. Die eigene Waffe ist dadurch wieder etwas lauter.
+
+
+---
+
 ## 13.10.2026 – Nacht, großes Update (v2026.10.13.2110-18d62a60)
 
 ### Neu

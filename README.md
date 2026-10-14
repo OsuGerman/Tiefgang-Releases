@@ -17,11 +17,11 @@
 <!-- TRAILER -->
 <p align="center">
   <a href="https://osugerman.github.io/Tiefgang-Releases/#trailer">
-    <img src="media/trailer_preview.webp" alt="TIEFGANG – Gameplay-Trailer (Vorschau · preview)" width="80%">
+    <img src="media/trailer_preview.webp" alt="TIEFGANG – Cinematic-Trailer (Vorschau · preview)" width="80%">
   </a>
   <br>
-  <a href="https://osugerman.github.io/Tiefgang-Releases/#trailer"><b>▶ Gameplay-Trailer ansehen · Watch the gameplay trailer (82 s)</b></a>
-  · <a href="docs/media/tiefgang_trailer.mp4">MP4</a>
+  <a href="https://osugerman.github.io/Tiefgang-Releases/#trailer"><b>▶ Cinematic-Trailer ansehen · Watch the cinematic trailer (2:21)</b></a>
+  · <a href="docs/media/tiefgang_trailer.mp4">MP4 1080p</a> · <a href="https://github.com/OsuGerman/Tiefgang-Releases/releases/download/v2026.10.13.2110-18d62a60/TIEFGANG_Cinematic_Trailer_4K60.mp4">4K</a>
 </p>
 <!-- /TRAILER -->
 

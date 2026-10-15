@@ -6,6 +6,35 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 15.10.2026 – KOOP ist da (v2026.10.15.2118-32bdde5d)
+
+### Neu
+- **Koop für 1–4 Spieler** (Hauptmenü → Koop). Ihr taucht gemeinsam durch alle Gebiete: Gegner, Bosse, Prüfungen und Raumziele werden für alle gleich gespielt.
+  - Jeder Spieler wählt seine **eigenen Charms und Segen**. **Muscheln** sind geteilt.
+  - **Niedergestreckt:** Ihr kriecht und haltet E, um einen Mitspieler wiederzubeleben. Der Run endet erst, wenn alle liegen.
+  - **„Zur Gruppe springen“** bringt Nachzügler zurück zur Gruppe.
+  - **Pings** per Mittelklick markieren Gegner, Orte und Gegenstände.
+- **Verbinden:**
+  - Der Host bekommt einen **Raumcode** (z. B. `ABC-123`). Mitspieler geben ihn ein und verbinden sich meist **ohne Portfreigabe**, auch bei DS-Lite.
+  - Im selben Netz reicht der Lobby-Code. Alternativ gehen IP, UPnP oder VPN.
+  - Die Anleitung liegt bei (`KOOP_ANLEITUNG.md`).
+- **Koop-Lobby im U-Boot:** Spielerliste mit Name, Ausrüstung, Ping und Bereit-Status. Der Code ist standardmäßig verdeckt und kann kopiert werden. Der Host kann Spieler entfernen. Alles ist auch mit Controller und Bildschirmtastatur bedienbar.
+- **Mitspieler als echte Taucher:** Messinganzug mit Kupferhelm, Akzente in der Spielerfarbe, Helm-Metall nach dem gewählten Taucher aus der Garderobe. Die Waffen liegen in beiden Händen. Laufen, Schießen, Nachladen, Schwertkombo, Kriechen und Wiederbeleben sind animiert.
+- **Koop-HUD:**
+  - Mitspieler-Tafeln mit Leben, Schild sowie **Schaden, DPS und Kills live**.
+  - Namensschilder, Pfeile zu Mitspielern außerhalb des Bildes, Wiederbelebe-Ring und ein Overlay mit Ausblut-Zeit.
+  - Am Run-Ende ein Vergleich aller Spieler.
+- **Mitspieler hören:** eigene Waffenklänge, Schritte je Boden, Nachladen, Schildbruch, Hilferufe.
+- **Fähigkeiten sind für alle sichtbar:** Geschütztürme (auch „Sechsfacher Posten“), Minen, Ankerminen, Sog, Anker-Slam, Aal, Lebenspuls.
+
+### Hinweise
+- Koop-Runs zählen nicht für die Solo-Bestenliste. Eine eigene Koop-Wertung folgt.
+- Zeitdehnung (Legendär) gibt es nur im Solo.
+- Feedback zum Koop bitte als Issue mit „Koop“ im Titel.
+
+
+---
+
 ## 14.10.2026 – Online-Bestenliste (v2026.10.14.1956-674cb99f)
 
 ### Neu

@@ -56,7 +56,7 @@ Alle Änderungen: **[CHANGELOG.md](CHANGELOG.md)**
 - **U-Boot-Hub** – Werkbank, Forschungstisch, Waffenständer, Reliquienschrein und Kodex.
 - **Dr. Marsh am Funk** – über 200 Funksprüche, ein Kodex mit 72 Lore-Einträgen und ein Bestiarium zu jedem Gegner.
 - **Deutsch & English** – komplett zweisprachig, live umschaltbar.
-- **Koop im Test** – bis zu vier Tiefgänger über LAN oder Internet, mit gemeinsamer Expedition, Wiederbeleben und Pings. Läuft in einem eigenen Test-Build und kommt nach der Abnahme ins Hauptspiel.
+- **Koop für 1–4 Spieler** – gemeinsam tauchen per Raumcode (meist ohne Portfreigabe), eigene Charms und Segen, Wiederbeleben, Pings, Live-Schaden der Mitspieler. Anleitung: [KOOP.md](KOOP.md).
 
 ### Download & Installation
 
@@ -137,7 +137,7 @@ All changes: **[CHANGELOG.md](CHANGELOG.md)** (mostly German).
 - **Submarine hub** – Workbench, Research Desk, Weapon Rack, Reliquary Shrine and Codex Shelf.
 - **Dr. Marsh on the radio** – more than 200 radio lines, a Codex of 72 lore entries and a Bestiary entry for every enemy.
 - **English & Deutsch** – fully bilingual, switchable live.
-- **Co-op in testing** – up to four Deepwalkers over LAN or the internet, with a shared expedition, revives and pings. It runs in a separate test build and joins the main game once it has been signed off.
+- **Co-op for 1–4 players** – dive together via room code (usually no port forwarding), your own charms and blessings, revives, pings, live teammate damage. Guide: [KOOP.md](KOOP.md).
 
 ### Download and install
 

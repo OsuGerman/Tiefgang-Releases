@@ -6,6 +6,18 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 17.10.2026 – Hotfix Run-Ende (v2026.10.17.0002-39406e70)
+
+### Behoben
+- **Run-Ende lief aus dem Bild:**
+  - Bei korrumpierten Runs mit mehreren Modi (z. B. Korrumpiert · Wirbelgraben · Druck 3) wurde die Spalte „Portale & Modifikatoren“ rechts abgeschnitten.
+  - Bei vielen Charms lagen die Knöpfe „Neuer Tauchgang“ und „Zum U-Boot“ unter dem Bildschirmrand.
+  - Jetzt bleibt alles im Bild. Die Spalten scrollen bei Bedarf, und die Knöpfe sind immer sichtbar.
+- **Bestenlisten-Plaketten am Run-Ende:** Sie zeigen nur noch Kategorien, in denen dieser Run zählt. Nach einem Tod gibt es also kein „Schnellster Sieg“ mehr.
+
+
+---
+
 ## 15.10.2026 – KOOP ist da (v2026.10.15.2118-32bdde5d)
 
 ### Neu

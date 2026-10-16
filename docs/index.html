@@ -312,6 +312,123 @@ footer .credits a { color: var(--dim); text-decoration: underline; text-decorati
 
 <main>
 
+<!-- Live-Spielerzahl (tools/online/website_presence.html, #87) -->
+<div style="max-width:1100px;margin:0 auto;padding:24px 16px 0">
+<style>
+#tiefgang-presence {
+  --brass: #c9a24a; --brass-dark: #7a5f25; --abyssal: #2ff5d2; --text: #e8e2d0; --dim: #8fa39c;
+  font-family: "Barlow", "Segoe UI", system-ui, sans-serif; color: var(--text);
+  display: flex; justify-content: center; padding: 18px 16px;
+}
+#tiefgang-presence[hidden] { display: none; }
+#tiefgang-presence .tp-plaque {
+  position: relative; max-width: 560px; width: 100%; padding: 12px 22px 14px;
+  border: 2px solid var(--brass-dark); box-shadow: 0 0 24px rgba(47, 245, 210, .08);
+  /* Messingnieten in den Ecken wie im Spiel */
+  background:
+    radial-gradient(circle at 7px 7px, var(--brass) 2.4px, transparent 3px),
+    radial-gradient(circle at calc(100% - 7px) 7px, var(--brass) 2.4px, transparent 3px),
+    radial-gradient(circle at 7px calc(100% - 7px), var(--brass) 2.4px, transparent 3px),
+    radial-gradient(circle at calc(100% - 7px) calc(100% - 7px), var(--brass) 2.4px, transparent 3px),
+    rgba(2, 9, 12, .82);
+}
+#tiefgang-presence .tp-main { display: flex; align-items: center; gap: 12px; font-size: clamp(18px, 3.2vw, 24px); }
+#tiefgang-presence .tp-dot { position: relative; flex: 0 0 auto; width: 22px; height: 22px; }
+#tiefgang-presence .tp-dot::before {
+  content: ""; position: absolute; inset: 7px; border-radius: 50%; background: var(--c, var(--abyssal));
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--c, var(--abyssal)) 25%, transparent);
+}
+#tiefgang-presence .tp-dot::after {
+  content: ""; position: absolute; inset: 0; border-radius: 50%; border: 1.6px solid var(--abyssal);
+  animation: tp-sonar 2.4s ease-out infinite;
+}
+#tiefgang-presence .tp-dot.idle { --c: var(--brass); }
+#tiefgang-presence .tp-dot.idle::after { display: none; }
+@keyframes tp-sonar { from { transform: scale(.3); opacity: .8; } to { transform: scale(1); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { #tiefgang-presence .tp-dot::after { animation: none; opacity: .4; } }
+#tiefgang-presence .tp-num { font-weight: 700; color: var(--abyssal); text-shadow: 0 0 12px rgba(47, 245, 210, .4); font-variant-numeric: tabular-nums; }
+#tiefgang-presence .tp-detail { color: var(--dim); font-size: 14px; margin-top: 4px; padding-left: 34px; }
+#tiefgang-presence .tp-detail span { white-space: nowrap; }
+</style>
+<section id="tiefgang-presence" data-lang="de" aria-live="polite" hidden>
+  <div class="tp-plaque">
+    <div class="tp-main"><span class="tp-dot" id="tp-dot"></span><span id="tp-text"></span></div>
+    <div class="tp-detail" id="tp-detail"></div>
+  </div>
+</section>
+<script>
+const __tpInit = () => {
+  // ==== EINTRAGEN (öffentlich, siehe docs/ONLINE_SETUP.md) ====
+  const SUPABASE_URL = "https://njocrdmhvjselcigcxmo.supabase.co";
+  const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_uRHl-7GgIeLJ14_Qzeh9qA_icbB5GhZ";
+  // ============================================================
+  const REFRESH_MS = 60000;
+  const root = document.getElementById("tiefgang-presence");
+  const lang = document.documentElement.lang === "en" ? "en" : "de";
+  const T = {
+    de: { many: "Taucher gerade in der Tiefe", one: "Taucher allein in der Tiefe", none: "Noch niemand unten – sei der Erste",
+      coop: (n, g) => g > 1 ? `Koop ${n} (${g} Gruppen)` : g === 1 ? `Koop ${n} (1 Gruppe)` : `Koop ${n}`,
+      areas: { temple: "Tempelvorhof", drill: "Bohrstation", coral: "Korallenkathedrale", archives: "Versunkene Archive", abyss: "Der Abgrund" } },
+    en: { many: "divers in the deep right now", one: "diver alone in the deep", none: "Nobody down there yet – be the first",
+      coop: (n, g) => g > 1 ? `Co-op ${n} (${g} groups)` : g === 1 ? `Co-op ${n} (1 group)` : `Co-op ${n}`,
+      areas: { temple: "Temple Forecourt", drill: "Drilling Station", coral: "Coral Cathedral", archives: "Sunken Archives", abyss: "The Abyss" } },
+  }[lang];
+  const nf = new Intl.NumberFormat(lang === "de" ? "de-DE" : "en-US");
+  const text = document.getElementById("tp-text");
+  const detail = document.getElementById("tp-detail");
+  const dot = document.getElementById("tp-dot");
+  let last = "";
+
+  function render(c) {
+    const key = JSON.stringify(c);
+    if (key === last) return; // nur bei Änderung neu aufbauen
+    last = key;
+    if (!c) { root.hidden = true; return; }
+    const n = Number(c.total) || 0;
+    text.replaceChildren();
+    dot.classList.toggle("idle", n <= 0);
+    if (n <= 0) {
+      text.textContent = T.none;
+    } else {
+      const num = document.createElement("span"); num.className = "tp-num"; num.textContent = nf.format(n);
+      text.append(num, " " + (n === 1 ? T.one : T.many));
+    }
+    const parts = (c.areas || []).filter((a) => T.areas[a.area] && a.n > 0).slice(0, 4).map((a) => `${T.areas[a.area]} ${a.n}`);
+    if (c.coop > 0) parts.push(T.coop(c.coop, Number(c.coop_groups) || 0));
+    detail.replaceChildren(...parts.flatMap((p, i) => {
+      const s = document.createElement("span"); s.textContent = p; return i ? [" · ", s] : [s]; }));
+    detail.hidden = parts.length === 0;
+    root.hidden = false;
+  }
+
+  async function load() {
+    if (document.hidden) return;
+    if (root.dataset.mock) {
+      const m = Number(root.dataset.mock) || 0;
+      render({ ok: true, total: m, coop: m ? 5 : 0, coop_groups: m ? 2 : 0, areas: m ? [{ area: "temple", n: 9 }, { area: "coral", n: Math.max(m - 17, 0) }, { area: "archives", n: 4 }, { area: "abyss", n: 4 }] : [] });
+      return;
+    }
+    if (!SUPABASE_URL || !SUPABASE_PUBLISHABLE_KEY) { render(null); return; }
+    try {
+      const headers = { "apikey": SUPABASE_PUBLISHABLE_KEY, "Content-Type": "application/json" };
+      if (SUPABASE_PUBLISHABLE_KEY.startsWith("eyJ")) headers["Authorization"] = "Bearer " + SUPABASE_PUBLISHABLE_KEY;
+      const res = await fetch(SUPABASE_URL.replace(/\/$/, "") + "/rest/v1/rpc/presence_count", { method: "POST", headers, body: "{}" });
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      const c = await res.json();
+      render(c && c.ok ? c : null);
+    } catch (e) {
+      render(null); // offline, Schema fehlt oder abgeschaltet: unsichtbar
+    }
+  }
+
+  load();
+  if (window.__tpTimer) clearInterval(window.__tpTimer); window.__tpTimer = setInterval(load, REFRESH_MS);
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) load(); });
+};
+__tpInit();
+new MutationObserver(() => __tpInit()).observe(document.documentElement, { attributes: true, attributeFilter: ["lang"] });
+</script>
+</div>
 <section id="neu">
   <div class="wrap">
     <div class="reveal">

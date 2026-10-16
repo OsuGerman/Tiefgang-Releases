@@ -6,6 +6,16 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 17.10.2026 – Wie viele tauchen gerade? (v2026.10.17.0137-92e8ecd7)
+
+### Neu
+- **Live-Spielerzahl im Hauptmenü:** „23 Taucher gerade in der Tiefe“, aufgeschlüsselt nach Gebiet und Koop-Gruppen. Sie wird jede Minute aktualisiert und ist auch auf der Website zu sehen.
+  - Das Spiel sendet nur ein **anonymes Lebenszeichen**: eine zufällige Sitzungs-ID, das Gebiet und ob Solo oder Koop. Namen und IP-Adressen werden nicht gespeichert.
+  - Abschaltbar unter Einstellungen → Online → „Online-Spielerzahl teilen“.
+
+
+---
+
 ## 17.10.2026 – Hotfix Run-Ende (v2026.10.17.0002-39406e70)
 
 ### Behoben

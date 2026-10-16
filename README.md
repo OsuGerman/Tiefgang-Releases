@@ -9,6 +9,11 @@
 </p>
 
 <p align="center">
+  <a href="https://osugerman.github.io/Tiefgang-Releases/"><img src="media/promo_wakes_below.jpg" alt="TIEFGANG – Something wakes below · Roguelike FPS, 1–4 Co-op" width="49%"></a>
+  <a href="https://osugerman.github.io/Tiefgang-Releases/"><img src="media/promo_builds.jpg" alt="TIEFGANG – Builds that shouldn't work · Free test build" width="49%"></a>
+</p>
+
+<p align="center">
   <a href="#deutsch"><b>Deutsch</b></a> &nbsp;·&nbsp; <a href="#english"><b>English</b></a> &nbsp;·&nbsp;
   <a href="https://osugerman.github.io/Tiefgang-Releases/"><b>Projektseite · Website</b></a> &nbsp;·&nbsp;
   <a href="#galerie--gallery">Galerie · Gallery</a>

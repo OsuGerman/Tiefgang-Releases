@@ -6,6 +6,20 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 18.10.2026 – Neue Angriffswarnungen (v2026.10.18.0111-7461a0e4)
+
+### Verbessert
+- **Angriffswarnungen am Boden komplett neu (#77):**
+  - Kreise, Linien und Kegel füllen sich sichtbar bis zum Einschlag.
+  - Der Boden darunter wird dunkler, der Rand glüht. Dadurch sind sie auf hellem und dunklem Boden gut zu lesen.
+  - Jede Fraktion hat ein eigenes Muster: Glyphen im Tempel, Warnstreifen und Nieten in der Bohrstation, Adern bei den Korallen, Schrift und Siegel in den Archiven, Dornen im Abgrund.
+  - **Elites** bekommen einen zweiten Ring, **Bosse** eine rotierende Runenkrone.
+  - Beim Einschlag gibt es einen kurzen Blitz mit Druckring.
+  - Tintenpfützen und Schadenszonen nutzen denselben Stil.
+
+
+---
+
 ## 17.10.2026 – Controller und Credits (v2026.10.17.1309-56a497c0)
 
 ### Behoben

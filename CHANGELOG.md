@@ -6,6 +6,25 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 17.10.2026 – Controller und Credits (v2026.10.17.1309-56a497c0)
+
+### Behoben
+- **Controller hing am Run-Ende fest:** Nach der Bestenlisten-Frage kam der Fokus nicht zurück. Jetzt gilt am Gamepad: Y = Neuer Tauchgang, B/Start = Zum U-Boot, der rechte Stick blättert durch die Spalten.
+- **B schließt das Pausemenü.** Halte-Abfragen (Forschung, Pause) geben den Fokus nach dem Abbrechen zurück.
+- **Wackeliger Test** stabilisiert (nur intern).
+
+### Neu
+- **Bildschirmtastatur für den Bestenlisten-Namen:** Knopf „Tastatur“ oder A auf dem Feld, in der Teilnahme-Frage und unter Einstellungen → Online.
+- **„Credits & Lizenzen“** im Hauptmenü und unter Einstellungen → Info: alle Mitwirkenden, die Godot-Lizenz, die Koop-Netzwerk-Bibliotheken und die Schriften.
+- **Mehr Controller-Komfort:**
+  - In den Einstellungen wechseln LB und RB die Reiter, lange Reiter scrollen mit dem Fokus mit.
+  - Am Gamepad erscheint die Erklärung des gewählten Elements als kleine Karte.
+  - In der Tastenbelegung bricht ein kurzes B ab, langes Halten belegt B selbst.
+  - Ist in einem Menü nichts gewählt, holt der nächste Tastendruck den Fokus zurück.
+
+
+---
+
 ## 17.10.2026 – Wie viele tauchen gerade? (v2026.10.17.0137-92e8ecd7)
 
 ### Neu

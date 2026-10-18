@@ -6,6 +6,23 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 18.10.2026 – Neue Fähigkeits-Effekte (v2026.10.18.1710-0fe4fc1f)
+
+### Verbessert
+- **Druckmine:** Sie leuchtet im Flug. Ein Countdown-Ring zeigt den Radius und pulsiert schneller bis zur Detonation, vorher zieht sich ein Ring zusammen. Die Explosion ist ein Wasserwirbel mit Treffer-Stopp, danach bleiben ein Schaumring und eine Blasensäule.
+- **Wachposten:**
+  - Beim Aufbauen erscheint ein Bodenwirbel.
+  - Bei jedem neuen Ziel blitzen Zielstrahl und Fadenkreuz auf.
+  - Das Mündungsfeuer ist ein Stern.
+  - Am Ende flackert der Posten und zieht sich zurück.
+- **Lebenspuls:** Ein kurzer Sog an den Füßen kündigt ihn an, danach folgen die Herzschlag-Wellen und ein Nachleuchten am Boden.
+- **Tiefenruf-Aal:** Ein Ruf-Ring geht dem Auftauchen voraus, Bisse spritzen, und am Ende taucht der Aal in einen Strudel im Boden ab.
+- **Koop:** Mitspieler sehen dieselben Effekte. Der Lebenspuls zeigt beim Mitspieler jetzt die echten Wellen statt einer Kugel.
+- Etwas mehr FPS im Dauerfeuer: Ungenutzte Trefferfunken werden ausgeblendet.
+
+
+---
+
 ## 18.10.2026 – Charm-Korrekturen (v2026.10.18.1022-51189a3a)
 
 ### Behoben

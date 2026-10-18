@@ -6,6 +6,20 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 18.10.2026 – Klügere Charm-Auswahl (v2026.10.18.1729-15c7c148)
+
+### Verbessert
+- **Element-Charms nur mit passender Elementquelle:**
+  - Rotglut, Sturmbatterie, Hungrige Gezeit, Flutmarke, Leerenhunger, Sättigung, Katalysator, Kritische Masse, Reaktionspanzer und Kettenreaktion erscheinen erst, wenn du einen passenden Segen, einen Element-Charm, Prisma der Tiefe oder Phasensprung hast.
+  - Reaktions-Charms brauchen zwei Elemente.
+- **Keine Karten mehr, die einen eigenen Segen abschalten:** Mit Kühlmantel kommt kein Ewiges Magazin, mit Letztes Blut kein Glasherz.
+- **Berserkerventil** wird nicht angeboten, solange der Zahn des Schläfers ausgerüstet ist.
+- **Der Forschungs-Startcharm** passt jetzt zu Waffen und Fähigkeit.
+- **Resonanzkern** zeigt, dass weitere Stapel das Intervall verkürzen. Glasherz sagt jetzt klar: Heilung wirkt nicht mehr.
+
+
+---
+
 ## 18.10.2026 – Neue Fähigkeits-Effekte (v2026.10.18.1710-0fe4fc1f)
 
 ### Verbessert

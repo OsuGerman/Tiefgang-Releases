@@ -6,6 +6,24 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 18.10.2026 – Charm-Korrekturen (v2026.10.18.1022-51189a3a)
+
+### Behoben
+- **Leeres Gelübde:** Heilkugeln, Ampullen, Händler-Heilung und der Heilschrein heilen jetzt wirklich nicht mehr. Heilung durch Kills, Lebensraub, Lebenspuls und den Koop-Partner bleibt erlaubt. Der Text nennt das jetzt genau.
+- **Zweiter Wachposten mit Sechsfacher Posten:** Beide addieren sich jetzt (7 Geschütze), statt dass der zweite Charm nichts bewirkt.
+- **Tiefenstrom** zählte die Zeitlupe von Zeitdehnung fälschlich als +150 % Schaden.
+- **Vampirmessing** und **Kleiner Funke** wirken jetzt korrekt.
+
+### Verbessert
+- **Keine nutzlosen Karten mehr:**
+  - Nachlade-Charms erscheinen nur, wenn man eine Fernkampfwaffe trägt.
+  - Heil- und Wenig-Leben-Charms erscheinen nicht zusammen mit Glasherz, Schild-Charms nicht mit dem Berserkerventil.
+  - Segen, deren Auslöser nie greifen kann, werden nicht mehr angeboten.
+- Die Build-Übersicht zeigt bei Chance-Charms den echten gestapelten Wert.
+
+
+---
+
 ## 18.10.2026 – Neue Element- und Legendär-Effekte (v2026.10.18.0211-17047554)
 
 ### Verbessert

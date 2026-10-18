@@ -6,6 +6,21 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 18.10.2026 – Neue Element- und Legendär-Effekte (v2026.10.18.0211-17047554)
+
+### Verbessert
+- **Element-Effekte komplett neu (#76):**
+  - **Element-Treffer** sind sichtbar, mit einer Form je Element: Blutstropfen, Blitzstern, Leere-Loch, Flutblasen.
+  - **Verbindungen:** verzweigte, flackernde Blitze, durchhängende Blutfäden, fliegende Splitter.
+  - **Wellen je Element:** Wasserwirbel mit Schaum, Blutspritzer-Ring, knisternder Blitzring mit Gabelungen, Leere-Ring, der nach innen kollabiert. Sie erscheinen bei Kill-Ausbreitung, Fähigkeitswelle, Dash-Segen und Dash-Ladung.
+- **Alle 6 Reaktionen** haben einen eigenen Effekt mit kurzem Treffer-Stopp und Kamerawackeln statt der allgemeinen Explosion.
+- **Goldene Signatur für Legendäre:** Ankerminen, Sogkern, Fächerentladung, Prisma der Tiefe, Gegendruckmantel, Spiegelscherben, Wuchtfaust, Zeitdehnung, Blutmotor, Sturmkrone, Kettenreaktion.
+- **Fähigkeiten:** Anker-Slam hat einen Ring beim Abheben, Phasensprung einen Ring bei der Ankunft.
+- Die neuen Effekte kosten keine FPS. Gemessen wurde im direkten Wechsel mit den alten Effekten.
+
+
+---
+
 ## 18.10.2026 – Neue Angriffswarnungen (v2026.10.18.0111-7461a0e4)
 
 ### Verbessert

@@ -6,6 +6,22 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 20.10.2026 – Neuer Spielmodus „Biom-Wahl (Akte)“ zum Ausprobieren (v2026.10.20.1501-e4f78a1b)
+
+### Neu
+- **Biom-Wahl (Akte):**
+  - Ein neuer Spielmodus in der Tauchkammer unter Spielmodi.
+  - Der Run besteht aus 4 Akten à 3 Tiefen plus dem Abgrund, zusammen 14 Tiefen wie bisher.
+  - Nach jedem Akt-Boss wählst du am Portal das nächste Gebiet aus zwei Karten.
+  - Jeder Run besucht alle vier Gebiete und kämpft gegen vier Bosse.
+  - Gleicher Seed und gleiche Wahl ergeben denselben Run.
+  - Im Koop wählt der Host.
+  - Der normale Modus bleibt unverändert, die 10 Druckstufen bleiben gleich.
+- **Wichtig für Koop:** Die Koop-Version ist gestiegen. Beide Spieler brauchen diesen Test-Build.
+
+
+---
+
 ## 20.10.2026 – Der ganze Tempel im neuen Look (v2026.10.20.1353-3cdf2d52)
 
 ### Neu

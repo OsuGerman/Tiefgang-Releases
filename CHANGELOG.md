@@ -6,6 +6,21 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 20.10.2026 – Der ganze Tempel im neuen Look (v2026.10.20.1353-3cdf2d52)
+
+### Neu
+- **Tempel komplett im neuen Grafik-Standard:** 13 weitere Kampf- und Eliteräume haben jetzt gebackenes Licht, Decals und Nebel.
+  - Der Eingang des Beckenplatzes ist nicht mehr flächig orange.
+  - Die liegende Säule in der Einsturzhalle ist jetzt eine echte kannelierte Säule.
+  - Glyphen und Kristalle leuchten 30 % stärker.
+- **Schiffsfriedhof (in Arbeit, noch nicht spielbar):**
+  - 5 weitere Räume: Lazarettschiff, Ballastschacht, Rammsporn-Arena, Kapitänskajüte und Kartenraum
+  - Schott-Türen
+  - die Gefahr „morsche Planken“: Sie brechen nach einer Warnung weg, auch unter Gegnern.
+
+
+---
+
 ## 20.10.2026 – Koop: Mitspieler sehen alle Angriffs-Warnungen (v2026.10.20.1316-25ae2224)
 
 ### Behoben

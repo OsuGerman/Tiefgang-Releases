@@ -6,6 +6,35 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 20.10.2026 – Neue Effekte für Frost, Blut und Leere, viele Fehlerbehebungen (v2026.10.20.0816-f9882203)
+
+### Neu
+- **Frost:**
+  - Beim Einfrieren wachsen Eiskristalle, und Raureif kriecht von den Füßen hoch, schon ab 3 Stapeln „Durchnässt“ als Vorwarnung.
+  - Ein Frostfleck am Boden schmilzt langsam, und Kältedunst sinkt herab.
+  - Eingefrorene Gegner zerspringen beim Tod in Eissplitter.
+  - Eisschwall lässt Eiszacken entlang des Dash-Wegs aus dem Boden schießen.
+- **Blut:**
+  - Tropfen fallen mit Schwerkraft und hinterlassen Spritzer und Lachen am Boden, die langsam trocknen.
+  - Beim Aderlass werden Blutfäden zum Spieler gezogen.
+  - Blutende Gegner tragen pulsierende Adern.
+- **Leere:**
+  - Treffer ziehen sich erst zusammen und entladen sich dann mit einem Stoßring, der den Raum verzerrt.
+  - Die Singularität ist jetzt ein echtes schwarzes Loch mit Photonenring, Gravitationslinse und geneigter Scheibe.
+  - Schattenranken und ein dunkler Überzug mit violettem Kern.
+- **Status-Überzug:** Statuseffekte sind direkt am Gegner-Modell zu sehen.
+- **Schiffsfriedhof:** Das Modell-Kit für ein kommendes Gebiet ist gebaut. Es ist noch nicht im Spiel.
+
+### Behoben
+- **Phasensprung durch Wände:** In schweren Räumen konnte der Phasensprung die volle Weite durch eine Wand springen.
+- **Schwebende Charms:** Ein nicht geöffneter Charm-Drop wanderte in die nächsten Tiefen mit und hing dort in Wänden.
+- **Resonanzstein in einem Archivraum** stand unter einem Steg und war kaum zu treffen. Steine, Brutsäcke und Anemonen werden jetzt immer frei platziert.
+- **Charm-Texte im Tab-Menü** werden nicht mehr abgeschnitten.
+- **Kodex-Meldung** liegt nicht mehr über der Tab-Übersicht.
+
+
+---
+
 ## 20.10.2026 – Duo-Segen und kein Ruckler mehr beim ersten Fähigkeits-Einsatz (v2026.10.20.0704-e9deee46)
 
 ### Neu

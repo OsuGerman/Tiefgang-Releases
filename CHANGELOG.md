@@ -6,6 +6,25 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 20.10.2026 – Echte Blitze, neue Ertrunkene Flotte, 7 Tempelräume im neuen Look (v2026.10.20.1115-23f48e8d)
+
+### Neu
+- **Blitze komplett neu:**
+  - dünne, scharf gezackte Bögen mit Seitenästen
+  - Stroboskop-Flackern und kurzes Nachglühen
+  - Einschlag mit Stern und Funken, die abprallen
+  - Der Kettenblitz springt sichtbar von Ziel zu Ziel.
+  - Gewitterpuls und Leitung: gezackte Bodenbögen, die über den Boden kriechen
+- **Tempel im neuen Grafik-Standard:**
+  - Große Halle, Säulenhalle, Wächtergrube, Einsturzhalle, Beckenplatz, Kreuzgang und Terrassen mit gebackenem Licht, Decals und Nebel
+  - Im Lichtschacht der Großen Halle zieht ein Leviathan vorbei.
+- **Ertrunkene Flotte vollständig:**
+  - Seepockenbrut (Schwarm aus der Rumpfwand), Kanonier (Mörser, verwundbar beim Nachladen) und Galionswächter (Elite)
+  - Sie kommen mit dem Schiffsfriedhof ins Spiel und sind jetzt noch nicht zu sehen.
+
+
+---
+
 ## 20.10.2026 – Blitz-Überzug und flüssigere Statuseffekte (v2026.10.20.1009-aaaf8665)
 
 ### Neu

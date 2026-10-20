@@ -6,6 +6,21 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 20.10.2026 – Duo-Segen und kein Ruckler mehr beim ersten Fähigkeits-Einsatz (v2026.10.20.0704-e9deee46)
+
+### Neu
+- **6 Duo-Segen:** Supraleiter, Rote Flut, Abgrundstrudel, Überhitzung, Dunkler Pakt und Ereignishorizont. Jeder verändert eine Element-Reaktion.
+  - Ein Duo erscheint im Segensaltar, sobald du von zwei Elementen je 2 Segen hast, spätestens am dritten Altar.
+  - Es belegt keinen Slot. Höchstens ein Duo je Elementpaar.
+  - Eigene Karte in beiden Elementfarben, ein fünftes Feld „DUO“ in der Slot-Leiste, Symbole im HUD, im Tab-Menü und am Run-Ende sowie ein Kodex-Eintrag.
+  - Funktioniert auch im Koop.
+
+### Behoben
+- **Ruckler beim ersten Einsatz einer Fähigkeit:** Geschosse, Material und Effekte werden jetzt hinter der Ladeblende vorbereitet. Der erste Einsatz ruckelt nicht mehr (vorher bis zu 20 ms).
+
+
+---
+
 ## 20.10.2026 – Neues Licht im Tempel und wichtige Fehlerbehebungen (v2026.10.20.0625-9926e129)
 
 ### Neu

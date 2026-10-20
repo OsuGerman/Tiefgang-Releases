@@ -6,6 +6,33 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 20.10.2026 – Neue Waffen-Mechaniken, Korallen im neuen Look (v2026.10.20.1855-8d277f28)
+
+### Neu
+- **Waffen überarbeitet:** Jede Waffe hat eine eigene Mechanik.
+  - **Kielbrecher:** Wuchtkette. Volltreffer machen den nächsten Schuss stärker. Dazu Wandschlag und Drucksprung.
+  - **Walfänger:** Widerhaken bleiben im Gegner stecken. Einholen zieht alle heran, betäubt sie und reißt die Haken mit Bonusschaden heraus.
+  - **Leuchtfeuer:** Der Fokus springt als Kettenbogen über. Dazu ein Aufladeschuss mit perfektem Timing-Fenster.
+  - **Tiefenbombe:** Haftgranaten legen und als Kette zünden. Volltreffer machen mehr Schaden.
+  - **Zahn des Schläfers:** Der Wurf bleibt im Gegner stecken, danach folgt der Zahnsprung.
+  - **Gezeitenklinge:** Eine perfekte Parade gegen Geschosse schickt eine Welle zum Schützen zurück.
+  - **Stimme der Tiefe:** Wer im Takt läutet, baut Gleichklang auf, bis der Große Glockenschlag kommt.
+  - Der Schaden ist angeglichen, damit sich jede Waffe lohnt. Werftlied und Gouverneur bleiben unverändert.
+- **Korallenkathedrale im neuen Grafik-Standard:**
+  - 10 Räume mit gebackenem Licht
+  - tanzende Kaustik auf Boden und Wänden
+  - leuchtende Korallen in Magenta und Cyan, Bewuchs an den Wänden
+  - Im Lichtschacht zieht ein Manta vorbei.
+- **Biom-Wahl:** Die Karten zeigen echte Bilder der Gebiete.
+
+### Behoben
+- **Tiefenbombe:** Ihre Explosionen bekamen keine Krits, Segen und Charm-Effekte. Das ist behoben.
+- **Langsame Waffen** (Harpune, Mörser, Glocke, Speer) lösen „bei Treffer“-Segen jetzt fair aus.
+- **Elites mit „Robust“:** Die Rüstung lud viel zu oft nach, auf hohen Druckstufen waren solche Elites kaum zu besiegen.
+
+
+---
+
 ## 20.10.2026 – Neue Wassereffekte und Duo-Optik (v2026.10.20.1612-1042a35c)
 
 ### Neu

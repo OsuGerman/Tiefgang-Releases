@@ -6,6 +6,26 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 20.10.2026 – Blitz-Überzug und flüssigere Statuseffekte (v2026.10.20.1009-aaaf8665)
+
+### Neu
+- **Elektrisierte Gegner** zeigen zuckende Blitzadern auf dem Modell.
+- **Blitz:**
+  - Kettenblitze springen sichtbar nacheinander von Ziel zu Ziel.
+  - Einschläge mit Stern, Funkenresten und kurzem Lichtblitz.
+  - Lichtblitze und Funkenreste erst ab der Qualitätsstufe „Hoch“.
+- **Gewitterpuls um den Spieler** ist nur noch ein Bodenring und keine Leuchtwand mehr.
+- **Ertrunkene Flotte:**
+  - Die ersten drei Gegner für den kommenden Schiffsfriedhof sind gebaut: Matrose mit Enterhaken, Musketier mit Pulverdampf und Bootsmann mit Plankenschild.
+  - Im normalen Spiel kommen sie noch nicht vor.
+
+### Verbessert
+- **Status-Überzüge** (Frost, Blut, Leere, Blitz) kosten weniger Leistung: Sie werden über mehrere Bilder verteilt angehängt und teilen sich ein Material.
+- Die Muster der Überzüge haben auf allen Gegnermodellen die richtige Größe.
+
+
+---
+
 ## 20.10.2026 – Neue Effekte für Frost, Blut und Leere, viele Fehlerbehebungen (v2026.10.20.0816-f9882203)
 
 ### Neu

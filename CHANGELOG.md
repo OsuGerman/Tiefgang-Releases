@@ -6,6 +6,51 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 20.10.2026 – Versunkene Archive mit neuem Licht und echtem Nebel (v2026.10.20.2021-591fd0a7)
+
+### Neu
+- **Archive mit neuem Look:**
+  - Kerzengold gegen tintenblaues Wasserlicht, Kandelaber an den Glyphensäulen, Kerzen auf Regalen und Bücherstapeln
+  - schwebende Seiten im Lichtschacht, Tintenschwaden am Boden
+  - Lesesaal und Glyphenrund mit gebackenem Licht
+
+### Behoben
+- **Nebel in den Archiven** (Tiefe 5–8): Er wirkt jetzt wie Nebel und nicht mehr wie eine flache blaue Schicht. Er streut nur im Licht, die Ferne versinkt tintenblau.
+
+
+---
+
+## 20.10.2026 – Neue Gegnerangriffe, neue Auswahl-Karten, kein Wandflimmern mehr (v2026.10.20.2003-a3f96143)
+
+### Neu
+- **Gegner mit neuen Angriffen:** 25 Gegner der bestehenden Gebiete haben neue Signatur-Angriffe.
+  - **Korallen:** Korallensporne versperren den Weg und lassen sich abschießen. Dazu Riffbeben, Sporennetze und der Riffkäfig der Brutwächterin.
+  - **Archive:** Tintenspritzer, Siegelstempel, Seitensturm, Blätterfächer und die Siegelfolge des Siegelbrechers.
+  - **Tempel:** Rudelsprung der Kraklinge, Glutfächer, Glyphenfallen und das Glutraster des Glutkolosses.
+  - **Bohrstation:** Schlickspritzer, Nietenramme, Druckventile und das Überdruck-Kreuz des Dampfhammers.
+  - **Zusammenspiel:** Gefesselte Spieler sind kurz für die Schützen offen. Danach schützt ein kurzer Schutz vor Dauerfesseln.
+  - **Fairness:** Jeder Angriff hat eine klare Warnung und ein Fenster zum Ausweichen und Kontern.
+- **Ertrunkene Flotte überarbeitet** (für den kommenden Schiffsfriedhof): 16 neue Angriffe, darunter Musketier-Salven in Formation, ein Schildwall, Kettenkugeln und eine zweite Phase für den Galionswächter. Dazu neue Modelle.
+- **Neue Auswahl-Karten:**
+  - Charms, Segen, Amboss, Truhe, Boss-Belohnung, Händler, Biom-Wahl und Tauchkammer haben eine eigene TIEFGANG-Optik: genietete Metallkarten, die Seltenheit erkennt man am Metall (Kupfer, Messing, Gold, Silber, Rost).
+  - Das Symbol sitzt in einem Bullauge, der Text auf altem Papier.
+  - Die Karten fahren animiert ein, kippen beim Darüberfahren und rasten bei der Wahl mit einem Siegel-Stempel ein.
+- **Kreaturen über den Deckenöffnungen:** Im Tempel und bei den Korallen zieht gelegentlich eine Kreatur über dem Lichtschacht vorbei. Ganz selten gibt es dort auch etwas Ungewöhnliches zu entdecken …
+
+### Verbessert
+- **Speicher:** Daten bereits verlassener Gebiete werden freigegeben, das spart 120–380 MB Videospeicher.
+- **Leistung im Kampf:** etwas geringere CPU-Last bei vielen Gegnern.
+
+### Behoben
+- **Flimmern an Wänden** (Z-Fighting) und helle Rahmen an Türen in Gängen.
+- **Walfänger:** Fehler, wenn eingeholte Harpunen schon verschwunden waren.
+- **Elites mit „Robust“:** Die Rüstung lud ständig nach, auch ohne gebrochen zu sein.
+- **Koop – neue Waffen-Mechaniken:** Wurf, Zahnsprung, Einholen, Entladung, Welle und Resonanz wurden beim Mitspieler teils abgewiesen. Jetzt kommen alle Treffer an. Haftgranaten und Widerhaken sind für beide sichtbar.
+- **Wichtig für Koop:** Die Koop-Version ist gestiegen. Beide Spieler brauchen diesen Test-Build.
+
+
+---
+
 ## 20.10.2026 – Neue Waffen-Mechaniken, Korallen im neuen Look (v2026.10.20.1855-8d277f28)
 
 ### Neu

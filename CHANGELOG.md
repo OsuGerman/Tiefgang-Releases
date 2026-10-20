@@ -6,6 +6,24 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 20.10.2026 – Neue Wassereffekte und Duo-Optik (v2026.10.20.1612-1042a35c)
+
+### Neu
+- **Flut:**
+  - Flutwellen sind jetzt echte Wasserwellen mit Schaumkrone, durch die man den verzerrten Hintergrund sieht.
+  - Durchnässte Gegner glänzen nass, Rinnsale laufen an ihnen herunter.
+  - Spritzer und Pfützen am Boden.
+  - Der Mahlstrom ist ein Wasserstrudel mit Trichter.
+- **Duo-Segen mit eigener Optik:**
+  - Ereignishorizont entlädt sich mit Blitzen aus dem schwarzen Loch.
+  - Bei Roter Flut wird das Wasser rot.
+  - Der Abgrundstrudel hat einen eigenen Fluch-Takt.
+- **Leitung (Flut + Blitz):** Ein großer Wasserschwall mit Blitzrand.
+- **Boss Admiral Varrow** für den kommenden Schiffsfriedhof ist gebaut. Er ist noch nicht im Spiel.
+
+
+---
+
 ## 20.10.2026 – Neuer Spielmodus „Biom-Wahl (Akte)“ zum Ausprobieren (v2026.10.20.1501-e4f78a1b)
 
 ### Neu

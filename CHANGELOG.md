@@ -6,6 +6,18 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 20.10.2026 – Koop: Mitspieler sehen alle Angriffs-Warnungen (v2026.10.20.1316-25ae2224)
+
+### Behoben
+- **Koop – Angriffs-Warnungen fehlten beim Mitspieler:**
+  - Der Mitspieler sah bisher nur etwa ein Drittel der Warnungen naher Gegner und fast keine von weiter entfernten.
+  - Jetzt kommen alle an, auch bei schlechter Verbindung.
+- **Koop – kurze Angriffe verpasst:** Kurze Angriffe wie Mörser-Einschläge oder Schockwellen fehlten beim Mitspieler manchmal ganz.
+- **Wichtig:** Die Koop-Version ist gestiegen. Beide Spieler brauchen diesen Test-Build.
+
+
+---
+
 ## 20.10.2026 – Echte Blitze, neue Ertrunkene Flotte, 7 Tempelräume im neuen Look (v2026.10.20.1115-23f48e8d)
 
 ### Neu

@@ -6,6 +6,28 @@ Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues
 
 ---
 
+## 20.10.2026 – Neues Licht im Tempel und wichtige Fehlerbehebungen (v2026.10.20.0625-9926e129)
+
+### Neu
+- **Große Halle im Tempel mit neuem Grafik-Standard:**
+  - gebackenes Licht mit warmen und kalten Lichtinseln
+  - Lichtschacht auf den Thron
+  - Farbabstimmung und Tiefenabsorption
+  - Schmutz, Algen und Risse als Decals
+  - Bodennebel
+  - Das ist der Musterraum für die nächsten Räume.
+
+### Behoben
+- **Raum ging nicht auf (z. B. Tiefe 11):**
+  - Verschwand ein Gegner, ohne zu sterben, blieb der Raum für immer verschlossen.
+  - Die Gegnerliste wird jetzt laufend bereinigt.
+  - Eine Absicherung gibt einen Raum nach 8 s frei, wenn nachweislich nichts mehr zu tun ist.
+- **Dauerhaft verlangsamt:** Tintenpfütze, Affix-Schwächungen, Tötungsschub und Überdruck konnten für immer hängen bleiben. Man war dann dauerhaft auf 65 % Tempo oder kam nach dem Archivar nicht durch die Tür.
+- **Fehler bei Bodenwarnungen:** Eine Mine eines bereits toten Gegners verursachte einen Skriptfehler und es fehlte der Warnkreis.
+
+
+---
+
 ## 18.10.2026 – Klügere Charm-Auswahl (v2026.10.18.1729-15c7c148)
 
 ### Verbessert

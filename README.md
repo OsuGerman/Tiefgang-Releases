@@ -38,12 +38,13 @@ Descend in a brass diving suit, fight your way room by room through glowing ruin
 
 ### What’s new in the test build
 
-- **Now in English** – the whole game is translated: menus, HUD, weapons, charms, enemies, Dr. Marsh’s radio messages and the Codex. Switch under *Settings → Gameplay → “Sprache · Language”*, instantly and without a restart.
-- **Governor: a new reload** – the hand really works the gun: latch, the cylinder swings out in a puff of steam, casings fly, speedloader in and twist, cylinder shut. Nail the perfect reload and it snaps shut on its own.
-- **Visor cracks** – when your shield breaks, the helmet glass stars outward from the side you were hit; the crack heals turquoise as the shield recharges. Can be turned off under Accessibility.
-- **4 laser fliers** from the third depth of every area (Burning-Glass Moth, Cutter Drone, Lantern Jelly, Burning Page) – targeting line, lock-on, flash, beam. One sidestep saves you.
-- **Sound and boss music** – a ringing metal hull in the submarine, muffled sound underwater, an audibly flooding dive chamber; boss music thickens with every phase and peaks below 15 % of the boss’s health.
-- **Save your run** – “Save & Quit” in the pause menu, “Resume Run” in the main menu, plus a Run History of your last 30 runs.
+- **Co-op for 1–4 players** – dive together via room code (usually no port forwarding), revives, pings, live teammate damage, and every attack warning reaches everyone.
+- **A new look for three areas** – the Temple, the Coral Cathedral and the Sunken Archives with baked lighting, decals and fog: dancing caustics, candle gold and real fog, and a leviathan drifting over the Great Hall’s light shaft.
+- **Elements, redone** – jagged chain lightning, a black hole for Singularity, frost that shatters, tidal waves with a foaming crest, and 6 Duo Blessings with a look of their own.
+- **25 new enemy attacks** – reef cages, seal stamps, page storms, ember grids, overpressure crosses – each with a clear warning and a window to dodge.
+- **Every weapon has its own mechanic** – reel in barbs with the Whaler, chain sticky shells with the Depth Bomb, parry shots back as a wave with the Tide Blade, and more.
+- **New menus, HUD and logbook** – cinematic main menu, Diving Chamber with manometer and lever switches, brass HUD, Tab logbook with element compass, riveted reward cards.
+- **Leaderboard, Daily Run, Biome Choice** – runs count automatically (opt out any time), a daily seed for everyone, and a mode where you pick the next area after every act boss.
 
 All changes: **[CHANGELOG.md](CHANGELOG.md)**
 
@@ -54,8 +55,8 @@ All changes: **[CHANGELOG.md](CHANGELOG.md)**
 - **5 areas** – the Temple Forecourt and the Drilling Station as starting areas, then the Coral Cathedral, the Sunken Archives and the Abyss, each with its own architecture, atmosphere, enemies and hazards.
 - **5 bosses and 4 Heralds** – Xal-Tuun, the Drill Mother, Ysmera, the Archivist and the Sleeper’s Ear, plus a Herald for every faction. Each with its own entrance, phase changes, weak points and death sequence.
 - **Nearly 50 enemy types** – Stone Wardens, Drowned Crew, Coral Brood and Drowned Scribes field marksmen, flankers, shield-bearers and colossi, plus affixes, elite fights and the laser fliers.
-- **9 weapons, 6 abilities** – from the Governor via the Keelbreaker and the Tide Blade to the Voice of the Deep, each with an alt-fire and active reload; plus Sentry, Phase Jump, Anchor Slam and more.
-- **55 charms, 21 blessings** – charms stack and combine; blessings bring the elements Tide, Blood, Lightning and Void, complete with reactions. Absurd builds are actively encouraged.
+- **9 weapons, 6 abilities** – from the Governor via the Keelbreaker and the Tide Blade to the Voice of the Deep, each with an alt-fire, active reload and a mechanic of its own; plus Sentry, Phase Jump, Anchor Slam and more.
+- **95 charms, 42 blessings** – charms stack and combine; blessings bring the elements Tide, Blood, Lightning and Void, complete with reactions, plus 6 Duo Blessings. Absurd builds are actively encouraged.
 - **Roguelike runs, 14 depths** – every run assembled anew, stronger room by room, rewards after every arena. A full dive takes about 25–40 minutes, and you can save and resume along the way.
 - **Submarine hub** – Workbench, Research Desk, Weapon Rack, Reliquary Shrine and Codex Shelf.
 - **Dr. Marsh on the radio** – more than 200 radio lines, a Codex of 72 lore entries and a Bestiary entry for every enemy.
@@ -116,32 +117,40 @@ Thoughts on how it plays are welcome too: how do movement, weapons and bosses fe
 
 <table>
   <tr>
-    <td width="50%"><a href="media/neu_xaltuun_tod.jpg"><img src="media/neu_xaltuun_tod.jpg" alt="Xal-Tuun shatters"></a></td>
-    <td width="50%"><a href="media/boss_ysmera.jpg"><img src="media/boss_ysmera.jpg" alt="Ysmera, the Coral Mother"></a></td>
+    <td width="50%"><a href="media/great_hall_leviathan.jpg"><img src="media/great_hall_leviathan.jpg" alt="A leviathan glides over the Great Hall’s light shaft"></a></td>
+    <td width="50%"><a href="media/fx_chain_lightning.jpg"><img src="media/fx_chain_lightning.jpg" alt="Chain lightning jumps from target to target"></a></td>
   </tr>
   <tr>
-    <td><a href="media/neu_archiv_himmelsglobus.jpg"><img src="media/neu_archiv_himmelsglobus.jpg" alt="Celestial globe in the Sunken Archives"></a></td>
-    <td><a href="media/neu_bohrstation_getriebe.jpg"><img src="media/neu_bohrstation_getriebe.jpg" alt="Derrick gearworks in the Drilling Station"></a></td>
+    <td><a href="media/coral_cathedral.jpg"><img src="media/coral_cathedral.jpg" alt="Coral Cathedral with baked lighting and caustics"></a></td>
+    <td><a href="media/archives_reading_room.jpg"><img src="media/archives_reading_room.jpg" alt="Sunken Archives: candle gold and fog"></a></td>
   </tr>
   <tr>
-    <td><a href="media/korallenkathedrale.jpg"><img src="media/korallenkathedrale.jpg" alt="Coral Cathedral"></a></td>
-    <td><a href="media/abgrund_portal.jpg"><img src="media/abgrund_portal.jpg" alt="Portal in the Abyss"></a></td>
+    <td><a href="media/fx_black_hole.jpg"><img src="media/fx_black_hole.jpg" alt="Singularity: a black hole from Void + Lightning"></a></td>
+    <td><a href="media/fx_frost.jpg"><img src="media/fx_frost.jpg" alt="Frozen solid in the Coral Cathedral"></a></td>
   </tr>
   <tr>
-    <td><a href="media/bosskampf_hud.jpg"><img src="media/bosskampf_hud.jpg" alt="Boss fight, phase change"></a></td>
-    <td><a href="media/boss_bohrmutter.jpg"><img src="media/boss_bohrmutter.jpg" alt="The Drill Mother"></a></td>
+    <td><a href="media/boss_xal_tuun_phase2.jpg"><img src="media/boss_xal_tuun_phase2.jpg" alt="Xal-Tuun, phase II"></a></td>
+    <td><a href="media/attack_reef_cage.jpg"><img src="media/attack_reef_cage.jpg" alt="The Brood Matron’s reef cage – a new enemy attack"></a></td>
   </tr>
   <tr>
-    <td><a href="media/versunkene_archive.jpg"><img src="media/versunkene_archive.jpg" alt="Sunken Archives"></a></td>
-    <td><a href="media/neu_uboot_bullauge.jpg"><img src="media/neu_uboot_bullauge.jpg" alt="A leviathan outside the porthole"></a></td>
+    <td><a href="media/boss_ysmera_phase2.jpg"><img src="media/boss_ysmera_phase2.jpg" alt="Ysmera, the Coral Mother"></a></td>
+    <td><a href="media/attack_steam_hammer.jpg"><img src="media/attack_steam_hammer.jpg" alt="The Steam Hammer’s overpressure cross"></a></td>
   </tr>
   <tr>
-    <td><a href="media/boss_archivar.jpg"><img src="media/boss_archivar.jpg" alt="The Archivist"></a></td>
-    <td><a href="media/uboot_tauchkammer.jpg"><img src="media/uboot_tauchkammer.jpg" alt="The submarine’s Diving Chamber"></a></td>
+    <td><a href="media/cards_legendary.jpg"><img src="media/cards_legendary.jpg" alt="Riveted reward cards: a legendary choice"></a></td>
+    <td><a href="media/logbook.jpg"><img src="media/logbook.jpg" alt="The Tab logbook"></a></td>
   </tr>
   <tr>
-    <td><a href="media/boss_xal_tuun.jpg"><img src="media/boss_xal_tuun.jpg" alt="Xal-Tuun in the Temple Forecourt"></a></td>
-    <td><a href="media/hauptmenue.jpg"><img src="media/hauptmenue.jpg" alt="Main menu"></a></td>
+    <td><a href="media/hud_combat.jpg"><img src="media/hud_combat.jpg" alt="The new brass HUD"></a></td>
+    <td><a href="media/diving_chamber.jpg"><img src="media/diving_chamber.jpg" alt="Diving Chamber with manometer and lever switches"></a></td>
+  </tr>
+  <tr>
+    <td><a href="media/boss_archivist_phase3.jpg"><img src="media/boss_archivist_phase3.jpg" alt="The Archivist"></a></td>
+    <td><a href="media/boss_drill_mother_phase2.jpg"><img src="media/boss_drill_mother_phase2.jpg" alt="The Drill Mother"></a></td>
+  </tr>
+  <tr>
+    <td><a href="media/coop_vs_xal_tuun.jpg"><img src="media/coop_vs_xal_tuun.jpg" alt="Co-op: two divers against Xal-Tuun"></a></td>
+    <td><a href="media/main_menu.jpg"><img src="media/main_menu.jpg" alt="Main menu with a passing leviathan"></a></td>
   </tr>
 </table>
 

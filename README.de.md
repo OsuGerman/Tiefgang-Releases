@@ -38,12 +38,13 @@ Steig im Messing-Taucheranzug hinab, kämpf dich Raum für Raum durch leuchtende
 
 ### Neu im Test-Build
 
-- **Jetzt auf Englisch** – das ganze Spiel ist übersetzt: Menüs, HUD, Waffen, Charms, Gegner, Funksprüche von Dr. Marsh und der Kodex. Umschalten unter *Einstellungen → Gameplay → „Sprache · Language“*, sofort und ohne Neustart.
-- **Gouverneur: Nachladen neu** – die Hand greift wirklich zu: Riegel, Trommel schwingt im Dampf aus, Hülsen fliegen, Schnelllader rein und drehen, Trommel zu. Perfekt getroffen schnappt sie von selbst zu.
-- **Visier-Riss** – bricht der Schild, springt das Helmglas sternförmig von der Trefferseite; der Riss verheilt türkis, sobald der Schild lädt. Abschaltbar unter Barrierefreiheit.
-- **4 Laser-Flieger** ab der 3. Tiefe jedes Gebiets (Brennglasmotte, Schneiddrohne, Strahlqualle, Brennseite) – Ziellinie, Einrasten, Blinken, Strahl. Ein Seitenschritt rettet dich.
-- **Klang und Bossmusik** – Metallrumpf im U-Boot, dumpf unter Wasser, die Kammer flutet hörbar; Bossmusik wird mit jeder Phase dichter und hat unter 15 % Boss-Leben ihren Höhepunkt.
-- **Run speichern** – „Speichern & Beenden“ im Pausemenü, „Run fortsetzen“ im Hauptmenü, dazu die Run-Übersicht deiner letzten 30 Runs.
+- **Koop für 1–4 Spieler** – gemeinsam tauchen per Raumcode (meist ohne Portfreigabe), Wiederbeleben, Pings, Live-Schaden der Mitspieler, und jede Angriffswarnung kommt bei allen an.
+- **Neuer Look für drei Gebiete** – Tempel, Korallenkathedrale und Versunkene Archive mit gebackenem Licht, Decals und Nebel: tanzende Kaustik, Kerzengold und echter Nebel, und über dem Lichtschacht der Großen Halle zieht ein Leviathan vorbei.
+- **Elemente neu gemacht** – gezackter Kettenblitz, ein schwarzes Loch für die Singularität, Frost, der zerspringt, Flutwellen mit Schaumkrone und 6 Duo-Segen mit eigener Optik.
+- **25 neue Gegnerangriffe** – Riffkäfige, Siegelstempel, Seitenstürme, Glutgitter, Überdruckkreuze – jeder mit klarer Warnung und einem Fenster zum Ausweichen.
+- **Jede Waffe mit eigener Mechanik** – Widerhaken mit dem Walfänger einholen, Haftladungen der Tiefenbombe als Kette zünden, mit der Gezeitenklinge Schüsse als Welle zurückschicken und mehr.
+- **Neues Menü, HUD und Logbuch** – Kino-Hauptmenü, Tauchkammer mit Manometer und Hebelschaltern, Messing-HUD, Logbuch (Tab) mit Element-Kompass, genietete Belohnungskarten.
+- **Bestenliste, Tageslauf, Biom-Wahl** – Runs zählen automatisch (jederzeit abschaltbar), ein Tagesseed für alle und ein Modus, in dem du nach jedem Akt-Boss das nächste Gebiet wählst.
 
 Alle Änderungen: **[CHANGELOG.de.md](CHANGELOG.de.md)**
 
@@ -54,8 +55,8 @@ Alle Änderungen: **[CHANGELOG.de.md](CHANGELOG.de.md)**
 - **5 Gebiete** – Tempelvorhof und Bohrstation als Startgebiete, danach Korallenkathedrale, Versunkene Archive und der Abgrund. Jedes mit eigener Architektur, Atmosphäre, eigenen Gegnern und Gefahren.
 - **5 Bosse und 4 Herolde** – Xal-Tuun, die Bohrmutter, Ysmera, der Archivar und das Ohr des Schläfers, dazu ein Herold je Fraktion. Eigene Auftritte, Phasenwechsel, Schwachstellen und Todes-Sequenzen.
 - **Fast 50 Gegnerarten** – Steinwächter, Ertrunkene Mannschaft, Korallenbrut und Ertrunkene Schreiber mit Schützen, Flankierern, Schildträgern und Kolossen, dazu Affixe, Elite-Kämpfe und die Laser-Flieger.
-- **9 Waffen, 6 Fähigkeiten** – vom Gouverneur über Kielbrecher und Gezeitenklinge bis zur Stimme der Tiefe, jede mit Zweitfeuer und aktivem Nachladen; dazu Wachposten, Phasensprung, Anker-Slam und mehr.
-- **55 Charms, 21 Segen** – Charms stapeln und kombinieren sich, Segen bringen die Elemente Flut, Blut, Blitz und Leere samt Reaktionen. Absurde Builds sind ausdrücklich erwünscht.
+- **9 Waffen, 6 Fähigkeiten** – vom Gouverneur über Kielbrecher und Gezeitenklinge bis zur Stimme der Tiefe, jede mit Zweitfeuer, aktivem Nachladen und eigener Mechanik; dazu Wachposten, Phasensprung, Anker-Slam und mehr.
+- **95 Charms, 42 Segen** – Charms stapeln und kombinieren sich, Segen bringen die Elemente Flut, Blut, Blitz und Leere samt Reaktionen, dazu 6 Duo-Segen. Absurde Builds sind ausdrücklich erwünscht.
 - **Roguelike-Runs mit 14 Tiefen** – jeder Run neu zusammengesetzt, Raum für Raum stärker, Belohnungen nach jeder Arena. Ein voller Tauchgang dauert etwa 25–40 Minuten und lässt sich zwischendurch speichern.
 - **U-Boot-Hub** – Werkbank, Forschungstisch, Waffenständer, Reliquienschrein und Kodex.
 - **Dr. Marsh am Funk** – über 200 Funksprüche, ein Kodex mit 72 Lore-Einträgen und ein Bestiarium zu jedem Gegner.
@@ -116,32 +117,40 @@ Auch Eindrücke zum Spielgefühl sind willkommen: Wie fühlen sich Bewegung, Waf
 
 <table>
   <tr>
-    <td width="50%"><a href="media/neu_xaltuun_tod.jpg"><img src="media/neu_xaltuun_tod.jpg" alt="Xal-Tuun zerbricht"></a></td>
-    <td width="50%"><a href="media/boss_ysmera.jpg"><img src="media/boss_ysmera.jpg" alt="Ysmera, die Korallenmutter"></a></td>
+    <td width="50%"><a href="media/great_hall_leviathan.jpg"><img src="media/great_hall_leviathan.jpg" alt="Ein Leviathan über dem Lichtschacht der Großen Halle"></a></td>
+    <td width="50%"><a href="media/fx_chain_lightning.jpg"><img src="media/fx_chain_lightning.jpg" alt="Kettenblitz springt von Ziel zu Ziel"></a></td>
   </tr>
   <tr>
-    <td><a href="media/neu_archiv_himmelsglobus.jpg"><img src="media/neu_archiv_himmelsglobus.jpg" alt="Himmelsglobus in den Versunkenen Archiven"></a></td>
-    <td><a href="media/neu_bohrstation_getriebe.jpg"><img src="media/neu_bohrstation_getriebe.jpg" alt="Bohrturm-Getriebe in der Bohrstation"></a></td>
+    <td><a href="media/coral_cathedral.jpg"><img src="media/coral_cathedral.jpg" alt="Korallenkathedrale mit gebackenem Licht und Kaustik"></a></td>
+    <td><a href="media/archives_reading_room.jpg"><img src="media/archives_reading_room.jpg" alt="Versunkene Archive: Kerzengold und Nebel"></a></td>
   </tr>
   <tr>
-    <td><a href="media/korallenkathedrale.jpg"><img src="media/korallenkathedrale.jpg" alt="Korallenkathedrale"></a></td>
-    <td><a href="media/abgrund_portal.jpg"><img src="media/abgrund_portal.jpg" alt="Portal im Abgrund"></a></td>
+    <td><a href="media/fx_black_hole.jpg"><img src="media/fx_black_hole.jpg" alt="Singularität: schwarzes Loch aus Leere + Blitz"></a></td>
+    <td><a href="media/fx_frost.jpg"><img src="media/fx_frost.jpg" alt="Schockgefroren in der Korallenkathedrale"></a></td>
   </tr>
   <tr>
-    <td><a href="media/bosskampf_hud.jpg"><img src="media/bosskampf_hud.jpg" alt="Bosskampf mit Phasenwechsel"></a></td>
-    <td><a href="media/boss_bohrmutter.jpg"><img src="media/boss_bohrmutter.jpg" alt="Die Bohrmutter"></a></td>
+    <td><a href="media/boss_xal_tuun_phase2.jpg"><img src="media/boss_xal_tuun_phase2.jpg" alt="Xal-Tuun, Phase II"></a></td>
+    <td><a href="media/attack_reef_cage.jpg"><img src="media/attack_reef_cage.jpg" alt="Der Riffkäfig der Brutmutter – ein neuer Gegnerangriff"></a></td>
   </tr>
   <tr>
-    <td><a href="media/versunkene_archive.jpg"><img src="media/versunkene_archive.jpg" alt="Versunkene Archive"></a></td>
-    <td><a href="media/neu_uboot_bullauge.jpg"><img src="media/neu_uboot_bullauge.jpg" alt="Leviathan vor dem Bullauge"></a></td>
+    <td><a href="media/boss_ysmera_phase2.jpg"><img src="media/boss_ysmera_phase2.jpg" alt="Ysmera, die Korallenmutter"></a></td>
+    <td><a href="media/attack_steam_hammer.jpg"><img src="media/attack_steam_hammer.jpg" alt="Das Überdruckkreuz des Dampfhammers"></a></td>
   </tr>
   <tr>
-    <td><a href="media/boss_archivar.jpg"><img src="media/boss_archivar.jpg" alt="Der Archivar"></a></td>
-    <td><a href="media/uboot_tauchkammer.jpg"><img src="media/uboot_tauchkammer.jpg" alt="Tauchkammer im U-Boot"></a></td>
+    <td><a href="media/cards_legendary.jpg"><img src="media/cards_legendary.jpg" alt="Genietete Belohnungskarten: legendäre Wahl"></a></td>
+    <td><a href="media/logbook.jpg"><img src="media/logbook.jpg" alt="Das Logbuch (Tab)"></a></td>
   </tr>
   <tr>
-    <td><a href="media/boss_xal_tuun.jpg"><img src="media/boss_xal_tuun.jpg" alt="Xal-Tuun im Tempelvorhof"></a></td>
-    <td><a href="media/hauptmenue.jpg"><img src="media/hauptmenue.jpg" alt="Hauptmenü"></a></td>
+    <td><a href="media/hud_combat.jpg"><img src="media/hud_combat.jpg" alt="Das neue Messing-HUD"></a></td>
+    <td><a href="media/diving_chamber.jpg"><img src="media/diving_chamber.jpg" alt="Tauchkammer mit Manometer und Hebelschaltern"></a></td>
+  </tr>
+  <tr>
+    <td><a href="media/boss_archivist_phase3.jpg"><img src="media/boss_archivist_phase3.jpg" alt="Der Archivar"></a></td>
+    <td><a href="media/boss_drill_mother_phase2.jpg"><img src="media/boss_drill_mother_phase2.jpg" alt="Die Bohrmutter"></a></td>
+  </tr>
+  <tr>
+    <td><a href="media/coop_vs_xal_tuun.jpg"><img src="media/coop_vs_xal_tuun.jpg" alt="Koop: zwei Tiefgänger gegen Xal-Tuun"></a></td>
+    <td><a href="media/main_menu.jpg"><img src="media/main_menu.jpg" alt="Hauptmenü mit vorbeiziehendem Leviathan"></a></td>
   </tr>
 </table>
 

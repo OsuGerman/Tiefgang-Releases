@@ -56,7 +56,7 @@ All changes: **[CHANGELOG.md](CHANGELOG.md)**
 - **5 bosses and 4 Heralds** – Xal-Tuun, the Drill Mother, Ysmera, the Archivist and the Sleeper’s Ear, plus a Herald for every faction. Each with its own entrance, phase changes, weak points and death sequence.
 - **Nearly 50 enemy types** – Stone Wardens, Drowned Crew, Coral Brood and Drowned Scribes field marksmen, flankers, shield-bearers and colossi, plus affixes, elite fights and the laser fliers.
 - **9 weapons, 6 abilities** – from the Governor via the Keelbreaker and the Tide Blade to the Voice of the Deep, each with an alt-fire, active reload and a mechanic of its own; plus Sentry, Phase Jump, Anchor Slam and more.
-- **95 charms, 42 blessings** – charms stack and combine; blessings bring the elements Tide, Blood, Lightning and Void, complete with reactions, plus 6 Duo Blessings. Absurd builds are actively encouraged.
+- **95 charms, 36 blessings** – charms stack and combine; blessings bring the elements Tide, Blood, Lightning and Void, complete with reactions, plus 6 Duo Blessings. Absurd builds are actively encouraged.
 - **Roguelike runs, 14 depths** – every run assembled anew, stronger room by room, rewards after every arena. A full dive takes about 25–40 minutes, and you can save and resume along the way.
 - **Submarine hub** – Workbench, Research Desk, Weapon Rack, Reliquary Shrine and Codex Shelf.
 - **Dr. Marsh on the radio** – more than 200 radio lines, a Codex of 72 lore entries and a Bestiary entry for every enemy.

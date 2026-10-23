@@ -56,7 +56,7 @@ Alle Änderungen: **[CHANGELOG.de.md](CHANGELOG.de.md)**
 - **5 Bosse und 4 Herolde** – Xal-Tuun, die Bohrmutter, Ysmera, der Archivar und das Ohr des Schläfers, dazu ein Herold je Fraktion. Eigene Auftritte, Phasenwechsel, Schwachstellen und Todes-Sequenzen.
 - **Fast 50 Gegnerarten** – Steinwächter, Ertrunkene Mannschaft, Korallenbrut und Ertrunkene Schreiber mit Schützen, Flankierern, Schildträgern und Kolossen, dazu Affixe, Elite-Kämpfe und die Laser-Flieger.
 - **9 Waffen, 6 Fähigkeiten** – vom Gouverneur über Kielbrecher und Gezeitenklinge bis zur Stimme der Tiefe, jede mit Zweitfeuer, aktivem Nachladen und eigener Mechanik; dazu Wachposten, Phasensprung, Anker-Slam und mehr.
-- **95 Charms, 42 Segen** – Charms stapeln und kombinieren sich, Segen bringen die Elemente Flut, Blut, Blitz und Leere samt Reaktionen, dazu 6 Duo-Segen. Absurde Builds sind ausdrücklich erwünscht.
+- **95 Charms, 36 Segen** – Charms stapeln und kombinieren sich, Segen bringen die Elemente Flut, Blut, Blitz und Leere samt Reaktionen, dazu 6 Duo-Segen. Absurde Builds sind ausdrücklich erwünscht.
 - **Roguelike-Runs mit 14 Tiefen** – jeder Run neu zusammengesetzt, Raum für Raum stärker, Belohnungen nach jeder Arena. Ein voller Tauchgang dauert etwa 25–40 Minuten und lässt sich zwischendurch speichern.
 - **U-Boot-Hub** – Werkbank, Forschungstisch, Waffenständer, Reliquienschrein und Kodex.
 - **Dr. Marsh am Funk** – über 200 Funksprüche, ein Kodex mit 72 Lore-Einträgen und ein Bestiarium zu jedem Gegner.

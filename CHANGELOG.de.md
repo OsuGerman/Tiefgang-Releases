@@ -8,6 +8,16 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 24.10.2026 – Viel schnellere Updates (v2026.10.24.0011-a37c20d1)
+
+### Verbessert
+- **Updates laden nur noch, was sich geändert hat:** statt jedes Mal über 600 MB meist nur wenige MB. Das wirkt ab dem nächsten Update, dieses eine lädt noch einmal vollständig.
+- **Installation in Sekunden:** Beim Beenden werden nur noch Dateien ausgetauscht, statt alles neu zu entpacken.
+- **„Jetzt neu starten“:** Statt eines kleinen Windows-Fensters erscheint eine Vollbild-Ansicht im Spiel-Stil, und das Spiel startet danach direkt wieder in deinem Anzeigemodus.
+
+
+---
+
 ## 23.10.2026 – Neues Hauptmenü, neues HUD, Logbuch statt Tab-Liste (v2026.10.23.2102-8552dda0)
 
 ### Neu

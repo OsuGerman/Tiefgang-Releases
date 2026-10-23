@@ -8,6 +8,16 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 24.10.2026 – Much faster updates (v2026.10.24.0011-a37c20d1)
+
+### Improved
+- **Updates only download what changed:** usually just a few MB instead of more than 600 MB every time. This kicks in from the next update on; this one downloads in full one last time.
+- **Installs in seconds:** When you quit, files are simply swapped instead of everything being unpacked again.
+- **"Restart now":** Instead of a small Windows window you get a fullscreen screen in the game's style, and the game comes straight back in your display mode.
+
+
+---
+
 ## 23.10.2026 – New main menu, new HUD, logbook instead of the Tab list (v2026.10.23.2102-8552dda0)
 
 ### New

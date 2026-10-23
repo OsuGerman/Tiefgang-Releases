@@ -8,6 +8,34 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 23.10.2026 – Neues Hauptmenü, neues HUD, Logbuch statt Tab-Liste (v2026.10.23.2102-8552dda0)
+
+### Neu
+- **Hauptmenü:**
+  - filmische Szene mit Lichtstrahlen, Tiefenschärfe und einem vorbeiziehenden Leviathan
+  - Das Logo taucht aus der Tiefe auf (mit jeder Taste überspringbar).
+  - Die Menüpunkte hängen an einer Tiefenleiste mit gleitendem Tiefenmesser.
+- **U-Boot-Menüs:**
+  - Alle Stationen, Pause, Einstellungen und Dialoge sind aus dunklem Glas mit Messingkante.
+  - Die Druckstufe stellst du in der Tauchkammer an einem Manometer ein, Spielmodi an Hebelschaltern.
+  - Die Einstellungen haben Karteireiter.
+- **HUD:**
+  - Messing-Instrumententafel mit Ziffernrollen für Muscheln, Schlüssel, Splitter und Perlen
+  - Segen und Buffs in Bullaugen
+  - Waffen-Plakette mit Zählwerk und gut sichtbarem Active Reload
+  - Funksprüche von Dr. Marsh als Papierstreifen aus dem Funkgerät
+- **Tab-Übersicht als Logbuch:**
+  - Waffe, Fähigkeit und Werte als Messinstrumente
+  - Element-Kompass mit allen Reaktionen
+  - Charms als Medaillons mit Detailkarte
+- **Neue Einstellungen:** HUD-Größe und HUD-Deckkraft unter Einstellungen › Interface.
+
+### Behoben
+- **Koop:** Dein eigener Koop-Name wurde durch den automatischen Bestenlisten-Namen ersetzt.
+
+
+---
+
 ## 23.10.2026 – Runs zählen automatisch, englische Ersatzsprache (v2026.10.23.1946-85b4722d)
 
 ### Neu

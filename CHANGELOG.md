@@ -8,6 +8,34 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 23.10.2026 – New main menu, new HUD, logbook instead of the Tab list (v2026.10.23.2102-8552dda0)
+
+### New
+- **Main menu:**
+  - cinematic scene with light rays, depth of field and a passing leviathan
+  - The logo rises from the deep (any key skips it).
+  - The menu items hang from a depth gauge with a gliding depth meter.
+- **Submarine menus:**
+  - Every station, the pause menu, settings and dialogs are dark glass with a brass edge.
+  - In the diving chamber you set the pressure level on a manometer and game modes on lever switches.
+  - The settings have index-card tabs.
+- **HUD:**
+  - brass instrument panel with rolling counters for shells, keys, shards and pearls
+  - blessings and buffs in portholes
+  - weapon plate with a counter and a clearly visible active reload
+  - Dr. Marsh's radio messages as paper strips from the radio
+- **Tab overview as a logbook:**
+  - weapon, ability and stats as gauges
+  - element compass with every reaction
+  - charms as medallions with a detail card
+- **New settings:** HUD size and HUD opacity under Settings › Interface.
+
+### Fixed
+- **Co-op:** Your own co-op name was replaced by the automatic leaderboard name.
+
+
+---
+
 ## 23.10.2026 – Runs count automatically, English as fallback language (v2026.10.23.1946-85b4722d)
 
 ### New

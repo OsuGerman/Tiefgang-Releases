@@ -8,6 +8,20 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 23.10.2026 – Runs zählen automatisch, englische Ersatzsprache (v2026.10.23.1946-85b4722d)
+
+### Neu
+- **Online-Bestenliste ohne Rückfrage:**
+  - Gültige Einzelspieler-Runs zählen jetzt automatisch.
+  - Ohne eigenen Namen erscheinst du als „Taucher-1234“.
+  - Beim ersten Mal zeigt der Ergebnisbildschirm einen Hinweis mit Knopf „Name ändern“.
+  - Abschalten geht jederzeit unter Einstellungen › Online.
+  - Wer früher abgelehnt hat, bleibt draußen.
+- **Sprache:** Systeme mit einer anderen Sprache als Deutsch oder Englisch starten jetzt auf Englisch.
+
+
+---
+
 ## 20.10.2026 – Versunkene Archive mit neuem Licht und echtem Nebel (v2026.10.20.2021-591fd0a7)
 
 ### Neu

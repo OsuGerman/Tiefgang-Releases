@@ -8,6 +8,20 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 23.10.2026 – Runs count automatically, English as fallback language (v2026.10.23.1946-85b4722d)
+
+### New
+- **Online leaderboard without a prompt:**
+  - Valid single-player runs now count automatically.
+  - Without a name of your own you appear as "Diver-1234".
+  - The first time, the results screen shows a notice with a "Change name" button.
+  - You can switch it off at any time under Settings › Online.
+  - If you declined earlier, you stay out.
+- **Language:** Systems set to a language other than German or English now start in English.
+
+
+---
+
 ## 20 Oct 2026 – Sunken Archives with new lighting and real fog (v2026.10.20.2021-591fd0a7)
 
 ### New

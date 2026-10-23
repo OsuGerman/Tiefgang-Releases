@@ -1,25 +1,25 @@
 <!doctype html>
-<html lang="de">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TIEFGANG – Tiefsee-Roguelike-Shooter</title>
-<meta name="description" content="TIEFGANG: schneller Ego-Shooter mit Roguelike-Runs in den versunkenen Ruinen der Thalassari. 5 Gebiete, 14 Tiefen, Bosse, Waffen, Charms und Segen. Auf Deutsch und Englisch. A fast first-person roguelike shooter in the sunken ruins of the Thalassari – free Windows test build, in English and German.">
+<title>TIEFGANG – Deep-Sea Roguelike Shooter</title>
+<meta name="description" content="TIEFGANG: a fast first-person roguelike shooter in the sunken ruins of the Thalassari. 5 areas, 14 depths, bosses, weapons, charms and blessings, co-op for 1–4 players. Free Windows test build, in English and German.">
 <meta name="theme-color" content="#061a22">
 <meta property="og:type" content="website">
-<meta property="og:title" content="TIEFGANG – Tiefsee-Roguelike-Shooter · Deep-Sea Roguelike Shooter">
-<meta property="og:description" content="Steig im Messing-Taucheranzug hinab in die Ruinen der Thalassari. Descend in a brass diving suit into the ruins of the Thalassari. Test-Build für Windows · Free Windows test build.">
+<meta property="og:title" content="TIEFGANG – Deep-Sea Roguelike Shooter">
+<meta property="og:description" content="The Pacific, 1887. Descend in a brass diving suit into the ruins of the Thalassari – and assemble a build that has no right to work. Free Windows test build.">
 <meta property="og:image" content="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/promo_wakes_below.jpg">
 <meta property="og:url" content="https://osugerman.github.io/Tiefgang-Releases/">
 <meta name="twitter:card" content="summary_large_image">
 <script>
-// Sprache vor dem ersten Zeichnen festlegen: gespeicherte Wahl, sonst Browsersprache (de* = Deutsch, sonst Englisch)
+// Sprache vor dem ersten Zeichnen festlegen: gespeicherte Wahl (EN/DE-Schalter), sonst immer Englisch (Standard)
 (function () {
   var l = null;
   try { l = window.localStorage.getItem("tiefgang-lang"); } catch (e) { l = null; }
-  if (l !== "de" && l !== "en") l = /^de/i.test(navigator.language || "") ? "de" : "en";
+  if (l !== "de" && l !== "en") l = "en";
   document.documentElement.lang = l;
-  if (l === "en") document.title = "TIEFGANG – Deep-Sea Roguelike Shooter";
+  if (l === "de") document.title = "TIEFGANG – Tiefsee-Roguelike-Shooter";
 })();
 </script>
 <style>
@@ -266,7 +266,7 @@ footer .credits a { color: var(--dim); text-decoration: underline; text-decorati
 </head>
 <body>
 
-<nav class="top" id="nav" data-de-label="Hauptnavigation" data-en-label="Main navigation" aria-label="Hauptnavigation">
+<nav class="top" id="nav" data-de-label="Hauptnavigation" data-en-label="Main navigation" aria-label="Main navigation">
   <a class="brand" href="#top">TIEFGANG</a>
   <div class="right">
     <ul>
@@ -278,10 +278,10 @@ footer .credits a { color: var(--dim); text-decoration: underline; text-decorati
       <li><a href="#download">Download</a></li>
       <li><a href="#feedback">Feedback</a></li>
     </ul>
-    <div class="lang" role="group" aria-label="Sprache · Language">
-      <button type="button" data-set-lang="de" lang="de" aria-pressed="true" title="Deutsch">DE</button>
+    <div class="lang" role="group" aria-label="Language · Sprache">
+      <button type="button" data-set-lang="en" lang="en" aria-pressed="true" title="English">EN</button>
       <span aria-hidden="true">|</span>
-      <button type="button" data-set-lang="en" lang="en" aria-pressed="false" title="English">EN</button>
+      <button type="button" data-set-lang="de" lang="de" aria-pressed="false" title="Deutsch">DE</button>
     </div>
   </div>
 </nav>
@@ -350,7 +350,7 @@ footer .credits a { color: var(--dim); text-decoration: underline; text-decorati
 #tiefgang-presence .tp-detail { color: var(--dim); font-size: 14px; margin-top: 4px; padding-left: 34px; }
 #tiefgang-presence .tp-detail span { white-space: nowrap; }
 </style>
-<section id="tiefgang-presence" data-lang="de" aria-live="polite" hidden>
+<section id="tiefgang-presence" data-lang="en" aria-live="polite" hidden>
   <div class="tp-plaque">
     <div class="tp-main"><span class="tp-dot" id="tp-dot"></span><span id="tp-text"></span></div>
     <div class="tp-detail" id="tp-detail"></div>
@@ -364,7 +364,7 @@ const __tpInit = () => {
   // ============================================================
   const REFRESH_MS = 60000;
   const root = document.getElementById("tiefgang-presence");
-  const lang = document.documentElement.lang === "en" ? "en" : "de";
+  const lang = document.documentElement.lang === "de" ? "de" : "en";
   const T = {
     de: { many: "Taucher gerade in der Tiefe", one: "Taucher allein in der Tiefe", none: "Noch niemand unten – sei der Erste",
       coop: (n, g) => g > 1 ? `Koop ${n} (${g} Gruppen)` : g === 1 ? `Koop ${n} (1 Gruppe)` : `Koop ${n}`,
@@ -435,18 +435,18 @@ new MutationObserver(() => __tpInit()).observe(document.documentElement, { attri
       <span class="eyebrow"><span data-l="de">Neu im Test-Build · Oktober 2026</span><span data-l="en">New in the test build · October 2026</span></span>
       <h2><span data-l="de">Frisch aus der Tiefe</span><span data-l="en">Fresh from the Deep</span></h2>
       <div class="divider" aria-hidden="true"><i></i></div>
-      <p class="lead" data-l="de">Legendäre Charms mit eigenen Mechaniken, 16 neue Segen, neue Gegnermodelle, Raumtüren und ein komplett neu abgemischter Klang. Alle Änderungen stehen im <a href="https://github.com/OsuGerman/Tiefgang-Releases/blob/main/CHANGELOG.md">Changelog</a>.</p>
-      <p class="lead" data-l="en">Legendary charms with mechanics of their own, 16 new blessings, new enemy models and doors, and a completely remixed soundscape. Every change is listed in the <a href="https://github.com/OsuGerman/Tiefgang-Releases/blob/main/CHANGELOG.md">changelog</a> (mostly German).</p>
+      <p class="lead" data-l="de">Legendäre Charms mit eigenen Mechaniken, 16 neue Segen, neue Gegnermodelle, Raumtüren und ein komplett neu abgemischter Klang. Alle Änderungen stehen im <a href="https://github.com/OsuGerman/Tiefgang-Releases/blob/main/CHANGELOG.de.md">Changelog</a>.</p>
+      <p class="lead" data-l="en">Legendary charms with mechanics of their own, 16 new blessings, new enemy models and doors, and a completely remixed soundscape. Every change is listed in the <a href="https://github.com/OsuGerman/Tiefgang-Releases/blob/main/CHANGELOG.md">changelog</a>.</p>
     </div>
     <div class="promo reveal" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin:8px 0 28px">
       <img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/promo_wakes_below.jpg" alt="TIEFGANG – Something wakes below · Roguelike FPS, 1–4 Co-op" loading="lazy" style="width:100%;height:auto;border-radius:10px;border:1px solid rgba(201,162,74,.45);display:block">
-      <img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/promo_builds.jpg" alt="TIEFGANG – Builds that shouldn't work · Free test build" loading="lazy" style="width:100%;height:auto;border-radius:10px;border:1px solid rgba(201,162,74,.45);display:block">
+      <img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/promo_builds.jpg" alt="TIEFGANG – Builds that shouldn’t work · Free test build" loading="lazy" style="width:100%;height:auto;border-radius:10px;border:1px solid rgba(201,162,74,.45);display:block">
     </div>
     <div class="features">
       <article class="card reveal">
         <h3><span data-l="de">NEU: Koop für <span class="num">1–4</span> Taucher</span><span data-l="en">NEW: Co-op for <span class="num">1–4</span> divers</span></h3>
-        <p data-l="de">Taucht gemeinsam: Raumcode teilen, meist ohne Portfreigabe verbinden, eigene Charms und Segen, geteilte Muscheln, gegenseitig wiederbeleben. Mitspieler als echte Messing-Taucher mit Waffen in der Hand, Live-Schaden im HUD. <a href="https://github.com/OsuGerman/Tiefgang-Releases/blob/main/KOOP.md">Koop-Anleitung</a></p>
-        <p data-l="en">Dive together: share a room code, usually connect without port forwarding, pick your own charms and blessings, share shells, revive each other. Teammates appear as real brass divers with weapons in hand, live damage in the HUD. <a href="https://github.com/OsuGerman/Tiefgang-Releases/blob/main/KOOP.md">Co-op guide (German, short English part)</a></p>
+        <p data-l="de">Taucht gemeinsam: Raumcode teilen, meist ohne Portfreigabe verbinden, eigene Charms und Segen, geteilte Muscheln, gegenseitig wiederbeleben. Mitspieler als echte Messing-Taucher mit Waffen in der Hand, Live-Schaden im HUD. <a href="https://github.com/OsuGerman/Tiefgang-Releases/blob/main/KOOP.de.md">Koop-Anleitung</a></p>
+        <p data-l="en">Dive together: share a room code, usually connect without port forwarding, pick your own charms and blessings, share shells, revive each other. Teammates appear as real brass divers with weapons in hand, live damage in the HUD. <a href="https://github.com/OsuGerman/Tiefgang-Releases/blob/main/KOOP.md">Co-op guide</a></p>
       </article>
       <article class="card reveal">
         <h3><span data-l="de"><span class="num">13</span> neue Legendäre</span><span data-l="en"><span class="num">13</span> new legendaries</span></h3>
@@ -461,7 +461,7 @@ new MutationObserver(() => __tpInit()).observe(document.documentElement, { attri
       <article class="card reveal">
         <h3><span data-l="de">Neue Optik und neuer Klang</span><span data-l="en">New look, new sound</span></h3>
         <p data-l="de">Behauene Raumtüren mit glühendem Siegel, eine Felsenpforte im Abgrund, neue Taucher der Ertrunkenen Mannschaft, Messing-Bossleiste und Tastensymbole. Der Klang ist neu abgemischt: Gegner-Warnungen bleiben im Getümmel hörbar, jedes Gebiet klingt anders.</p>
-        <p data-l="en">Carved room doors with glowing seals, a rock gate in the abyss, new divers for the Drowned Crew, a brass boss bar and key-cap prompts. The sound is remixed: enemy warnings cut through the chaos, and every area has its own soundscape.</p>
+        <p data-l="en">Carved room doors with glowing seals, a rock gate in the Abyss, new divers for the Drowned Crew, a brass boss bar and key-cap prompts. The sound is remixed: enemy warnings cut through the chaos, and every area has its own soundscape.</p>
       </article>
       <article class="card reveal">
         <h3><span data-l="de">Nachladen von Hand</span><span data-l="en">Reloading by hand</span></h3>
@@ -489,7 +489,7 @@ new MutationObserver(() => __tpInit()).observe(document.documentElement, { attri
     <div class="divider" aria-hidden="true"><i></i></div>
     <!-- TRAILER -->
     <div class="trailer-frame">
-      <video src="media/tiefgang_trailer.mp4" poster="media/trailer_thumb.jpg" controls preload="metadata" playsinline title="TIEFGANG – Cinematic-Trailer" data-de-title="TIEFGANG – Cinematic-Trailer" data-en-title="TIEFGANG – Cinematic trailer"></video>
+      <video src="media/tiefgang_trailer.mp4" poster="media/trailer_thumb.jpg" controls preload="metadata" playsinline title="TIEFGANG – Cinematic trailer" data-de-title="TIEFGANG – Cinematic-Trailer" data-en-title="TIEFGANG – Cinematic trailer"></video>
     </div>
     <!-- /TRAILER -->
   </div>
@@ -561,17 +561,17 @@ new MutationObserver(() => __tpInit()).observe(document.documentElement, { attri
       </article>
       <article class="card soon reveal">
         <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="16" cy="16" r="6"/><circle cx="32" cy="16" r="6"/><path d="M4 40c0-7 5-12 12-12s12 5 12 12M24 40c0-7 4-12 8-12 7 0 12 5 12 12"/></svg>
-        <h3><span data-l="de">Koop <span class="tag">Im Test</span></span><span data-l="en">Co-op <span class="tag">In testing</span></span></h3>
-        <p data-l="de">Bis zu vier Tiefgänger über LAN oder Internet: gemeinsame Expedition, geteilte Muscheln, Wiederbeleben, Pings und Bosse. Läuft in einem eigenen Test-Build und kommt nach der Abnahme ins Hauptspiel.</p>
-        <p data-l="en">Up to four Deepwalkers over LAN or the internet: a shared expedition, shared shells, revives, pings and bosses. It runs in a separate test build and joins the main game once it has been signed off.</p>
+        <h3><span data-l="de">Koop für <span class="num">1–4</span></span><span data-l="en">Co-op for <span class="num">1–4</span></span></h3>
+        <p data-l="de">Bis zu vier Tiefgänger über LAN oder Internet: gemeinsame Expedition, geteilte Muscheln, Wiederbeleben, Pings und Bosse. Beitreten per Raumcode, meist ohne Portfreigabe.</p>
+        <p data-l="en">Up to four Deepwalkers over LAN or the internet: one shared expedition, shared shells, revives, pings and bosses. Join with a room code – usually no port forwarding needed.</p>
       </article>
     </div>
-    <div class="areas reveal" data-de-label="Die fünf Gebiete" data-en-label="The five areas" aria-label="Die fünf Gebiete">
-      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_tempelvorhof.jpg" alt="Tempelvorhof" data-de-alt="Tempelvorhof" data-en-alt="Temple Forecourt" loading="lazy"><div><b><span data-l="de">Tempelvorhof</span><span data-l="en">Temple Forecourt</span></b><span><span data-l="de">Tiefe</span><span data-l="en">Depth</span> 1–4</span></div></div>
-      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_bohrstation.jpg" alt="Bohrstation" data-de-alt="Bohrstation" data-en-alt="Drilling Station" loading="lazy"><div><b><span data-l="de">Bohrstation</span><span data-l="en">Drilling Station</span></b><span><span data-l="de">Tiefe</span><span data-l="en">Depth</span> 1–4</span></div></div>
-      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_korallenkathedrale.jpg" alt="Korallenkathedrale" data-de-alt="Korallenkathedrale" data-en-alt="Coral Cathedral" loading="lazy"><div><b><span data-l="de">Korallenkathedrale</span><span data-l="en">Coral Cathedral</span></b><span><span data-l="de">Tiefe</span><span data-l="en">Depth</span> 5–8</span></div></div>
-      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_versunkene_archive.jpg" alt="Versunkene Archive" data-de-alt="Versunkene Archive" data-en-alt="Sunken Archives" loading="lazy"><div><b><span data-l="de">Versunkene Archive</span><span data-l="en">Sunken Archives</span></b><span><span data-l="de">Tiefe</span><span data-l="en">Depth</span> 9–12</span></div></div>
-      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_abgrund.jpg" alt="Der Abgrund" data-de-alt="Der Abgrund" data-en-alt="The Abyss" loading="lazy"><div><b><span data-l="de">Der Abgrund</span><span data-l="en">The Abyss</span></b><span><span data-l="de">Tiefe</span><span data-l="en">Depth</span> 13–14</span></div></div>
+    <div class="areas reveal" data-de-label="Die fünf Gebiete" data-en-label="The five areas" aria-label="The five areas">
+      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_tempelvorhof.jpg" alt="Temple Forecourt" data-de-alt="Tempelvorhof" data-en-alt="Temple Forecourt" loading="lazy"><div><b><span data-l="de">Tempelvorhof</span><span data-l="en">Temple Forecourt</span></b><span><span data-l="de">Tiefe</span><span data-l="en">Depth</span> 1–4</span></div></div>
+      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_bohrstation.jpg" alt="Drilling Station" data-de-alt="Bohrstation" data-en-alt="Drilling Station" loading="lazy"><div><b><span data-l="de">Bohrstation</span><span data-l="en">Drilling Station</span></b><span><span data-l="de">Tiefe</span><span data-l="en">Depth</span> 1–4</span></div></div>
+      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_korallenkathedrale.jpg" alt="Coral Cathedral" data-de-alt="Korallenkathedrale" data-en-alt="Coral Cathedral" loading="lazy"><div><b><span data-l="de">Korallenkathedrale</span><span data-l="en">Coral Cathedral</span></b><span><span data-l="de">Tiefe</span><span data-l="en">Depth</span> 5–8</span></div></div>
+      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_versunkene_archive.jpg" alt="Sunken Archives" data-de-alt="Versunkene Archive" data-en-alt="Sunken Archives" loading="lazy"><div><b><span data-l="de">Versunkene Archive</span><span data-l="en">Sunken Archives</span></b><span><span data-l="de">Tiefe</span><span data-l="en">Depth</span> 9–12</span></div></div>
+      <div class="area"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_abgrund.jpg" alt="The Abyss" data-de-alt="Der Abgrund" data-en-alt="The Abyss" loading="lazy"><div><b><span data-l="de">Der Abgrund</span><span data-l="en">The Abyss</span></b><span><span data-l="de">Tiefe</span><span data-l="en">Depth</span> 13–14</span></div></div>
     </div>
   </div>
 </section>
@@ -585,21 +585,21 @@ new MutationObserver(() => __tpInit()).observe(document.documentElement, { attri
     </div>
     <div class="gallery reveal" id="gallery">
       <button class="wide" data-src="promo_wakes_below.jpg" data-de-caption="Something wakes below – Roguelike FPS, Koop für 1–4" data-en-caption="Something wakes below – roguelike FPS, 1–4 co-op"><img alt="" loading="lazy"></button>
-      <button data-src="promo_builds.jpg" data-de-caption="Builds, die eigentlich nicht funktionieren dürften" data-en-caption="Builds that shouldn't work"><img alt="" loading="lazy"></button>
+      <button data-src="promo_builds.jpg" data-de-caption="Builds, die eigentlich nicht funktionieren dürften" data-en-caption="Builds that shouldn’t work"><img alt="" loading="lazy"></button>
       <button data-src="koop_taucher.jpg" data-de-caption="Koop: bis zu vier Tiefgänger, jeder in seiner Farbe" data-en-caption="Co-op: up to four divers, each in their own colour"><img alt="" loading="lazy"></button>
       <button data-src="koop_hud.jpg" data-de-caption="Koop-HUD: Mitspieler-Tafeln mit Live-Schaden, Namensschilder, Pings" data-en-caption="Co-op HUD: teammate panels with live damage, name tags, pings"><img alt="" loading="lazy"></button>
       <button data-src="koop_lobby.jpg" data-de-caption="Koop-Lobby im U-Boot – Code verdeckt, Bereit-Status, Ausrüstung" data-en-caption="Co-op lobby in the submarine – hidden code, ready status, loadouts"><img alt="" loading="lazy"></button>
       <button data-src="neu_legendaer.jpg" data-de-caption="Legendäre Wahl: Ankerminen, Sogkern oder Zeitdehnung" data-en-caption="A legendary choice: Anchor Mines, Gravity Core or Time Dilation"><img alt="" loading="lazy"></button>
       <button data-src="neu_taucher.jpg" data-de-caption="Die Ertrunkene Mannschaft rückt an – Taucher in Messing und eine Rostdrohne" data-en-caption="The Drowned Crew closes in – brass-helmed divers and a rust drone"><img alt="" loading="lazy"></button>
-      <button data-src="neu_abgrund_tor.jpg" data-de-caption="Im Abgrund wacht ein Felsentor mit Auge über die Arena der Herolde" data-en-caption="In the abyss, a rock gate with a watching eye looms over the heralds’ arena"><img alt="" loading="lazy"></button>
+      <button data-src="neu_abgrund_tor.jpg" data-de-caption="Im Abgrund wacht ein Felsentor mit Auge über die Arena der Herolde" data-en-caption="In the Abyss, a rock gate with a watching eye looms over the Heralds’ arena"><img alt="" loading="lazy"></button>
       <button data-src="neu_boss_hud.jpg" data-de-caption="Xal-Tuun erwacht – die Bossleiste glänzt in Messing" data-en-caption="Xal-Tuun awakens – the boss bar gleams in brass"><img alt="" loading="lazy"></button>
       <button data-src="neu_raumtuer.jpg" data-de-caption="Behauene Tempeltür – solange gekämpft wird, glüht das Siegel rot" data-en-caption="A carved temple door – its seal glows red while the fight goes on"><img alt="" loading="lazy"></button>
       <button data-src="neu_nachladen.jpg" data-de-caption="Kielbrecher aufgeklappt, die Hülsen fliegen" data-en-caption="The Keelbreaker snaps open and the shells fly"><img alt="" loading="lazy"></button>
       <button data-src="neu_xaltuun_tod.jpg" data-de-caption="Xal-Tuun zerbricht in glühende Steinblöcke" data-en-caption="Xal-Tuun shatters into glowing blocks of stone"><img alt="" loading="lazy"></button>
       <button data-src="neu_archiv_himmelsglobus.jpg" data-de-caption="Himmelsglobus in den Versunkenen Archiven" data-en-caption="Celestial globe in the Sunken Archives"><img alt="" loading="lazy"></button>
       <button data-src="neu_bohrstation_getriebe.jpg" data-de-caption="Bohrturm-Getriebe in der Bohrstation" data-en-caption="Derrick gearworks in the Drilling Station"><img alt="" loading="lazy"></button>
-      <button data-src="neu_grosse_halle.jpg" data-de-caption="Große Halle mit dem Thron der Steinwächter" data-en-caption="Great hall with the throne of the Stone Wardens"><img alt="" loading="lazy"></button>
-      <button data-src="neu_archiv_kronleuchter.jpg" data-de-caption="Kronleuchter über dem Lesesaal der Archive" data-en-caption="A chandelier above the Archives’ reading hall"><img alt="" loading="lazy"></button>
+      <button data-src="neu_grosse_halle.jpg" data-de-caption="Große Halle mit dem Thron der Steinwächter" data-en-caption="The Great Hall and the throne of the Stone Wardens"><img alt="" loading="lazy"></button>
+      <button data-src="neu_archiv_kronleuchter.jpg" data-de-caption="Kronleuchter über dem Lesesaal der Archive" data-en-caption="A chandelier above the Archives’ Reading Room"><img alt="" loading="lazy"></button>
       <button data-src="neu_uboot_bullauge.jpg" data-de-caption="Leviathan vor dem Bullauge" data-en-caption="A leviathan outside the porthole"><img alt="" loading="lazy"></button>
       <button data-src="neu_uboot_tauchkammer.jpg" data-de-caption="Waffenständer mit Detailkarte und Kernwerten" data-en-caption="Weapon Rack with detail card and core stats"><img alt="" loading="lazy"></button>
       <button data-src="boss_xal_tuun.jpg" data-de-caption="Xal-Tuun im Tempelvorhof" data-en-caption="Xal-Tuun in the Temple Forecourt"><img alt="" loading="lazy"></button>
@@ -682,8 +682,8 @@ new MutationObserver(() => __tpInit()).observe(document.documentElement, { attri
   #tiefgang-leaderboard .hide-s { display: none; }
 }
 </style>
-<section id="tiefgang-leaderboard" data-lang="de" aria-labelledby="tg-title">
-  <h2 id="tg-title">BESTENLISTE</h2>
+<section id="tiefgang-leaderboard" data-lang="en" aria-labelledby="tg-title">
+  <h2 id="tg-title">LEADERBOARD</h2>
   <div class="tg-sub" id="tg-sub"></div>
   <div class="tg-tabs" role="tablist" id="tg-tabs"></div>
   <div class="tg-panel" id="tg-panel" aria-live="polite"></div>
@@ -695,7 +695,7 @@ const __tgInit = () => {
   const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_uRHl-7GgIeLJ14_Qzeh9qA_icbB5GhZ";
   // ============================================================
   const root = document.getElementById("tiefgang-leaderboard");
-  const lang = document.documentElement.lang === "en" ? "en" : "de";
+  const lang = document.documentElement.lang === "de" ? "de" : "en";
   const T = {
     de: { title: "BESTENLISTE", sub: "Bester Run je Taucher · Top 100", fastest: "Schnellster Sieg", pressure: "Höchste Drucktiefe",
       damage: "Meister Schaden", rank: "Rang", diver: "Taucher", time: "Zeit", press: "Druck", depth: "Tiefe", dmg: "Schaden",
@@ -897,14 +897,14 @@ new MutationObserver(() => __tgInit()).observe(document.documentElement, { attri
   </div>
 </footer>
 
-<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Bildansicht" data-de-label="Bildansicht" data-en-label="Image viewer">
-  <button class="lb-btn lb-close" id="lbClose" aria-label="Schließen" data-de-label="Schließen" data-en-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
-  <button class="lb-btn lb-prev" id="lbPrev" aria-label="Vorheriges Bild" data-de-label="Vorheriges Bild" data-en-label="Previous image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 5l-7 7 7 7"/></svg></button>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" data-de-label="Bildansicht" data-en-label="Image viewer">
+  <button class="lb-btn lb-close" id="lbClose" aria-label="Close" data-de-label="Schließen" data-en-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  <button class="lb-btn lb-prev" id="lbPrev" aria-label="Previous image" data-de-label="Vorheriges Bild" data-en-label="Previous image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 5l-7 7 7 7"/></svg></button>
   <figure>
     <img id="lbImg" alt="">
     <figcaption id="lbCap"></figcaption>
   </figure>
-  <button class="lb-btn lb-next" id="lbNext" aria-label="Nächstes Bild" data-de-label="Nächstes Bild" data-en-label="Next image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5l7 7-7 7"/></svg></button>
+  <button class="lb-btn lb-next" id="lbNext" aria-label="Next image" data-de-label="Nächstes Bild" data-en-label="Next image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5l7 7-7 7"/></svg></button>
 </div>
 
 <script>
@@ -915,7 +915,7 @@ new MutationObserver(() => __tgInit()).observe(document.documentElement, { attri
   var TITLES = { de: "TIEFGANG – Tiefsee-Roguelike-Shooter", en: "TIEFGANG – Deep-Sea Roguelike Shooter" };
   // Übersetzte Attribute: data-<sprache>-<schlüssel> → Zielattribut
   var ATTRS = { label: "aria-label", alt: "alt", title: "title", caption: "data-caption" };
-  var lang = document.documentElement.lang === "en" ? "en" : "de";
+  var lang = document.documentElement.lang === "de" ? "de" : "en";
   var release = null;
 
   // Navigation wird beim Scrollen fest hinterlegt
@@ -1006,7 +1006,7 @@ new MutationObserver(() => __tgInit()).observe(document.documentElement, { attri
 
   // Sprache anwenden: Sichtbarkeit läuft über CSS (html[lang]), hier nur Attribute, Titel und Umschalter
   function applyLang(l) {
-    lang = l === "en" ? "en" : "de";
+    lang = l === "de" ? "de" : "en";
     document.documentElement.lang = lang;
     document.title = TITLES[lang];
     Object.keys(ATTRS).forEach(function (key) {

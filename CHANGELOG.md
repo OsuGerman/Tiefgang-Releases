@@ -1,804 +1,805 @@
 # TIEFGANG – Changelog
 
-Alle Test-Builds stehen unter [Releases](https://github.com/OsuGerman/Tiefgang-Releases/releases). Wer das Spiel installiert
-hat, bekommt neue Versionen beim Start im Hauptmenü angeboten. Die Versionsnummer steht unten rechts im Hauptmenü.
-Feedback bitte als [Issue](https://github.com/OsuGerman/Tiefgang-Releases/issues) – mit Versionsnummer, Gebiet und Tiefe.
+Every test build is listed under [Releases](https://github.com/OsuGerman/Tiefgang-Releases/releases). If you have the game installed,
+new versions are offered to you at start-up in the main menu. The version number is shown bottom right in the main menu.
+Please send feedback as an [issue](https://github.com/OsuGerman/Tiefgang-Releases/issues) – with the version number, area and depth.
+
+German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases/blob/main/CHANGELOG.de.md)
 
 ---
 
-## 20.10.2026 – Versunkene Archive mit neuem Licht und echtem Nebel (v2026.10.20.2021-591fd0a7)
+## 20 Oct 2026 – Sunken Archives with new lighting and real fog (v2026.10.20.2021-591fd0a7)
 
-### Neu
-- **Archive mit neuem Look:**
-  - Kerzengold gegen tintenblaues Wasserlicht, Kandelaber an den Glyphensäulen, Kerzen auf Regalen und Bücherstapeln
-  - schwebende Seiten im Lichtschacht, Tintenschwaden am Boden
-  - Lesesaal und Glyphenrund mit gebackenem Licht
+### New
+- **A new look for the Archives:**
+  - candle gold against ink-blue water light, candelabra on the glyph pillars, candles on shelves and stacks of books
+  - pages drifting in the light shaft, wisps of ink along the floor
+  - the Reading Room and the Glyph Rotunda with baked lighting
 
-### Behoben
-- **Nebel in den Archiven** (Tiefe 5–8): Er wirkt jetzt wie Nebel und nicht mehr wie eine flache blaue Schicht. Er streut nur im Licht, die Ferne versinkt tintenblau.
-
-
----
-
-## 20.10.2026 – Neue Gegnerangriffe, neue Auswahl-Karten, kein Wandflimmern mehr (v2026.10.20.2003-a3f96143)
-
-### Neu
-- **Gegner mit neuen Angriffen:** 25 Gegner der bestehenden Gebiete haben neue Signatur-Angriffe.
-  - **Korallen:** Korallensporne versperren den Weg und lassen sich abschießen. Dazu Riffbeben, Sporennetze und der Riffkäfig der Brutwächterin.
-  - **Archive:** Tintenspritzer, Siegelstempel, Seitensturm, Blätterfächer und die Siegelfolge des Siegelbrechers.
-  - **Tempel:** Rudelsprung der Kraklinge, Glutfächer, Glyphenfallen und das Glutraster des Glutkolosses.
-  - **Bohrstation:** Schlickspritzer, Nietenramme, Druckventile und das Überdruck-Kreuz des Dampfhammers.
-  - **Zusammenspiel:** Gefesselte Spieler sind kurz für die Schützen offen. Danach schützt ein kurzer Schutz vor Dauerfesseln.
-  - **Fairness:** Jeder Angriff hat eine klare Warnung und ein Fenster zum Ausweichen und Kontern.
-- **Ertrunkene Flotte überarbeitet** (für den kommenden Schiffsfriedhof): 16 neue Angriffe, darunter Musketier-Salven in Formation, ein Schildwall, Kettenkugeln und eine zweite Phase für den Galionswächter. Dazu neue Modelle.
-- **Neue Auswahl-Karten:**
-  - Charms, Segen, Amboss, Truhe, Boss-Belohnung, Händler, Biom-Wahl und Tauchkammer haben eine eigene TIEFGANG-Optik: genietete Metallkarten, die Seltenheit erkennt man am Metall (Kupfer, Messing, Gold, Silber, Rost).
-  - Das Symbol sitzt in einem Bullauge, der Text auf altem Papier.
-  - Die Karten fahren animiert ein, kippen beim Darüberfahren und rasten bei der Wahl mit einem Siegel-Stempel ein.
-- **Kreaturen über den Deckenöffnungen:** Im Tempel und bei den Korallen zieht gelegentlich eine Kreatur über dem Lichtschacht vorbei. Ganz selten gibt es dort auch etwas Ungewöhnliches zu entdecken …
-
-### Verbessert
-- **Speicher:** Daten bereits verlassener Gebiete werden freigegeben, das spart 120–380 MB Videospeicher.
-- **Leistung im Kampf:** etwas geringere CPU-Last bei vielen Gegnern.
-
-### Behoben
-- **Flimmern an Wänden** (Z-Fighting) und helle Rahmen an Türen in Gängen.
-- **Walfänger:** Fehler, wenn eingeholte Harpunen schon verschwunden waren.
-- **Elites mit „Robust“:** Die Rüstung lud ständig nach, auch ohne gebrochen zu sein.
-- **Koop – neue Waffen-Mechaniken:** Wurf, Zahnsprung, Einholen, Entladung, Welle und Resonanz wurden beim Mitspieler teils abgewiesen. Jetzt kommen alle Treffer an. Haftgranaten und Widerhaken sind für beide sichtbar.
-- **Wichtig für Koop:** Die Koop-Version ist gestiegen. Beide Spieler brauchen diesen Test-Build.
+### Fixed
+- **Fog in the Archives** (Depths 5–8): it now actually looks like fog instead of a flat blue layer. It only scatters in the light, and the distance sinks into ink blue.
 
 
 ---
 
-## 20.10.2026 – Neue Waffen-Mechaniken, Korallen im neuen Look (v2026.10.20.1855-8d277f28)
+## 20 Oct 2026 – New enemy attacks, new reward cards, no more flickering walls (v2026.10.20.2003-a3f96143)
 
-### Neu
-- **Waffen überarbeitet:** Jede Waffe hat eine eigene Mechanik.
-  - **Kielbrecher:** Wuchtkette. Volltreffer machen den nächsten Schuss stärker. Dazu Wandschlag und Drucksprung.
-  - **Walfänger:** Widerhaken bleiben im Gegner stecken. Einholen zieht alle heran, betäubt sie und reißt die Haken mit Bonusschaden heraus.
-  - **Leuchtfeuer:** Der Fokus springt als Kettenbogen über. Dazu ein Aufladeschuss mit perfektem Timing-Fenster.
-  - **Tiefenbombe:** Haftgranaten legen und als Kette zünden. Volltreffer machen mehr Schaden.
-  - **Zahn des Schläfers:** Der Wurf bleibt im Gegner stecken, danach folgt der Zahnsprung.
-  - **Gezeitenklinge:** Eine perfekte Parade gegen Geschosse schickt eine Welle zum Schützen zurück.
-  - **Stimme der Tiefe:** Wer im Takt läutet, baut Gleichklang auf, bis der Große Glockenschlag kommt.
-  - Der Schaden ist angeglichen, damit sich jede Waffe lohnt. Werftlied und Gouverneur bleiben unverändert.
-- **Korallenkathedrale im neuen Grafik-Standard:**
-  - 10 Räume mit gebackenem Licht
-  - tanzende Kaustik auf Boden und Wänden
-  - leuchtende Korallen in Magenta und Cyan, Bewuchs an den Wänden
-  - Im Lichtschacht zieht ein Manta vorbei.
-- **Biom-Wahl:** Die Karten zeigen echte Bilder der Gebiete.
+### New
+- **Enemies with new attacks:** 25 enemies in the existing areas have new signature attacks.
+  - **Coral:** coral spurs block your path and can be shot down. Plus reef quakes, spore nets and the Brood Matron’s reef cage.
+  - **Archives:** ink splatters, seal stamps, page storms, leaf fans and the Seal Breaker’s seal sequence.
+  - **Temple:** the Kraklings’ pack leap, ember fans, glyph traps and the Ember Colossus’s ember grid.
+  - **Drilling Station:** sludge splatters, rivet rams, pressure valves and the Steam Hammer’s overpressure cross.
+  - **Teamwork:** a player who’s been snared is briefly exposed to the marksmen. After that, a short grace period protects you from being snared over and over.
+  - **Fairness:** every attack has a clear warning and a window to dodge and counter.
+- **Drowned Fleet reworked** (for the upcoming Ship Graveyard): 16 new attacks, including Musketeer volleys in formation, a shield wall, chain shot and a second phase for the Figurehead Warden. New models too.
+- **New reward cards:**
+  - Charms, blessings, the anvil, chests, boss rewards, the trader, Biome Choice and the Diving Chamber all have their own TIEFGANG look: riveted metal cards, with rarity shown by the metal (copper, brass, gold, silver, rust).
+  - The icon sits in a porthole, the text on old paper.
+  - Cards slide in with an animation, tilt when you hover over them and lock in with a seal stamp when you pick one.
+- **Creatures above the ceiling openings:** in the Temple and the Coral Cathedral, a creature now and then glides past above the light shaft. Very rarely there’s something stranger to spot up there …
 
-### Behoben
-- **Tiefenbombe:** Ihre Explosionen bekamen keine Krits, Segen und Charm-Effekte. Das ist behoben.
-- **Langsame Waffen** (Harpune, Mörser, Glocke, Speer) lösen „bei Treffer“-Segen jetzt fair aus.
-- **Elites mit „Robust“:** Die Rüstung lud viel zu oft nach, auf hohen Druckstufen waren solche Elites kaum zu besiegen.
+### Improved
+- **Memory:** data from areas you’ve already left is freed, saving 120–380 MB of video memory.
+- **Combat performance:** slightly lower CPU load with lots of enemies.
 
-
----
-
-## 20.10.2026 – Neue Wassereffekte und Duo-Optik (v2026.10.20.1612-1042a35c)
-
-### Neu
-- **Flut:**
-  - Flutwellen sind jetzt echte Wasserwellen mit Schaumkrone, durch die man den verzerrten Hintergrund sieht.
-  - Durchnässte Gegner glänzen nass, Rinnsale laufen an ihnen herunter.
-  - Spritzer und Pfützen am Boden.
-  - Der Mahlstrom ist ein Wasserstrudel mit Trichter.
-- **Duo-Segen mit eigener Optik:**
-  - Ereignishorizont entlädt sich mit Blitzen aus dem schwarzen Loch.
-  - Bei Roter Flut wird das Wasser rot.
-  - Der Abgrundstrudel hat einen eigenen Fluch-Takt.
-- **Leitung (Flut + Blitz):** Ein großer Wasserschwall mit Blitzrand.
-- **Boss Admiral Varrow** für den kommenden Schiffsfriedhof ist gebaut. Er ist noch nicht im Spiel.
+### Fixed
+- **Flickering walls** (z-fighting) and bright frames around doors in corridors.
+- **Whaler:** an error when reeled-in harpoons had already disappeared.
+- **Elites with “Sturdy”:** their armour kept recharging, even when it wasn’t broken.
+- **Co-op – new weapon mechanics:** Throw, Tooth Leap, Reel In, Discharge, the tidal wave and Resonance were sometimes rejected for teammates. Now every hit lands. Sticky shells and barbs are visible to both players.
+- **Important for co-op:** the co-op version has gone up. Both players need this test build.
 
 
 ---
 
-## 20.10.2026 – Neuer Spielmodus „Biom-Wahl (Akte)“ zum Ausprobieren (v2026.10.20.1501-e4f78a1b)
+## 20 Oct 2026 – New weapon mechanics, a new look for the Coral Cathedral (v2026.10.20.1855-8d277f28)
 
-### Neu
-- **Biom-Wahl (Akte):**
-  - Ein neuer Spielmodus in der Tauchkammer unter Spielmodi.
-  - Der Run besteht aus 4 Akten à 3 Tiefen plus dem Abgrund, zusammen 14 Tiefen wie bisher.
-  - Nach jedem Akt-Boss wählst du am Portal das nächste Gebiet aus zwei Karten.
-  - Jeder Run besucht alle vier Gebiete und kämpft gegen vier Bosse.
-  - Gleicher Seed und gleiche Wahl ergeben denselben Run.
-  - Im Koop wählt der Host.
-  - Der normale Modus bleibt unverändert, die 10 Druckstufen bleiben gleich.
-- **Wichtig für Koop:** Die Koop-Version ist gestiegen. Beide Spieler brauchen diesen Test-Build.
+### New
+- **Weapons reworked:** every weapon has its own mechanic.
+  - **Keelbreaker:** impact chain. Heavy hits make the next shot stronger. Plus wall slams and blast jumps.
+  - **Whaler:** barbs stay stuck in enemies. Reel In drags them all to you, stuns them and rips the barbs out for bonus damage.
+  - **Beacon:** the focus arcs over as a chain beam. Plus a charged shot with a perfect timing window.
+  - **Depth Bomb:** lay sticky shells and set them off as a chain. Direct hits deal more damage.
+  - **Sleeper’s Tooth:** the thrown spear lodges in the enemy, then comes the Tooth Leap.
+  - **Tide Blade:** a perfect parry against projectiles sends a tidal wave back at the shooter.
+  - **Voice of the Deep:** ring on the beat to build harmony until the Great Toll comes.
+  - Damage has been rebalanced so every weapon is worth taking. Shipyard Song and the Governor are unchanged.
+- **Coral Cathedral in the new graphics standard:**
+  - 10 rooms with baked lighting
+  - dancing caustics on floors and walls
+  - glowing magenta and cyan coral, growth on the walls
+  - a manta ray glides past in the light shaft.
+- **Biome Choice:** the cards now show real images of the areas.
 
-
----
-
-## 20.10.2026 – Der ganze Tempel im neuen Look (v2026.10.20.1353-3cdf2d52)
-
-### Neu
-- **Tempel komplett im neuen Grafik-Standard:** 13 weitere Kampf- und Eliteräume haben jetzt gebackenes Licht, Decals und Nebel.
-  - Der Eingang des Beckenplatzes ist nicht mehr flächig orange.
-  - Die liegende Säule in der Einsturzhalle ist jetzt eine echte kannelierte Säule.
-  - Glyphen und Kristalle leuchten 30 % stärker.
-- **Schiffsfriedhof (in Arbeit, noch nicht spielbar):**
-  - 5 weitere Räume: Lazarettschiff, Ballastschacht, Rammsporn-Arena, Kapitänskajüte und Kartenraum
-  - Schott-Türen
-  - die Gefahr „morsche Planken“: Sie brechen nach einer Warnung weg, auch unter Gegnern.
+### Fixed
+- **Depth Bomb:** its explosions didn’t get crits, blessings or charm effects. Fixed.
+- **Slow weapons** (harpoon, mortar, bell, spear) now trigger “on hit” blessings fairly.
+- **Elites with “Sturdy”:** their armour recharged far too often – on high pressure levels these elites were almost impossible to beat.
 
 
 ---
 
-## 20.10.2026 – Koop: Mitspieler sehen alle Angriffs-Warnungen (v2026.10.20.1316-25ae2224)
+## 20 Oct 2026 – New water effects and a look for Duo Blessings (v2026.10.20.1612-1042a35c)
 
-### Behoben
-- **Koop – Angriffs-Warnungen fehlten beim Mitspieler:**
-  - Der Mitspieler sah bisher nur etwa ein Drittel der Warnungen naher Gegner und fast keine von weiter entfernten.
-  - Jetzt kommen alle an, auch bei schlechter Verbindung.
-- **Koop – kurze Angriffe verpasst:** Kurze Angriffe wie Mörser-Einschläge oder Schockwellen fehlten beim Mitspieler manchmal ganz.
-- **Wichtig:** Die Koop-Version ist gestiegen. Beide Spieler brauchen diesen Test-Build.
-
-
----
-
-## 20.10.2026 – Echte Blitze, neue Ertrunkene Flotte, 7 Tempelräume im neuen Look (v2026.10.20.1115-23f48e8d)
-
-### Neu
-- **Blitze komplett neu:**
-  - dünne, scharf gezackte Bögen mit Seitenästen
-  - Stroboskop-Flackern und kurzes Nachglühen
-  - Einschlag mit Stern und Funken, die abprallen
-  - Der Kettenblitz springt sichtbar von Ziel zu Ziel.
-  - Gewitterpuls und Leitung: gezackte Bodenbögen, die über den Boden kriechen
-- **Tempel im neuen Grafik-Standard:**
-  - Große Halle, Säulenhalle, Wächtergrube, Einsturzhalle, Beckenplatz, Kreuzgang und Terrassen mit gebackenem Licht, Decals und Nebel
-  - Im Lichtschacht der Großen Halle zieht ein Leviathan vorbei.
-- **Ertrunkene Flotte vollständig:**
-  - Seepockenbrut (Schwarm aus der Rumpfwand), Kanonier (Mörser, verwundbar beim Nachladen) und Galionswächter (Elite)
-  - Sie kommen mit dem Schiffsfriedhof ins Spiel und sind jetzt noch nicht zu sehen.
+### New
+- **Tide:**
+  - Tide waves are now real water waves with a foamy crest, and you can see the distorted background through them.
+  - Soaked enemies gleam wet, with trickles running down them.
+  - Splashes and puddles on the floor.
+  - The Maelstrom is a whirlpool with a funnel.
+- **Duo Blessings with their own look:**
+  - Event Horizon discharges lightning out of the black hole.
+  - With Red Tide the water turns red.
+  - Abyssal Drain has its own curse pulse.
+- **Conduction (Tide + Lightning):** a big surge of water with a lightning edge.
+- **Boss Admiral Varrow** for the upcoming Ship Graveyard is built. He isn’t in the game yet.
 
 
 ---
 
-## 20.10.2026 – Blitz-Überzug und flüssigere Statuseffekte (v2026.10.20.1009-aaaf8665)
+## 20 Oct 2026 – Try the new game mode “Biome Choice (Acts)” (v2026.10.20.1501-e4f78a1b)
 
-### Neu
-- **Elektrisierte Gegner** zeigen zuckende Blitzadern auf dem Modell.
-- **Blitz:**
-  - Kettenblitze springen sichtbar nacheinander von Ziel zu Ziel.
-  - Einschläge mit Stern, Funkenresten und kurzem Lichtblitz.
-  - Lichtblitze und Funkenreste erst ab der Qualitätsstufe „Hoch“.
-- **Gewitterpuls um den Spieler** ist nur noch ein Bodenring und keine Leuchtwand mehr.
-- **Ertrunkene Flotte:**
-  - Die ersten drei Gegner für den kommenden Schiffsfriedhof sind gebaut: Matrose mit Enterhaken, Musketier mit Pulverdampf und Bootsmann mit Plankenschild.
-  - Im normalen Spiel kommen sie noch nicht vor.
-
-### Verbessert
-- **Status-Überzüge** (Frost, Blut, Leere, Blitz) kosten weniger Leistung: Sie werden über mehrere Bilder verteilt angehängt und teilen sich ein Material.
-- Die Muster der Überzüge haben auf allen Gegnermodellen die richtige Größe.
+### New
+- **Biome Choice (Acts):**
+  - A new game mode in the Diving Chamber under Game Modes.
+  - The run consists of 4 acts of 3 depths each plus the Abyss – 14 depths in total, as before.
+  - After every act boss you pick the next area from two cards at the portal.
+  - Every run visits all four areas and fights four bosses.
+  - The same seed and the same choices give you the same run.
+  - In co-op the host chooses.
+  - The normal mode is unchanged, and the 10 pressure levels stay the same.
+- **Important for co-op:** the co-op version has gone up. Both players need this test build.
 
 
 ---
 
-## 20.10.2026 – Neue Effekte für Frost, Blut und Leere, viele Fehlerbehebungen (v2026.10.20.0816-f9882203)
+## 20 Oct 2026 – The whole Temple in its new look (v2026.10.20.1353-3cdf2d52)
 
-### Neu
+### New
+- **The entire Temple in the new graphics standard:** 13 more combat and elite rooms now have baked lighting, decals and fog.
+  - The entrance to the Basin Plaza is no longer a flat wash of orange.
+  - The fallen pillar in the Collapsed Hall is now a proper fluted column.
+  - Glyphs and crystals glow 30 % brighter.
+- **Ship Graveyard (work in progress, not playable yet):**
+  - 5 more rooms: Hospital Ship, Ballast Shaft, Ram Arena, Captain’s Cabin and Chart Room
+  - bulkhead doors
+  - the “rotten planks” hazard: they give way after a warning, even under enemies.
+
+
+---
+
+## 20 Oct 2026 – Co-op: teammates see every attack warning (v2026.10.20.1316-25ae2224)
+
+### Fixed
+- **Co-op – attack warnings missing for teammates:**
+  - Until now, teammates only saw about a third of the warnings from nearby enemies and almost none from enemies further away.
+  - Now they all come through, even on a poor connection.
+- **Co-op – short attacks missed:** short attacks such as mortar impacts or shockwaves were sometimes missing entirely for teammates.
+- **Important:** the co-op version has gone up. Both players need this test build.
+
+
+---
+
+## 20 Oct 2026 – Real lightning, a new Drowned Fleet, 7 Temple rooms in the new look (v2026.10.20.1115-23f48e8d)
+
+### New
+- **Lightning, completely redone:**
+  - thin, sharply jagged arcs with side branches
+  - strobe flicker and a brief afterglow
+  - impacts with a starburst and sparks that bounce off
+  - Chain lightning visibly jumps from target to target.
+  - Storm Pulse and Conduction: jagged arcs that crawl across the floor
+- **Temple in the new graphics standard:**
+  - Great Hall, Pillared Hall, Warden’s Pit, Collapsed Hall, Basin Plaza, Cloister and Terraces with baked lighting, decals and fog
+  - A leviathan drifts past in the Great Hall’s light shaft.
+- **Drowned Fleet complete:**
+  - Barnacle Brood (a swarm bursting from the hull wall), Cannoneer (mortar, vulnerable while reloading) and Figurehead Warden (elite)
+  - They arrive with the Ship Graveyard and can’t be seen in the game yet.
+
+
+---
+
+## 20 Oct 2026 – Lightning overlay and smoother status effects (v2026.10.20.1009-aaaf8665)
+
+### New
+- **Electrified enemies** show twitching veins of lightning across their models.
+- **Lightning:**
+  - Chain lightning visibly jumps from target to target, one after another.
+  - Impacts with a starburst, lingering sparks and a brief flash of light.
+  - Light flashes and lingering sparks only from the “High” quality preset up.
+- **Storm Pulse around the player** is now just a ring on the floor instead of a glowing wall.
+- **Drowned Fleet:**
+  - The first three enemies for the upcoming Ship Graveyard are built: a Sailor with a grappling hook, a Musketeer wreathed in powder smoke and a Boatswain with a plank shield.
+  - They don’t appear in the normal game yet.
+
+### Improved
+- **Status overlays** (frost, blood, void, lightning) cost less performance: they’re attached over several frames and share one material.
+- The overlay patterns are now the right size on every enemy model.
+
+
+---
+
+## 20 Oct 2026 – New effects for frost, blood and void, lots of fixes (v2026.10.20.0816-f9882203)
+
+### New
 - **Frost:**
-  - Beim Einfrieren wachsen Eiskristalle, und Raureif kriecht von den Füßen hoch, schon ab 3 Stapeln „Durchnässt“ als Vorwarnung.
-  - Ein Frostfleck am Boden schmilzt langsam, und Kältedunst sinkt herab.
-  - Eingefrorene Gegner zerspringen beim Tod in Eissplitter.
-  - Eisschwall lässt Eiszacken entlang des Dash-Wegs aus dem Boden schießen.
-- **Blut:**
-  - Tropfen fallen mit Schwerkraft und hinterlassen Spritzer und Lachen am Boden, die langsam trocknen.
-  - Beim Aderlass werden Blutfäden zum Spieler gezogen.
-  - Blutende Gegner tragen pulsierende Adern.
-- **Leere:**
-  - Treffer ziehen sich erst zusammen und entladen sich dann mit einem Stoßring, der den Raum verzerrt.
-  - Die Singularität ist jetzt ein echtes schwarzes Loch mit Photonenring, Gravitationslinse und geneigter Scheibe.
-  - Schattenranken und ein dunkler Überzug mit violettem Kern.
-- **Status-Überzug:** Statuseffekte sind direkt am Gegner-Modell zu sehen.
-- **Schiffsfriedhof:** Das Modell-Kit für ein kommendes Gebiet ist gebaut. Es ist noch nicht im Spiel.
+  - When an enemy freezes, ice crystals grow and hoarfrost creeps up from its feet – starting at 3 stacks of Soaked as an early warning.
+  - A frost patch on the floor slowly melts, and cold mist sinks down.
+  - Frozen enemies shatter into shards of ice when they die.
+  - Frost Surge makes ice spikes shoot out of the floor along your dash path.
+- **Blood:**
+  - Drops fall with gravity and leave splatters and pools on the floor that slowly dry.
+  - Bloodletting draws threads of blood towards the player.
+  - Bleeding enemies are covered in pulsing veins.
+- **Void:**
+  - Hits first contract, then discharge with a shock ring that warps the room.
+  - The Singularity is now a real black hole with a photon ring, gravitational lensing and a tilted disc.
+  - Shadow tendrils and a dark overlay with a violet core.
+- **Status overlay:** status effects are shown directly on the enemy model.
+- **Ship Graveyard:** the model kit for an upcoming area is built. It isn’t in the game yet.
 
-### Behoben
-- **Phasensprung durch Wände:** In schweren Räumen konnte der Phasensprung die volle Weite durch eine Wand springen.
-- **Schwebende Charms:** Ein nicht geöffneter Charm-Drop wanderte in die nächsten Tiefen mit und hing dort in Wänden.
-- **Resonanzstein in einem Archivraum** stand unter einem Steg und war kaum zu treffen. Steine, Brutsäcke und Anemonen werden jetzt immer frei platziert.
-- **Charm-Texte im Tab-Menü** werden nicht mehr abgeschnitten.
-- **Kodex-Meldung** liegt nicht mehr über der Tab-Übersicht.
-
-
----
-
-## 20.10.2026 – Duo-Segen und kein Ruckler mehr beim ersten Fähigkeits-Einsatz (v2026.10.20.0704-e9deee46)
-
-### Neu
-- **6 Duo-Segen:** Supraleiter, Rote Flut, Abgrundstrudel, Überhitzung, Dunkler Pakt und Ereignishorizont. Jeder verändert eine Element-Reaktion.
-  - Ein Duo erscheint im Segensaltar, sobald du von zwei Elementen je 2 Segen hast, spätestens am dritten Altar.
-  - Es belegt keinen Slot. Höchstens ein Duo je Elementpaar.
-  - Eigene Karte in beiden Elementfarben, ein fünftes Feld „DUO“ in der Slot-Leiste, Symbole im HUD, im Tab-Menü und am Run-Ende sowie ein Kodex-Eintrag.
-  - Funktioniert auch im Koop.
-
-### Behoben
-- **Ruckler beim ersten Einsatz einer Fähigkeit:** Geschosse, Material und Effekte werden jetzt hinter der Ladeblende vorbereitet. Der erste Einsatz ruckelt nicht mehr (vorher bis zu 20 ms).
+### Fixed
+- **Phase Jump through walls:** in tough rooms, Phase Jump could carry you its full distance through a wall.
+- **Floating charms:** an unopened charm drop followed you into the next depths and got stuck in walls there.
+- **A resonance stone in one Archives room** sat under a walkway and was barely possible to hit. Stones, brood sacs and anemones are now always placed in the open.
+- **Charm texts in the Tab menu** are no longer cut off.
+- **The Codex notification** no longer covers the Tab overview.
 
 
 ---
 
-## 20.10.2026 – Neues Licht im Tempel und wichtige Fehlerbehebungen (v2026.10.20.0625-9926e129)
+## 20 Oct 2026 – Duo Blessings, and no more stutter on your first ability use (v2026.10.20.0704-e9deee46)
 
-### Neu
-- **Große Halle im Tempel mit neuem Grafik-Standard:**
-  - gebackenes Licht mit warmen und kalten Lichtinseln
-  - Lichtschacht auf den Thron
-  - Farbabstimmung und Tiefenabsorption
-  - Schmutz, Algen und Risse als Decals
-  - Bodennebel
-  - Das ist der Musterraum für die nächsten Räume.
+### New
+- **6 Duo Blessings:** Superconductor, Red Tide, Abyssal Drain, Overheat, Dark Pact and Event Horizon. Each one changes an element reaction.
+  - A Duo shows up at the blessing altar once you have 2 blessings each from two elements – at the latest by the third altar.
+  - It doesn’t take up a slot. At most one Duo per element pair.
+  - Its own card in both element colours, a fifth “DUO” field in the slot bar, icons in the HUD, in the Tab menu and on the run summary, plus a Codex entry.
+  - Works in co-op too.
 
-### Behoben
-- **Raum ging nicht auf (z. B. Tiefe 11):**
-  - Verschwand ein Gegner, ohne zu sterben, blieb der Raum für immer verschlossen.
-  - Die Gegnerliste wird jetzt laufend bereinigt.
-  - Eine Absicherung gibt einen Raum nach 8 s frei, wenn nachweislich nichts mehr zu tun ist.
-- **Dauerhaft verlangsamt:** Tintenpfütze, Affix-Schwächungen, Tötungsschub und Überdruck konnten für immer hängen bleiben. Man war dann dauerhaft auf 65 % Tempo oder kam nach dem Archivar nicht durch die Tür.
-- **Fehler bei Bodenwarnungen:** Eine Mine eines bereits toten Gegners verursachte einen Skriptfehler und es fehlte der Warnkreis.
+### Fixed
+- **Stutter on the first use of an ability:** projectiles, materials and effects are now prepared behind the loading screen. The first use no longer stutters (previously up to 20 ms).
 
 
 ---
 
-## 18.10.2026 – Klügere Charm-Auswahl (v2026.10.18.1729-15c7c148)
+## 20 Oct 2026 – New lighting in the Temple and important fixes (v2026.10.20.0625-9926e129)
 
-### Verbessert
-- **Element-Charms nur mit passender Elementquelle:**
-  - Rotglut, Sturmbatterie, Hungrige Gezeit, Flutmarke, Leerenhunger, Sättigung, Katalysator, Kritische Masse, Reaktionspanzer und Kettenreaktion erscheinen erst, wenn du einen passenden Segen, einen Element-Charm, Prisma der Tiefe oder Phasensprung hast.
-  - Reaktions-Charms brauchen zwei Elemente.
-- **Keine Karten mehr, die einen eigenen Segen abschalten:** Mit Kühlmantel kommt kein Ewiges Magazin, mit Letztes Blut kein Glasherz.
-- **Berserkerventil** wird nicht angeboten, solange der Zahn des Schläfers ausgerüstet ist.
-- **Der Forschungs-Startcharm** passt jetzt zu Waffen und Fähigkeit.
-- **Resonanzkern** zeigt, dass weitere Stapel das Intervall verkürzen. Glasherz sagt jetzt klar: Heilung wirkt nicht mehr.
+### New
+- **The Temple’s Great Hall in the new graphics standard:**
+  - baked lighting with warm and cold pools of light
+  - a light shaft falling on the throne
+  - colour grading and depth absorption
+  - grime, algae and cracks as decals
+  - ground fog
+  - This is the template room for the rooms to come.
+
+### Fixed
+- **Room wouldn’t open (e.g. Depth 11):**
+  - If an enemy vanished without dying, the room stayed locked forever.
+  - The enemy list is now cleaned up continuously.
+  - A safety net opens a room after 8 s once there’s demonstrably nothing left to do.
+- **Permanently slowed:** ink puddles, affix debuffs, the kill rush and Overpressure could get stuck forever. You were then permanently at 65 % speed, or couldn’t get through the door after the Archivist.
+- **Error with ground warnings:** a mine from an enemy that was already dead caused a script error, and the warning circle was missing.
+
+
+---
+## 18 Oct 2026 – Smarter charm offers (v2026.10.18.1729-15c7c148)
+
+### Improved
+- **Element charms only with a matching element source:**
+  - Red Glow, Storm Battery, Hungering Tide, Tide Mark, Void Hunger, Saturation, Abyssal Catalyst, Critical Mass, Reactive Plating and Chain Reaction only show up once you have a matching blessing, an element charm, Prism of the Deep or Phase Jump.
+  - Reaction charms need two elements.
+- **No more cards that switch off one of your own blessings:** with Coolant Jacket you won’t be offered Eternal Magazine, with Last Blood no Glass Heart.
+- **Berserker Valve** isn’t offered while the Sleeper’s Tooth is equipped.
+- **The research starting charm** now matches your weapons and ability.
+- **Resonance Core** shows that extra stacks shorten the interval. Glass Heart now says plainly: healing no longer works.
 
 
 ---
 
-## 18.10.2026 – Neue Fähigkeits-Effekte (v2026.10.18.1710-0fe4fc1f)
+## 18 Oct 2026 – New ability effects (v2026.10.18.1710-0fe4fc1f)
 
-### Verbessert
-- **Druckmine:** Sie leuchtet im Flug. Ein Countdown-Ring zeigt den Radius und pulsiert schneller bis zur Detonation, vorher zieht sich ein Ring zusammen. Die Explosion ist ein Wasserwirbel mit Treffer-Stopp, danach bleiben ein Schaumring und eine Blasensäule.
-- **Wachposten:**
-  - Beim Aufbauen erscheint ein Bodenwirbel.
-  - Bei jedem neuen Ziel blitzen Zielstrahl und Fadenkreuz auf.
-  - Das Mündungsfeuer ist ein Stern.
-  - Am Ende flackert der Posten und zieht sich zurück.
-- **Lebenspuls:** Ein kurzer Sog an den Füßen kündigt ihn an, danach folgen die Herzschlag-Wellen und ein Nachleuchten am Boden.
-- **Tiefenruf-Aal:** Ein Ruf-Ring geht dem Auftauchen voraus, Bisse spritzen, und am Ende taucht der Aal in einen Strudel im Boden ab.
-- **Koop:** Mitspieler sehen dieselben Effekte. Der Lebenspuls zeigt beim Mitspieler jetzt die echten Wellen statt einer Kugel.
-- Etwas mehr FPS im Dauerfeuer: Ungenutzte Trefferfunken werden ausgeblendet.
-
-
----
-
-## 18.10.2026 – Charm-Korrekturen (v2026.10.18.1022-51189a3a)
-
-### Behoben
-- **Leeres Gelübde:** Heilkugeln, Ampullen, Händler-Heilung und der Heilschrein heilen jetzt wirklich nicht mehr. Heilung durch Kills, Lebensraub, Lebenspuls und den Koop-Partner bleibt erlaubt. Der Text nennt das jetzt genau.
-- **Zweiter Wachposten mit Sechsfacher Posten:** Beide addieren sich jetzt (7 Geschütze), statt dass der zweite Charm nichts bewirkt.
-- **Tiefenstrom** zählte die Zeitlupe von Zeitdehnung fälschlich als +150 % Schaden.
-- **Vampirmessing** und **Kleiner Funke** wirken jetzt korrekt.
-
-### Verbessert
-- **Keine nutzlosen Karten mehr:**
-  - Nachlade-Charms erscheinen nur, wenn man eine Fernkampfwaffe trägt.
-  - Heil- und Wenig-Leben-Charms erscheinen nicht zusammen mit Glasherz, Schild-Charms nicht mit dem Berserkerventil.
-  - Segen, deren Auslöser nie greifen kann, werden nicht mehr angeboten.
-- Die Build-Übersicht zeigt bei Chance-Charms den echten gestapelten Wert.
+### Improved
+- **Pressure Mine:** it glows in flight. A countdown ring shows the radius and pulses faster and faster until it goes off, with a ring contracting just before. The blast is a whirl of water with hit-stop, leaving a ring of foam and a column of bubbles behind.
+- **Sentry:**
+  - A swirl appears on the ground as it deploys.
+  - Every time it picks a new target, its aiming beam and crosshair flash.
+  - The muzzle flash is a star.
+  - When it runs out, the sentry flickers and retracts.
+- **Life Pulse:** a brief pull at your feet announces it, followed by the heartbeat waves and an afterglow on the ground.
+- **Call of the Deep eel:** a calling ring comes before it surfaces, its bites splash, and at the end the eel dives into a whirlpool in the floor.
+- **Co-op:** teammates see the same effects. Life Pulse now shows the real waves on a teammate instead of a sphere.
+- Slightly higher FPS during sustained fire: unused hit sparks are hidden.
 
 
 ---
 
-## 18.10.2026 – Neue Element- und Legendär-Effekte (v2026.10.18.0211-17047554)
+## 18 Oct 2026 – Charm fixes (v2026.10.18.1022-51189a3a)
 
-### Verbessert
-- **Element-Effekte komplett neu (#76):**
-  - **Element-Treffer** sind sichtbar, mit einer Form je Element: Blutstropfen, Blitzstern, Leere-Loch, Flutblasen.
-  - **Verbindungen:** verzweigte, flackernde Blitze, durchhängende Blutfäden, fliegende Splitter.
-  - **Wellen je Element:** Wasserwirbel mit Schaum, Blutspritzer-Ring, knisternder Blitzring mit Gabelungen, Leere-Ring, der nach innen kollabiert. Sie erscheinen bei Kill-Ausbreitung, Fähigkeitswelle, Dash-Segen und Dash-Ladung.
-- **Alle 6 Reaktionen** haben einen eigenen Effekt mit kurzem Treffer-Stopp und Kamerawackeln statt der allgemeinen Explosion.
-- **Goldene Signatur für Legendäre:** Ankerminen, Sogkern, Fächerentladung, Prisma der Tiefe, Gegendruckmantel, Spiegelscherben, Wuchtfaust, Zeitdehnung, Blutmotor, Sturmkrone, Kettenreaktion.
-- **Fähigkeiten:** Anker-Slam hat einen Ring beim Abheben, Phasensprung einen Ring bei der Ankunft.
-- Die neuen Effekte kosten keine FPS. Gemessen wurde im direkten Wechsel mit den alten Effekten.
+### Fixed
+- **Hollow Vow:** healing orbs, ampoules, merchant healing and the healing shrine now really stop healing you. Healing from kills, lifesteal, Life Pulse and your co-op partner is still allowed. The description now spells this out.
+- **A second Sentry with Sixfold Watch:** the two now add up (7 turrets) instead of the second charm doing nothing.
+- **Deep Current** wrongly counted Time Dilation’s slow motion as +150 % damage.
+- **Vampire Brass** and **Little Spark** now work correctly.
 
-
----
-
-## 18.10.2026 – Neue Angriffswarnungen (v2026.10.18.0111-7461a0e4)
-
-### Verbessert
-- **Angriffswarnungen am Boden komplett neu (#77):**
-  - Kreise, Linien und Kegel füllen sich sichtbar bis zum Einschlag.
-  - Der Boden darunter wird dunkler, der Rand glüht. Dadurch sind sie auf hellem und dunklem Boden gut zu lesen.
-  - Jede Fraktion hat ein eigenes Muster: Glyphen im Tempel, Warnstreifen und Nieten in der Bohrstation, Adern bei den Korallen, Schrift und Siegel in den Archiven, Dornen im Abgrund.
-  - **Elites** bekommen einen zweiten Ring, **Bosse** eine rotierende Runenkrone.
-  - Beim Einschlag gibt es einen kurzen Blitz mit Druckring.
-  - Tintenpfützen und Schadenszonen nutzen denselben Stil.
+### Improved
+- **No more useless cards:**
+  - Reload charms only appear while you carry a ranged weapon.
+  - Healing and low-health charms don’t appear alongside Glass Heart, shield charms don’t appear alongside Berserker Valve.
+  - Blessings whose trigger can never fire are no longer offered.
+- The build overview shows the real stacked value for chance-based charms.
 
 
 ---
 
-## 17.10.2026 – Controller und Credits (v2026.10.17.1309-56a497c0)
+## 18 Oct 2026 – New element and legendary effects (v2026.10.18.0211-17047554)
 
-### Behoben
-- **Controller hing am Run-Ende fest:** Nach der Bestenlisten-Frage kam der Fokus nicht zurück. Jetzt gilt am Gamepad: Y = Neuer Tauchgang, B/Start = Zum U-Boot, der rechte Stick blättert durch die Spalten.
-- **B schließt das Pausemenü.** Halte-Abfragen (Forschung, Pause) geben den Fokus nach dem Abbrechen zurück.
-- **Wackeliger Test** stabilisiert (nur intern).
-
-### Neu
-- **Bildschirmtastatur für den Bestenlisten-Namen:** Knopf „Tastatur“ oder A auf dem Feld, in der Teilnahme-Frage und unter Einstellungen → Online.
-- **„Credits & Lizenzen“** im Hauptmenü und unter Einstellungen → Info: alle Mitwirkenden, die Godot-Lizenz, die Koop-Netzwerk-Bibliotheken und die Schriften.
-- **Mehr Controller-Komfort:**
-  - In den Einstellungen wechseln LB und RB die Reiter, lange Reiter scrollen mit dem Fokus mit.
-  - Am Gamepad erscheint die Erklärung des gewählten Elements als kleine Karte.
-  - In der Tastenbelegung bricht ein kurzes B ab, langes Halten belegt B selbst.
-  - Ist in einem Menü nichts gewählt, holt der nächste Tastendruck den Fokus zurück.
+### Improved
+- **Element effects completely redone (#76):**
+  - **Element hits** are visible, with a shape for each element: blood drops, a lightning star, a void hole, tide bubbles.
+  - **Links:** branching, flickering lightning, sagging threads of blood, flying shards.
+  - **Waves per element:** a whirl of water with foam, a ring of blood spatter, a crackling lightning ring with forks, a void ring that collapses inwards. They appear on kill spread, ability waves, dash blessings and dash charge.
+- **All 6 reactions** have their own effect with a short hit-stop and screen shake instead of the generic explosion.
+- **A golden signature for legendaries:** Anchor Mines, Gravity Core, Fan Discharge, Prism of the Deep, Counterpressure Mantle, Mirror Shards, Kinetic Fist, Time Dilation, Blood Engine, Storm Crown, Chain Reaction.
+- **Abilities:** Anchor Slam gets a ring on take-off, Phase Jump a ring on arrival.
+- The new effects cost no FPS. Measured by switching back and forth with the old effects.
 
 
 ---
 
-## 17.10.2026 – Wie viele tauchen gerade? (v2026.10.17.0137-92e8ecd7)
+## 18 Oct 2026 – New attack telegraphs (v2026.10.18.0111-7461a0e4)
 
-### Neu
-- **Live-Spielerzahl im Hauptmenü:** „23 Taucher gerade in der Tiefe“, aufgeschlüsselt nach Gebiet und Koop-Gruppen. Sie wird jede Minute aktualisiert und ist auch auf der Website zu sehen.
-  - Das Spiel sendet nur ein **anonymes Lebenszeichen**: eine zufällige Sitzungs-ID, das Gebiet und ob Solo oder Koop. Namen und IP-Adressen werden nicht gespeichert.
-  - Abschaltbar unter Einstellungen → Online → „Online-Spielerzahl teilen“.
-
-
----
-
-## 17.10.2026 – Hotfix Run-Ende (v2026.10.17.0002-39406e70)
-
-### Behoben
-- **Run-Ende lief aus dem Bild:**
-  - Bei korrumpierten Runs mit mehreren Modi (z. B. Korrumpiert · Wirbelgraben · Druck 3) wurde die Spalte „Portale & Modifikatoren“ rechts abgeschnitten.
-  - Bei vielen Charms lagen die Knöpfe „Neuer Tauchgang“ und „Zum U-Boot“ unter dem Bildschirmrand.
-  - Jetzt bleibt alles im Bild. Die Spalten scrollen bei Bedarf, und die Knöpfe sind immer sichtbar.
-- **Bestenlisten-Plaketten am Run-Ende:** Sie zeigen nur noch Kategorien, in denen dieser Run zählt. Nach einem Tod gibt es also kein „Schnellster Sieg“ mehr.
+### Improved
+- **Ground attack telegraphs completely redone (#77):**
+  - Circles, lines and cones visibly fill up until impact.
+  - The ground beneath darkens and the edge glows, so they read well on both light and dark floors.
+  - Every faction has its own pattern: glyphs in the Temple, hazard stripes and rivets in the Drilling Station, veins among the corals, script and seals in the Archives, thorns in the Abyss.
+  - **Elites** get a second ring, **bosses** a rotating crown of runes.
+  - On impact there is a brief flash with a pressure ring.
+  - Ink puddles and damage zones use the same style.
 
 
 ---
 
-## 15.10.2026 – KOOP ist da (v2026.10.15.2118-32bdde5d)
+## 17 Oct 2026 – Controller and credits (v2026.10.17.1309-56a497c0)
 
-### Neu
-- **Koop für 1–4 Spieler** (Hauptmenü → Koop). Ihr taucht gemeinsam durch alle Gebiete: Gegner, Bosse, Prüfungen und Raumziele werden für alle gleich gespielt.
-  - Jeder Spieler wählt seine **eigenen Charms und Segen**. **Muscheln** sind geteilt.
-  - **Niedergestreckt:** Ihr kriecht und haltet E, um einen Mitspieler wiederzubeleben. Der Run endet erst, wenn alle liegen.
-  - **„Zur Gruppe springen“** bringt Nachzügler zurück zur Gruppe.
-  - **Pings** per Mittelklick markieren Gegner, Orte und Gegenstände.
-- **Verbinden:**
-  - Der Host bekommt einen **Raumcode** (z. B. `ABC-123`). Mitspieler geben ihn ein und verbinden sich meist **ohne Portfreigabe**, auch bei DS-Lite.
-  - Im selben Netz reicht der Lobby-Code. Alternativ gehen IP, UPnP oder VPN.
-  - Die Anleitung liegt bei (`KOOP_ANLEITUNG.md`).
-- **Koop-Lobby im U-Boot:** Spielerliste mit Name, Ausrüstung, Ping und Bereit-Status. Der Code ist standardmäßig verdeckt und kann kopiert werden. Der Host kann Spieler entfernen. Alles ist auch mit Controller und Bildschirmtastatur bedienbar.
-- **Mitspieler als echte Taucher:** Messinganzug mit Kupferhelm, Akzente in der Spielerfarbe, Helm-Metall nach dem gewählten Taucher aus der Garderobe. Die Waffen liegen in beiden Händen. Laufen, Schießen, Nachladen, Schwertkombo, Kriechen und Wiederbeleben sind animiert.
-- **Koop-HUD:**
-  - Mitspieler-Tafeln mit Leben, Schild sowie **Schaden, DPS und Kills live**.
-  - Namensschilder, Pfeile zu Mitspielern außerhalb des Bildes, Wiederbelebe-Ring und ein Overlay mit Ausblut-Zeit.
-  - Am Run-Ende ein Vergleich aller Spieler.
-- **Mitspieler hören:** eigene Waffenklänge, Schritte je Boden, Nachladen, Schildbruch, Hilferufe.
-- **Fähigkeiten sind für alle sichtbar:** Geschütztürme (auch „Sechsfacher Posten“), Minen, Ankerminen, Sog, Anker-Slam, Aal, Lebenspuls.
+### Fixed
+- **Controller stuck at the end of a run:** after the leaderboard prompt, focus never came back. On a gamepad it now works like this: Y = New Dive, B/Start = To the Submarine, the right stick scrolls through the columns.
+- **B closes the pause menu.** Hold prompts (research, pause) give focus back after you cancel.
+- **Flaky test** stabilised (internal only).
 
-### Hinweise
-- Koop-Runs zählen nicht für die Solo-Bestenliste. Eine eigene Koop-Wertung folgt.
-- Zeitdehnung (Legendär) gibt es nur im Solo.
-- Feedback zum Koop bitte als Issue mit „Koop“ im Titel.
+### New
+- **On-screen keyboard for your leaderboard name:** the “Keyboard” button or A on the field, in the opt-in prompt and under Settings → Online.
+- **“Credits & Licences”** in the main menu and under Settings → Info: everyone who contributed, the Godot licence, the co-op networking libraries and the fonts.
+- **More controller comfort:**
+  - In the settings, LB and RB switch tabs, and long tabs scroll along with the focus.
+  - On a gamepad, the explanation for the selected element appears as a small card.
+  - In key bindings, a short press of B cancels; holding it binds B itself.
+  - If nothing is selected in a menu, the next button press brings the focus back.
 
 
 ---
 
-## 14.10.2026 – Online-Bestenliste (v2026.10.14.1956-674cb99f)
+## 17 Oct 2026 – How many are diving right now? (v2026.10.17.0137-92e8ecd7)
 
-### Neu
-- **Online-Bestenliste** (Hauptmenü → Bestenliste) mit vier Ranglisten:
-  - **Schnellster Sieg**
-  - **Höchste Drucktiefe** (korrumpierte Runs)
-  - **Meister Schaden**
-  - **Tagesrun**: alle spielen am selben Tag denselben Seed (Karte in der Tauchkammer).
-- **Ansicht:** Podest für die Top 3, Plätze bis 100 mit Build-Symbolen, deine eigene Zeile immer sichtbar. Am Run-Ende siehst du deinen Platz bzw. „NEUER RANG #X“.
-- **Freiwillig:** Beim ersten Run-Ende fragt das Spiel, ob du mitmachen willst. Unter Einstellungen → Online kannst du deinen Namen ändern oder die Teilnahme abschalten. Gesendet werden nur dein Name, die Run-Werte und eine zufällige Spieler-ID.
-- **Deine bisherigen Runs zählen mit:** Beim Einschalten kannst du deine alten Runs aus der Run-Übersicht und deine Rekorde hochladen.
-
-### Verbessert
-- **Gegner-Knurren nicht mehr im Dauerfeuer:** Jede Angriffswarnung spielt höchstens alle 2 s laut, nähere Gegner und Bosse immer. Reine Stimmungslaute kommen seltener und leiser. Die eigene Waffe ist dadurch wieder etwas lauter.
+### New
+- **Live player count in the main menu:** “23 divers in the deep right now”, broken down by area and co-op groups. It updates every minute and is also shown on the website.
+  - The game only sends an **anonymous heartbeat**: a random session ID, the area, and whether you’re playing solo or co-op. No names or IP addresses are stored.
+  - Can be turned off under Settings → Online → “Share online player count”.
 
 
 ---
 
-## 13.10.2026 – Nacht, großes Update (v2026.10.13.2110-18d62a60)
+## 17 Oct 2026 – Run end hotfix (v2026.10.17.0002-39406e70)
 
-### Neu
-- **13 Legendäre Charms mit eigenen Mechaniken.** Beispiele:
-  - **Ankerminen:** Jeder 3. Dash legt eine Mine.
-  - **Sogkern:** Jeder 5. Kill öffnet einen Sog.
-  - **Letzte Patrone:** Der letzte Schuss trifft ×3.
-  - **Fächerentladung:** Restpatronen feuern als Fächer.
-  - **Zeitdehnung:** Unter 30 % Leben verlangsamt ein Kill die Welt.
-  - Weitere: Prisma der Tiefe, Gegendruckmantel, Sturmkrone, Spiegelscherben, Wuchtfaust, Blutmotor und andere.
-  - Pro Auswahl gibt es höchstens einen Legendären, ab Tiefe 2.
-- **16 neue Segen:** Sie lösen jetzt auch in der Luft, im Nahkampf, beim Nachladen, bei wenig Leben, beim Fähigkeiten-Einsatz und nach dem Dash aus.
-- **24 neue Charms:** Sie stärken Fähigkeiten, Schild und kritische Treffer. Neu ist außerdem die Kategorie **RISIKO** mit Fluchkarten wie Blutschwur und Verfluchte Münze.
-- **Jeder Charm und jeder Segen hat jetzt ein eigenes Symbol.** Die Fähigkeiten haben neue Symbole im Sechseck-Rahmen und einen neuen Q-Slot mit Abklinganzeige.
-- **Nachladen von Hand für alle Waffen:** Kielbrecher, Werftlied, Walfänger, Leuchtfeuer, Tiefenbombe und Stimme der Tiefe nutzen jetzt die bewegliche Stützhand. Jede Waffe hat ein Perfekt- und ein Klemm-Nachladen.
-- **Treffer-Feedback:**
-  - Bei jedem Treffer sprühen Funken, eisblau am Schild, gelb am Schwachpunkt und orange bei Krit.
-  - Explosionen haben einen glühenden Kern.
-  - Das Mündungsfeuer verdeckt das Ziel nicht mehr.
-- **Neue Gegnermodelle der Ertrunkenen Mannschaft:** Taucher in Segeltuchanzügen, Schlickkriecher mit Stielaugen, Rostdrohne mit Mantelpropeller.
-- **Neue Klänge:**
-  - beim Aufheben von Charms
-  - Händler-Gruß und Kaufen
-  - Steintafel lesen
-  - Waffenwechsel
-  - Horn ab Welle 2
-  - Sog vor dem Erscheinen eines Gegners
-- **Eigene Umgebungsklänge** in jedem Gebiet.
-
-### Verbessert
-- **Räume:**
-  - Kreuzgang und Brunnenkreis im Tempel sind neu gestaltet.
-  - Hallen und Galerien haben Rundwege und Plattformen.
-  - Gegner erscheinen nicht mehr direkt vor oder neben der Eingangstür.
-- **Klang im Gefecht:**
-  - Die eigene Waffe behält ihren Wumms.
-  - Bossangriffe sind in der ganzen Arena hörbar.
-  - Die Bossmusik ist lauter.
-- **Leistung mit vielen Gegnern:** Die Gegner-KI rechnet sparsamer, Gegnermodelle bestehen aus weniger Teilen, und das Nachladen kostet weniger Rechenzeit.
-- **Oberfläche:**
-  - Schrein als Kartenansicht.
-  - Kodex-Reiter.
-  - Symbole im Todesbildschirm und im Hauptmenü.
-  - Schließen-Hinweis mit Tastensymbol.
-- **Logbuchseite (Funk-Auftrag):** Die goldene Karte am Boden ist jetzt als Logbuchseite mit Siegel und Beschriftung erkennbar.
-
-### Behoben
-- **Tab-Übersicht:** Nichts überschneidet sich mehr, auch bei sehr vielen Charms und auf 4:3 bzw. 21:9.
-- **Tintenschatten:** Getarnt verrät er sich nicht mehr durch Affix-Symbole, Elite-Name oder Lebensbalken.
-- **Sauberere Schwebeteilchen:** Der Sog zeigt keine weißen Quadrate mehr, und der Heil-Ring ist dünner.
+### Fixed
+- **The run end screen ran off the edge:**
+  - On corrupted runs with several modes (e.g. Corrupted · Maelstrom Trench · Pressure 3), the “Portals & Modifiers” column was cut off on the right.
+  - With lots of charms, the “New Dive” and “To the Submarine” buttons ended up below the edge of the screen.
+  - Now everything stays on screen. The columns scroll when needed, and the buttons are always visible.
+- **Leaderboard badges at the end of a run:** they now only show categories this run actually counts for. So no more “Fastest Victory” after you die.
 
 
 ---
 
-## 13.10.2026 – Abend (v2026.10.13.1609-7a45aa68)
+## 15 Oct 2026 – CO-OP is here (v2026.10.15.2118-32bdde5d)
 
-### Neu
-- **Werftlied-Nachladen neu:** Die Hand ruht am Seitengriff, die Trommel wird gewechselt und das Druckventil aufgedreht.
-- **Neue Raumtüren:** Statt glatter Blöcke gibt es behauene Steintüren mit Siegelscheibe. Ihre Fugen leuchten in der Siegelfarbe: rot verschlossen, gold mit Schlüssel.
-- **Abgrund:** Hinter den Türen der Herold- und Endboss-Arenen steht jetzt eine schwebende Basaltklippe mit Tor statt einer flachen Wand.
-- **Viele neue Klänge:** Raumtür auf und zu, Urnen zerspringen, Glücksventil, eigener „geht nicht“-Ton, Forschung, Schatzschloss, Fähigkeit bereit, eigene Ankündigungen für Laser- und Dampfgegner. Einstellungs- und Pausemenü klicken jetzt.
+### New
+- **Co-op for 1–4 players** (main menu → Co-op). Dive together through every area: enemies, bosses, trials and objectives play out the same for everyone.
+  - Every player picks their **own charms and blessings**. **Shells** are shared.
+  - **Downed:** you crawl, and teammates hold E to revive you. The run only ends once everyone is down.
+  - **“Jump to Group”** brings stragglers back to the group.
+  - **Pings** with the middle mouse button mark enemies, places and items.
+- **Connecting:**
+  - The host gets a **room code** (e.g. `ABC-123`). Teammates enter it and usually connect **without port forwarding**, even on DS-Lite.
+  - On the same network, the lobby code is enough. IP, UPnP or a VPN work as alternatives.
+  - A guide is included (`KOOP_ANLEITUNG.md`).
+- **Co-op lobby in the submarine:** a player list with name, loadout, ping and ready status. The code is hidden by default and can be copied. The host can remove players. Everything works with a controller and the on-screen keyboard too.
+- **Teammates as real divers:** a brass suit with a copper helmet, accents in the player’s colour, and helmet metal matching the diver chosen in the Wardrobe. They hold their weapons in both hands. Running, shooting, reloading, sword combos, crawling and reviving are all animated.
+- **Co-op HUD:**
+  - Teammate panels with health, shield and **live damage, DPS and kills**.
+  - Name tags, arrows pointing to teammates off screen, a revive ring and an overlay with the bleed-out timer.
+  - A comparison of all players at the end of the run.
+- **Hear your teammates:** their own weapon sounds, footsteps per surface, reloads, shield breaks, calls for help.
+- **Abilities are visible to everyone:** turrets (including “Sixfold Watch”), mines, Anchor Mines, the pull, Anchor Slam, the eel, Life Pulse.
 
-### Verbessert
-- **Klangmischung im Gedränge:** Bei vielen Gegnern übersteuert der Ton nicht mehr. Gegner-Ankündigungen sind über dem eigenen Feuer gut hörbar. Die Musik ist etwas lauter.
-- **Oberfläche:**
-  - Tooltips im Spielstil.
-  - Der Controller-Fokus ist auf den Stationskarten klar zu erkennen.
-  - Bossleiste mit Messingrahmen.
-  - Die Zielzeile ist auch auf hellem Grund lesbar.
-  - Echte Tastensymbole bei Interaktion und Belohnungswahl.
-  - Deckendere HUD-Plaketten.
-  - Aufgeräumtes Pausemenü.
-- **Optik:**
-  - Die Glyphenwände im Tempel leuchten in den Zeichen statt als oranges Gitter.
-  - Deckungsmauern in passenden Längen statt gestreckt.
-  - Maschinenblock in der Bohrstation mit Rückseite.
-  - Korallen ohne Zickzack-Ränder.
-  - Riesenmuschel ohne grelle Streifen.
-- **Leistung:**
-  - Mit 80 Gegnern bis zu 45 % mehr FPS (Archive, Abgrund).
-  - Das Nachladen kostet deutlich weniger Rechenzeit.
-- **Archive:** Der Kopist pendelt nicht mehr an der Kartengrube. Gegner werden nicht mehr in die Plattformecke von Glyphenrund zurückgesetzt.
+### Notes
+- Co-op runs don’t count towards the solo leaderboard. A separate co-op ranking will follow.
+- Time Dilation (legendary) is solo only.
+- Please report co-op feedback as an issue with “Co-op” in the title.
 
 
 ---
 
-## 13.10.2026 – Mittag (v2026.10.13.1330-fec547ba)
+## 14 Oct 2026 – Online leaderboard (v2026.10.14.1956-674cb99f)
 
-### Neu
-- **Kielbrecher-Nachladen neu:** Die Hand greift am Vorderschaft, schiebt ein Patronenpaar ein und dreht das Ventilrad. Perfektes Nachladen und Klemme sind sichtbar unterschiedlich.
+### New
+- **Online leaderboard** (main menu → Leaderboard) with four rankings:
+  - **Fastest Victory**
+  - **Deepest Pressure** (corrupted runs)
+  - **Damage Master**
+  - **Daily Run**: everyone plays the same seed on the same day (card in the Diving Chamber).
+- **Layout:** a podium for the top 3, places down to 100 with build icons, and your own row always visible. At the end of a run you see your place or “NEW RANK #X”.
+- **Opt-in:** at the end of your first run, the game asks whether you want to take part. Under Settings → Online you can change your name or turn participation off. Only your name, the run stats and a random player ID are sent.
+- **Your past runs count too:** when you opt in, you can upload your old runs from the Run History and your records.
 
-### Verbessert
-- **Englisch auch in Bosskämpfen:** Alle Bossrufe, Phasenmeldungen und die Archivar-Regeln („LECTURE: …“) sind übersetzt.
-- **Gegner in den Archiven:** Der Kopist pendelt nicht mehr am Bücherstapel hin und her, der Grabwurm steckt nach dem Ausbruch nicht mehr in der Wand.
-
-### Behoben
-- Forschungstisch: Esc oder Controller-B in der Kauf-Abfrage schloss die ganze Station statt nur die Abfrage.
-- Charm-Fund: Die Aufforderung zeigte immer „[V] zerschlagen“. Jetzt steht dort die echte Taste, auch am Controller.
-
-
----
-
-## 13.10.2026 – Hotfix (v2026.10.13.1053-d5254fa2)
-
-### Behoben
-- **Prüfungsraum:** Wurde ein Prüfungsgegner auf besondere Weise entfernt, konnte die Prüfung nicht mehr abgeschlossen werden (Türen blieben zu). Jetzt wird das sauber erkannt. (Notfalls hilft weiterhin: E an der Prüfungstruhe halten = aufgeben.)
+### Improved
+- **Enemy growls no longer nonstop:** each attack warning plays loudly at most every 2 s – nearby enemies and bosses always do. Purely atmospheric sounds come less often and more quietly. Your own weapon is a bit louder again as a result.
 
 
 ---
 
-## 13.10.2026 – Nacht (v2026.10.13.1040-c2ff8406)
+## 13 Oct 2026 – Night – big update (v2026.10.13.2110-18d62a60)
 
-### Neu
-- **Komplett auf Englisch spielbar:** Waffen, Fähigkeiten, alle Charms und Segen, Gegner- und Bossnamen, Funksprüche von Dr. Marsh, Kodex und Lore, Hinweise und Ladebildschirm – Einstellungen → Gameplay → „Sprache · Language“.
-- **Eigene Nachlade-Klänge für den Gouverneur:** Riegel, Dampf, Hülsen, Einsetzen, Snap und Ratschen; perfektes Nachladen klingt satt, eine Klemme hakelig.
-- **Lesbare Zustände:** betäubte Gegner zeigen silberweiße Sterne; große Gegner und Elites leuchten beim Ausholen orange; einheitliche Farben für Elite, Schwachpunkt und Affixe; Gouverneur-Trommel glüht nach dem Fächerfeuer, Werftlied zeigt Überdruck und Überhitzung klar getrennt.
+### New
+- **13 legendary charms with their own mechanics.** For example:
+  - **Anchor Mines:** every 3rd dash drops a mine.
+  - **Gravity Core:** every 5th kill opens a vortex.
+  - **Last Round:** the last shot hits ×3.
+  - **Fan Discharge:** leftover rounds fire as a fan.
+  - **Time Dilation:** below 30 % health, a kill slows down the world.
+  - More: Prism of the Deep, Counterpressure Mantle, Storm Crown, Mirror Shards, Kinetic Fist, Blood Engine and others.
+  - At most one legendary per offer, from Depth 2.
+- **16 new blessings:** they now also trigger in the air, on melee, on reload, at low health, on ability use and after a dash.
+- **24 new charms:** they boost abilities, shields and critical hits. Also new: the **RISK** category with cursed cards such as Blood Oath and Cursed Coin.
+- **Every charm and every blessing now has its own icon.** Abilities get new icons in a hexagonal frame and a new Q slot with a cooldown display.
+- **Hands-on reloads for every weapon:** the Keelbreaker, Shipyard Song, Whaler, Beacon, Depth Bomb and Voice of the Deep now use the moving support hand. Every weapon has a perfect reload and a jammed reload.
+- **Hit feedback:**
+  - Every hit throws sparks – ice blue on shields, yellow on weak points and orange on crits.
+  - Explosions have a glowing core.
+  - The muzzle flash no longer hides your target.
+- **New enemy models for the Drowned Crew:** divers in canvas suits, Sludge Crawlers with eyestalks, a Rust Drone with a ducted propeller.
+- **New sounds:**
+  - picking up charms
+  - merchant greeting and buying
+  - reading stone tablets
+  - switching weapons
+  - a horn from wave 2
+  - a pull before an enemy appears
+- **Ambient sound of its own** in every area.
 
-### Behoben
-- Mittelgroße Gegner (Tafelträger, Schildwächter, Springer, Stachelläufer) blieben an geraden Treppen hängen.
+### Improved
+- **Rooms:**
+  - The Cloister and the Fountain Circle in the Temple have been redesigned.
+  - Halls and galleries have loops and platforms.
+  - Enemies no longer spawn right in front of or next to the entrance door.
+- **Combat audio:**
+  - Your own weapon keeps its punch.
+  - Boss attacks can be heard across the whole arena.
+  - The boss music is louder.
+- **Performance with lots of enemies:** the enemy AI is more economical, enemy models are made of fewer parts, and reloading costs less processing time.
+- **Interface:**
+  - The shrine as a card view.
+  - Codex tabs.
+  - Icons on the death screen and in the main menu.
+  - Close prompt with a key icon.
+- **Logbook page (radio contract):** the golden card on the floor is now recognisable as a logbook page with a seal and lettering.
+
+### Fixed
+- **Tab overview:** nothing overlaps any more, even with lots of charms and at 4:3 or 21:9.
+- **Ink Shade:** while camouflaged, it no longer gives itself away through affix icons, its elite name or its health bar.
+- **Cleaner floating particles:** the pull no longer shows white squares, and the healing ring is thinner.
+
+
+---
+
+## 13 Oct 2026 – Evening (v2026.10.13.1609-7a45aa68)
+
+### New
+- **New Shipyard Song reload:** The hand rests on the side grip while the drum is swapped and the pressure valve is cranked open.
+- **New room doors:** Instead of smooth blocks, there are now hewn stone doors with a seal disc. Their seams glow in the seal’s colour: red when locked, gold when a key opens them.
+- **Abyss:** Behind the doors of the Herald and final boss arenas there is now a floating basalt cliff with a gate instead of a flat wall.
+- **Lots of new sounds:** room doors opening and closing, urns shattering, the luck valve, a dedicated “can’t do that” sound, research, treasure locks, ability ready, and distinct warning cues for laser and steam enemies. The settings and pause menus now click.
+
+### Improved
+- **Sound mix in big fights:** With lots of enemies around, the audio no longer clips. Enemy warning cues cut through your own gunfire clearly. The music is a little louder.
+- **Interface:**
+  - Tooltips in the game’s own style.
+  - Controller focus is easy to see on the station cards.
+  - Boss bar with a brass frame.
+  - The objective line stays readable on bright backgrounds.
+  - Real button icons for interactions and reward choices.
+  - More opaque HUD plaques.
+  - A tidier pause menu.
+- **Visuals:**
+  - The glyph walls in the Temple glow inside the glyphs instead of as an orange grid.
+  - Cover walls come in fitting lengths instead of being stretched.
+  - The machine block in the Drilling Station now has a back side.
+  - Corals without zigzag edges.
+  - Giant clam without harsh stripes.
+- **Performance:**
+  - Up to 45 % more FPS with 80 enemies (Archives, Abyss).
+  - Reloading costs far less processing time.
+- **Archives:** The Copyist no longer paces back and forth at the map pit. Enemies are no longer reset into the platform corner of the Glyph Rotunda.
 
 
 ---
 
-## 13.10.2026 – Abend (v2026.10.13.0837-9611357d)
+## 13 Oct 2026 – Midday (v2026.10.13.1330-fec547ba)
 
-### Neu
-- **English language (Stage A):** Settings → Gameplay → „Sprache · Language“ – menus, settings, HUD, objectives, run end and submarine stations in English, switchable live. Weapons, charms, enemies, radio and codex follow in the next updates.
-- **Revolver-Nachladen komplett neu (Gouverneur):** Die Hand greift jetzt wirklich zu – Riegel, Trommel schwingt aus (Dampf), Hülsen auswerfen, Schnelllader einsetzen und drehen, Trommel zuschlagen, Manometer steigt. Perfektes Nachladen: Trommel schnappt selbst zu, goldener Dampf; Klemme: Lader verkantet und wird nachgerichtet.
+### New
+- **New Keelbreaker reload:** The hand grips the fore-end, slides in a pair of shells and turns the valve wheel. A perfect reload and a jam now look clearly different.
 
-### Verbessert
-- **Weniger Überstrahlen:** Feuerschalen glühen orange statt weiß, kleinere Glow-Höfe an Türen und Portalen; Raumlichter scheinen nicht mehr durch Wände in Nachbarräume.
+### Improved
+- **Boss fights in English too:** Every boss shout, phase announcement and the Archivist’s rules (“LECTURE: …”) is translated.
+- **Enemies in the Archives:** The Copyist no longer paces back and forth at the book stack, and the Grave Worm no longer gets stuck in the wall after bursting out.
 
-### Behoben
-- Bossankündigung blendete manchmal nicht aus.
-- Bestiarium zeigte bei den Laser-Fliegern zu viele Lebenspunkte.
+### Fixed
+- Research Desk: Esc or controller B in the purchase prompt closed the whole station instead of just the prompt.
+- Charm find: The prompt always showed “[V] smash”. It now shows your actual key, on controller too.
+
+
+---
+
+## 13 Oct 2026 – Hotfix (v2026.10.13.1053-d5254fa2)
+
+### Fixed
+- **Trial room:** If a trial enemy was removed in an unusual way, the trial could no longer be completed (the doors stayed shut). This is now detected properly. (As a fallback you can still hold E at the trial chest to give up.)
 
 
 ---
 
-## 13.10.2026 – Update (v2026.10.13.0657-029fd9c7)
+## 13 Oct 2026 – Night (v2026.10.13.1040-c2ff8406)
 
-### Neu
-- **Laser-Flieger ab der 3. Tiefe jedes Gebiets:** Brennglasmotte, Schneiddrohne, Strahlqualle und Brennseite – wenig Leben, aber starke Laser. Eine Ziellinie folgt dir, rastet ein und blinkt, dann feuert der Strahl – mit einem Seitenschritt ausweichbar; höchstens zwei Strahlen gleichzeitig, nie aus dem Rücken.
-- **Klang im U-Boot und unter Wasser:** Im U-Boot klingt alles nach Metallrumpf, unter Wasser dumpf; beim Abtauchen flutet die Kammer hörbar und der Klang blendet um.
-- **Bossmusik intensiver:** treibt ab Phase 1, wird mit jeder Phase dichter, eigener Höhepunkt unter 15 % Boss-Leben, Stinger bei Phasenwechsel und Sieg.
+### New
+- **Fully playable in English:** weapons, abilities, every charm and blessing, enemy and boss names, Dr. Marsh’s radio messages, the Codex and lore, hints and the loading screen – Settings → Gameplay → “Sprache · Language”.
+- **Dedicated reload sounds for the Governor:** latch, steam, casings, loading, snap and ratchet; a perfect reload sounds solid, a jam sounds scratchy.
+- **Readable states:** stunned enemies show silvery-white stars; large enemies and elites glow orange as they wind up; consistent colours for elites, weak points and affixes; the Governor’s cylinder glows after Fan the Hammer, and the Shipyard Song shows overpressure and overheating clearly apart.
 
-### Behoben
-- **Einstellungen:** Fenstermodus passt das Fenster jetzt mit Titelleiste in den Bildschirm; V-Sync begrenzt auch auf Nebenmonitoren mit anderer Bildrate; Auflösung im Vollbild ausgegraut (mit Hinweis); Qualitätsstufen Mittel/Hoch/Ultra sichtbar verschieden; „Hohe Kontraste für Gegner“ deutlich stärker; zweiter Controller und Stick-Deadzone wirken; „Updates automatisch laden“ startet sofort.
+### Fixed
+- Medium-sized enemies (Tablet Bearer, Shield Warden, Leaper, Spike Runner) got stuck on straight staircases.
 
----
-
-## 12.10.2026 – Abend (v2026.10.11.2026-f70be013)
-
-### Neu
-- **Schildbruch „Visier-Riss“:** Bricht der Schild, springt das Helmglas sternförmig von der Trefferseite – Blitz, kurzer Stoß, Glasknacken, Blasen, der Schildbogen zerspringt. Ohne Schild bleibt ein dezenter Riss am Rand (Fadenkreuz bleibt frei); beim Aufladen verheilt er türkis. Abschaltbar unter Barrierefreiheit.
-- **Heilung sichtbarer:** grüner Schwall vom Rand, Funken an den Händen, der Lebensbogen füllt sich sichtbar.
-
-### Verbessert
-- **Fähigkeiten neu gestaltet:** Anker-Slam (kein weißer Bildschirm mehr; Bodenrisse, Schollen, Geisterketten), Phasensprung (violetter Sog, Ankunftsring, Leere-Riss), Druckwellen-Mine (echte Seemine, blinkt vor der Explosion).
-- **Glyphenwände des Herolds der Archive:** Wand aus leuchtenden Glyphenkarten, Lücke mit goldenen Lichtsäulen klar markiert, zerschellt an Wänden.
-- **Hände:** Fingerkuppen sind rund statt abgeschnitten, die Beule am Daumen ist weg.
 
 ---
 
-## 12.10.2026 – Update (v2026.10.11.1540-fc65643e)
+## 13 Oct 2026 – Evening (v2026.10.13.0837-9611357d)
 
-### Neu
-- **Ressourcen erklärt:** Im Tauchgang zeigt das HUD die bereits verdienten Perlen („+N“); **Tab halten** blendet eine Erklärung von Muscheln, Perlen und Kernen ein; Werkbank, Forschungstisch und Schrein zeigen Perlen und Kerne mit Symbol; neuer Kodex-Eintrag unter „Grundlagen“ und ein Hinweis von Dr. Marsh bei der ersten Muschel.
+### New
+- **English language (Stage A):** Settings → Gameplay → “Sprache · Language” – menus, settings, HUD, objectives, run end and submarine stations in English, switchable live. Weapons, charms, enemies, radio and codex follow in the next updates.
+- **Completely new revolver reload (Governor):** The hand really works the gun now – latch, the cylinder swings out (steam), casings eject, speedloader in and twist, cylinder snapped shut, the pressure gauge rises. Perfect reload: the cylinder snaps shut on its own in a puff of golden steam; jam: the loader tilts and has to be straightened.
 
-### Verbessert
-- **Lebenspuls neu:** Der Bildrand pulsiert zweimal wie ein Herzschlag, eine Lebenswelle läuft über den Boden, Lichtteilchen steigen auf.
+### Improved
+- **Less bloom:** fire bowls glow orange instead of white, smaller glow halos around doors and portals; room lights no longer shine through walls into neighbouring rooms.
 
-### Behoben
-- Das Planetarium im Glyphenrund (Archive) ragte beim Drehen in die Deckenbalken.
+### Fixed
+- The boss announcement sometimes didn’t fade out.
+- The Bestiary showed too much health for the laser fliers.
 
----
-
-## 11.10.2026 – Abend (v2026.10.11.1032-ab5a15f9)
-
-### Verbessert
-- **Tiefenruf neu:** statt eines dünnen Strichs eine 5 m lange Geister-Muräne, die aus einem Ring vor dir erscheint, in Kurven kreist und mit offenem Maul zubeißt (Geisterkiefer am Gegner).
-- **Gezeitenklinge flüssig:** keine Sprünge mehr zwischen Kombo-Schlägen, Abwehr und Konter; beim Blocken blitzt keine zweite Klinge mehr auf, beim Ziehen kommt die Klinge sauber ins Bild.
-- **Quest-Einblendung:** Raumziele, Prüfungen und Funk-Aufträge erscheinen kurz groß in der Bildmitte und fliegen dann in die Zielzeile; alle Zieltexte nennen klarer den nächsten Schritt.
-- **Revolver-Nachladen:** Die Stützhand nimmt einen Bogen um die Waffe und steckt deutlich weniger im Griff (ganz sauber ist es noch nicht).
 
 ---
 
-## 11.10.2026 – Update (v2026.10.10.2338-3d33be1f)
+## 13 Oct 2026 – Update (v2026.10.13.0657-029fd9c7)
 
-### Neu
-- **Run-Ende bei korrumpierten Runs:** neue Spalte „Portale & Modifikatoren“ – welches Portal je Tiefe gewählt wurde, ob es das schwere war und welche Modifikatoren darauf lagen (auch in der Run-Übersicht).
+### New
+- **Laser fliers from the third depth of every area:** Burning-Glass Moth, Cutter Drone, Lantern Jelly and Burning Page – low health, but powerful lasers. A targeting line follows you, locks on and flashes, then the beam fires – one sidestep dodges it; never more than two beams at once, and never from behind.
+- **Sound in the submarine and underwater:** Inside the submarine everything sounds like a metal hull, underwater it’s muffled; when you dive, the chamber audibly floods and the sound crossfades.
+- **More intense boss music:** drives from phase 1, thickens with every phase, has its own climax below 15 % boss health, plus stingers on phase changes and victory.
 
-### Verbessert
-- **Kielbrecher:** deutlich wuchtiger im Nahkampf (festes Schrotbild, weniger Streuung, mehr Schaden auf kurze Distanz, kräftigerer Klang und Rückstoß).
-- **Gouverneur:** Linksklick = Präzision (höherer Schwachpunkt-Bonus), Rechtsklick = Fächerfeuer mit Streuung und längerem Nachladen danach („TROMMEL HEISS“).
-- **Werftlied:** Rechtsklick halten = Überdruck mit 30 schnellen Schüssen, danach 2 s Überhitzung; deutlich sichtbar (glühende Läufe, Anzeige „ÜBERDRUCK n/30“).
-- **HUD:** eigene Symbole für Muscheln und Schlüssel; Fähigkeits-Anzeige mit großem Abklingring und gut lesbarer Taste.
-- Todesursachen im Run-Ende lesbar; „Meistgenutzte Waffe“ zeigt nur echte Waffen.
-
-### Behoben
-- Boss-Objekte (Siegel, Riss-Ringe, Eisäcke, Kühltanks, Tempelsteine) blieben nach dem Bosskampf in der nächsten Tiefe stehen.
+### Fixed
+- **Settings:** Windowed mode now fits the window including its title bar on screen; V-Sync also caps correctly on secondary monitors with a different refresh rate; resolution is greyed out in fullscreen (with a hint); quality levels Medium/High/Ultra look visibly different; “High-Contrast Enemies” is much stronger; a second controller and stick deadzone now work; “Download Updates Automatically” takes effect immediately.
 
 ---
 
-## 10.10.2026 – Abend (v2026.10.10.1820-5f2ec06a)
+## 12 Oct 2026 – Evening (v2026.10.11.2026-f70be013)
 
-### Verbessert
-- **Pickups eindeutig:** Muscheln sind jetzt goldene Kammmuscheln, Schlüssel echte Messing-Bartschlüssel – auch aus 10 m im dunklen Raum klar erkennbar.
-- **Glücksventil neu gestaltet:** Kupferkessel mit Handrad, Zifferblatt und drehender Glücksperle.
-- **Gegner stehen auf dem Boden:** Bei 21 Gegnerarten steckten Teile in Animationen im Boden (bis über 2 m beim Tod) – jetzt höchstens wenige Zentimeter.
+### New
+- **Shield break “Visor Crack”:** When your shield breaks, the helmet glass stars outward from the side you were hit – flash, short jolt, cracking glass, bubbles, and the shield arc shatters. Without a shield a subtle crack stays at the edge (the crosshair stays clear); it heals turquoise as the shield recharges. Can be turned off under Accessibility.
+- **More visible healing:** a green surge from the screen edge, sparks on your hands, and the health arc visibly fills up.
 
-### Behoben
-- Der Händler stand mit dem Rücken zum Spieler – jetzt schaut er zum Eingang.
-
----
-
-## 10.10.2026 – Update (v2026.10.10.1015-2318e3fa)
-
-### Verbessert
-- **Ritter (Schildwächter, Steinbeißer-Veteran):** größere Schilde; in Deckung blockt der Schild Treffer von vorn sichtbar, der Schwachpunkt ist dann unsichtbar und nicht treffbar.
-- **Autoupdater:** lädt Updates automatisch im Hintergrund (abschaltbar unter Gameplay), prüft den Download, installiert nur im Hauptmenü, beim Beenden oder beim nächsten Start – nie mitten im Run – und meldet Erfolg oder Fehler. Die neue Technik greift ab dem übernächsten Update.
-
-### Behoben
-- Truhen in Schatzkammern standen quer oder in Wänden (52 Fälle) – jetzt richtig ausgerichtet und frei.
-- Deko lag auf Rohren, Treppen und Kanten (281 Fälle → 7).
-- Ventile der Bohrmutter blieben nach dem Bosskampf in den Räumen der nächsten Tiefe stehen.
-- Oktopus (Krakling): Beine steckten im Boden – jetzt bleiben sie auf dem Boden.
-- Schwert-Push: Kleine Gegner flogen bis zu 20 m weit und schräg in den Boden – jetzt alle gleich weit (6 m) und waagerecht.
+### Improved
+- **Redesigned abilities:** Anchor Slam (no more white screen; ground cracks, chunks of rock, ghostly chains), Phase Jump (violet pull, arrival ring, void rift), Pressure Mine (a proper naval mine that blinks before it explodes).
+- **Glyph walls of the Archives’ Herald:** a wall of glowing glyph cards, the gap clearly marked with golden pillars of light, and it shatters against walls.
+- **Hands:** fingertips are rounded instead of cut off, and the bump on the thumb is gone.
 
 ---
 
-## 09.10.2026 – Update (v2026.10.09.2250-ec874f2a)
+## 12 Oct 2026 – Update (v2026.10.11.1540-fc65643e)
 
-### Neu
-- **Run speichern & fortsetzen:** Im Pausemenü „Speichern & Beenden“, im Hauptmenü „Run fortsetzen · Tiefe N“. Der Run startet am Anfang der gespeicherten Tiefe mit gleichem Build; nach Tod, Aufgeben oder Sieg ist der Spielstand weg.
-- **Run-Übersicht im Hauptmenü:** die letzten 30 Runs mit Zeit, Tiefe, Schaden, größtem Treffer, Ressourcen, Todesursache und Build.
-- **Perfekt nachladen auch mit Linksklick** (Controller: rechter Trigger), frei belegbar unter Einstellungen → Belegung. Der Klick schießt dabei nicht.
+### New
+- **Resources explained:** During a dive the HUD shows the pearls you’ve already earned (“+N”); **hold Tab** to bring up an explanation of shells, pearls and cores; Workbench, Research Desk and Reliquary Shrine show pearls and cores with icons; new Codex entry under “Basics” and a hint from Dr. Marsh at your first shell.
 
-### Verbessert
-- **Aktives Nachladen zuverlässig:** Das Perfekt-Fenster steht beim Start fest und ist bei gleicher Waffe immer gleich. Ein Fehlversuch klemmt kurz (Zeiger rot, Fenster grau) statt den Zeiger zurückzusetzen; Reflex-Drücken direkt nach dem Auto-Nachladen zählt nicht mehr; Hit-Stop hält das Nachladen nicht mehr an.
+### Improved
+- **New Life Pulse:** The screen edge pulses twice like a heartbeat, a wave of life rolls across the floor and motes of light rise up.
 
-### In Arbeit
-- Ritter-Guard/Schild, Oktopus-Arme, Truhen in Wänden, zuverlässigerer Autoupdater.
+### Fixed
+- The planetarium in the Glyph Rotunda (Archives) poked into the ceiling beams while rotating.
 
 ---
 
-## 08.10.2026 – Abend (v2026.10.08.1932-19fa964f)
+## 11 Oct 2026 – Evening (v2026.10.11.1032-ab5a15f9)
 
-### Verbessert
-- **Gouverneur nachladen:** Die linke Hand steckt beim Halten der Trommel und am Schnelllader deutlich weniger im Griff (Eindringen etwa halbiert). Ein ganz kurzer Moment beim Einschieben ist noch nicht ganz sauber.
-- **Forschungstisch:** Perlen und Abyssalit-Kerne bleiben beim Scrollen oben sichtbar; eine Forschung startet erst nach Bestätigung (Knopf halten) – keine versehentlichen Ausgaben mehr.
-
-### Behoben
-- Unsichtbare Tintenschatten nahmen Flächenschaden (Explosionen, Minen) und verrieten so ihre Position.
-
----
-
-## 08.10.2026 – Nachtrag (v2026.10.08.1811-d277d31b)
-
-### Neu
-- **FPS-Anzeige:** Einstellungen → Grafik → „FPS anzeigen“ – Bildrate und Bildzeit oben rechts (türkis = flüssig, gelb, rot = niedrig). Wirkt im Hauptmenü, im U-Boot und in der Expedition.
+### Improved
+- **New Call of the Deep:** instead of a thin line, a 5 m ghost moray emerges from a ring in front of you, circles in curves and bites with its jaws wide open (ghostly jaws on the enemy).
+- **Smoother Tide Blade:** no more jumps between combo strikes, guard and counter; no second blade flashing up while you guard, and the blade comes into view cleanly when drawn.
+- **Objective pop-up:** Objectives, trials and radio contracts briefly appear large in the centre of the screen, then fly into the objective line; all objective texts state the next step more clearly.
+- **Revolver reload:** The support hand now arcs around the gun and clips far less into the grip (not quite perfect yet).
 
 ---
 
-## 08.10.2026 – Testspieler-Update (v2026.10.08.1755-1cae1bb6)
+## 11 Oct 2026 – Update (v2026.10.10.2338-3d33be1f)
 
-### Neu / Verbessert
-- **Run aufgeben mit Sicherheitsabfrage:** kein versehentliches Aufgeben mehr per Leertaste – „Aufgeben“ muss gehalten werden, Fokus steht auf „Abbrechen“.
-- **Q-Fähigkeiten mit fester Mindest-Abklingzeit:** Charms können Abklingzeiten nicht mehr auf fast 0 s drücken. Anker-Slam 20 s (dafür mehr Schaden: 200), Wachposten 22 s; „Zweiter Wachposten“ stellt jetzt ein zusätzliches Geschütz auf.
-- **Geschütze und Zielhilfen ignorieren unsichtbare Gegner** (verraten getarnte Tintenschatten/Papiergeister nicht mehr).
-- **Urnen lassen sich per Dash zerschlagen.**
-- **Glücksventil:** länger halten und kurze Sperre nach jeder Drehung – kein doppeltes Bezahlen mehr.
-- **Neue Modelle:** Ventile („Notdruck ablassen“, mit Handrad, Manometer und Blasen) und Bohrturm („Bohrer schützen“, Kernleuchten zeigt das Leben).
-- **Waffenständer im U-Boot neu:** Waffenliste mit Icons und Detailkarte mit Werten.
-- **Bohrturm in der Bohrstation** nicht mehr durchsichtig.
+### New
+- **Run end for corrupted runs:** a new “Portals & modifiers” column – which portal you took at each depth, whether it was the hard one and which modifiers it carried (in the Run History too).
 
-### Behoben
-- Fadenkreuz wurde bei kleiner Größe teilweise schwarz.
-- Status eines Raums (z. B. „PRÜFUNG“) blieb in anderen Räumen stehen – jetzt nur im jeweiligen Raum.
-- Sichtfeld (FOV) im Pausemenü sofort sichtbar; Untertitel-Größe ändert sich live; Nebel-Qualität bei „Niedrig“ ausgegraut.
+### Improved
+- **Keelbreaker:** much punchier up close (fixed shot pattern, less spread, more damage at short range, beefier sound and recoil).
+- **Governor:** left click = precision (higher weak-point bonus), right click = Fan the Hammer with spread and a longer reload afterwards (“CYLINDER HOT”).
+- **Shipyard Song:** hold right click = overpressure with 30 rapid shots, then 2 s of overheating; clearly visible (glowing barrels, “OVERPRESSURE n/30” readout).
+- **HUD:** dedicated icons for shells and keys; ability display with a large cooldown ring and an easy-to-read key.
+- Causes of death on the run end screen are readable; “Most-used weapon” only lists actual weapons.
 
-### Bekannt / in Arbeit
-- Hand am Revolver clippt beim Nachladen kurz (Ursache gefunden, Fix folgt), Run speichern & fortsetzen, Ritter-Guard, Oktopus-Arme, Truhen in Wänden, zuverlässigerer Autoupdater.
+### Fixed
+- Boss objects (seals, rift rings, egg sacs, coolant tanks, temple stones) stayed behind in the next depth after the boss fight.
 
 ---
 
-## 07.10.2026 – Hotfix (v2026.10.07.1724-bebfbd8f)
+## 10 Oct 2026 – Evening (v2026.10.10.1820-5f2ec06a)
 
-### Behoben
-- **Prüfungsräume: Man konnte eingesperrt bleiben.** Starben die Prüfungsgegner sehr schnell (direkt beim Erscheinen),
-  endete die Prüfung nie und die Tür blieb zu – bei „Nimm keinen Schaden“ und „Nur Nahkampf“ für immer. Die Prüfung
-  erkennt das jetzt zuverlässig.
-- **Neu: Prüfung aufgeben.** Während einer Prüfung an der Prüfungstruhe **E gedrückt halten** – die Prüfung gilt als
-  gescheitert, die Türen öffnen sich. So kommt man immer heraus.
-- Pumpenhalle (Bohrstation): Steuerpult und Manometer standen vor bzw. in der Ausgangstür – jetzt rechts daneben.
+### Improved
+- **Unmistakable pickups:** shells are now golden scallops, keys are proper brass bit keys – easy to spot even from 10 m in a dark room.
+- **Redesigned luck valve:** a copper boiler with a handwheel, a dial and a spinning lucky pearl.
+- **Enemies stand on the ground:** On 21 enemy types, parts sank into the floor during animations (more than 2 m on death) – now it’s a few centimetres at most.
 
----
-
-## 06.10.2026 – Abend-Update (v2026.10.06.1900-00541a6)
-
-### Neu
-- **Sieben neue Gegner-Varianten** ab der zweiten Tiefe jedes Gebiets, jede mit eigenem Angriff, Aussehen, Schwachpunkt
-  und Bestiarium-Eintrag:
-  - Tempel: **Steinbeißer-Veteran** (Schild blockt von vorn, Schild-Ansturm – danach liegt der Kopf frei) und
-    **Splitterspeier** (Splitterfächer, in Wut ein Splitterkranz zum Überspringen)
-  - Bohrstation: **Vorarbeiter** (Dreier-Hieb, sein Pfiff macht Verbündete schneller) und **Überdruck-Kesselträger**
-    (Dampfring in der Nähe, Dampfbomben auf Distanz)
-  - Korallen: **Brutlarve** (teilt sich beim Tod in zwei Larven)
-  - Archive: **Fallenkopist** (legt abschießbare Siegelfallen) und **Bannleser** (langsame, abschießbare Verfolgungskugeln)
-- **Boss-Tode als eigene Sequenz:** Xal-Tuun zerbricht in glühende Steinblöcke, die Bohrmutter überhitzt und stottert
-  aus, Ysmera sinkt ein und ihre Korallen erlöschen, der Archivar löst sich in Seiten und Glyphen auf, das Ohr des
-  Schläfers kippt in den Abgrund – danach steigt Licht auf. Herolde mit eigener, kürzerer Variante.
-- **Bosse wirken lebendiger:** sichtbare Reaktion bei jedem Phasenwechsel (Taumeln, Gebrüll, abplatzende Panzerstücke),
-  getroffene Teile zucken bei schweren Treffern, die Brust atmet, der Kopf folgt dir.
-- **Blickfänge in allen großen Hallen** der Archive und der Bohrstation: Himmelsglobus, Siegelorgel,
-  Kronleuchter-Kaskade, eingesunkene Leserotunde, Regalwand mit umgestürztem Regal; Bohrturm-Getriebe, Brückenkran mit
-  Riesenbohrer, Kesselbatterie, Erzförderband, Druckschleuse, Kühlturm.
-- **Einschläge je Oberfläche:** Stein, Metall, Holz, Koralle, Sand und Kristall haben eigene Partikel, Einschusslöcher und
-  Klänge; Schrot hinterlässt viele kleine Löcher, die Harpune einen Riss, die Tiefenbombe einen Brandfleck, das
-  Leuchtfeuer eine Glühspur. Blasen steigen aus den Löchern.
-
-### Verbessert
-- **Balance (bitte gezielt anspielen!):** Die Schwierigkeit wurde ohne Rechnerlast neu gemessen. Ab Gebiet 2 waren die
-  Kampfräume zu leicht – Gegner haben dort jetzt etwa doppelt (Gebiet 2) bzw. knapp dreimal (Gebiet 3 und 4) so viel Leben.
-  Bosse dauern mit einem normalen Build geschätzt etwa 1–1,5 Minuten; Xal-Tuun, Bohrmutter, Ysmera, Archivar und das Ohr wurden
-  dafür angepasst. **Rückmeldung zu Tiefe 5–11 ist besonders wichtig.**
-- **U-Boot-Stationen öffnen ohne Ruckler:** Tauchkammer vorher bis 100 ms, jetzt rund 5 ms; ebenso Werkbank, Kodex,
-  Forschung, Schießstand, Schrein und Kleiderschrank.
-- **Korallenschiff:** Gegner bleiben nicht mehr im hohlen Rumpf oder an der Reling hängen; Flieger steigen über niedrige
-  Wände.
-
-### Behoben
-- Beuteträger: Der goldene Elite-Name und „◆ BEUTE“ lagen übereinander – jetzt steht nur noch die Beute-Marke.
-- Schutthaufen direkt vor der Portal-Plattform entfernt.
-
-### Bekannt
-- Mit vielen Gegnern in der Bohrstation kann die Bildrate etwas sinken (wird nachgemessen).
-- Koop ist weiter in einem eigenen Test-Build und noch nicht im Hauptspiel.
+### Fixed
+- The merchant stood with his back to the player – he now faces the entrance.
 
 ---
 
-## 06.10.2026 – Nachmittag (v2026.10.06.1636-7aef2ef)
-- **Klügere Gegnergruppen:** Nahkämpfer greifen von mehreren Seiten an statt in einer Reihe, überzählige warten im
-  Halbkreis; höchstens ein Angriff gleichzeitig von hinten; Schützen wechseln nach ein paar Salven die Position und suchen
-  Deckung; Unterstützer bleiben hinter der Front; manche weichen Minen und Wachposten aus oder ziehen sich verwundet kurz
-  zurück; Gruppen „wachen“ mit einem Ruf auf.
-- **Ego-Ansicht lebendiger:** Waffen-Wippen im Schritt-Takt, Neigen beim Seitwärtslaufen, Landung federt je nach Fallhöhe,
-  Atmen im Stand, die Waffe senkt sich vor Wänden, schwere Waffen reagieren träger. Abschaltbar über „Kamera-Wippen“.
-- **Negative Effekte im HUD** (Böswillig, Lähmend, Giftig, Tinte) mit Symbol und Restzeit; Singularitäten stapeln sich
-  nicht mehr.
-- **Balance:** glattere Schwierigkeitskurve, mehr Heilung im Mittelteil, **Heilschrein vor dem Endboss** (Portalraum
-  Tiefe 13), Heilkugeln wachsen mit dem Gebiet, Charm-Seltenheit steigt wieder je Tiefe (war ein Fehler).
-- **Schnellere Menüs:** Belohnungsauswahl, Pausemenü, Händler und Einstellungen öffnen gestuft und ohne Ruckler.
-- **Behoben:** Anker-Slam warf Gegner in Decken; Kodex-Einblendung in der Herold-Pause; Herold-Lore bei alten
-  Spielständen gesperrt; Kodex-Liste mit Controller; Bergungsdrohne verdeckte das Bild; Steinwurm konnte sich unter
-  Brücken unverwundbar eingraben (Softlock).
+## 10 Oct 2026 – Update (v2026.10.10.1015-2318e3fa)
 
-## 06.10.2026 – Mittag (v2026.10.06.1404-484f4bf)
-- **Erst-Hinweise von Dr. Marsh** für neue Spieler (abschaltbar), „NEU“-Marken an den U-Boot-Stationen, Kodex-Reiter
-  „Grundlagen“.
-- **Kodex und Lore:** 72 Lore-Einträge, Bestiarium für alle Gegner, 217 statt rund 60 Funksprüche mit Rückbezügen
-  („Wieder in …“), 12 Steintafeln; Einblendung „Neuer Kodex-Eintrag“.
-- **U-Boot mit Liebe zum Detail:** Tiefenmesser (letzter Tauchgang/Rekord), Trophäenbrett besiegter Bosse, Mannschaftstafel,
-  Logbuch, Wandleitungen mit Dampf und Kondenswasser, Fische und Leviathan vor den Bullaugen, schwingende Lampen – und ein
-  eigenes Klangbett.
-- **Neue Klänge** für Truhen, Portal, Feuerschalen, Gebietsleben, Raumziele und Funk-Aufträge.
-- **5 neue Charms** (Rammsporn, Tiefenkatalysator, Druckentladung, Scharfrichter, Überdruck), häufigere Element-Reaktionen,
-  Anker-Slam mit Sog, Buff-Leiste im HUD.
-- **Waffenlicht:** kein Mint-Schimmer mehr auf dem Gouverneur; Stützhand an Trommeln, schlankere Stulpe.
-- **Boss-Auftritte ruckelfrei** (unter 16 ms); Boss-Arenen beleuchtet, Glimmen aus dem Abgrund.
+### Improved
+- **Knights (Shield Warden, Stone Biter Veteran):** bigger shields; while guarding, the shield visibly blocks hits from the front, and the weak point is then hidden and can’t be hit.
+- **Auto-updater:** downloads updates automatically in the background (can be turned off under Gameplay), verifies the download, installs only in the main menu, on quitting or at the next start – never mid-run – and reports success or failure. The new system kicks in from the update after next.
 
-## 06.10.2026 – Vormittag (v2026.10.06.1027-2e55750 und v2026.10.06.0825-bf3062b)
-- Neue Truhen (Bretter, Beschläge, Inhalt, Öffnungsanimation), Portal mit Runenring, Tresortür, Prüfungstruhe mit Glutsiegel.
-- Wand- und Füll-Licht für große Hallen; besser lesbare Gegner (Fern-Umriss, Affix-Symbole, goldene Elite-Namen).
-- Boss-Feinschliff: neue Füße für Xal-Tuun, Brennkammer der Bohrmutter, Tentakel-Bogen bei Ysmera, Abstand des Archivars;
-  Gegnerteile direkt vor der Kamera werden ausgeblendet.
-- Inspektion mit F für alle Waffen, Kopftreffer am Trainingsdummy, Füße der Gegner bleiben am Boden.
-- Leichterer Einstieg (Tiefe 1–3), erkennbare Drops, große Gegner laufen nicht mehr durchs Schiff.
+### Fixed
+- Chests in treasure vaults stood crooked or inside walls (52 cases) – now properly aligned and clear.
+- Decorations sat on pipes, stairs and ledges (281 cases → 7).
+- The Drill Mother’s valves stayed behind in the rooms of the next depth after the boss fight.
+- Octopus (Krakling): legs poked into the floor – they now stay on the ground.
+- Sword push: small enemies flew up to 20 m and slanted into the ground – now they all fly the same distance (6 m) and level.
 
-## 05.10.2026 (v2026.10.05.0533-34027b5)
-- Revolver mit sichtbaren Patronen und Nachladen mit Hülsen und Schnelllader.
-- Neue Laufzyklen für 14 Gegner, Musik je Boss und Raumtyp mit eigenem Sieges-Thema.
-- Vier neue Raumziele (Sonarboje, Abyssalit-Kerne, Bergungsdrohne, Beuteträger) und Funk-Aufträge je Tiefe.
-- Gebietsleben: Fischschwärme, Quallen, Plankton, Krebse, Muscheln, ein ferner Leviathan.
+---
 
-## 04.10.2026 – Abend (v2026.10.04.2100-1f2e090)
-- Neue Hand und zweite Hand, flüssige Klingen-Kombo; Ysmeras Tentakel, schwebender Xal-Tuun, Bohrkopf.
-- 3D-Seetang, Seeigel-Minen, Thron der Großen Halle; Endscreen nach dem Sieg und Rekord-Tafel im Hauptmenü.
-- Knackigerer Dash, sichtbare Statuseffekte, lebendige Gegner-Animationen, Menüs im Kartenstil mit eigenen Icons.
+## 9 Oct 2026 – Update (v2026.10.09.2250-ec874f2a)
 
-## 04.10.2026 – erster Test-Build (v2026.10.04.1128-68aba1d)
-- Erste öffentliche Testversion mit Auto-Updater.
+### New
+- **Save & resume your run:** “Save & Quit” in the pause menu, “Resume Run · Depth N” in the main menu. The run restarts at the beginning of the saved depth with the same build; after death, abandoning or victory the save is gone.
+- **Run History in the main menu:** your last 30 runs with time, depth, damage, biggest hit, resources, cause of death and build.
+- **Perfect reload with left click too** (controller: right trigger), freely rebindable under Settings → Key Bindings. The click doesn’t fire a shot.
+
+### Improved
+- **Reliable active reload:** The perfect window is fixed at the start and always the same for the same weapon. A miss jams briefly (pointer red, window grey) instead of resetting the pointer; reflex presses right after an auto-reload no longer count; hit-stop no longer pauses the reload.
+
+### In progress
+- Knight guard/shield, octopus arms, chests in walls, a more reliable auto-updater.
+
+---
+
+## 8 Oct 2026 – Evening (v2026.10.08.1932-19fa964f)
+
+### Improved
+- **Governor reload:** The left hand clips far less into the grip while holding the cylinder and the speedloader (clipping roughly halved). One very brief moment while pushing in isn’t quite clean yet.
+- **Research Desk:** Pearls and Abyssalite Cores stay visible at the top while scrolling; research only starts after confirmation (hold the button) – no more accidental spending.
+
+### Fixed
+- Invisible Ink Shades took area damage (explosions, mines) and gave away their position.
+
+---
+
+## 8 Oct 2026 – Addendum (v2026.10.08.1811-d277d31b)
+
+### New
+- **FPS display:** Settings → Graphics → “Show FPS” – frame rate and frame time in the top right (turquoise = smooth, yellow, red = low). Works in the main menu, the submarine and on expeditions.
+
+---
+
+## 8 Oct 2026 – Playtester update (v2026.10.08.1755-1cae1bb6)
+
+### New / Improved
+- **Abandoning a run now asks for confirmation:** no more accidentally giving up with the space bar – “Abandon” has to be held, and focus starts on “Cancel”.
+- **Q abilities with a fixed minimum cooldown:** charms can no longer push cooldowns down to almost 0 s. Anchor Slam 20 s (but more damage: 200), Sentry 22 s; “Second Sentry” now deploys an additional turret.
+- **Turrets and aim assist ignore invisible enemies** (they no longer give away cloaked Ink Shades/Paper Ghosts).
+- **Urns can be smashed with a dash.**
+- **Luck valve:** hold longer, plus a short lockout after every spin – no more paying twice.
+- **New models:** valves (“vent the emergency pressure”, with handwheel, pressure gauge and bubbles) and the drilling rig (“protect the drill”, its core light shows its health).
+- **New Weapon Rack in the submarine:** weapon list with icons and a detail card with stats.
+- **The drilling rig in the Drilling Station** is no longer see-through.
+
+### Fixed
+- The crosshair partly turned black at small sizes.
+- A room’s status (e.g. “TRIAL”) lingered in other rooms – now it only shows in that room.
+- Field of view (FOV) is visible immediately in the pause menu; subtitle size changes live; Fog Quality is greyed out on “Low”.
+
+### Known issues / in progress
+- The hand on the revolver briefly clips during reload (cause found, fix coming), save & resume run, knight guard, octopus arms, chests in walls, a more reliable auto-updater.
+
+---
+
+## 7 Oct 2026 – Hotfix (v2026.10.07.1724-bebfbd8f)
+
+### Fixed
+- **Trial rooms: you could get locked in.** If the trial enemies died very quickly (right as they spawned),
+  the trial never ended and the door stayed shut – forever on “Take no damage” and “Melee only”. The trial
+  now detects this reliably.
+- **New: give up a trial.** During a trial, **hold E** at the trial chest – the trial counts as
+  failed and the doors open. You can always get out this way.
+- Pump Hall (Drilling Station): the control desk and pressure gauge stood in front of / inside the exit door – now they’re to the right of it.
+
+---
+
+## 6 Oct 2026 – Evening update (v2026.10.06.1900-00541a6)
+
+### New
+- **Seven new enemy variants** from the second depth of every area, each with its own attack, look, weak point
+  and Bestiary entry:
+  - Temple: **Stone Biter Veteran** (shield blocks from the front, shield charge – afterwards its head is exposed) and
+    **Shard Spitter** (shard fan; when enraged, a ring of shards to jump over)
+  - Drilling Station: **Foreman** (triple strike, his whistle speeds up his allies) and **Overpressure Boiler Bearer**
+    (steam ring up close, steam bombs at range)
+  - Coral: **Brood Larva** (splits into two larvae on death)
+  - Archives: **Snare Copyist** (lays seal traps you can shoot) and **Hex Reader** (slow homing orbs you can shoot down)
+- **Boss deaths as proper sequences:** Xal-Tuun breaks apart into glowing stone blocks, the Drill Mother overheats and sputters
+  out, Ysmera sinks down as her corals go dark, the Archivist dissolves into pages and glyphs, the Sleeper’s
+  Ear topples into the Abyss – and then light rises. Heralds get their own, shorter version.
+- **Bosses feel more alive:** a visible reaction at every phase change (staggering, roaring, armour plates breaking off),
+  struck parts twitch on heavy hits, the chest breathes, the head follows you.
+- **Eye-catchers in every large hall** of the Archives and the Drilling Station: a celestial globe, a seal organ,
+  a chandelier cascade, a sunken reading rotunda, a wall of shelves with a toppled bookcase; derrick gearworks, a gantry crane with
+  a giant drill bit, a boiler battery, an ore conveyor, a pressure lock, a cooling tower.
+- **Impacts per surface:** stone, metal, wood, coral, sand and crystal each have their own particles, bullet holes and
+  sounds; buckshot leaves lots of small holes, the harpoon a crack, the Depth Bomb a scorch mark, the
+  Beacon a glowing trail. Bubbles rise from the holes.
+
+### Improved
+- **Balance (please test this specifically!):** Difficulty was re-measured without hardware load. From area 2 on, the
+  combat rooms were too easy – enemies there now have roughly double (area 2) or almost triple (areas 3 and 4) the health.
+  With a normal build, bosses should take roughly 1–1.5 minutes; Xal-Tuun, the Drill Mother, Ysmera, the Archivist and the Ear were
+  tuned accordingly. **Feedback on depths 5–11 is especially important.**
+- **Submarine stations open without stutter:** the Diving Chamber used to take up to 100 ms, now around 5 ms; the same goes for the Workbench, Codex,
+  Research, Firing Range, Shrine and Wardrobe.
+- **Coral ship:** enemies no longer get stuck in the hollow hull or on the railing; fliers rise over low
+  walls.
+
+### Fixed
+- Loot carrier: the golden elite name and “◆ LOOT” overlapped – now only the loot marker is shown.
+- Removed a rubble pile right in front of the portal platform.
+
+### Known issues
+- With lots of enemies in the Drilling Station, the frame rate can drop a little (being re-measured).
+- Co-op is still in its own test build and not yet in the main game.
+
+---
+
+## 6 Oct 2026 – Afternoon (v2026.10.06.1636-7aef2ef)
+- **Smarter enemy groups:** melee enemies attack from several sides instead of in a line, extras wait in a
+  semicircle; at most one attack from behind at a time; marksmen change position after a few volleys and look for
+  cover; support enemies stay behind the front line; some dodge mines and Sentries or briefly retreat when wounded;
+  groups “wake up” with a shout.
+- **Livelier first-person view:** weapon bob in step with your stride, tilt when strafing, landings cushion according to fall height,
+  breathing while standing still, the weapon lowers in front of walls, heavy weapons respond more sluggishly. Can be turned off via “Camera Bob”.
+- **Negative effects in the HUD** (Malicious, Crippling, Toxic, Ink) with icon and remaining time; Singularities no longer
+  stack.
+- **Balance:** a smoother difficulty curve, more healing in the middle stretch, **a healing shrine before the final boss** (portal room,
+  depth 13), healing orbs scale with the area, charm rarity rises with depth again (that was a bug).
+- **Faster menus:** reward choice, pause menu, merchant and settings open in stages and without stutter.
+- **Fixed:** Anchor Slam threw enemies into ceilings; Codex pop-up during the Herald pause; Herald lore locked on old
+  saves; Codex list with a controller; the salvage drone blocked the view; the Stone Worm could burrow in invulnerable under
+  bridges (softlock).
+
+## 6 Oct 2026 – Midday (v2026.10.06.1404-484f4bf)
+- **First-time hints from Dr. Marsh** for new players (can be turned off), “NEW” markers on the submarine stations, a “Basics”
+  tab in the Codex.
+- **Codex and lore:** 72 lore entries, a Bestiary for every enemy, 217 radio messages instead of around 60, with callbacks
+  (“Back in …”), 12 stone tablets; a “New Codex entry” pop-up.
+- **A submarine full of detail:** depth gauge (last dive/record), a trophy board of defeated bosses, a crew board,
+  logbook, wall pipes with steam and condensation, fish and a leviathan outside the portholes, swinging lamps – and its
+  own ambient soundscape.
+- **New sounds** for chests, portals, fire bowls, wildlife, objectives and radio contracts.
+- **5 new charms** (Ramming Spur, Abyssal Catalyst, Pressure Release, Executioner, Overpressure), more frequent element reactions,
+  Anchor Slam with a pull, a buff bar in the HUD.
+- **Weapon lighting:** no more mint sheen on the Governor; support hand on the cylinders, slimmer cuff.
+- **Stutter-free boss entrances** (under 16 ms); lit boss arenas, a glow rising from the Abyss.
+
+## 6 Oct 2026 – Morning (v2026.10.06.1027-2e55750 and v2026.10.06.0825-bf3062b)
+- New chests (planks, fittings, contents, opening animation), a portal with a rune ring, a vault door, a trial chest with an ember seal.
+- Wall and fill lighting for large halls; more readable enemies (distance outline, affix icons, golden elite names).
+- Boss polish: new feet for Xal-Tuun, the Drill Mother’s combustion chamber, a tentacle arc for Ysmera, the Archivist’s distance;
+  enemy parts right in front of the camera are hidden.
+- Inspect any weapon with F, headshots on the training dummy, enemies’ feet stay on the ground.
+- Gentler start (depths 1–3), recognisable drops, large enemies no longer walk through the ship.
+
+## 5 Oct 2026 (v2026.10.05.0533-34027b5)
+- Revolver with visible rounds, and a reload with casings and a speedloader.
+- New walk cycles for 14 enemies, music per boss and room type with its own victory theme.
+- Four new objectives (sonar buoy, Abyssalite Cores, salvage drone, loot carrier) and radio contracts per depth.
+- Wildlife: schools of fish, jellyfish, plankton, crabs, shells, a distant leviathan.
+
+## 4 Oct 2026 – Evening (v2026.10.04.2100-1f2e090)
+- New hand and a second hand, a fluid blade combo; Ysmera’s tentacles, a floating Xal-Tuun, the drill head.
+- 3D kelp, sea urchin mines, the throne of the Great Hall; an end screen after victory and a records board in the main menu.
+- Snappier dash, visible status effects, livelier enemy animations, card-style menus with their own icons.
+
+## 4 Oct 2026 – first test build (v2026.10.04.1128-68aba1d)
+- First public test version with auto-updater.

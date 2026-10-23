@@ -1,83 +1,83 @@
-name: Fehler melden
-description: Ein Fehler, Absturz oder Grafikproblem im Test-Build
+name: Bug report
+description: A bug, crash or graphics problem in the test build
 title: "[Bug] "
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Danke fürs Testen! Je genauer die Angaben, desto schneller lässt sich der Fehler finden.
-        Bitte pro Issue nur einen Fehler melden.
+        Thanks for testing! The more precise the details, the faster the bug can be found.
+        Please report only one bug per issue. English or German are both fine.
   - type: input
     id: version
     attributes:
       label: Version
-      description: Steht unten rechts im Hauptmenü, z. B. v2026.10.04.1128-68aba1d
+      description: Shown bottom right in the main menu, e.g. v2026.10.04.1128-68aba1d
       placeholder: v2026.10.04.1128-68aba1d
     validations:
       required: true
   - type: dropdown
     id: area
     attributes:
-      label: Gebiet
+      label: Area
       options:
-        - U-Boot (Hub)
-        - Tempelvorhof
-        - Bohrstation
-        - Korallenkathedrale
-        - Versunkene Archive
-        - Der Abgrund
-        - Hauptmenü / Einstellungen
-        - Weiß nicht
+        - Submarine (hub)
+        - Temple Forecourt
+        - Drilling Station
+        - Coral Cathedral
+        - Sunken Archives
+        - The Abyss
+        - Main menu / Settings
+        - Not sure
     validations:
       required: true
   - type: input
     id: depth
     attributes:
-      label: Tiefe / Raum
-      description: Steht oben links im HUD, z. B. „Tiefe 6 · Raum 2/5“ oder „Bossarena“
-      placeholder: Tiefe 6 · Raum 2/5
+      label: Depth / Room
+      description: Shown top left in the HUD, e.g. “Depth 6 · Room 2/5” or “Boss arena”
+      placeholder: Depth 6 · Room 2/5
   - type: textarea
     id: steps
     attributes:
-      label: Schritte zum Nachstellen
-      description: Was hast du getan, bevor der Fehler auftrat?
+      label: Steps to reproduce
+      description: What did you do before the bug happened?
       placeholder: |
-        1. Run gestartet mit …
-        2. In Tiefe … den Raum … betreten
+        1. Started a run with …
+        2. Entered the room … at depth …
         3. …
     validations:
       required: true
   - type: textarea
     id: expected
     attributes:
-      label: Erwartet
-      description: Was hätte passieren sollen?
+      label: Expected
+      description: What should have happened?
     validations:
       required: true
   - type: textarea
     id: actual
     attributes:
-      label: Tatsächlich
-      description: Was ist stattdessen passiert? Bei Abstürzen bitte auch, ob das Spiel einfror oder sich beendete.
+      label: Actual
+      description: What happened instead? For crashes, please also say whether the game froze or closed.
     validations:
       required: true
   - type: dropdown
     id: frequency
     attributes:
-      label: Wie oft?
+      label: How often?
       options:
-        - Jedes Mal
-        - Manchmal
-        - Einmal
+        - Every time
+        - Sometimes
+        - Once
   - type: textarea
     id: screenshot
     attributes:
-      label: Screenshot oder Video
-      description: Bild oder kurzes Video hier hineinziehen (optional, aber sehr hilfreich).
+      label: Screenshot or video
+      description: Drag an image or a short video in here (optional, but very helpful).
   - type: input
     id: system
     attributes:
       label: System (optional)
-      description: Grafikkarte, Windows-Version, Auflösung
+      description: Graphics card, Windows version, resolution
       placeholder: Windows 11, 2560×1440

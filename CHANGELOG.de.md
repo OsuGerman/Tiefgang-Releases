@@ -8,6 +8,20 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 24.10.2026 – Spieltest-Fixes: Splitter, Atempause, Portale, Einstellungen (v2026.10.24.1716-2c4b2bbe)
+
+### Behoben
+- **Keine überraschende Kartenauswahl mehr beim Laufen:** Der dritte Charm-Splitter hat die Charm-Auswahl sofort geöffnet, auch mitten im Kampf. Jetzt legt er einen Charm-Drop vor deine Füße („3 SPLITTER: CHARM BEREIT“), den du per Interaktion öffnest, wann du willst. ([#110](https://github.com/OsuGerman/Tiefgang-Releases/issues/110))
+- **Atempause zwischen den Herolden zählt herunter:** Der Timer stand die ganze Zeit auf 10 s, jetzt zählt er jede Sekunde herunter. ([#109](https://github.com/OsuGerman/Tiefgang-Releases/issues/109))
+
+### Verbessert
+- **In Portale springen:** Ein Sprung oder Dash in den Wirbel eines Portals bringt dich hindurch, ganz ohne Taste. Davor stehen braucht weiterhin Interaktion. ([#114](https://github.com/OsuGerman/Tiefgang-Releases/issues/114))
+- **Tastenbelegung leichter zu finden:** Der Reiter „Belegung“ steht jetzt direkt neben „Steuerung“ statt versteckt hinter den Reiter-Pfeilen.
+- **Neue Einstellung „Nachladen mit Feuertaste“** (Steuerung): Aus, und die Feuertaste startet weder bei leerem Magazin ein Nachladen noch im Nachladen einen Nachlade-Versuch. ([#111](https://github.com/OsuGerman/Tiefgang-Releases/issues/111))
+
+
+---
+
 ## 24.10.2026 – Viel schnellere Updates (v2026.10.24.0011-a37c20d1)
 
 ### Verbessert

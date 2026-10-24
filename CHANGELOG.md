@@ -8,6 +8,20 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 24.10.2026 – Playtest fixes: shards, breather, portals, settings (v2026.10.24.1716-2c4b2bbe)
+
+### Fixed
+- **No more surprise card selection while walking:** The third charm shard used to open the charm selection on the spot, even mid-fight. Now it places a charm drop at your feet ("3 SHARDS: CHARM READY") that you open with interact when you're ready. ([#110](https://github.com/OsuGerman/Tiefgang-Releases/issues/110))
+- **Breather between the heralds counts down:** The timer showed 10 s the whole time, now it counts down every second. ([#109](https://github.com/OsuGerman/Tiefgang-Releases/issues/109))
+
+### Improved
+- **Jump into portals:** Jumping or dashing into a portal's vortex now takes you through, no key needed. Standing in front of it still needs interact. ([#114](https://github.com/OsuGerman/Tiefgang-Releases/issues/114))
+- **Key bindings are easier to find:** The Key Bindings tab now sits right next to Controls instead of hiding behind the tab arrows.
+- **New setting "Reload with Fire Button"** (Controls): turn it off and the fire button no longer starts a reload on an empty magazine or a reload attempt during a reload. ([#111](https://github.com/OsuGerman/Tiefgang-Releases/issues/111))
+
+
+---
+
 ## 24.10.2026 – Much faster updates (v2026.10.24.0011-a37c20d1)
 
 ### Improved

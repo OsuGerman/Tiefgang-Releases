@@ -8,6 +8,25 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 24.10.2026 – Smoother first load, crosshair editor, clearer rewards (v2026.10.24.1816-10cb1cc1)
+
+### Fixed
+- **No more black submarine after starting the game:** The loading screen now stays until the submarine is fully lit and drawn, and the HUD numbers (pearls, cores, ammo) are there right away. The submarine is preloaded in the background while you are in the main menu. ([#105](https://github.com/OsuGerman/Tiefgang-Releases/issues/105), [#108](https://github.com/OsuGerman/Tiefgang-Releases/issues/108))
+- **Bosses and elites face you when they appear** instead of spawning with their back to you. ([#98](https://github.com/OsuGerman/Tiefgang-Releases/issues/98))
+- **Grave worms are less tanky:** less health and a longer window to hit them after they surface. ([#113](https://github.com/OsuGerman/Tiefgang-Releases/issues/113))
+
+### Improved
+- **Crosshair editor:** thickness, length, gap, center dot, outline, opacity, spread on/off and more colors, with a live preview in the settings (Gameplay). ([#111](https://github.com/OsuGerman/Tiefgang-Releases/issues/111))
+- **Less muffled combat sound underwater:** weapons, hits and explosions keep their crack, the ambience still sounds like water. ([#115](https://github.com/OsuGerman/Tiefgang-Releases/issues/115))
+- **Clearer texts and rewards:** ([#112](https://github.com/OsuGerman/Tiefgang-Releases/issues/112))
+  - The loot carrier objective explains that it flees three times and loses loot each time.
+  - The Quartermaster shows what his blessing actually does.
+  - Legendary boss drops get a big label and a sound.
+  - After clearing a room, you're told when an altar, chest or valve is still unused.
+
+
+---
+
 ## 24.10.2026 – Playtest fixes: shards, breather, portals, settings (v2026.10.24.1716-2c4b2bbe)
 
 ### Fixed

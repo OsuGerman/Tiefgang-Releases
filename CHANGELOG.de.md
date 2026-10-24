@@ -8,6 +8,25 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 24.10.2026 – Flüssigeres erstes Laden, Fadenkreuz-Editor, klarere Belohnungen (v2026.10.24.1816-10cb1cc1)
+
+### Behoben
+- **Kein schwarzes U-Boot mehr nach dem Spielstart:** Der Ladebildschirm bleibt, bis das U-Boot fertig beleuchtet und gezeichnet ist, und die HUD-Zahlen (Perlen, Kerne, Munition) sind sofort da. Das U-Boot wird schon im Hauptmenü im Hintergrund vorgeladen. ([#105](https://github.com/OsuGerman/Tiefgang-Releases/issues/105), [#108](https://github.com/OsuGerman/Tiefgang-Releases/issues/108))
+- **Bosse und Elites schauen dich beim Erscheinen an** statt mit dem Rücken zu dir aufzutauchen. ([#98](https://github.com/OsuGerman/Tiefgang-Releases/issues/98))
+- **Grabwürmer sind weniger zäh:** weniger Leben und ein längeres Trefferfenster nach dem Auftauchen. ([#113](https://github.com/OsuGerman/Tiefgang-Releases/issues/113))
+
+### Verbessert
+- **Fadenkreuz-Editor:** Strichstärke, Strichlänge, Lücke, Mittelpunkt, Kontur, Deckkraft, Streuung an/aus und mehr Farben, mit Live-Vorschau in den Einstellungen (Gameplay). ([#111](https://github.com/OsuGerman/Tiefgang-Releases/issues/111))
+- **Kampfklang unter Wasser weniger dumpf:** Waffen, Treffer und Explosionen behalten ihren Knack, die Umgebung klingt weiter nach Wasser. ([#115](https://github.com/OsuGerman/Tiefgang-Releases/issues/115))
+- **Klarere Texte und Belohnungen:** ([#112](https://github.com/OsuGerman/Tiefgang-Releases/issues/112))
+  - Das Beuteträger-Ziel erklärt, dass er dreimal flieht und dabei jedes Mal Beute verliert.
+  - Der Quartiermeister zeigt, was sein Segen wirklich tut.
+  - Legendäre Boss-Drops bekommen einen großen Schriftzug und einen Klang.
+  - Nach dem Säubern eines Raums wirst du erinnert, wenn noch ein Altar, eine Truhe oder ein Ventil unbenutzt ist.
+
+
+---
+
 ## 24.10.2026 – Spieltest-Fixes: Splitter, Atempause, Portale, Einstellungen (v2026.10.24.1716-2c4b2bbe)
 
 ### Behoben

@@ -1,0 +1,39 @@
+TIEFGANG
+Copyright (c) 2026 OsuGerman. All rights reserved.
+
+TIEFGANG is free to download and play. This repository hosts the official
+releases, the website and the release notes. The game's source code is not
+public.
+
+You MAY:
+  - download, install and play the game for free, alone or with friends;
+  - stream it and publish videos, screenshots and reviews of it, including
+    monetized content (a link to https://osugerman.itch.io/tiefgang is
+    appreciated, but not required);
+  - use the screenshots, clips and logos from this repository for coverage
+    of the game.
+
+You MAY NOT, without written permission:
+  - re-upload, mirror or redistribute the game files or modified versions of
+    them on other sites or stores;
+  - sell the game or charge money for access to it;
+  - extract, reuse or redistribute its assets, code or other content outside
+    of the game;
+  - present the game or its content as your own work.
+
+The software is provided "as is", without warranty of any kind. In no event
+shall the author be liable for any claim, damages or other liability arising
+from the use of the software.
+
+Third-party components keep their own licenses and are not covered by the
+reservation above:
+  - Godot Engine (MIT), https://godotengine.org/license
+  - webrtc-native (MIT), https://github.com/godotengine/webrtc-native
+  - Fonts Cinzel and Barlow (SIL Open Font License 1.1)
+  - Sound effects and music samples under CC BY and CC0, credited in the
+    game's credits.
+
+Music used in trailers and clips (not part of the game):
+  "Black Vortex" and "Devastation and Revenge" by Kevin MacLeod
+  (incompetech.com), licensed under Creative Commons: By Attribution 4.0,
+  https://creativecommons.org/licenses/by/4.0/

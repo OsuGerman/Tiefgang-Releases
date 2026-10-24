@@ -8,6 +8,23 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 24.10.2026 – Xal-Tuuns Zwischenwelt, wuchtigere Effekte, flüssigeres Laden (v2026.10.24.2321-dbccc819)
+
+### Neu
+- **Xal-Tuun bekommt eine Signatur-Attacke:** In seiner letzten Phase öffnet sich sein drittes Auge und zieht dich (und im Koop das ganze Team) in eine Schatten-Zwischenwelt hoch über der Arena. Zerstöre in 14 Sekunden drei Seelensplitter und spring über Schattenwellen. Schaffst du es, stürzt er ab und taumelt bei 50 % mehr Schaden. Scheiterst du, panzert er sich. ([#116](https://github.com/OsuGerman/Tiefgang-Releases/issues/116))
+
+### Verbessert
+- **Schwarze Löcher fühlen sich gewaltig an:** Dein Blick wird hineingezogen und zittert, während dich die Singularität ansaugt, und der Kollaps schlägt mit hartem Stoß, kurzem Standbild und Linsenblitz ein. Aus der Nähe wird nicht mehr der ganze Bildschirm schwarz, der leuchtende Ring bleibt sichtbar. ([#118](https://github.com/OsuGerman/Tiefgang-Releases/issues/118))
+- **Kettenblitz liest sich als Kette:** dickere, weißglühende Bögen, die nacheinander von Gegner zu Gegner springen und mit jedem Sprung schwächer werden. ([#118](https://github.com/OsuGerman/Tiefgang-Releases/issues/118))
+- **Flüssigere Raumwechsel:** Räume werden einmal hinter dem Ladebildschirm vorgezeichnet, der nächste Raum ist früher zu sehen, und der Ruckler in den Gängen zwischen den Räumen ist mehr als halbiert. ([#106](https://github.com/OsuGerman/Tiefgang-Releases/issues/106))
+- **Leichterer Einstieg für neue Spieler:** Bis zum ersten Tauchgang zeigt das U-Boot, wohin es geht (den Hauptgang geradeaus zur Tauchkammer). ([#99](https://github.com/OsuGerman/Tiefgang-Releases/issues/99))
+- **Neue Grafikoptionen:** SMAA-Kantenglättung (schärfer als bisher) und FSR 2.2 Upscaling für mehr fps auf schwächeren Grafikkarten. Die Standardeinstellungen bleiben gleich. ([#100](https://github.com/OsuGerman/Tiefgang-Releases/issues/100), [#101](https://github.com/OsuGerman/Tiefgang-Releases/issues/101))
+- **Schnellerer erster Start nach einem Update:** Die Shader werden jetzt schon beim Bauen vorbereitet statt auf deinem PC. ([#106](https://github.com/OsuGerman/Tiefgang-Releases/issues/106))
+- **Gegner heben sich in dunklen Räumen besser ab** durch eine klare, kühle Lichtkante an ihrer Silhouette.
+
+
+---
+
 ## 24.10.2026 – Flüssigeres erstes Laden, Fadenkreuz-Editor, klarere Belohnungen (v2026.10.24.1816-10cb1cc1)
 
 ### Behoben

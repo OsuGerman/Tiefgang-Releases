@@ -8,6 +8,23 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 24.10.2026 – Xal-Tuun's Otherworld, punchier effects, smoother loading (v2026.10.24.2321-dbccc819)
+
+### New
+- **Xal-Tuun gets a signature attack:** In his last phase his third eye opens and drags you (and your whole co-op team) into a shadow otherworld high above the arena. Destroy three soul shards and jump over shadow waves within 14 seconds. Make it and he crashes down and staggers, taking 50 % more damage. Fail and he hardens his armor. ([#116](https://github.com/OsuGerman/Tiefgang-Releases/issues/116))
+
+### Improved
+- **Black holes feel huge:** your view is pulled in and shakes while the singularity sucks you in, and the collapse hits with a hard kick, a short freeze frame and a lens flash. Up close the hole no longer turns the whole screen black, the glowing ring stays visible. ([#118](https://github.com/OsuGerman/Tiefgang-Releases/issues/118))
+- **Chain lightning reads as a chain:** thicker white-hot arcs that jump from enemy to enemy one after another and get weaker with every hop. ([#118](https://github.com/OsuGerman/Tiefgang-Releases/issues/118))
+- **Smoother room transitions:** rooms are drawn once behind the loading screen, the next room shows up earlier, and the stutter in the corridors between rooms is cut by more than half. ([#106](https://github.com/OsuGerman/Tiefgang-Releases/issues/106))
+- **Easier start for new players:** until your first dive, the submarine shows where to go (straight down the main hall to the diving chamber). ([#99](https://github.com/OsuGerman/Tiefgang-Releases/issues/99))
+- **New graphics options:** SMAA anti-aliasing (sharper than before) and FSR 2.2 upscaling for more fps on weaker graphics cards. The defaults stay the same. ([#100](https://github.com/OsuGerman/Tiefgang-Releases/issues/100), [#101](https://github.com/OsuGerman/Tiefgang-Releases/issues/101))
+- **Faster first start after an update:** shaders are now prepared when the build is made instead of on your PC. ([#106](https://github.com/OsuGerman/Tiefgang-Releases/issues/106))
+- **Enemies stand out better in dark rooms** with a crisp cold edge of light along their silhouette.
+
+
+---
+
 ## 24.10.2026 – Smoother first load, crosshair editor, clearer rewards (v2026.10.24.1816-10cb1cc1)
 
 ### Fixed

@@ -18,6 +18,10 @@
 
 **TIEFGANG** is a free **co-op roguelite FPS** set in 1887. Dive in a heavy brass diving suit, fight through drowned temples, sunken archives and ship wrecks, and build absurd combos from 9 weapons, 95 charms and elemental blessings. Play **solo or with 1–4 players in co-op**. Made with **Godot 4** by a solo developer, free test builds for **Windows** with automatic updates.
 
+If you like **Roboquest**, **Gunfire Reborn** or **Risk of Rain 2**, this is that kind of run-based shooter, only deep underwater, in 1887, with something Lovecraftian waiting at the bottom.
+
+<p align="center">⭐ <b>Like it? Star the repo</b> – it helps other players find TIEFGANG and keeps the updates coming.</p>
+
 > **RADIO · DR. A. MARSH · PACIFIC, 1887**
 >
 > *Tiefgang, Marsh here. Signal’s steady. Below you are the ruins of the Thalassari, the richest Abyssalite deposit anyone has ever found – and something that has been sleeping on top of it for a very long time. Go down, bring back what you can carry, and if you hear a heartbeat that isn’t yours: keep moving.*
@@ -141,6 +145,24 @@ Up to **four divers**. One hosts, the others type in a room code – over the in
 
 All real captures from the test build. More on the **[website](https://osugerman.github.io/Tiefgang-Releases/)**.
 
+## FAQ
+
+**Is TIEFGANG free?** Yes, completely. No account, no launcher, no ads, no microtransactions. [Download the zip](https://github.com/OsuGerman/Tiefgang-Releases/releases/latest/download/Tiefgang-Windows.zip), extract it and play.
+
+**What games is it like?** A fast first-person roguelite in the spirit of Roboquest and Gunfire Reborn, with the build-crafting of Risk of Rain 2 and Hades: fight a room, pick a reward, go deeper, beat the boss of each area. The setting is a steampunk deep-sea expedition in 1887.
+
+**Can I play solo or offline?** Yes. Solo runs fully offline. Co-op for up to 4 players works over the internet with a room code, usually without port forwarding, or over LAN. See the [co-op guide](KOOP.md).
+
+**What PC do I need?** Windows 10 or 11 (64-bit) and a Vulkan-capable GPU with 4 GB VRAM. Details under *System requirements and controls* above.
+
+**Is it safe? Windows shows a warning.** The test build isn't code-signed yet, so SmartScreen warns about an unknown publisher. Click *More info → Run anyway*. The auto-updater only installs builds from this repository.
+
+**Can I stream it or make videos?** Yes, monetized too. Just link [itch.io/tiefgang](https://osugerman.itch.io/tiefgang). Logo, cover and screenshots are in the [press kit](https://osugerman.github.io/Tiefgang-Releases/presskit/).
+
+**Which languages?** English and German, switchable in the settings.
+
+<p align="center">⭐ If you enjoyed TIEFGANG, <b><a href="https://github.com/OsuGerman/Tiefgang-Releases">star this repo</a></b> and share it with a friend you want to dive with.</p>
+
 <img src="media/readme/h_feedback_en.png" alt="Feedback" width="100%">
 
 Found a bug, hit a crash, or think the dash feels mushy? **[Open an issue](https://github.com/OsuGerman/Tiefgang-Releases/issues/new/choose)** – English or German. The version number (bottom right of the main menu), area, depth and a screenshot help a lot. Honest feedback has rebuilt parts of this game more than once.
@@ -157,3 +179,5 @@ Built with the Godot Engine 4.7. Full attributions ship as `CREDITS.md` in the r
 Fonts Cinzel and Barlow (SIL Open Font License). Music using instrument recordings by Sam Gossner / Versilian Studios (VSCO-2-CE, VCSL, CC0). All other third-party sounds are CC0. Thanks to everyone who shares their work freely.
 
 <p align="center"><sub>This repository holds the test builds and the website, not the source code.</sub></p>
+
+<sub>Keywords: free roguelite FPS, roguelike shooter, co-op shooter, games like Roboquest, games like Gunfire Reborn, underwater game, deep sea, steampunk, Lovecraftian, indie game, Godot 4, Windows · kostenloser Roguelite-Shooter, Koop-Shooter</sub>

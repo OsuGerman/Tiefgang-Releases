@@ -18,6 +18,10 @@
 
 **TIEFGANG** ist ein kostenloser **Koop-Roguelite-Shooter (FPS)** im Jahr 1887. Tauch im schweren Messing-Taucheranzug durch versunkene Tempel, Archive und Schiffswracks und bau absurde Kombos aus 9 Waffen, 95 Charms und Element-Segen. Spiel **allein oder im Koop mit 1–4 Spielern**. Entwickelt mit **Godot 4** von einem Solo-Entwickler, kostenlose Test-Builds für **Windows** mit automatischen Updates.
 
+Wenn du **Roboquest**, **Gunfire Reborn** oder **Risk of Rain 2** magst: genau diese Art Run-Shooter, nur tief unter Wasser, im Jahr 1887, und am Grund wartet etwas Lovecraft-artiges.
+
+<p align="center">⭐ <b>Gefällt es dir? Gib dem Repo einen Stern</b> – so finden andere Spieler TIEFGANG, und die Updates kommen weiter.</p>
+
 > **FUNK · DR. A. MARSH · PAZIFIK, 1887**
 >
 > *Tiefgang, hier Marsh. Signal steht. Unter dir liegen die Ruinen der Thalassari, das größte Abyssalit-Vorkommen, das je jemand gefunden hat – und etwas, das schon sehr lange darauf schläft. Tauch runter, bring mit, was du tragen kannst, und wenn du einen Herzschlag hörst, der nicht deiner ist: weiterlaufen.*
@@ -141,6 +145,24 @@ Bis zu **vier Taucher**. Einer hostet, die anderen tippen einen Raumcode ein –
 
 Alles echte Aufnahmen aus dem Test-Build. Mehr auf der **[Webseite](https://osugerman.github.io/Tiefgang-Releases/)**.
 
+## FAQ
+
+**Ist TIEFGANG kostenlos?** Ja, komplett. Kein Konto, kein Launcher, keine Werbung, keine Mikrotransaktionen. [Zip herunterladen](https://github.com/OsuGerman/Tiefgang-Releases/releases/latest/download/Tiefgang-Windows.zip), entpacken, spielen.
+
+**Mit welchen Spielen ist es vergleichbar?** Ein schneller Ego-Roguelite wie Roboquest und Gunfire Reborn, mit Build-Basteln wie in Risk of Rain 2 und Hades: Raum freikämpfen, Belohnung wählen, tiefer tauchen, den Boss jedes Gebiets besiegen. Schauplatz ist eine Steampunk-Tiefsee-Expedition im Jahr 1887.
+
+**Kann ich allein oder offline spielen?** Ja. Allein läuft alles offline. Koop für bis zu 4 Spieler geht übers Internet mit einem Raumcode, meist ohne Portfreigabe, oder im LAN. Siehe [Koop-Anleitung](KOOP.de.md).
+
+**Welchen PC brauche ich?** Windows 10 oder 11 (64 Bit) und eine Vulkan-fähige Grafikkarte mit 4 GB VRAM. Details oben unter *Systemanforderungen und Steuerung*.
+
+**Ist es sicher? Windows zeigt eine Warnung.** Der Test-Build ist noch nicht signiert, deshalb warnt SmartScreen vor einem unbekannten Herausgeber. Klick auf *Weitere Informationen → Trotzdem ausführen*. Der Auto-Updater installiert nur Builds aus diesem Repository.
+
+**Darf ich streamen oder Videos machen?** Ja, auch monetarisiert. Verlinke einfach [itch.io/tiefgang](https://osugerman.itch.io/tiefgang). Logo, Cover und Screenshots gibt es im [Presskit](https://osugerman.github.io/Tiefgang-Releases/presskit/).
+
+**Welche Sprachen?** Deutsch und Englisch, umschaltbar in den Einstellungen.
+
+<p align="center">⭐ Wenn dir TIEFGANG gefällt, <b><a href="https://github.com/OsuGerman/Tiefgang-Releases">gib dem Repo einen Stern</a></b> und schick es einem Freund, mit dem du abtauchen willst.</p>
+
 <img src="media/readme/h_feedback_de.png" alt="Feedback" width="100%">
 
 Fehler gefunden, Absturz erlebt oder findest du, der Dash fühlt sich matschig an? **[Issue aufmachen](https://github.com/OsuGerman/Tiefgang-Releases/issues/new/choose)** – Deutsch oder Englisch. Versionsnummer (unten rechts im Hauptmenü), Gebiet, Tiefe und ein Screenshot helfen sehr. Ehrliches Feedback hat Teile dieses Spiels schon mehrmals umgebaut.
@@ -157,3 +179,5 @@ Entwickelt mit der Godot Engine 4.7. Vollständige Namensnennungen liegen als `C
 Schriften Cinzel und Barlow (SIL Open Font License). Musik mit Instrumentaufnahmen von Sam Gossner / Versilian Studios (VSCO-2-CE, VCSL, CC0). Alle übrigen fremden Klänge sind CC0. Danke an alle, die ihre Arbeit frei teilen.
 
 <p align="center"><sub>Dieses Repository enthält die Test-Builds und die Webseite, nicht den Quellcode.</sub></p>
+
+<sub>Stichworte: kostenloser Roguelite-Shooter, Roguelike-FPS, Koop-Shooter, Spiele wie Roboquest, Spiele wie Gunfire Reborn, Unterwasser-Spiel, Tiefsee, Steampunk, Lovecraft, Indie-Spiel, Godot 4, Windows</sub>

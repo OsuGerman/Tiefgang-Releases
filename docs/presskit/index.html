@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TIEFGANG Press Kit – Free Co-op Roguelite FPS</title>
+<meta name="description" content="Press kit for TIEFGANG, a free co-op roguelite FPS set in 1887: fact sheet, descriptions, logo, cover art, screenshots and GIFs. Monetized videos and streams are allowed.">
+<meta name="theme-color" content="#061a22">
+<meta property="og:type" content="website">
+<meta property="og:title" content="TIEFGANG Press Kit">
+<meta property="og:description" content="Fact sheet, logo, cover art, screenshots and GIFs for TIEFGANG, a free co-op roguelite FPS in drowned ruins. Monetized videos allowed.">
+<meta property="og:image" content="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/promo_wakes_below.jpg">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="720">
+<meta property="og:url" content="https://osugerman.github.io/Tiefgang-Releases/presskit/">
+<meta property="og:site_name" content="TIEFGANG">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://osugerman.github.io/Tiefgang-Releases/presskit/">
+<style>
+@font-face { font-family: "Cinzel"; src: url("../fonts/Cinzel.woff") format("woff"); font-weight: 400 900; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../fonts/Barlow-Regular.woff") format("woff"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../fonts/Barlow-SemiBold.woff") format("woff"); font-weight: 600; font-display: swap; }
+/* Farben wie auf der Hauptseite (Abyssalit, Messing, Tiefsee-Blau) */
+:root {
+  --deep: #061a22; --deeper: #020a0d; --abyssal: #2ff5d2; --brass: #c9a24a; --brass-hi: #f4dc96;
+  --text: #e8e2d0; --dim: #93a7a0; --line: rgba(201, 162, 74, 0.38); --glass: rgba(8, 30, 38, 0.58);
+}
+* { box-sizing: border-box; }
+html { background: var(--deeper); }
+body {
+  margin: 0; color: var(--text);
+  background: linear-gradient(180deg, #0a2a35 0%, #061a22 30%, #030f13 100%) fixed;
+  font: 400 17px/1.6 "Barlow", system-ui, -apple-system, "Segoe UI", sans-serif; -webkit-font-smoothing: antialiased;
+}
+a { color: var(--abyssal); text-decoration: none; }
+a:hover { text-decoration: underline; }
+img { max-width: 100%; height: auto; display: block; }
+:focus-visible { outline: 2px solid var(--abyssal); outline-offset: 3px; }
+h1, h2, h3 { font-family: "Cinzel", Georgia, serif; font-weight: 700; letter-spacing: 0.04em; margin: 0; }
+.wrap { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+header { padding: 28px 0 8px; }
+.back { font-size: 15px; color: var(--dim); }
+.logo { width: min(520px, 100%); margin: 26px 0 8px; }
+.kicker { color: var(--brass); letter-spacing: .18em; text-transform: uppercase; font-size: 13px; font-weight: 600; }
+section { padding: 34px 0 6px; }
+h2 { color: var(--brass-hi); font-size: 24px; border-bottom: 1px solid var(--line); padding-bottom: 8px; margin-bottom: 18px; }
+.grid2 { display: grid; grid-template-columns: 320px 1fr; gap: 28px; align-items: start; }
+@media (max-width: 820px) { .grid2 { grid-template-columns: 1fr; } }
+table.facts { width: 100%; border-collapse: collapse; background: var(--glass); border: 1px solid var(--line); font-size: 15.5px; }
+.facts th, .facts td { text-align: left; vertical-align: top; padding: 8px 12px; border-bottom: 1px solid rgba(201,162,74,.18); }
+.facts th { color: var(--brass); font-weight: 600; white-space: nowrap; width: 1%; }
+.facts tr:last-child th, .facts tr:last-child td { border-bottom: 0; }
+.desc p { margin: 0 0 14px; }
+.desc h3 { font-size: 16px; color: var(--brass); margin: 4px 0 8px; }
+.short { background: var(--glass); border-left: 3px solid var(--abyssal); padding: 12px 16px; margin-bottom: 22px; }
+ul.feat { margin: 0 0 14px; padding-left: 20px; } ul.feat li { margin: 4px 0; }
+.ok { background: rgba(47,245,210,.08); border: 1px solid rgba(47,245,210,.35); padding: 14px 18px; }
+.ok b { color: var(--abyssal); }
+.btn { display: inline-block; padding: 11px 20px; border: 1px solid var(--brass); color: var(--brass-hi); background: rgba(201,162,74,.12); font-weight: 600; margin: 4px 8px 4px 0; }
+.btn:hover { background: rgba(201,162,74,.25); text-decoration: none; }
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
+.gallery a { display: block; border: 1px solid var(--line); background: #000; }
+.gallery img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.gallery figcaption { font-size: 13.5px; color: var(--dim); padding: 6px 8px; background: var(--glass); }
+.gallery figure { margin: 0; }
+.gifs img { aspect-ratio: auto; }
+.art { display: flex; flex-wrap: wrap; gap: 14px; align-items: flex-end; }
+.art figure { margin: 0; }
+.art .tile { border: 1px solid var(--line); padding: 10px; background: var(--glass); }
+.art .light { background: #e8e2d0; }
+.small { font-size: 14px; color: var(--dim); }
+footer { padding: 40px 0 50px; color: var(--dim); font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <a class="back" href="../">← Back to the TIEFGANG website</a>
+  <img class="logo" src="logo_brass.png" alt="TIEFGANG logo" width="1502" height="242">
+  <div class="kicker">Press kit · for YouTubers, streamers and press</div>
+</header>
+
+<section>
+  <h2>Fact sheet</h2>
+  <div class="grid2">
+    <table class="facts">
+      <tr><th>Title</th><td>TIEFGANG <span class="small">(German for “draught” / “depth”, say “TEEF-gahng”)</span></td></tr>
+      <tr><th>Genre</th><td>Roguelite first-person shooter</td></tr>
+      <tr><th>Players</th><td>Solo or online co-op, 1–4 players</td></tr>
+      <tr><th>Platform</th><td>Windows 10 / 11 (64-bit)</td></tr>
+      <tr><th>Price</th><td>Free (playable test build)</td></tr>
+      <tr><th>Status</th><td>In active development, updated several times a week</td></tr>
+      <tr><th>Engine</th><td>Godot 4</td></tr>
+      <tr><th>Developer</th><td>OsuGerman (solo developer, Germany)</td></tr>
+      <tr><th>Languages</th><td>English, German</td></tr>
+      <tr><th>Download</th><td><a href="https://osugerman.itch.io/tiefgang">itch.io</a> · <a href="https://github.com/OsuGerman/Tiefgang-Releases/releases/latest">GitHub</a></td></tr>
+    </table>
+    <div class="desc">
+      <div class="short"><b>Short description</b><br>A fast co-op roguelite FPS set in 1887. Dive in a brass diving suit, fight through drowned ruins room by room and build absurd combos from weapons, charms and elemental blessings, until something at the bottom wakes up.</div>
+      <h3>Long description</h3>
+      <p>The Pacific, 1887. A research expedition finds the ruins of the Thalassari, a civilization that sank into the deep long ago. You strap into a brass diving suit and go down. Every dive leads through new rooms of temples, a drilling station, a coral cathedral, sunken archives and the abyss below them.</p>
+      <p>Each room is a fight. You pick your rewards between rooms: weapons with their own alternate fire, charms that stack, and elemental blessings that react with each other. Freeze and shatter, chain lightning through a horde, or open a black hole and watch everything get pulled in. Runs end with a boss, and each boss has a signature moment, such as Xal-Tuun pulling you into another world.</p>
+      <p>Between dives you return to your submarine to spend what you found and choose how deep to go next.</p>
+      <h3>Key features</h3>
+      <ul class="feat">
+        <li>Fast movement with dash and double jump, built for arena fights</li>
+        <li>5 areas, 5 bosses, 9 weapons with alternate fire, charms, blessings and element reactions</li>
+        <li>Online co-op for up to 4 divers</li>
+        <li>Steampunk 1887 meets Lovecraftian deep sea, with ruins that glow in the dark</li>
+        <li>Online leaderboards for the fastest runs, the highest pressure level and the most damage</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Videos and streams</h2>
+  <p class="ok"><b>Yes, you can make money with it.</b> You may stream TIEFGANG and publish videos, screenshots and reviews, including monetized content. No permission needed, just put a link to <a href="https://osugerman.itch.io/tiefgang">osugerman.itch.io/tiefgang</a> in the description. Details are in the <a href="https://github.com/OsuGerman/Tiefgang-Releases/blob/main/LICENSE">license</a>.</p>
+</section>
+
+<section>
+  <h2>Downloads</h2>
+  <p><a class="btn" href="tiefgang_presskit.zip" download>Download press kit (ZIP, 6.3 MB)</a></p>
+  <p class="small">Contains the logo in 3 colors (transparent PNG), the cover, the banner, key art and 10 screenshots in 1920×1080. All images on this page are in-game captures.</p>
+</section>
+
+<section>
+  <h2>Logo and cover</h2>
+  <div class="art">
+    <figure class="tile"><a href="logo_brass.png" download><img src="logo_brass.png" alt="TIEFGANG logo, brass" width="300" height="48"></a></figure>
+    <figure class="tile"><a href="logo_light.png" download><img src="logo_light.png" alt="TIEFGANG logo, light" width="300" height="48"></a></figure>
+    <figure class="tile light"><a href="logo_dark.png" download><img src="logo_dark.png" alt="TIEFGANG logo, dark" width="300" height="48"></a></figure>
+    <figure class="tile"><a href="cover_630x500.png" download><img src="cover_630x500.png" alt="TIEFGANG cover art" width="252" height="200" loading="lazy"></a></figure>
+  </div>
+</section>
+
+<section>
+  <h2>Screenshots</h2>
+  <div class="gallery">
+    <figure><a href="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/hero.jpg"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/hero.jpg" alt="Diver facing a glowing ruin in the deep" loading="lazy" width="1920" height="1080"></a><figcaption>Into the ruins</figcaption></figure>
+    <figure><a href="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/coral_cathedral.jpg"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/coral_cathedral.jpg" alt="Coral Cathedral area" loading="lazy" width="1920" height="1080"></a><figcaption>Coral Cathedral</figcaption></figure>
+    <figure><a href="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/fx_black_hole.jpg"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/fx_black_hole.jpg" alt="Black hole pulling in enemies" loading="lazy" width="1920" height="1080"></a><figcaption>Black hole build</figcaption></figure>
+    <figure><a href="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/fx_chain_lightning.jpg"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/fx_chain_lightning.jpg" alt="Chain lightning jumping through a horde" loading="lazy" width="1920" height="1080"></a><figcaption>Chain lightning</figcaption></figure>
+    <figure><a href="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/boss_xal_tuun_phase2.jpg"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/boss_xal_tuun_phase2.jpg" alt="Boss fight against Xal-Tuun" loading="lazy" width="1920" height="1080"></a><figcaption>Boss: Xal-Tuun</figcaption></figure>
+    <figure><a href="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/boss_ysmera_phase2.jpg"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/boss_ysmera_phase2.jpg" alt="Boss fight against Ysmera" loading="lazy" width="1920" height="1080"></a><figcaption>Boss: Ysmera</figcaption></figure>
+    <figure><a href="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/coop_vs_xal_tuun.jpg"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/coop_vs_xal_tuun.jpg" alt="Co-op divers fighting together" loading="lazy" width="1920" height="1080"></a><figcaption>Co-op for up to 4</figcaption></figure>
+    <figure><a href="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/cards_legendary.jpg"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/cards_legendary.jpg" alt="Choosing a legendary charm" loading="lazy" width="1920" height="1080"></a><figcaption>Legendary charms</figcaption></figure>
+    <figure><a href="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/archives_rotunda.jpg"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/archives_rotunda.jpg" alt="Sunken Archives rotunda" loading="lazy" width="1920" height="1080"></a><figcaption>Sunken Archives</figcaption></figure>
+    <figure><a href="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/attack_reef_cage.jpg"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/attack_reef_cage.jpg" alt="Enemy reef cage attack" loading="lazy" width="1920" height="1080"></a><figcaption>Enemy attacks</figcaption></figure>
+  </div>
+</section>
+
+<section>
+  <h2>GIFs and video</h2>
+  <div class="gallery gifs">
+    <figure><a href="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/gifs/black_hole.gif"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/gifs/black_hole.gif" alt="GIF: black hole pulling in enemies" loading="lazy" width="640" height="360"></a><figcaption>Black hole</figcaption></figure>
+    <figure><a href="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/gifs/otherworld.gif"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/gifs/otherworld.gif" alt="GIF: Xal-Tuun's otherworld" loading="lazy" width="640" height="360"></a><figcaption>Xal-Tuun's otherworld</figcaption></figure>
+    <figure><a href="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/gifs/chain_lightning.gif"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/gifs/chain_lightning.gif" alt="GIF: chain lightning" loading="lazy" width="480" height="270"></a><figcaption>Chain lightning</figcaption></figure>
+    <figure><a href="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/gifs/charm_choice.gif"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/gifs/charm_choice.gif" alt="GIF: picking a charm" loading="lazy" width="500" height="281"></a><figcaption>Picking rewards</figcaption></figure>
+  </div>
+  <p>Gameplay clip: <a href="https://youtu.be/MlA-Gslhiug">youtu.be/MlA-Gslhiug</a> <span class="small">(a new trailer with the current content is in the works)</span></p>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Questions, interview requests or anything else: reply to my email, write a comment on <a href="https://osugerman.itch.io/tiefgang">itch.io</a>, or open an issue on <a href="https://github.com/OsuGerman/Tiefgang-Releases/issues">GitHub</a>. I read everything.</p>
+</section>
+
+<footer>TIEFGANG © 2026 OsuGerman · <a href="../">Website</a> · <a href="https://osugerman.itch.io/tiefgang">itch.io</a> · <a href="https://github.com/OsuGerman/Tiefgang-Releases">GitHub</a></footer>
+</div>
+</body>
+</html>

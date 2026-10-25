@@ -8,6 +8,21 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 25.10.2026 – Schärferes Bild, mehr fps, keine Truhen mehr in Wänden (v2026.10.25.1602-01a50e6c)
+
+### Verbessert
+- **Viel weniger Flimmern und mehr fps:** Den meisten Welt-Texturen fehlten Mipmaps. Mit ihnen flimmern Böden und Decken deutlich weniger, und das Spiel läuft bei gleichen Einstellungen etwa **15 % schneller**. Hoch und Ultra nutzen jetzt zusätzlich SMAA. ([#120](https://github.com/OsuGerman/Tiefgang-Releases/issues/120))
+- **Ruhigeres, satteres Bild:** Kaustik leuchtet nur noch unter Lichtschächten stark, Marine Snow ist dezenter und abwechslungsreicher, weniger Bloom und wärmere Lichter gegen blaugrüne Schatten. ([#120](https://github.com/OsuGerman/Tiefgang-Releases/issues/120))
+- **Bosskämpfe besser lesbar:** Während ein Phasenbanner zu sehen ist, treten Funk-Box und Nebenelemente zurück. ([#120](https://github.com/OsuGerman/Tiefgang-Releases/issues/120))
+- **„Bug melden“** im Pausemenü: öffnet das Bugformular schon ausgefüllt mit Version, Gebiet und System, dazu den Log-Ordner. ([#124](https://github.com/OsuGerman/Tiefgang-Releases/issues/124))
+- **Helm-Atmen ist jetzt hörbar, das Hülsen-Klirren deutlich leiser**, bis bessere Aufnahmen da sind. ([#132](https://github.com/OsuGerman/Tiefgang-Releases/issues/132), [#133](https://github.com/OsuGerman/Tiefgang-Releases/issues/133))
+
+### Behoben
+- **Truhen, Altäre und Ventile stehen nicht mehr in Wänden oder Säulen**, und geöffnete Truhendeckel ragen nicht mehr durch Wände. ([#134](https://github.com/OsuGerman/Tiefgang-Releases/issues/134))
+
+
+---
+
 ## 25.10.2026 – Messinghülsen, Atmen im Helm, schnellerer erster Tauchgang (v2026.10.25.1034-3ca8526c)
 
 ### Neu

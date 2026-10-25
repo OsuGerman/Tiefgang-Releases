@@ -29,7 +29,7 @@
 
 <table><tr><td>
 <b>Neu im letzten Update</b><br>
-Xal-Tuun zieht dein Team in eine Schatten-Zwischenwelt · Schwarze Löcher mit echter Wucht · Kettenblitz als echte Kette · Messinghülsen und Atmen im Helm · SMAA und FSR 2.2 · schnelleres Laden.
+Etwa 15 % mehr fps und viel weniger Flimmern · ruhigeres, satteres Bild · lesbarere Bosskämpfe · „Bug melden“-Knopf · keine Truhen mehr in Wänden · Xal-Tuuns Schatten-Zwischenwelt.
 <a href="CHANGELOG.de.md">Ganzer Changelog</a>
 </td></tr></table>
 

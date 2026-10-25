@@ -8,6 +8,21 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 25.10.2026 – Sharper image, more fps, no more chests in walls (v2026.10.25.1602-01a50e6c)
+
+### Improved
+- **Much less shimmer and more fps:** most world textures were missing mipmaps. With them, floors and ceilings shimmer far less, and the game runs about **15 % faster** on the same settings. High and Ultra also use SMAA now. ([#120](https://github.com/OsuGerman/Tiefgang-Releases/issues/120))
+- **Calmer, richer image:** caustics only shine strongly under light shafts, marine snow is subtler and varied, less bloom and warmer highlights against teal shadows. ([#120](https://github.com/OsuGerman/Tiefgang-Releases/issues/120))
+- **Boss fights are easier to read:** while a phase banner is shown, the radio box and side elements fade back. ([#120](https://github.com/OsuGerman/Tiefgang-Releases/issues/120))
+- **Report a Bug** in the pause menu: opens the bug form already filled with your version, area and system, plus your log folder. ([#124](https://github.com/OsuGerman/Tiefgang-Releases/issues/124))
+- **Helmet breathing is audible now, casing clinks are much quieter** until better recordings are in. ([#132](https://github.com/OsuGerman/Tiefgang-Releases/issues/132), [#133](https://github.com/OsuGerman/Tiefgang-Releases/issues/133))
+
+### Fixed
+- **Chests, altars and valves no longer stand inside walls or pillars**, and opened chest lids no longer clip through walls. ([#134](https://github.com/OsuGerman/Tiefgang-Releases/issues/134))
+
+
+---
+
 ## 25.10.2026 – Brass casings, breathing in the helmet, faster first dive (v2026.10.25.1034-3ca8526c)
 
 ### New

@@ -29,7 +29,7 @@
 
 <table><tr><td>
 <b>New in the latest update</b><br>
-Xal-Tuun drags your team into a shadow otherworld · black holes with real weight · chain lightning that reads as a chain · brass casings and breathing in the helmet · SMAA and FSR 2.2 options · faster loading.
+About 15 % more fps and far less shimmer · calmer, richer image · readable boss fights · Report a Bug button · no more chests in walls · Xal-Tuun’s shadow otherworld.
 <a href="CHANGELOG.md">Full changelog</a>
 </td></tr></table>
 

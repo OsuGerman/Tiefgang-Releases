@@ -8,6 +8,19 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 25.10.2026 – Koop: Alt-Aktionen der Mitspieler sichtbar, kein Flimmern mehr in Schatzkammern (v2026.10.25.2107-689b26a5)
+
+### Verbessert
+- **Koop: Alt-Aktionen der Mitspieler sind jetzt zu sehen.** Speerwurf, Zahnsprung, Einholen, Resonanz, Entladung, Gezeitenwelle, Druckstoß und Fächerfeuer sahen bei den anderen wie ein normaler Schuss aus. Jetzt zeigt jede Aktion ihren eigenen Effekt und Klang. ([#104](https://github.com/OsuGerman/Tiefgang-Releases/issues/104))
+- **Etwas weniger Shader-Arbeit beim ersten Tauchgang:** Einige Effekt-Materialien wurden zusammengelegt, ohne dass sie anders aussehen. ([#106](https://github.com/OsuGerman/Tiefgang-Releases/issues/106))
+
+### Behoben
+- **Kein Flimmern mehr an Decken, Wänden, Rampen und Türrahmen** in Schatzkammern und Wrackräumen (Z-Fighting). Die Seitenwand seitlicher Schatzkammern im Schiffsfriedhof steht wieder an ihrer echten Stelle, Gesimse und Kohlebecken stecken nicht mehr darin. ([#135](https://github.com/OsuGerman/Tiefgang-Releases/issues/135))
+- **Lichtkarten-Vorwärmen** übergab die falsche Kennung und wärmte dadurch nichts vor. ([#122](https://github.com/OsuGerman/Tiefgang-Releases/issues/122))
+
+
+---
+
 ## 25.10.2026 – Schärferes Bild, mehr fps, keine Truhen mehr in Wänden (v2026.10.25.1602-01a50e6c)
 
 ### Verbessert

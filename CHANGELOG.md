@@ -8,6 +8,19 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 25.10.2026 – Co-op: see your teammates' alt actions, no more flicker in treasure rooms (v2026.10.25.2107-689b26a5)
+
+### Improved
+- **Co-op: your teammates' alt actions are visible now.** Spear throw, tooth leap, reel-in, resonance, discharge, tidal wave, pressure blast and fan fire used to look like a normal shot to the others. Now each action shows its own effect and sound. ([#104](https://github.com/OsuGerman/Tiefgang-Releases/issues/104))
+- **A bit less shader work on the first dive:** some effect materials were merged without looking any different. ([#106](https://github.com/OsuGerman/Tiefgang-Releases/issues/106))
+
+### Fixed
+- **No more flickering ceilings, walls, ramps and door frames** in treasure rooms and wreck rooms (z-fighting). The side wall of side treasure rooms in the Ship Graveyard is back where it belongs, so cornices and braziers no longer stick inside it. ([#135](https://github.com/OsuGerman/Tiefgang-Releases/issues/135))
+- **Lightmap prewarming** passed the wrong ID and so warmed up nothing. ([#122](https://github.com/OsuGerman/Tiefgang-Releases/issues/122))
+
+
+---
+
 ## 25.10.2026 – Sharper image, more fps, no more chests in walls (v2026.10.25.1602-01a50e6c)
 
 ### Improved

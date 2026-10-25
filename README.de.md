@@ -33,7 +33,7 @@ Wenn du **Roboquest**, **Gunfire Reborn** oder **Risk of Rain 2** magst: genau d
 
 <table><tr><td>
 <b>Neu im letzten Update</b><br>
-Etwa 15 % mehr fps und viel weniger Flimmern · ruhigeres, satteres Bild · lesbarere Bosskämpfe · „Bug melden“-Knopf · keine Truhen mehr in Wänden · Xal-Tuuns Schatten-Zwischenwelt.
+Koop: Alt-Aktionen der Mitspieler sichtbar · kein Flimmern mehr in Schatzkammern · etwa 15 % mehr fps und viel weniger Flimmern · „Bug melden“-Knopf · keine Truhen mehr in Wänden.
 <a href="CHANGELOG.de.md">Ganzer Changelog</a>
 </td></tr></table>
 

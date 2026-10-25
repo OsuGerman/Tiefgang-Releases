@@ -33,7 +33,7 @@ If you like **Roboquest**, **Gunfire Reborn** or **Risk of Rain 2**, this is tha
 
 <table><tr><td>
 <b>New in the latest update</b><br>
-About 15 % more fps and far less shimmer · calmer, richer image · readable boss fights · Report a Bug button · no more chests in walls · Xal-Tuun’s shadow otherworld.
+Co-op: see your teammates’ alt actions · no more flicker in treasure rooms · about 15 % more fps and far less shimmer · Report a Bug button · no more chests in walls.
 <a href="CHANGELOG.md">Full changelog</a>
 </td></tr></table>
 

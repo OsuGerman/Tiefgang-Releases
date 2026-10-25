@@ -12,7 +12,8 @@
   <a href="https://github.com/OsuGerman/Tiefgang-Releases/releases/latest"><img src="https://img.shields.io/github/v/release/OsuGerman/Tiefgang-Releases?style=flat-square&label=build&color=c9a24a&labelColor=061a22" alt="Latest build"></a>
   <a href="https://github.com/OsuGerman/Tiefgang-Releases/releases"><img src="https://img.shields.io/github/downloads/OsuGerman/Tiefgang-Releases/total?style=flat-square&label=dives&color=2ff5d2&labelColor=061a22" alt="Downloads"></a>
   <br>
-  <b>English</b> · <a href="README.de.md">Deutsch</a> · <a href="CHANGELOG.md">Changelog</a> · <a href="KOOP.md">Co-op guide</a>
+  <b>English</b> · <a href="README.de.md">Deutsch</a> · <a href="CHANGELOG.md">Changelog</a> · <a href="KOOP.md">Co-op guide</a><br>
+  <a href="https://github.com/OsuGerman/Tiefgang-Releases">Star the repo</a> · <a href="https://github.com/OsuGerman/Tiefgang-Releases/discussions">Discussions</a> · <a href="https://github.com/OsuGerman/Tiefgang-Releases/milestones">Roadmap</a> · <a href="https://github.com/OsuGerman/Tiefgang-Releases/issues/new/choose">Report a bug</a>
 </p>
 
 **TIEFGANG** is a free **co-op roguelite FPS** set in 1887. Dive in a heavy brass diving suit, fight through drowned temples, sunken archives and ship wrecks, and build absurd combos from 9 weapons, 95 charms and elemental blessings. Play **solo or with 1–4 players in co-op**. Made with **Godot 4** by a solo developer, free test builds for **Windows** with automatic updates.
@@ -22,8 +23,15 @@
 > *Tiefgang, Marsh here. Signal’s steady. Below you are the ruins of the Thalassari, the richest Abyssalite deposit anyone has ever found – and something that has been sleeping on top of it for a very long time. Go down, bring back what you can carry, and if you hear a heartbeat that isn’t yours: keep moving.*
 
 <p align="center">
-  <img src="media/gifs/chain_lightning.gif" alt="Chain lightning jumping between enemies in the Coral Cathedral" width="100%">
+  <img src="media/gifs/black_hole.gif" alt="Void and lightning tear open a black hole that pulls enemies in, TIEFGANG co-op roguelite FPS" width="100%">
+  <br><sub><i>Void + Lightning = a black hole that swallows the room.</i></sub>
 </p>
+
+<table><tr><td>
+<b>New in the latest update</b><br>
+Xal-Tuun drags your team into a shadow otherworld · black holes with real weight · chain lightning that reads as a chain · brass casings and breathing in the helmet · SMAA and FSR 2.2 options · faster loading.
+<a href="CHANGELOG.md">Full changelog</a>
+</td></tr></table>
 
 <img src="media/readme/h_download_en.png" alt="Download" width="100%">
 
@@ -81,6 +89,18 @@ It’s an indie project in active development. Things change fast, and a lot of 
 
 <table>
   <tr>
+    <td width="50%" align="center"><img src="media/gifs/otherworld.gif" alt="Xal-Tuun's third eye drags the player into a shadow otherworld boss arena" width="100%"><br><b>Bosses with signature attacks</b><br><sub>Xal-Tuun's third eye pulls your whole team into his otherworld.</sub></td>
+    <td width="50%" align="center"><img src="media/gifs/chain_lightning.gif" alt="Chain lightning jumping between enemies in the Coral Cathedral" width="100%"><br><b>Elemental reactions</b><br><sub>Tide, Blood, Lightning and Void combine into chain reactions.</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="media/gifs/charm_choice.gif" alt="Picking a legendary charm from riveted reward cards" width="100%"><br><b>Builds that shouldn't work</b><br><sub>95 charms and 36 blessings, picked from riveted reward cards.</sub></td>
+    <td align="center"><img src="media/coop_vs_xal_tuun.jpg" alt="Two divers in brass suits fighting Xal-Tuun together in co-op" width="100%"><br><b>Co-op for 1–4 divers</b><br><sub>Room codes, personal loot, revive your crew.</sub></td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
     <td width="50%"><b>5 areas, 14 depths</b><br>Temple Forecourt or Drilling Station, then the Coral Cathedral, the Sunken Archives and the Abyss.</td>
     <td width="50%"><b>5 bosses, 4 Heralds</b><br>Xal-Tuun, the Drill Mother, Ysmera, the Archivist, the Sleeper’s Ear – phases, weak points, their own music.</td>
   </tr>
@@ -94,9 +114,6 @@ It’s an indie project in active development. Things change fast, and a lot of 
   </tr>
 </table>
 
-<p align="center">
-  <img src="media/gifs/charm_choice.gif" alt="Picking a legendary charm from riveted reward cards" width="100%">
-</p>
 
 <img src="media/readme/h_coop_en.png" alt="Co-op" width="100%">
 

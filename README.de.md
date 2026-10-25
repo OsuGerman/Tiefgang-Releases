@@ -12,7 +12,8 @@
   <a href="https://github.com/OsuGerman/Tiefgang-Releases/releases/latest"><img src="https://img.shields.io/github/v/release/OsuGerman/Tiefgang-Releases?style=flat-square&label=build&color=c9a24a&labelColor=061a22" alt="Neuester Build"></a>
   <a href="https://github.com/OsuGerman/Tiefgang-Releases/releases"><img src="https://img.shields.io/github/downloads/OsuGerman/Tiefgang-Releases/total?style=flat-square&label=tauchg%C3%A4nge&color=2ff5d2&labelColor=061a22" alt="Downloads"></a>
   <br>
-  <a href="README.md">English</a> · <b>Deutsch</b> · <a href="CHANGELOG.de.md">Changelog</a> · <a href="KOOP.de.md">Koop-Anleitung</a>
+  <a href="README.md">English</a> · <b>Deutsch</b> · <a href="CHANGELOG.de.md">Changelog</a> · <a href="KOOP.de.md">Koop-Anleitung</a><br>
+  <a href="https://github.com/OsuGerman/Tiefgang-Releases">Repo mit Stern markieren</a> · <a href="https://github.com/OsuGerman/Tiefgang-Releases/discussions">Discussions</a> · <a href="https://github.com/OsuGerman/Tiefgang-Releases/milestones">Roadmap</a> · <a href="https://github.com/OsuGerman/Tiefgang-Releases/issues/new/choose">Bug melden</a>
 </p>
 
 **TIEFGANG** ist ein kostenloser **Koop-Roguelite-Shooter (FPS)** im Jahr 1887. Tauch im schweren Messing-Taucheranzug durch versunkene Tempel, Archive und Schiffswracks und bau absurde Kombos aus 9 Waffen, 95 Charms und Element-Segen. Spiel **allein oder im Koop mit 1–4 Spielern**. Entwickelt mit **Godot 4** von einem Solo-Entwickler, kostenlose Test-Builds für **Windows** mit automatischen Updates.
@@ -22,8 +23,15 @@
 > *Tiefgang, hier Marsh. Signal steht. Unter dir liegen die Ruinen der Thalassari, das größte Abyssalit-Vorkommen, das je jemand gefunden hat – und etwas, das schon sehr lange darauf schläft. Tauch runter, bring mit, was du tragen kannst, und wenn du einen Herzschlag hörst, der nicht deiner ist: weiterlaufen.*
 
 <p align="center">
-  <img src="media/gifs/chain_lightning.gif" alt="Kettenblitz springt zwischen Gegnern in der Korallenkathedrale" width="100%">
+  <img src="media/gifs/black_hole.gif" alt="Leere und Blitz reißen ein Schwarzes Loch auf, das Gegner einsaugt, TIEFGANG Koop-Roguelite-Shooter" width="100%">
+  <br><sub><i>Leere + Blitz = ein Schwarzes Loch, das den Raum verschluckt.</i></sub>
 </p>
+
+<table><tr><td>
+<b>Neu im letzten Update</b><br>
+Xal-Tuun zieht dein Team in eine Schatten-Zwischenwelt · Schwarze Löcher mit echter Wucht · Kettenblitz als echte Kette · Messinghülsen und Atmen im Helm · SMAA und FSR 2.2 · schnelleres Laden.
+<a href="CHANGELOG.de.md">Ganzer Changelog</a>
+</td></tr></table>
 
 <img src="media/readme/h_download_de.png" alt="Download" width="100%">
 
@@ -81,6 +89,18 @@ Ein Indie-Projekt in aktiver Entwicklung. Es ändert sich schnell, und vieles hi
 
 <table>
   <tr>
+    <td width="50%" align="center"><img src="media/gifs/otherworld.gif" alt="Xal-Tuuns drittes Auge zieht den Spieler in eine Schatten-Zwischenwelt" width="100%"><br><b>Bosse mit Signatur-Attacken</b><br><sub>Xal-Tuuns drittes Auge zieht das ganze Team in seine Zwischenwelt.</sub></td>
+    <td width="50%" align="center"><img src="media/gifs/chain_lightning.gif" alt="Kettenblitz springt zwischen Gegnern in der Korallenkathedrale" width="100%"><br><b>Element-Reaktionen</b><br><sub>Flut, Blut, Blitz und Leere verketten sich zu Reaktionen.</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="media/gifs/charm_choice.gif" alt="Wahl eines legendären Charms auf genieteten Belohnungskarten" width="100%"><br><b>Builds, die nicht funktionieren dürften</b><br><sub>95 Charms und 36 Segen auf genieteten Belohnungskarten.</sub></td>
+    <td align="center"><img src="media/coop_vs_xal_tuun.jpg" alt="Zwei Taucher in Messinganzügen kämpfen im Koop gegen Xal-Tuun" width="100%"><br><b>Koop für 1–4 Taucher</b><br><sub>Raumcodes, eigene Beute, Mitspieler wiederbeleben.</sub></td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
     <td width="50%"><b>5 Gebiete, 14 Tiefen</b><br>Tempelvorhof oder Bohrstation, danach Korallenkathedrale, Versunkene Archive und der Abgrund.</td>
     <td width="50%"><b>5 Bosse, 4 Herolde</b><br>Xal-Tuun, die Bohrmutter, Ysmera, der Archivar, das Ohr des Schläfers – Phasen, Schwachstellen, eigene Musik.</td>
   </tr>
@@ -94,9 +114,6 @@ Ein Indie-Projekt in aktiver Entwicklung. Es ändert sich schnell, und vieles hi
   </tr>
 </table>
 
-<p align="center">
-  <img src="media/gifs/charm_choice.gif" alt="Wahl eines legendären Charms auf genieteten Belohnungskarten" width="100%">
-</p>
 
 <img src="media/readme/h_coop_de.png" alt="Koop" width="100%">
 

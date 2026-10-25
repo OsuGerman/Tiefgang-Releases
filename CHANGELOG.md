@@ -8,6 +8,18 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 25.10.2026 – Brass casings, breathing in the helmet, faster first dive (v2026.10.25.1034-3ca8526c)
+
+### New
+- **Brass casings:** the Shipyard Song ejects a cartridge with every shot, and the Governor and Keelbreaker drop their spent shells when you reload. They bounce, settle on the floor and clink differently on stone, metal, wood and sand. ([#119](https://github.com/OsuGerman/Tiefgang-Releases/issues/119))
+- **Breathing in the brass helmet:** a slow, muffled breath with a hissing valve and bubbles outside. It gets faster after a dash and when you're low on health. You can turn it off under Audio → Helmet Breathing. ([#119](https://github.com/OsuGerman/Tiefgang-Releases/issues/119))
+
+### Improved
+- **Faster first dive:** the first expedition after starting the game is revealed about 1.3 seconds earlier, and the remaining load now happens behind the finished title card instead of a black screen. ([#106](https://github.com/OsuGerman/Tiefgang-Releases/issues/106))
+
+
+---
+
 ## 24.10.2026 – Xal-Tuun's Otherworld, punchier effects, smoother loading (v2026.10.24.2321-dbccc819)
 
 ### New

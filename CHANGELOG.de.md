@@ -8,6 +8,18 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 25.10.2026 – Messinghülsen, Atmen im Helm, schnellerer erster Tauchgang (v2026.10.25.1034-3ca8526c)
+
+### Neu
+- **Messinghülsen:** Das Werftlied wirft bei jedem Schuss eine Kartusche aus, Gouverneur und Kielbrecher lassen beim Nachladen ihre leeren Hülsen fallen. Sie springen, bleiben liegen und klirren auf Stein, Metall, Holz und Sand unterschiedlich. ([#119](https://github.com/OsuGerman/Tiefgang-Releases/issues/119))
+- **Atmen im Messinghelm:** ein langsamer, gedämpfter Atem mit zischendem Ventil und Blasen draußen. Nach einem Dash und bei wenig Leben wird er schneller. Abschaltbar unter Audio → Helm-Atmen. ([#119](https://github.com/OsuGerman/Tiefgang-Releases/issues/119))
+
+### Verbessert
+- **Schnellerer erster Tauchgang:** Die erste Expedition nach dem Spielstart ist rund 1,3 Sekunden früher zu sehen, und der restliche Ladevorgang läuft hinter der fertigen Titelkarte statt vor einem schwarzen Bild. ([#106](https://github.com/OsuGerman/Tiefgang-Releases/issues/106))
+
+
+---
+
 ## 24.10.2026 – Xal-Tuuns Zwischenwelt, wuchtigere Effekte, flüssigeres Laden (v2026.10.24.2321-dbccc819)
 
 ### Neu

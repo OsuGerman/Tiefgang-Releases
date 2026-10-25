@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://osugerman.github.io/Tiefgang-Releases/sitemap.xml

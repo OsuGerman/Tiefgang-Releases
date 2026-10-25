@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media/banner.jpg" alt="TIEFGANG – Deep-sea roguelike shooter" width="100%">
+  <img src="media/banner.jpg" alt="TIEFGANG – free co-op roguelite FPS in drowned ruins, made with Godot 4" width="100%">
 </p>
 
 <p align="center">
@@ -14,6 +14,8 @@
   <br>
   <b>English</b> · <a href="README.de.md">Deutsch</a> · <a href="CHANGELOG.md">Changelog</a> · <a href="KOOP.md">Co-op guide</a>
 </p>
+
+**TIEFGANG** is a free **co-op roguelite FPS** set in 1887. Dive in a heavy brass diving suit, fight through drowned temples, sunken archives and ship wrecks, and build absurd combos from 9 weapons, 95 charms and elemental blessings. Play **solo or with 1–4 players in co-op**. Made with **Godot 4** by a solo developer, free test builds for **Windows** with automatic updates.
 
 > **RADIO · DR. A. MARSH · PACIFIC, 1887**
 >

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media/banner.jpg" alt="TIEFGANG – Tiefsee-Roguelike-Shooter" width="100%">
+  <img src="media/banner.jpg" alt="TIEFGANG – kostenloser Koop-Roguelite-Shooter (FPS) in versunkenen Ruinen, mit Godot 4" width="100%">
 </p>
 
 <p align="center">
@@ -14,6 +14,8 @@
   <br>
   <a href="README.md">English</a> · <b>Deutsch</b> · <a href="CHANGELOG.de.md">Changelog</a> · <a href="KOOP.de.md">Koop-Anleitung</a>
 </p>
+
+**TIEFGANG** ist ein kostenloser **Koop-Roguelite-Shooter (FPS)** im Jahr 1887. Tauch im schweren Messing-Taucheranzug durch versunkene Tempel, Archive und Schiffswracks und bau absurde Kombos aus 9 Waffen, 95 Charms und Element-Segen. Spiel **allein oder im Koop mit 1–4 Spielern**. Entwickelt mit **Godot 4** von einem Solo-Entwickler, kostenlose Test-Builds für **Windows** mit automatischen Updates.
 
 > **FUNK · DR. A. MARSH · PAZIFIK, 1887**
 >

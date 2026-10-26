@@ -37,7 +37,7 @@ About 25 % more GPU performance with no visual loss · co-op: see your teammates
 <a href="CHANGELOG.md">Full changelog</a>
 </td></tr></table>
 
-<img src="media/readme/h_download_en.png" alt="Download" width="100%">
+<img src="media/readme/h_download_en.png" alt="Download TIEFGANG free for Windows" width="100%">
 
 1. **[Download Tiefgang-Windows.zip](https://github.com/OsuGerman/Tiefgang-Releases/releases/latest/download/Tiefgang-Windows.zip)** – or grab it on **[itch.io](https://osugerman.itch.io/tiefgang)**. Older builds live under [Releases](https://github.com/OsuGerman/Tiefgang-Releases/releases).
 2. Extract the `Tiefgang` folder somewhere you can write to (Desktop, Documents). Not into `C:\Program Files`, or the auto-update can’t do its job.
@@ -72,7 +72,7 @@ Provisional – the game is still in development. Mouse and keyboard or controll
 Every key can be rebound in the settings.
 </details>
 
-<img src="media/readme/h_about_en.png" alt="What is it" width="100%">
+<img src="media/readme/h_about_en.png" alt="What is TIEFGANG: an underwater co-op roguelite FPS" width="100%">
 
 A fast first-person shooter built on roguelike runs. You descend through **14 depths** of combat rooms, treasure vaults, trials and boss arenas, picking up charms and blessings after every fight, until your build is either unstoppable or very, very funny. Standing still gets you killed; sprint, dash and double jump are your real armour. Between dives you go back to your submarine, research, gear up and go down again – one pressure level deeper.
 
@@ -89,7 +89,7 @@ It’s an indie project in active development. Things change fast, and a lot of 
 </p>
 <!-- /TRAILER -->
 
-<img src="media/readme/h_features_en.png" alt="Features" width="100%">
+<img src="media/readme/h_features_en.png" alt="Features: weapons, charms, bosses and builds" width="100%">
 
 <table>
   <tr>
@@ -119,27 +119,27 @@ It’s an indie project in active development. Things change fast, and a lot of 
 </table>
 
 
-<img src="media/readme/h_coop_en.png" alt="Co-op" width="100%">
+<img src="media/readme/h_coop_en.png" alt="Co-op multiplayer for 1–4 players" width="100%">
 
 Up to **four divers**. One hosts, the others type in a room code – over the internet that usually works without port forwarding, and on a home network there’s a LAN code too. Everyone picks their own charms and blessings, shells are shared, and whoever goes down can be revived. Step by step: **[KOOP.md](KOOP.md)**.
 
-<img src="media/readme/h_gallery_en.png" alt="Gallery" width="100%">
+<img src="media/readme/h_gallery_en.png" alt="Screenshots and gallery" width="100%">
 
 <table>
   <tr>
-    <td width="33%"><a href="media/great_hall_leviathan.jpg"><img src="media/great_hall_leviathan.jpg" alt="A leviathan over the Great Hall’s light shaft"></a></td>
+    <td width="33%"><a href="media/great_hall_leviathan.jpg"><img src="media/great_hall_leviathan.jpg" alt="A leviathan over the Great Hall’s light shaft in a drowned temple"></a></td>
     <td width="33%"><a href="media/fx_black_hole.jpg"><img src="media/fx_black_hole.jpg" alt="Singularity: a black hole from Void + Lightning"></a></td>
-    <td width="33%"><a href="media/coral_cathedral.jpg"><img src="media/coral_cathedral.jpg" alt="Coral Cathedral with caustics"></a></td>
+    <td width="33%"><a href="media/coral_cathedral.jpg"><img src="media/coral_cathedral.jpg" alt="Coral Cathedral with caustics, an underwater level"></a></td>
   </tr>
   <tr>
-    <td><a href="media/boss_xal_tuun_phase2.jpg"><img src="media/boss_xal_tuun_phase2.jpg" alt="Xal-Tuun, phase II"></a></td>
+    <td><a href="media/boss_xal_tuun_phase2.jpg"><img src="media/boss_xal_tuun_phase2.jpg" alt="Boss fight against Xal-Tuun, phase II"></a></td>
     <td><a href="media/coop_vs_xal_tuun.jpg"><img src="media/coop_vs_xal_tuun.jpg" alt="Co-op: two divers against Xal-Tuun"></a></td>
-    <td><a href="media/boss_ysmera_phase2.jpg"><img src="media/boss_ysmera_phase2.jpg" alt="Ysmera, the Coral Mother"></a></td>
+    <td><a href="media/boss_ysmera_phase2.jpg"><img src="media/boss_ysmera_phase2.jpg" alt="Boss fight against Ysmera, the Coral Mother"></a></td>
   </tr>
   <tr>
-    <td><a href="media/archives_reading_room.jpg"><img src="media/archives_reading_room.jpg" alt="Sunken Archives: candle gold and fog"></a></td>
-    <td><a href="media/attack_reef_cage.jpg"><img src="media/attack_reef_cage.jpg" alt="The Brood Matron’s reef cage"></a></td>
-    <td><a href="media/hud_combat.jpg"><img src="media/hud_combat.jpg" alt="The brass HUD in combat"></a></td>
+    <td><a href="media/archives_reading_room.jpg"><img src="media/archives_reading_room.jpg" alt="Sunken Archives level: candle gold and fog"></a></td>
+    <td><a href="media/attack_reef_cage.jpg"><img src="media/attack_reef_cage.jpg" alt="Enemy attack: the Brood Matron’s reef cage"></a></td>
+    <td><a href="media/hud_combat.jpg"><img src="media/hud_combat.jpg" alt="First-person combat with the brass HUD"></a></td>
   </tr>
 </table>
 
@@ -163,11 +163,11 @@ All real captures from the test build. More on the **[website](https://osugerman
 
 <p align="center">⭐ If you enjoyed TIEFGANG, <b><a href="https://github.com/OsuGerman/Tiefgang-Releases">star this repo</a></b> and share it with a friend you want to dive with.</p>
 
-<img src="media/readme/h_feedback_en.png" alt="Feedback" width="100%">
+<img src="media/readme/h_feedback_en.png" alt="Feedback and bug reports" width="100%">
 
 Found a bug, hit a crash, or think the dash feels mushy? **[Open an issue](https://github.com/OsuGerman/Tiefgang-Releases/issues/new/choose)** – English or German. The version number (bottom right of the main menu), area, depth and a screenshot help a lot. Honest feedback has rebuilt parts of this game more than once.
 
-<img src="media/readme/h_credits_en.png" alt="Credits" width="100%">
+<img src="media/readme/h_credits_en.png" alt="Credits and licenses" width="100%">
 
 Built with the Godot Engine 4.7. Full attributions ship as `CREDITS.md` in the release zip.
 

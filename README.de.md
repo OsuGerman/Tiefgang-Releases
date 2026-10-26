@@ -37,7 +37,7 @@ Rund 25 % mehr Grafikleistung ohne Optikverlust · Koop: Alt-Aktionen der Mitspi
 <a href="CHANGELOG.de.md">Ganzer Changelog</a>
 </td></tr></table>
 
-<img src="media/readme/h_download_de.png" alt="Download" width="100%">
+<img src="media/readme/h_download_de.png" alt="TIEFGANG kostenlos für Windows herunterladen" width="100%">
 
 1. **[Tiefgang-Windows.zip herunterladen](https://github.com/OsuGerman/Tiefgang-Releases/releases/latest/download/Tiefgang-Windows.zip)** – oder über **[itch.io](https://osugerman.itch.io/tiefgang)**. Ältere Builds liegen unter [Releases](https://github.com/OsuGerman/Tiefgang-Releases/releases).
 2. Den Ordner `Tiefgang` dorthin entpacken, wo du schreiben darfst (Desktop, Dokumente). Nicht nach `C:\Programme`, sonst kann das Auto-Update nicht arbeiten.
@@ -72,7 +72,7 @@ Vorläufig – das Spiel ist noch in Entwicklung. Maus und Tastatur oder Control
 Alle Tasten lassen sich in den Einstellungen ändern.
 </details>
 
-<img src="media/readme/h_about_de.png" alt="Worum geht's" width="100%">
+<img src="media/readme/h_about_de.png" alt="Worum geht's: ein Koop-Roguelite-Shooter unter Wasser" width="100%">
 
 Ein schneller Ego-Shooter mit Roguelike-Runs. Du tauchst durch **14 Tiefen** aus Kampfräumen, Schatzkammern, Prüfungen und Bossarenen, sammelst nach jedem Kampf Charms und Segen, bis dein Build entweder unaufhaltsam oder sehr, sehr lustig ist. Stehenbleiben ist tödlich; Sprint, Dash und Doppelsprung sind deine eigentliche Rüstung. Zwischen den Tauchgängen geht’s zurück ins U-Boot: forschen, ausrüsten, wieder runter – eine Druckstufe tiefer.
 
@@ -89,7 +89,7 @@ Ein Indie-Projekt in aktiver Entwicklung. Es ändert sich schnell, und vieles hi
 </p>
 <!-- /TRAILER -->
 
-<img src="media/readme/h_features_de.png" alt="Das Spiel" width="100%">
+<img src="media/readme/h_features_de.png" alt="Das Spiel: Waffen, Charms, Bosse und Builds" width="100%">
 
 <table>
   <tr>
@@ -119,27 +119,27 @@ Ein Indie-Projekt in aktiver Entwicklung. Es ändert sich schnell, und vieles hi
 </table>
 
 
-<img src="media/readme/h_coop_de.png" alt="Koop" width="100%">
+<img src="media/readme/h_coop_de.png" alt="Koop-Multiplayer für 1–4 Spieler" width="100%">
 
 Bis zu **vier Taucher**. Einer hostet, die anderen tippen einen Raumcode ein – übers Internet klappt das meist ohne Portfreigabe, im Heimnetz gibt es zusätzlich einen LAN-Code. Jeder wählt eigene Charms und Segen, Muscheln werden geteilt, und wer am Boden liegt, kann wiederbelebt werden. Schritt für Schritt: **[KOOP.de.md](KOOP.de.md)**.
 
-<img src="media/readme/h_gallery_de.png" alt="Galerie" width="100%">
+<img src="media/readme/h_gallery_de.png" alt="Screenshots und Galerie" width="100%">
 
 <table>
   <tr>
-    <td width="33%"><a href="media/great_hall_leviathan.jpg"><img src="media/great_hall_leviathan.jpg" alt="Ein Leviathan über dem Lichtschacht der Großen Halle"></a></td>
+    <td width="33%"><a href="media/great_hall_leviathan.jpg"><img src="media/great_hall_leviathan.jpg" alt="Ein Leviathan über dem Lichtschacht der Großen Halle in einem versunkenen Tempel"></a></td>
     <td width="33%"><a href="media/fx_black_hole.jpg"><img src="media/fx_black_hole.jpg" alt="Singularität: schwarzes Loch aus Leere + Blitz"></a></td>
-    <td width="33%"><a href="media/coral_cathedral.jpg"><img src="media/coral_cathedral.jpg" alt="Korallenkathedrale mit Kaustik"></a></td>
+    <td width="33%"><a href="media/coral_cathedral.jpg"><img src="media/coral_cathedral.jpg" alt="Korallenkathedrale mit Kaustik, ein Unterwasser-Level"></a></td>
   </tr>
   <tr>
-    <td><a href="media/boss_xal_tuun_phase2.jpg"><img src="media/boss_xal_tuun_phase2.jpg" alt="Xal-Tuun, Phase II"></a></td>
+    <td><a href="media/boss_xal_tuun_phase2.jpg"><img src="media/boss_xal_tuun_phase2.jpg" alt="Bosskampf gegen Xal-Tuun, Phase II"></a></td>
     <td><a href="media/coop_vs_xal_tuun.jpg"><img src="media/coop_vs_xal_tuun.jpg" alt="Koop: zwei Taucher gegen Xal-Tuun"></a></td>
-    <td><a href="media/boss_ysmera_phase2.jpg"><img src="media/boss_ysmera_phase2.jpg" alt="Ysmera, die Korallenmutter"></a></td>
+    <td><a href="media/boss_ysmera_phase2.jpg"><img src="media/boss_ysmera_phase2.jpg" alt="Bosskampf gegen Ysmera, die Korallenmutter"></a></td>
   </tr>
   <tr>
-    <td><a href="media/archives_reading_room.jpg"><img src="media/archives_reading_room.jpg" alt="Versunkene Archive: Kerzengold und Nebel"></a></td>
-    <td><a href="media/attack_reef_cage.jpg"><img src="media/attack_reef_cage.jpg" alt="Riffkäfig der Brutmutter"></a></td>
-    <td><a href="media/hud_combat.jpg"><img src="media/hud_combat.jpg" alt="Das Messing-HUD im Kampf"></a></td>
+    <td><a href="media/archives_reading_room.jpg"><img src="media/archives_reading_room.jpg" alt="Level Versunkene Archive: Kerzengold und Nebel"></a></td>
+    <td><a href="media/attack_reef_cage.jpg"><img src="media/attack_reef_cage.jpg" alt="Gegnerangriff: Riffkäfig der Brutmutter"></a></td>
+    <td><a href="media/hud_combat.jpg"><img src="media/hud_combat.jpg" alt="Ego-Perspektive im Kampf mit dem Messing-HUD"></a></td>
   </tr>
 </table>
 
@@ -163,11 +163,11 @@ Alles echte Aufnahmen aus dem Test-Build. Mehr auf der **[Webseite](https://osug
 
 <p align="center">⭐ Wenn dir TIEFGANG gefällt, <b><a href="https://github.com/OsuGerman/Tiefgang-Releases">gib dem Repo einen Stern</a></b> und schick es einem Freund, mit dem du abtauchen willst.</p>
 
-<img src="media/readme/h_feedback_de.png" alt="Feedback" width="100%">
+<img src="media/readme/h_feedback_de.png" alt="Feedback und Bugreports" width="100%">
 
 Fehler gefunden, Absturz erlebt oder findest du, der Dash fühlt sich matschig an? **[Issue aufmachen](https://github.com/OsuGerman/Tiefgang-Releases/issues/new/choose)** – Deutsch oder Englisch. Versionsnummer (unten rechts im Hauptmenü), Gebiet, Tiefe und ein Screenshot helfen sehr. Ehrliches Feedback hat Teile dieses Spiels schon mehrmals umgebaut.
 
-<img src="media/readme/h_credits_de.png" alt="Credits" width="100%">
+<img src="media/readme/h_credits_de.png" alt="Credits und Lizenzen" width="100%">
 
 Entwickelt mit der Godot Engine 4.7. Vollständige Namensnennungen liegen als `CREDITS.md` im Release-Zip.
 

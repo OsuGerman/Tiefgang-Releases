@@ -18,7 +18,7 @@
 
 **TIEFGANG** ist ein kostenloser **Koop-Roguelite-Shooter (FPS)** im Jahr 1887. Tauch im schweren Messing-Taucheranzug durch versunkene Tempel, Archive und Schiffswracks und bau absurde Kombos aus 9 Waffen, 95 Charms und Element-Segen. Spiel **allein oder im Koop mit 1–4 Spielern**. Entwickelt mit **Godot 4** von einem Solo-Entwickler, kostenlose Test-Builds für **Windows** mit automatischen Updates.
 
-Wenn du **Roboquest**, **Gunfire Reborn** oder **Risk of Rain 2** magst: genau diese Art Run-Shooter, nur tief unter Wasser, im Jahr 1887, und am Grund wartet etwas Lovecraft-artiges.
+Wenn du **Roboquest**, **Gunfire Reborn** oder **Risk of Rain 2** magst: genau diese Art Run-Shooter, nur tief unter Wasser im Jahr 1887, in Messing-Taucheranzügen wie aus BioShock, und am Grund wartet etwas Lovecraft-artiges.
 
 <p align="center">⭐ <b>Gefällt es dir? Gib dem Repo einen Stern</b> – so finden andere Spieler TIEFGANG, und die Updates kommen weiter.</p>
 

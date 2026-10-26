@@ -18,7 +18,7 @@
 
 **TIEFGANG** is a free **co-op roguelite FPS** set in 1887. Dive in a heavy brass diving suit, fight through drowned temples, sunken archives and ship wrecks, and build absurd combos from 9 weapons, 95 charms and elemental blessings. Play **solo or with 1–4 players in co-op**. Made with **Godot 4** by a solo developer, free test builds for **Windows** with automatic updates.
 
-If you like **Roboquest**, **Gunfire Reborn** or **Risk of Rain 2**, this is that kind of run-based shooter, only deep underwater, in 1887, with something Lovecraftian waiting at the bottom.
+If you like **Roboquest**, **Gunfire Reborn** or **Risk of Rain 2**, this is that kind of run-based shooter, only deep underwater in 1887, in brass diving suits straight out of BioShock, with something Lovecraftian waiting at the bottom.
 
 <p align="center">⭐ <b>Like it? Star the repo</b> – it helps other players find TIEFGANG and keeps the updates coming.</p>
 
@@ -149,7 +149,7 @@ All real captures from the test build. More on the **[website](https://osugerman
 
 **Is TIEFGANG free?** Yes, completely. No account, no launcher, no ads, no microtransactions. [Download the zip](https://github.com/OsuGerman/Tiefgang-Releases/releases/latest/download/Tiefgang-Windows.zip), extract it and play.
 
-**What games is it like?** A fast first-person roguelite in the spirit of Roboquest and Gunfire Reborn, with the build-crafting of Risk of Rain 2 and Hades: fight a room, pick a reward, go deeper, beat the boss of each area. The setting is a steampunk deep-sea expedition in 1887.
+**What games is it like?** A fast first-person roguelite in the spirit of Roboquest and Gunfire Reborn, with the build-crafting of Risk of Rain 2 and Hades: fight a room, pick a reward, go deeper, beat the boss of each area. The setting is a steampunk deep-sea expedition in 1887, with brass diving suits that BioShock fans will recognize.
 
 **Can I play solo or offline?** Yes. Solo runs fully offline. Co-op for up to 4 players works over the internet with a room code, usually without port forwarding, or over LAN. See the [co-op guide](KOOP.md).
 
@@ -180,4 +180,4 @@ Fonts Cinzel and Barlow (SIL Open Font License). Music using instrument recordin
 
 <p align="center"><sub>This repository holds the test builds and the website, not the source code.</sub></p>
 
-<sub>Keywords: free roguelite FPS, roguelike shooter, co-op shooter, games like Roboquest, games like Gunfire Reborn, underwater game, deep sea, steampunk, Lovecraftian, indie game, Godot 4, Windows · kostenloser Roguelite-Shooter, Koop-Shooter</sub>
+<sub>Keywords: free roguelite FPS, roguelike shooter, co-op shooter, games like Roboquest, games like Gunfire Reborn, games like Risk of Rain 2, BioShock-like, underwater game, deep sea, steampunk, Lovecraftian, indie game, Godot 4, Windows · kostenloser Roguelite-Shooter, Koop-Shooter</sub>

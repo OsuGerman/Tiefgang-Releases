@@ -8,6 +8,15 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 26.10.2026 – About a quarter more GPU performance, less flicker (v2026.10.26.1837-4921162b)
+
+### Improved
+- **Noticeably higher frame rates without anything looking worse:** the stone shader only computes what reaches the screen, stone, metal and wood textures are compressed (about a quarter of the video memory) and post-processing skips an unneeded step. About 28 % less GPU time on High, about 25 % on Low. ([#100](https://github.com/OsuGerman/Tiefgang-Releases/issues/100))
+
+### Fixed
+- **End walls next to wreck rooms** stood 0.7 m in front of their collision, so you could walk halfway into them. They now sit flush with the door frame. ([#135](https://github.com/OsuGerman/Tiefgang-Releases/issues/135))
+- **Last flicker spots** on a telescope lens, a control desk and pilaster tops in coral and archive rooms are gone. ([#135](https://github.com/OsuGerman/Tiefgang-Releases/issues/135))
+
 ## 25.10.2026 – Co-op: see your teammates' alt actions, no more flicker in treasure rooms (v2026.10.25.2107-689b26a5)
 
 ### Improved

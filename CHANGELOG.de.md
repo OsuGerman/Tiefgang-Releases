@@ -8,6 +8,15 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 26.10.2026 – Rund ein Viertel mehr Grafikleistung, weniger Flimmern (v2026.10.26.1837-4921162b)
+
+### Verbessert
+- **Spürbar mehr Bilder pro Sekunde, ohne dass etwas schlechter aussieht:** Der Stein-Shader rechnet nur noch, was im Bild ankommt, Stein-, Metall- und Holztexturen sind komprimiert (etwa ein Viertel des Grafikspeichers) und die Nachbearbeitung spart einen unnötigen Schritt. Auf Hoch rund 28 % weniger Grafikzeit, auf Niedrig rund 25 %. ([#100](https://github.com/OsuGerman/Tiefgang-Releases/issues/100))
+
+### Behoben
+- **Stirnwände neben Wrackräumen** standen 0,7 m vor ihrer Kollision, man konnte halb hineinlaufen. Jetzt sitzen sie bündig am Türrahmen. ([#135](https://github.com/OsuGerman/Tiefgang-Releases/issues/135))
+- **Letzte Flimmerstellen** an Teleskoplinse, Steuerpult und Pilasterköpfen in Korallen- und Archivräumen beseitigt. ([#135](https://github.com/OsuGerman/Tiefgang-Releases/issues/135))
+
 ## 25.10.2026 – Koop: Alt-Aktionen der Mitspieler sichtbar, kein Flimmern mehr in Schatzkammern (v2026.10.25.2107-689b26a5)
 
 ### Verbessert

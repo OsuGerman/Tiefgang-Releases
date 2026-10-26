@@ -33,7 +33,7 @@ Wenn du **Roboquest**, **Gunfire Reborn** oder **Risk of Rain 2** magst: genau d
 
 <table><tr><td>
 <b>Neu im letzten Update</b><br>
-Koop: Alt-Aktionen der Mitspieler sichtbar · kein Flimmern mehr in Schatzkammern · etwa 15 % mehr fps und viel weniger Flimmern · „Bug melden“-Knopf · keine Truhen mehr in Wänden.
+Rund 25 % mehr Grafikleistung ohne Optikverlust · Koop: Alt-Aktionen der Mitspieler sichtbar · kein Flimmern mehr in Schatzkammern · „Bug melden“-Knopf · keine Truhen mehr in Wänden.
 <a href="CHANGELOG.de.md">Ganzer Changelog</a>
 </td></tr></table>
 

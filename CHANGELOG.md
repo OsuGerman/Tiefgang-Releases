@@ -8,6 +8,13 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 27.10.2026 – Bug fixes: camera after a hard landing, co-op menu with a controller, Beacon mods (v2026.10.27.0856-2cf6496b)
+
+### Fixed
+- **Broken camera after a hard landing during stutter:** if the frame rate briefly dropped below about 8 fps (for example during a loading spike or on weak PCs) and you landed hard, the camera dip produced invalid values. Camera, weapon, tracers and threat arrows stayed broken for the rest of the run. The dip now runs in small fixed steps and stays stable at any frame rate.
+- **Beacon:** the Blood Price and Pressure Chamber mods did nothing with the continuous beam and are no longer offered for it.
+- **Co-op menu with a controller:** when the co-op menu opened right after start-up or after a lost connection, the first button press got swallowed by the logo intro (e.g. A on the name field). Sub-menus now end the intro right away.
+
 ## 27.10.2026 – Loading screen no longer freezes, weapons you recognise at a glance, co-op soft-lock fixed (v2026.10.27.0711-345dc91b)
 
 ### Improved

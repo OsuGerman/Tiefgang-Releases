@@ -8,6 +8,13 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 27.10.2026 – Bugfixes: Kamera nach harter Landung, Koop-Menü mit Controller, Leuchtfeuer-Mods (v2026.10.27.0856-2cf6496b)
+
+### Behoben
+- **Kamera kaputt nach harter Landung bei Rucklern:** Fiel die Bildrate kurz unter etwa 8 fps (z. B. bei einer Ladespitze oder auf schwachen Rechnern) und man landete hart, rechnete der Kamera-Dip ungültige Werte. Kamera, Waffe, Leuchtspuren und Bedrohungspfeile blieben danach für den ganzen Lauf kaputt. Der Dip wird jetzt in festen kleinen Schritten gerechnet und bleibt bei jeder Bildrate stabil.
+- **Leuchtfeuer:** Die Mods „Blutpreis“ und „Druckkammer“ wirkten mit dem Dauerstrahl nicht und werden dort nicht mehr angeboten.
+- **Koop-Menü mit Controller:** Öffnete sich das Koop-Menü kurz nach dem Start oder nach einem Verbindungsabbruch, ging die erste Taste im Logo-Auftritt verloren (z. B. A auf dem Namensfeld). Untermenüs beenden den Auftritt jetzt sofort.
+
 ## 27.10.2026 – Ladebildschirm friert nicht mehr ein, Waffen am Bild erkennbar, Koop-Soft-Lock behoben (v2026.10.27.0711-345dc91b)
 
 ### Verbessert

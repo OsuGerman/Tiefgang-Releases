@@ -8,6 +8,18 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 27.10.2026 – Bohrstation neu beleuchtet, Rückstoß mit Charakter, die Welt reagiert, Steam-Deck-Preset (v2026.10.27.1646-0aed7e5b)
+
+### Verbessert
+- **Grafik-Preset „Steam Deck / Handheld“:** für das Steam Deck und schwache Rechner, mit FSR, größerem HUD und größeren Untertiteln. Auf einem Steam Deck wird es beim ersten Start automatisch gewählt.
+- **Bohrstation mit neuem Licht:** Alle 13 Räume haben gebackenes Licht: harte orange Lichtkegel unter den Lampenmasten, kaltweißes Wasserlicht aus dem Schacht, heller Dampf statt schwarzer Ecken, Glut und Funken. ([#103](https://github.com/OsuGerman/Tiefgang-Releases/issues/103))
+- **Leuchten mit Hof:** Laternen, Kristalle, Lichtschächte und Explosionen bekommen einen weichen Lichthof, ohne dass das Bild insgesamt heller oder milchiger wird.
+- **Rückstoß mit Charakter:** Jede Waffe hat eine eigene Rückstoßkurve: ein kurzer Stoß mit Rückfedern statt eines Sprungs, schwere Waffen wuchtiger. Wohin du triffst, ändert sich nicht.
+- **Die Welt reagiert:** Bei Explosionen, Bodenstampfern, Boss-Phasen und Varrows Breitseiten rieselt Staub von der Decke, Laternen schwingen, Lampen flackern und der Raum knarzt.
+
+### Behoben
+- **HUD-Einstellungen gingen verloren:** HUD-Größe und HUD-Deckkraft wurden bei jedem Neustart zurückgesetzt.
+
 ## 27.10.2026 – Faire Bosse für Nahkampf, Sterben mit Gewicht, Linux-Build (experimentell) (v2026.10.27.1538-7e8bf14d)
 
 ### Neu

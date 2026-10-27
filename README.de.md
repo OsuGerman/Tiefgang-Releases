@@ -33,7 +33,7 @@ Wenn du **Roboquest**, **Gunfire Reborn** oder **Risk of Rain 2** magst: genau d
 
 <table><tr><td>
 <b>Neu im letzten Update</b><br>
-Jetzt auch für Linux (experimentell) · Schiffsfriedhof mit Admiral Varrow · faire Bosse für Nahkampf · Sterben mit Gewicht · neues Tiefsee-HUD.
+Bohrstation mit neuem Licht · Glow mit Hof · Rückstoß mit Charakter · die Welt reagiert auf Explosionen · Steam-Deck-Preset · Linux-Build (experimentell).
 <a href="CHANGELOG.de.md">Ganzer Changelog</a>
 </td></tr></table>
 

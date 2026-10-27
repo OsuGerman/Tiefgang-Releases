@@ -33,7 +33,7 @@ If you like **Roboquest**, **Gunfire Reborn** or **Risk of Rain 2**, this is tha
 
 <table><tr><td>
 <b>New in the latest update</b><br>
-Now also on Linux (experimental) · Ship Graveyard with Admiral Varrow · bosses fair for melee · dying with weight · new deep-sea HUD.
+Drilling Station with new lighting · glow with a halo · recoil with character · the world reacts to explosions · Steam Deck preset · Linux build (experimental).
 <a href="CHANGELOG.md">Full changelog</a>
 </td></tr></table>
 

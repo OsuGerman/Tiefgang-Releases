@@ -8,6 +8,18 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 27.10.2026 – Drilling Station relit, recoil with character, the world reacts, Steam Deck preset (v2026.10.27.1646-0aed7e5b)
+
+### Improved
+- **"Steam Deck / Handheld" graphics preset:** for the Steam Deck and weaker PCs, with FSR, a larger HUD and larger subtitles. On a Steam Deck it is picked automatically on first start.
+- **Drilling Station with new lighting:** all 13 rooms have baked lighting: hard orange light cones under the lamp posts, cold white water light from the shaft, light steam instead of black corners, embers and sparks. ([#103](https://github.com/OsuGerman/Tiefgang-Releases/issues/103))
+- **Glow with a halo:** lanterns, crystals, light shafts and explosions get a soft halo without making the whole picture brighter or milky.
+- **Recoil with character:** every weapon has its own recoil curve: a short kick with a spring back instead of a jump, heavy weapons hit harder. Where your shots land does not change.
+- **The world reacts:** explosions, ground slams, boss phase changes and Varrow's broadsides shake dust from the ceiling, swing lanterns, make lamps flicker and the room creak.
+
+### Fixed
+- **HUD settings got lost:** HUD size and HUD opacity reset on every restart.
+
 ## 27.10.2026 – Bosses fair for melee, dying with weight, Linux build (experimental) (v2026.10.27.1538-7e8bf14d)
 
 ### New

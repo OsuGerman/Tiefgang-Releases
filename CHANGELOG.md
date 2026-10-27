@@ -8,6 +8,16 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 27.10.2026 – Explosions with weight, even smoother loading, FSR without error spam (v2026.10.27.1134-d298fc01)
+
+### Improved
+- **Explosions with weight:** instead of a see-through dome you now get a white-hot peak, a shockwave that distorts the room and a fireball that cools to embers. The Singularity bathes its surroundings in violet light and darkens the pull zone, and every chain lightning jump gives a small camera kick. ([#118](https://github.com/OsuGerman/Tiefgang-Releases/issues/118))
+- **Even smoother loading screen:** the player is built over several frames behind the loading screen, and starting weapons preload in the main menu. The heaviest frame when entering the submarine went from ~380 to ~150 ms, and when starting an expedition from ~185 to ~68 ms.
+
+### Fixed
+- **Error messages when quitting quickly:** quitting while something was still loading in the background wrote "Parse Error" messages to the log. Running loads are now finished cleanly first.
+- **FSR 2.2:** turning FSR on during play caused thousands of engine error messages per minute in combat (costing performance). Effect particle buffers are now rebuilt when you switch, and the errors are gone.
+
 ## 27.10.2026 – Smoother, calmer submarine, safer co-op room starts, smaller download (v2026.10.27.1015-55aad820)
 
 ### Improved

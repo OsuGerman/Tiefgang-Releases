@@ -33,7 +33,7 @@ Wenn du **Roboquest**, **Gunfire Reborn** oder **Risk of Rain 2** magst: genau d
 
 <table><tr><td>
 <b>Neu im letzten Update</b><br>
-Ladebildschirm friert nicht mehr ein · Waffen am echten Modell erkennbar · Koop-Soft-Lock behoben · rund 25 % mehr Grafikleistung · hörbare Helmatmung.
+Explosionen mit Wucht · flüssige Ladeblende · ruhigeres U-Boot · Waffen am echten Modell erkennbar · Koop-Fixes · kleinerer Download.
 <a href="CHANGELOG.de.md">Ganzer Changelog</a>
 </td></tr></table>
 

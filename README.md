@@ -33,7 +33,7 @@ If you like **Roboquest**, **Gunfire Reborn** or **Risk of Rain 2**, this is tha
 
 <table><tr><td>
 <b>New in the latest update</b><br>
-Loading screen no longer freezes · weapons you recognise by their real model · co-op soft-lock fixed · about 25 % more GPU performance · helmet breathing you can hear.
+Explosions with weight · smooth loading screen · calmer submarine · weapons you recognise by their real model · co-op fixes · smaller download.
 <a href="CHANGELOG.md">Full changelog</a>
 </td></tr></table>
 

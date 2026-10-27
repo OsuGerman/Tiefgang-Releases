@@ -8,6 +8,16 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 27.10.2026 – Explosionen mit Wucht, noch flüssigere Ladeblende, FSR ohne Fehlerflut (v2026.10.27.1134-d298fc01)
+
+### Verbessert
+- **Explosionen mit Wucht:** Statt einer durchsichtigen Kuppel gibt es jetzt einen weißglühenden Höhepunkt, eine Druckwelle, die den Raum verzerrt, und eine Feuerkugel, die zu Glut abkühlt. Die Singularität taucht die Umgebung in violettes Licht und verdunkelt den Sogbereich, und jeder Sprung des Kettenblitzes gibt einen kleinen Kamerastoß. ([#118](https://github.com/OsuGerman/Tiefgang-Releases/issues/118))
+- **Noch flüssigere Ladeblende:** Der Spieler wird hinter der Blende über mehrere Bilder aufgebaut, Startwaffen laden schon im Hauptmenü vor. Das schwerste Bild beim Wechsel ins U-Boot sank von ~380 auf ~150 ms, beim Start der Expedition von ~185 auf ~68 ms.
+
+### Behoben
+- **Fehlermeldungen beim schnellen Beenden:** Wer das Spiel beendete, während im Hintergrund noch geladen wurde, bekam „Parse Error“-Meldungen im Log. Laufende Ladevorgänge werden jetzt sauber abgewartet.
+- **FSR 2.2:** Wer FSR im laufenden Spiel einschaltete, bekam im Kampf tausende Engine-Fehlermeldungen pro Minute (kostete Leistung). Beim Umschalten werden die Puffer der Effekt-Partikel jetzt neu angelegt, die Fehler sind weg.
+
 ## 27.10.2026 – U-Boot lädt flüssiger und wirkt ruhiger, Koop-Raumstart abgesichert, kleinerer Download (v2026.10.27.1015-55aad820)
 
 ### Verbessert

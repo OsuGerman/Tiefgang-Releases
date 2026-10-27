@@ -33,7 +33,7 @@ Wenn du **Roboquest**, **Gunfire Reborn** oder **Risk of Rain 2** magst: genau d
 
 <table><tr><td>
 <b>Neu im letzten Update</b><br>
-Bohrstation mit neuem Licht · Glow mit Hof · Rückstoß mit Charakter · die Welt reagiert auf Explosionen · Steam-Deck-Preset · Linux-Build (experimentell).
+Taucherglocke statt Portal · Ballast-Wette · Druckstufen-Belohnungen · 10 neue Charms · neues Tiefsee-HUD · wieder knackige Grafik.
 <a href="CHANGELOG.de.md">Ganzer Changelog</a>
 </td></tr></table>
 

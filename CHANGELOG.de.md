@@ -8,6 +8,28 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 27.10.2026 – Taucherglocke statt Portal, Ballast-Wette, Druckstufen-Belohnungen, neues HUD, wieder knackige Grafik (v2026.10.28.0034-4f10f2cd)
+
+### Neu
+- **Die Taucherglocke bringt dich tiefer:** Am Ende jedes Gebiets wartet statt eines Portals eine begehbare Expeditionsglocke. Steig ein, zieh den Telegrafen auf AUFTAUCHEN (Run endet, Beute sicher) oder ABTAUCHEN: Die Glocke sinkt in Ego-Sicht ins nächste Gebiet, durch die Bullaugen ziehen Schacht, Meeresschnee und Licht vorbei. Deine ungesicherten Perlen leuchten im Netz über dir. ([#41](https://github.com/OsuGerman/Tiefgang-Releases/issues/41))
+- **Ballast-Wette:** Vor dem Abtauchen kannst du bis zu drei Gewichte an die Winde hängen. Jedes macht das nächste Gebiet härter (mehr Gegner, mehr Leben, mehr Schaden, mehr Elite-Affixe oder weniger Heilung) und erhöht den Beute-Zuschlag. Im Koop entscheidet der Host, abgestimmt wird am Telegrafen.
+- **Druckstufen-Leiter mit Belohnungen:** Jeder erste Sieg auf einer Druckstufe gibt eine dauerhafte Belohnung: neue Waffen-Tiers an der Werkbank (bis Tier V), Startschlüssel, Charm-Splitter, Ampullen, ab Stufe 9 ein Start-Charm. Höhere Stufen bringen seltenere Charms. ([#40](https://github.com/OsuGerman/Tiefgang-Releases/issues/40), [#39](https://github.com/OsuGerman/Tiefgang-Releases/issues/39))
+- **10 neue Charms für mehr Build-Vielfalt,** darunter 4 legendäre: Zündschritt, Klingentakt, Bruchkette und Zwillingssegen. ([#38](https://github.com/OsuGerman/Tiefgang-Releases/issues/38))
+
+### Verbessert
+- **Neues HUD im Tiefsee-Stil:** halbtransparente Glasfelder mit türkiser Kante, gerahmt von Tentakeln, Quallen, Nautilus und Blasen. Der Ort steht nur noch einmal, Funk und Kodex verdecken keine Fenster mehr, die Waffen-Karte zeigt die Munition groß. ([#117](https://github.com/OsuGerman/Tiefgang-Releases/issues/117))
+- **Wieder knackiges Bild:** Der blaue Schleier auf den Böden ist überall entfernt, das Leuchten (Glow) ist wieder scharf statt verwaschen. Bohrstation und Archive sehen wieder so klar aus wie vor dem letzten Update.
+- **Der Abgrund mit neuem Licht:** fast schwarze Leere statt violettem Dunst, der Boden vor dir ist deutlich lesbarer, Lichtinseln zeigen den Weg. ([#103](https://github.com/OsuGerman/Tiefgang-Releases/issues/103))
+- **Kielbrecher-Nachladen ruhig:** Die Hand zittert beim Nachladen der Schrotflinte nicht mehr, auch nicht bei hohen Bildraten.
+- **Bohrmutter-Arena:** kein flächig oranger Boden mehr beim Bohrarm-Angriff (nur noch Rand und Armlinie), der Eingang ist beleuchtet statt schwarz.
+
+### Behoben
+- Weiße Quadrate und helle Kugeln, die kurz nach Spielstart durchs Bild flogen.
+- Das Pausemenü konnte nach oben aus dem Bild rutschen.
+- Koop: Die Perlen-Anzeige des Mitspielers nutzte dessen eigene Druckstufe statt der des Hosts.
+- Hub: „NEU“ an den Stationen erschien im englischen Spiel deutsch; Tooltips bei Händler und Werkbank verdeckten Preise; in den Einstellungen waren zwei Reiter kaum erreichbar.
+- Zwei Speicherlecks bei längeren Runs, mehrere Koop-Fehler beim Verlassen.
+
 ## 27.10.2026 – Bohrstation neu beleuchtet, Rückstoß mit Charakter, die Welt reagiert, Steam-Deck-Preset (v2026.10.27.1646-0aed7e5b)
 
 ### Verbessert

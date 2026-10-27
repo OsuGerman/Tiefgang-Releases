@@ -8,6 +8,28 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 27.10.2026 – Diving bell instead of portal, ballast wager, pressure ladder rewards, new HUD, crisp graphics again (v2026.10.28.0034-4f10f2cd)
+
+### New
+- **The diving bell takes you deeper:** at the end of every area a walk-in expedition bell waits instead of a portal. Step in and pull the telegraph to SURFACE (run ends, loot secured) or DIVE: the bell sinks into the next area in first person, with the shaft, marine snow and light passing the portholes. Your unsecured pearls glow in the net above you. ([#41](https://github.com/OsuGerman/Tiefgang-Releases/issues/41))
+- **Ballast wager:** before diving you can hang up to three weights on the winch. Each makes the next area harder (more enemies, more health, more damage, more elite affixes or less healing) and raises the loot bonus. In co-op the host decides, the team votes at the telegraph.
+- **Pressure ladder with rewards:** every first win on a pressure level gives a permanent reward: new weapon tiers at the workbench (up to tier V), starting keys, charm shards, ampoules, from level 9 a starting charm. Higher levels bring rarer charms. ([#40](https://github.com/OsuGerman/Tiefgang-Releases/issues/40), [#39](https://github.com/OsuGerman/Tiefgang-Releases/issues/39))
+- **10 new charms for more build variety,** including 4 legendaries: Ignition Step, Blade Cadence, Fracture Chain and Twin Blessing. ([#38](https://github.com/OsuGerman/Tiefgang-Releases/issues/38))
+
+### Improved
+- **New deep-sea HUD:** translucent glass panels with a turquoise edge, framed by tentacles, jellyfish, a nautilus and bubbles. The location is shown only once, radio and codex no longer cover windows, the weapon card shows your ammo large. ([#117](https://github.com/OsuGerman/Tiefgang-Releases/issues/117))
+- **Crisp image again:** the blue veil on floors is gone everywhere, glow is sharp again instead of washed out. The Drilling Station and the Archives look as clear as before the last update.
+- **The Abyss with new lighting:** a near-black void instead of purple haze, the floor in front of you is much easier to read, light islands show the way. ([#103](https://github.com/OsuGerman/Tiefgang-Releases/issues/103))
+- **Calm Keelbreaker reload:** the hand no longer trembles while reloading the shotgun, even at high frame rates.
+- **Drill Mother arena:** no more flat orange floor during the drill arm attack (only the edge and arm line), the entrance is lit instead of black.
+
+### Fixed
+- White squares and bright orbs that flew across the screen shortly after starting the game.
+- The pause menu could slide off the top of the screen.
+- Co-op: a teammate's pearl display used their own pressure level instead of the host's.
+- Hub: "NEW" on the stations showed in German in the English game; tooltips at the merchant and workbench covered prices; two settings tabs were hard to reach.
+- Two memory leaks in longer runs, several co-op issues when leaving.
+
 ## 27.10.2026 – Drilling Station relit, recoil with character, the world reacts, Steam Deck preset (v2026.10.27.1646-0aed7e5b)
 
 ### Improved

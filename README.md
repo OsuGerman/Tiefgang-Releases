@@ -33,7 +33,7 @@ If you like **Roboquest**, **Gunfire Reborn** or **Risk of Rain 2**, this is tha
 
 <table><tr><td>
 <b>New in the latest update</b><br>
-Drilling Station with new lighting · glow with a halo · recoil with character · the world reacts to explosions · Steam Deck preset · Linux build (experimental).
+Diving bell instead of portal · ballast wager · pressure ladder rewards · 10 new charms · new deep-sea HUD · crisp graphics again.
 <a href="CHANGELOG.md">Full changelog</a>
 </td></tr></table>
 

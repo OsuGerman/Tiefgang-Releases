@@ -1132,13 +1132,13 @@ const __tgInit = () => {
       damage: "Meister Schaden", rank: "Rang", diver: "Taucher", time: "Zeit", press: "Druck", depth: "Tiefe", dmg: "Schaden",
       mode: "Modus", date: "Datum", loading: "Sonar sucht …", empty: "Sei der Erste", emptyHint: "Noch kein Eintrag in dieser Kategorie.",
       offline: "Keine Verbindung", offlineHint: "Die Bestenliste konnte nicht geladen werden.", unset: "Bestenliste noch nicht eingerichtet",
-      imported: "importiert", divers: "Taucher", win: "Sieg",
+      imported: "importiert", aborted: "abgebrochen", divers: "Taucher", win: "Sieg",
       modes: { normal: "Normal", corrupted: "Korrumpiert", endless: "Endlos", whirl: "Wirbelgraben" } },
     en: { title: "LEADERBOARD", sub: "Best run per diver · Top 100", fastest: "Fastest Victory", pressure: "Deepest Pressure",
       damage: "Damage Master", rank: "Rank", diver: "Diver", time: "Time", press: "Pressure", depth: "Depth", dmg: "Damage",
       mode: "Mode", date: "Date", loading: "Sonar searching …", empty: "Be the first", emptyHint: "No entry in this category yet.",
       offline: "No connection", offlineHint: "The leaderboard could not be loaded.", unset: "Leaderboard not set up yet",
-      imported: "imported", divers: "divers", win: "Victory",
+      imported: "imported", aborted: "aborted", divers: "divers", win: "Victory",
       modes: { normal: "Normal", corrupted: "Corrupted", endless: "Endless", whirl: "Maelstrom Trench" } },
   }[lang];
   const CATS = ["fastest", "pressure", "damage"];
@@ -1156,6 +1156,8 @@ const __tgInit = () => {
   const value = (cat, r) => cat === "fastest" ? time(Number(r.time_s)) : cat === "pressure" ? `${T.press} ${r.pressure_level} · ${T.depth} ${r.depth}` : nf.format(Number(r.damage || 0));
   const detail = (cat, r) => cat === "fastest" ? `${T.press} ${r.pressure_level}` : cat === "pressure" ? time(Number(r.time_s)) : (r.victory ? T.win : `${T.depth} ${r.depth}`);
   const mode = (m) => String(m || "normal").split("+").map((p) => T.modes[p] || p).join(" · ");
+  // Abgebrochener Run (D-3250): Marke ab = 1 in der Build-Kurzform
+  const modeRow = (r) => mode(r.mode) + (r.build && Number(r.build.ab) === 1 ? " · " + T.aborted : "");
   const date = (r) => { const d = String(r.played_at || "").slice(0, 10).split("-"); return d.length === 3 ? (lang === "de" ? `${d[2]}.${d[1]}.` : `${d[1]}/${d[2]}`) : ""; };
 
   function state(title, hint) {
@@ -1173,7 +1175,7 @@ const __tgInit = () => {
     rows.slice(0, 3).forEach((r) => {
       const c = el("div", "tg-card r" + r.rank);
       c.append(el("div", "tg-medal", String(r.rank)), el("div", "tg-name", r.nickname), el("div", "tg-value", value(cat, r)),
-        el("div", "tg-meta", `${detail(cat, r)} · ${mode(r.mode)}${r.imported ? " · " + T.imported : ""}`), el("div", "tg-meta", date(r)));
+        el("div", "tg-meta", `${detail(cat, r)} · ${modeRow(r)}${r.imported ? " · " + T.imported : ""}`), el("div", "tg-meta", date(r)));
       podium.append(c);
     });
     panel.append(podium);
@@ -1188,7 +1190,7 @@ const __tgInit = () => {
       const tr = el("tr");
       const name = el("td"); name.append(document.createTextNode(r.nickname)); if (r.imported) name.append(el("span", "tg-imp", T.imported));
       const cells = [el("td", "", String(r.rank)), name, el("td", "num", value(cat, r)), el("td", "num hide-s", detail(cat, r)),
-        el("td", "hide-s", mode(r.mode)), el("td", "num", date(r))];
+        el("td", "hide-s", modeRow(r)), el("td", "num", date(r))];
       tr.append(...cells); table.append(tr);
     });
     panel.append(table);

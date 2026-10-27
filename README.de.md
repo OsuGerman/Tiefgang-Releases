@@ -33,7 +33,7 @@ Wenn du **Roboquest**, **Gunfire Reborn** oder **Risk of Rain 2** magst: genau d
 
 <table><tr><td>
 <b>Neu im letzten Update</b><br>
-Neues Gebiet: der Schiffsfriedhof mit Admiral Varrow · neues Tiefsee-HUD · Kills mit Wucht · Explosionen mit Druckwelle · Koop-Fixes.
+Jetzt auch für Linux (experimentell) · Schiffsfriedhof mit Admiral Varrow · faire Bosse für Nahkampf · Sterben mit Gewicht · neues Tiefsee-HUD.
 <a href="CHANGELOG.de.md">Ganzer Changelog</a>
 </td></tr></table>
 

@@ -33,7 +33,7 @@ If you like **Roboquest**, **Gunfire Reborn** or **Risk of Rain 2**, this is tha
 
 <table><tr><td>
 <b>New in the latest update</b><br>
-New area: the Ship Graveyard with Admiral Varrow · new deep-sea HUD · kills with weight · explosions with a shockwave · co-op fixes.
+Now also on Linux (experimental) · Ship Graveyard with Admiral Varrow · bosses fair for melee · dying with weight · new deep-sea HUD.
 <a href="CHANGELOG.md">Full changelog</a>
 </td></tr></table>
 

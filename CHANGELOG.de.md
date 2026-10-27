@@ -8,6 +8,21 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 27.10.2026 – Faire Bosse für Nahkampf, Sterben mit Gewicht, Linux-Build (experimentell) (v2026.10.27.1538-7e8bf14d)
+
+### Neu
+- **Linux-Build (experimentell):** Neben Windows gibt es jetzt `Tiefgang-Linux.zip` mit eigenem Auto-Updater. Er ist noch nicht auf echter Linux-Hardware getestet, Rückmeldungen (auch vom Steam Deck als Nicht-Steam-Spiel) sind sehr willkommen. ([#128](https://github.com/OsuGerman/Tiefgang-Releases/issues/128))
+
+### Verbessert
+- **Sterben fühlt sich an:** Der Taucher sackt zusammen, die Waffe fällt aus dem Bild, das Bild verliert die Farbe und das HUD blendet aus. Musik und Geräusche werden dumpf, man hört die letzten Atemzüge im Helm und einen langsamer werdenden Herzschlag, bevor die Ergebnistafel erscheint.
+- **Ruhigerer Raumstart:** Gebietskarte, Funkspruch und Kodex-Zettel erscheinen nacheinander statt übereinander.
+- **Bosse mit Nahkampf fair:** Ysmeras dritte Phase war mit Nahkampfwaffen oder der Stimme der Tiefe nicht zu schaffen, weil die Flut die untere Ebene dauerhaft überspülte. Jetzt weicht die Flut regelmäßig für einige Sekunden zurück („DIE FLUT WEICHT – ZU IHR!“). Der Archivar sinkt nach seinem Tafelregen kurz auf Augenhöhe herab.
+- **Alle Archivräume mit neuem Licht:** auch Regalterrassen, Kreuzgang, Tintenbecken und Kronleuchtersaal. ([#103](https://github.com/OsuGerman/Tiefgang-Releases/issues/103))
+- **Sauberere dunkle Verläufe:** keine sichtbaren Farbstufen mehr in dunklen Flächen. Das Pausemenü blendet weich ein.
+
+### Behoben
+- **Boss-Leiste bei großem HUD:** Bei HUD-Größe 1,25 lag die Boss-Leiste über der Ortsanzeige und verdeckte den Perlen-Zähler.
+
 ## 27.10.2026 – Neues Gebiet: der Schiffsfriedhof, neues HUD, Kills mit Wucht, Koop-Fixes (v2026.10.27.1342-c393bfca)
 
 ### Neu

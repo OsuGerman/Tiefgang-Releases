@@ -8,6 +8,21 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 27.10.2026 – Bosses fair for melee, dying with weight, Linux build (experimental) (v2026.10.27.1538-7e8bf14d)
+
+### New
+- **Linux build (experimental):** besides Windows there is now `Tiefgang-Linux.zip` with its own auto-updater. It has not been tested on real Linux hardware yet, so feedback (also from the Steam Deck as a non-Steam game) is very welcome. ([#128](https://github.com/OsuGerman/Tiefgang-Releases/issues/128))
+
+### Improved
+- **Dying you can feel:** the diver collapses, the weapon drops out of view, the image loses its colour and the HUD fades out. Music and sounds turn muffled, and you hear the last breaths in the helmet and a slowing heartbeat before the results screen.
+- **Calmer room start:** the area card, radio message and codex note now appear one after another instead of on top of each other.
+- **Bosses fair for melee:** Ysmera's third phase could not be beaten with melee weapons or the Voice of the Deep because the flood kept the lower level submerged. The flood now recedes for a few seconds at regular intervals ("THE FLOOD RECEDES – GO TO HER!"). The Archivist briefly sinks to eye level after his tablet rain.
+- **All Archive rooms with new lighting:** now including the shelf terraces, cloister, ink basin and chandelier hall. ([#103](https://github.com/OsuGerman/Tiefgang-Releases/issues/103))
+- **Cleaner dark gradients:** no more visible colour banding in dark areas. The pause menu fades in smoothly.
+
+### Fixed
+- **Boss bar with a large HUD:** at HUD size 1.25 the boss bar covered the location panel and hid the pearl counter.
+
 ## 27.10.2026 – New area: the Ship Graveyard, new HUD, kills with weight, co-op fixes (v2026.10.27.1342-c393bfca)
 
 ### New

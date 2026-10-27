@@ -8,6 +8,16 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 27.10.2026 – Smoother, calmer submarine, safer co-op room starts, smaller download (v2026.10.27.1015-55aad820)
+
+### Improved
+- **Smoother submarine loading:** going from the main menu into the submarine now builds the scene in small chunks, and HUD graphics preload while you are in the main menu. The longest frozen frame went from 0.9-1.3 s to about 0.5 s.
+- **Calmer submarine:** fewer blinking NEW markers (only up close), signs appear as you approach, softer wall lights. Until your first dive, a dedicated marker at the end of the corridor shows the way to the diving chamber. ([#99](https://github.com/OsuGerman/Tiefgang-Releases/issues/99))
+- **Smaller download:** the game is about 75 MB smaller with no visible difference (roughness maps compressed more efficiently, unused files removed from the package).
+
+### Fixed
+- **Co-op: a room could start without the player in it.** A late network message could make the host start a room the teammate wasn't standing in. The host now checks the position. "Room cleared" also never arrives at a teammate after the next room has started any more, and no enemies keep falling over after it.
+
 ## 27.10.2026 – Bug fixes: camera after a hard landing, co-op menu with a controller, Beacon mods (v2026.10.27.0856-2cf6496b)
 
 ### Fixed

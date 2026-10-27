@@ -8,6 +8,16 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 27.10.2026 – U-Boot lädt flüssiger und wirkt ruhiger, Koop-Raumstart abgesichert, kleinerer Download (v2026.10.27.1015-55aad820)
+
+### Verbessert
+- **U-Boot lädt flüssiger:** Der Weg vom Hauptmenü ins U-Boot baut die Szene jetzt in kleinen Häppchen auf, HUD-Grafiken laden schon im Hauptmenü vor. Das längste Standbild sank von 0,9–1,3 s auf etwa 0,5 s.
+- **Ruhigeres U-Boot:** Weniger blinkende NEU-Marken (nur noch aus der Nähe), Schilder erscheinen beim Herangehen, gedämpftere Wandlichter. Bis zum ersten Tauchgang zeigt eine eigene Marke am Gangende den Weg zur Tauchkammer. ([#99](https://github.com/OsuGerman/Tiefgang-Releases/issues/99))
+- **Kleinerer Download:** Das Spiel ist rund 75 MB kleiner, ohne sichtbaren Unterschied (Rauheitskarten effizienter komprimiert, ungenutzte Dateien aus dem Paket genommen).
+
+### Behoben
+- **Koop: Raum startete ohne den Spieler.** Eine verspätete Netzmeldung konnte beim Host einen Raum starten, in dem der Mitspieler gar nicht stand. Der Host prüft jetzt die Position. Außerdem kommt „Raum gesäubert“ beim Mitspieler nie mehr nach dem Start des nächsten Raums an, und keine Gegner fallen mehr nach der Meldung um.
+
 ## 27.10.2026 – Bugfixes: Kamera nach harter Landung, Koop-Menü mit Controller, Leuchtfeuer-Mods (v2026.10.27.0856-2cf6496b)
 
 ### Behoben

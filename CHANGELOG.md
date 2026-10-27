@@ -8,6 +8,23 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 27.10.2026 – New area: the Ship Graveyard, new HUD, kills with weight, co-op fixes (v2026.10.27.1342-c393bfca)
+
+### New
+- **New area: the Ship Graveyard.** After your first win against Ysmera, area 2 can now be the Ship Graveyard, the Meridian fleet on the sea floor: 17 wreck rooms with lanterns, light shafts and wet planks, the Drowned Fleet as enemies and Admiral Varrow as boss, who tilts his ship and floods the decks. It can also be picked in the biome choice. ([#102](https://github.com/OsuGerman/Tiefgang-Releases/issues/102))
+
+### Improved
+- **Archives with new lighting:** seven rooms of the Sunken Archives have baked lighting with a cool underwater tone, warm candle islands and water light on the floor. ([#103](https://github.com/OsuGerman/Tiefgang-Releases/issues/103))
+- **Beacon reaches further:** 32 instead of 22 m, gently weaker beyond 22 m. Ranged enemies and bosses were often just out of reach.
+- **Kills you can feel:** enemies now die with a light pulse in their area's colour, shards of their material and an aftermath of silt or bubbles. Small enemies pop quickly with a bright star, big ones hit the floor hard. Critical and weak point kills are clearly stronger, in the crosshair and in the sound too.
+- **New deep-sea HUD:** bronze tentacles and a glowing jellyfish frame the displays, the ability sits in a brass porthole, and the weapon panel shows a picture of the weapon and the magazine large as "6 / 6". All numbers stay as readable as before. ([#117](https://github.com/OsuGerman/Tiefgang-Releases/issues/117))
+
+### Fixed
+- **Language switch:** the location line, boss name and weapon name stayed in the old language after switching. One co-op line had no translation.
+- **Co-op: enemies stayed too strong when teammates left.** If someone left the group, enemies and bosses kept their health for the old player count, so playing alone afterwards meant up to five times tougher enemies. Everything now adjusts right away while keeping the health share.
+- **Damaged save file got lost.** An unreadable save was silently discarded and overwritten on the next save. It is now backed up and the main menu shows a notice. Wrong values in a save no longer cause errors.
+- **Co-op: leaving while loading** could cause errors because the depth change kept running in the scene you had already left.
+
 ## 27.10.2026 – Explosions with weight, even smoother loading, FSR without error spam (v2026.10.27.1134-d298fc01)
 
 ### Improved

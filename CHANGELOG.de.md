@@ -8,6 +8,23 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 27.10.2026 – Neues Gebiet: der Schiffsfriedhof, neues HUD, Kills mit Wucht, Koop-Fixes (v2026.10.27.1342-c393bfca)
+
+### Neu
+- **Neues Gebiet: der Schiffsfriedhof.** Nach deinem ersten Sieg über Ysmera kann Gebiet 2 jetzt der Schiffsfriedhof sein, die Meridian-Flotte auf dem Meeresgrund: 17 Wrackräume mit Laternen, Lichtschächten und nassen Planken, die Ertrunkene Flotte als Gegner und Admiral Varrow als Boss, der sein Schiff in Schräglage bringt und die Decks flutet. In der Biom-Wahl ist er ebenfalls wählbar. ([#102](https://github.com/OsuGerman/Tiefgang-Releases/issues/102))
+
+### Verbessert
+- **Archive mit neuem Licht:** Sieben Räume der Versunkenen Archive haben gebackenes Licht mit kühlem Unterwasserton, warmen Kerzeninseln und Wasserlicht auf dem Boden. ([#103](https://github.com/OsuGerman/Tiefgang-Releases/issues/103))
+- **Leuchtfeuer reicht weiter:** 32 statt 22 m, ab 22 m sanft schwächer. Fernkämpfer und Bosse waren bisher oft knapp außer Reichweite.
+- **Kills fühlen sich an:** Gegner sterben jetzt mit einem Licht-Puls in der Farbe ihres Gebiets, Splittern aus ihrem Material und einem Nachklang aus Schlick oder Blasen. Kleine Gegner verpuffen schnell mit einem hellen Lichtstern, große schlagen schwer auf. Kritische und Schwachpunkt-Kills sind deutlich stärker, auch im Fadenkreuz und im Ton.
+- **Neues HUD im Tiefsee-Stil:** Bronze-Tentakel und eine glimmende Qualle rahmen die Anzeigen, die Fähigkeit sitzt in einem Messing-Bullauge, die Waffentafel zeigt das Bild der Waffe und das Magazin groß als „6 / 6“. Alle Zahlen bleiben so gut lesbar wie vorher, die Ornamente lassen sich ausblenden. ([#117](https://github.com/OsuGerman/Tiefgang-Releases/issues/117))
+
+### Behoben
+- **Sprachwechsel:** Ortszeile, Bossname und Waffenname blieben nach einem Sprachwechsel in der alten Sprache stehen. Eine Koop-Zeile hatte keine Übersetzung.
+- **Koop: Gegner blieben zu stark, wenn Mitspieler gingen.** Verließ jemand die Gruppe, behielten Gegner und Bosse ihr Leben für die alte Spielerzahl, allein spielte man danach gegen bis zu fünffach so zähe Gegner. Jetzt passt sich alles sofort an, der Lebensanteil bleibt erhalten.
+- **Beschädigter Spielstand ging verloren.** Eine unlesbare Speicherdatei wurde still verworfen und beim nächsten Speichern überschrieben. Jetzt wird sie gesichert, und das Hauptmenü zeigt einen Hinweis. Falsche Werte in einem Spielstand führen nicht mehr zu Fehlern.
+- **Koop: Verlassen während des Ladens** konnte Fehler auslösen, weil der Tiefenwechsel in der schon verlassenen Szene weiterlief.
+
 ## 27.10.2026 – Explosionen mit Wucht, noch flüssigere Ladeblende, FSR ohne Fehlerflut (v2026.10.27.1134-d298fc01)
 
 ### Verbessert

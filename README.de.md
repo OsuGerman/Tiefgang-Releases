@@ -33,7 +33,7 @@ Wenn du **Roboquest**, **Gunfire Reborn** oder **Risk of Rain 2** magst: genau d
 
 <table><tr><td>
 <b>Neu im letzten Update</b><br>
-Explosionen mit Wucht · flüssige Ladeblende · ruhigeres U-Boot · Waffen am echten Modell erkennbar · Koop-Fixes · kleinerer Download.
+Neues Gebiet: der Schiffsfriedhof mit Admiral Varrow · neues Tiefsee-HUD · Kills mit Wucht · Explosionen mit Druckwelle · Koop-Fixes.
 <a href="CHANGELOG.de.md">Ganzer Changelog</a>
 </td></tr></table>
 

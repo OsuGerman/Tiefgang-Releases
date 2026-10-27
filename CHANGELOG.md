@@ -8,6 +8,24 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 27.10.2026 – Loading screen no longer freezes, weapons you recognise at a glance, co-op soft-lock fixed (v2026.10.27.0711-345dc91b)
+
+### Improved
+- **Loading screen no longer freezes:** on the first dive and when moving to the next depth, the level is now built in small chunks, the starting area preloads in the background while you are still in the submarine, and lightmaps load on their own thread. The longest frozen frame went from 1-2 s to under 0.2 s. ([#106](https://github.com/OsuGerman/Tiefgang-Releases/issues/106))
+- **Helmet breathing you can hear:** in quiet moments the breathing inside the helmet is clearly audible now, in heavy combat it steps back on its own and returns afterwards. ([#133](https://github.com/OsuGerman/Tiefgang-Releases/issues/133))
+- **New casing sounds:** brass shells now sound like brass, different on stone, metal, wood and sand, with bounces. Full-auto fire gives a light rattle instead of a wall of clinks. ([#132](https://github.com/OsuGerman/Tiefgang-Releases/issues/132))
+- **Weapons you recognise at a glance:** all 9 weapons now show a picture of their real model everywhere (weapon rack, rewards, logbook, workbench) instead of a symbol. The weapon rack also shows a role line, e.g. "Precision · Weak points · Long range". ([#99](https://github.com/OsuGerman/Tiefgang-Releases/issues/99))
+- **Smoother inspect (F):** the weapon no longer stops for a moment at every point of the inspect motion. ([#99](https://github.com/OsuGerman/Tiefgang-Releases/issues/99))
+
+### Improved (leaderboard)
+- **Aborted runs count for Deepest Pressure:** if you give up a run or discard a saved one, it shows up with the depth you reached and an "aborted" tag, never in Fastest Victory. ([#125](https://github.com/OsuGerman/Tiefgang-Releases/issues/125))
+- **Automatic nicknames** are re-rolled when the server word filter rejects them. ([#125](https://github.com/OsuGerman/Tiefgang-Releases/issues/125))
+
+### Fixed
+- **Co-op: room with no enemies and a closed exit.** When two players ran two room fights at the same time (e.g. one in the trial side room), the rooms shared their enemies and one room waited for the other's. Now every enemy belongs to its room. Plus a safety net for enemies that never spawn or fall out of the world, and for a missed room start.
+- **Glyph seals** in the Archives can now be hit from point-blank range too.
+- **Weapon rack:** the alternate fire explanation started with a lowercase letter. ([#99](https://github.com/OsuGerman/Tiefgang-Releases/issues/99))
+
 ## 26.10.2026 – About a quarter more GPU performance, less flicker (v2026.10.26.1837-4921162b)
 
 ### Improved

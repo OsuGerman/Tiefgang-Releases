@@ -33,7 +33,7 @@ Wenn du **Roboquest**, **Gunfire Reborn** oder **Risk of Rain 2** magst: genau d
 
 <table><tr><td>
 <b>Neu im letzten Update</b><br>
-Rund 25 % mehr Grafikleistung ohne Optikverlust · Koop: Alt-Aktionen der Mitspieler sichtbar · kein Flimmern mehr in Schatzkammern · „Bug melden“-Knopf · keine Truhen mehr in Wänden.
+Ladebildschirm friert nicht mehr ein · Waffen am echten Modell erkennbar · Koop-Soft-Lock behoben · rund 25 % mehr Grafikleistung · hörbare Helmatmung.
 <a href="CHANGELOG.de.md">Ganzer Changelog</a>
 </td></tr></table>
 

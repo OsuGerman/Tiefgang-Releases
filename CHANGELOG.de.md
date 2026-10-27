@@ -8,6 +8,24 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 27.10.2026 – Ladebildschirm friert nicht mehr ein, Waffen am Bild erkennbar, Koop-Soft-Lock behoben (v2026.10.27.0711-345dc91b)
+
+### Verbessert
+- **Ladebildschirm friert nicht mehr ein:** Beim ersten Tauchgang und beim Wechsel in die nächste Tiefe wird die Ebene jetzt in kleinen Häppchen aufgebaut, das Startgebiet lädt schon im U-Boot im Hintergrund vor und Lichtkarten laden in einem eigenen Thread. Das längste Standbild sank von 1–2 s auf unter 0,2 s. ([#106](https://github.com/OsuGerman/Tiefgang-Releases/issues/106))
+- **Helmatmung gut hörbar:** In ruhigen Momenten hört man die Atmung im Helm jetzt deutlich, im schweren Kampf tritt sie automatisch zurück und kommt danach wieder. ([#133](https://github.com/OsuGerman/Tiefgang-Releases/issues/133))
+- **Neue Hülsen-Klänge:** Messinghülsen klingen jetzt nach Messing, je nach Boden auf Stein, Metall, Holz oder Sand, mit Abprallern. Bei Dauerfeuer ein leichtes Rieseln statt eines Klirr-Teppichs. ([#132](https://github.com/OsuGerman/Tiefgang-Releases/issues/132))
+- **Waffen erkennt man jetzt am Bild:** Alle 9 Waffen zeigen überall (Waffenständer, Belohnungen, Logbuch, Werkbank) ein Bild ihres echten Modells statt eines Symbols. Im Waffenständer steht dazu eine Rollenzeile, z. B. „Präzision · Schwachpunkte · große Reichweite“. ([#99](https://github.com/OsuGerman/Tiefgang-Releases/issues/99))
+- **Inspizieren (F) flüssiger:** Die Waffe bleibt beim Drehen nicht mehr an jedem Zwischenpunkt kurz stehen. ([#99](https://github.com/OsuGerman/Tiefgang-Releases/issues/99))
+
+### Verbessert (Bestenliste)
+- **Abgebrochene Läufe zählen für „Höchste Drucktiefe“:** Wer einen Lauf aufgibt oder einen gespeicherten Lauf verwirft, erscheint mit der erreichten Tiefe und dem Zusatz „abgebrochen“, nie bei „Schnellster Sieg“. ([#125](https://github.com/OsuGerman/Tiefgang-Releases/issues/125))
+- **Automatische Spitznamen** werden neu gewürfelt, wenn der Wortfilter des Servers sie ablehnt. ([#125](https://github.com/OsuGerman/Tiefgang-Releases/issues/125))
+
+### Behoben
+- **Koop: Raum ohne Gegner, Ausgang bleibt zu.** Liefen bei zwei Spielern zwei Raumkämpfe gleichzeitig (z. B. einer in der Prüfung im Nebenraum), teilten sie sich die Gegner, und ein Raum wartete auf die Gegner des anderen. Jetzt gehört jeder Gegner seinem Raum. Dazu ein Sicherheitsnetz für Gegner, die nie erscheinen oder aus der Welt fallen, und für einen verpassten Raumstart.
+- **Glyphen-Siegel** in den Archiven lassen sich jetzt auch aus nächster Nähe treffen.
+- **Waffenständer:** Die Erklärung des Sekundärfeuers begann kleingeschrieben. ([#99](https://github.com/OsuGerman/Tiefgang-Releases/issues/99))
+
 ## 26.10.2026 – Rund ein Viertel mehr Grafikleistung, weniger Flimmern (v2026.10.26.1837-4921162b)
 
 ### Verbessert

@@ -33,7 +33,7 @@ If you like **Roboquest**, **Gunfire Reborn** or **Risk of Rain 2**, this is tha
 
 <table><tr><td>
 <b>New in the latest update</b><br>
-About 25 % more GPU performance with no visual loss · co-op: see your teammates’ alt actions · no more flicker in treasure rooms · Report a Bug button · no more chests in walls.
+Loading screen no longer freezes · weapons you recognise by their real model · co-op soft-lock fixed · about 25 % more GPU performance · helmet breathing you can hear.
 <a href="CHANGELOG.md">Full changelog</a>
 </td></tr></table>
 

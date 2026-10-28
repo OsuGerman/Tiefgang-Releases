@@ -8,6 +8,17 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 28.10.2026 – Subtler HUD, menus in the deep-sea style, nicer diving bell (v2026.10.28.0752-c30756bd)
+
+### Improved
+- **Subtler HUD:** the tentacle frames are now only a fine trim around the displays and cover much less of the play field (about a quarter of the previous area, the centre of the screen stays completely clear).
+- **Menus in the HUD style:** the pause menu, all submarine stations (workbench, dive chamber, research, shrine, wardrobe, codex, weapon rack), the merchant, settings and the results screen now use the glass panels with a turquoise edge and an organic frame – only at the edges, the content stays clear. The scene stays visible behind the pause menu.
+- **Diving bell:** a real knotted pearl net with round pearls, cast-iron ballast weights, and the blurry blotches on the inner wall are gone.
+- **Loot:** elite shards as crystal clusters, the luck ampoule as a glass flask.
+
+### Fixed
+- **Drill Mother arena:** a ceiling beam cast a large shadow wedge across the floor.
+
 ## 28.10.2026 – New enemies per pressure level, weapon mastery, sharper image (v2026.10.28.0542-4d0392a1)
 
 ### New

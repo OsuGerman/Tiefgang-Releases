@@ -8,6 +8,17 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 28.10.2026 – Dezenteres HUD, Menüs im Tiefsee-Stil, schönere Taucherglocke (v2026.10.28.0752-c30756bd)
+
+### Verbessert
+- **Dezenteres HUD:** Die Tentakel-Rahmen liegen jetzt nur noch als feiner Saum um die Anzeigen und nehmen viel weniger vom Spielfeld ein (gut ein Viertel der bisherigen Fläche, die Bildmitte bleibt komplett frei).
+- **Menüs im Stil des HUD:** Pausemenü, alle U-Boot-Stationen (Werkbank, Tauchkammer, Forschung, Schrein, Kleiderschrank, Kodex, Waffenständer), Händler, Einstellungen und Ergebnistafel nutzen jetzt die Glasfelder mit türkiser Kante und organischem Rahmen – nur am Rand, Inhalte bleiben frei. Hinter dem Pausemenü bleibt die Szene sichtbar.
+- **Taucherglocke:** echtes geknotetes Perlennetz mit runden Perlen, Ballastgewichte als Gussblöcke, die unscharfen Flecken an der Innenwand sind weg.
+- **Beute:** Elite-Splitter als Kristallbüschel, Glücksampulle als Glaskolben.
+
+### Behoben
+- **Bohrmutter-Arena:** Ein Deckenbalken warf einen großen Schattenkeil über den Boden.
+
 ## 28.10.2026 – Neue Gegner je Druckstufe, Waffen-Meisterschaft, schärferes Bild (v2026.10.28.0542-4d0392a1)
 
 ### Neu

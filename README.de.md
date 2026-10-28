@@ -33,7 +33,7 @@ Wenn du **Roboquest**, **Gunfire Reborn** oder **Risk of Rain 2** magst: genau d
 
 <table><tr><td>
 <b>Neu im letzten Update</b><br>
-Neue Gegner je Druckstufe · Waffen-Meisterschaft an der Werkbank · Taucherglocke statt Portal · Ballast-Wette · neues Tiefsee-HUD · schärferes Bild.
+Dezenteres Tiefsee-HUD · Menüs im selben Glasstil · schönere Taucherglocke · neue Gegner je Druckstufe · Waffen-Meisterschaft.
 <a href="CHANGELOG.de.md">Ganzer Changelog</a>
 </td></tr></table>
 

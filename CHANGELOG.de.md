@@ -8,6 +8,16 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 28.10.2026 – Neue Gegner je Druckstufe, Waffen-Meisterschaft, schärferes Bild (v2026.10.28.0542-4d0392a1)
+
+### Neu
+- **Neue Gegner auf höheren Druckstufen:** Ab Stufe 2 tragen manche Gegner einen **Druckpanzer** (das rote Schauglas am Rücken ist ihr Schwachpunkt), ab Stufe 4 teilt sich die **Spaltbrut** beim Tod in zwei, ab Stufe 8 wartet im mittleren Kampfraum ein **Tiefenwächter** als Mini-Boss, und auf Stufe 10 schleudern Bosse einen **Druckstern** aus Bodenwellen. Die Tauchkammer zeigt, was auf der gewählten Stufe neu ist. ([#40](https://github.com/OsuGerman/Tiefgang-Releases/issues/40))
+- **Waffen-Meisterschaft an der Werkbank:** Jede Waffe hat eine eigene Tafel mit drei Spielstilen und je einer Spezialisierung, die das Verhalten ändert, zum Beispiel Henkersschuss beim Gouverneur oder Wuchtschrot gegen Splitterschrot beim Kielbrecher. Zurücksetzen gibt 90 % der Perlen zurück. ([#33](https://github.com/OsuGerman/Tiefgang-Releases/issues/33))
+
+### Verbessert
+- **Schärferes Bild:** Risse, Leuchtadern und andere Bodenmuster, die Waffen in der Hand und viele Modelle bleiben auch schräg betrachtet scharf. Die Grafikstufe „Mittel“ nutzt jetzt SMAA statt des weichzeichnenden FXAA. ([#101](https://github.com/OsuGerman/Tiefgang-Releases/issues/101))
+- **Koop:** Mitspieler sehen jetzt die Zeichen besonderer Gegner (Affixe).
+
 ## 28.10.2026 – Bugfixes für die Taucherglocke, Koop-HUD, Texte (v2026.10.28.0315-fdce9f4e)
 
 ### Behoben

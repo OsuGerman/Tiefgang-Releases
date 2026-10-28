@@ -8,6 +8,16 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 28.10.2026 – New enemies per pressure level, weapon mastery, sharper image (v2026.10.28.0542-4d0392a1)
+
+### New
+- **New enemies on higher pressure levels:** from level 2 some enemies wear **pressure armour** (the red sight glass on their back is the weak point), from level 4 **splitbrood** splits into two on death, from level 8 a **Depth Warden** mini-boss waits in the middle combat room, and on level 10 bosses hurl a **pressure star** of ground waves. The dive chamber shows what is new on the selected level. ([#40](https://github.com/OsuGerman/Tiefgang-Releases/issues/40))
+- **Weapon mastery at the workbench:** every weapon has its own board with three playstyles and one specialisation each that changes how it behaves, for example Executioner's Shot on the Governor or heavy slugs versus shrapnel on the Keelbreaker. Resetting refunds 90 % of the pearls. ([#33](https://github.com/OsuGerman/Tiefgang-Releases/issues/33))
+
+### Improved
+- **Sharper image:** cracks, glowing veins and other floor patterns, the weapon in your hands and many models stay sharp at grazing angles. The "Medium" graphics preset now uses SMAA instead of the blurry FXAA. ([#101](https://github.com/OsuGerman/Tiefgang-Releases/issues/101))
+- **Co-op:** teammates now see the markers of special enemies (affixes).
+
 ## 28.10.2026 – Diving bell fixes, co-op HUD, texts (v2026.10.28.0315-fdce9f4e)
 
 ### Fixed

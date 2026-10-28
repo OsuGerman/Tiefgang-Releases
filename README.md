@@ -33,7 +33,7 @@ If you like **Roboquest**, **Gunfire Reborn** or **Risk of Rain 2**, this is tha
 
 <table><tr><td>
 <b>New in the latest update</b><br>
-Diving bell instead of portal · ballast wager · pressure ladder rewards · 10 new charms · new deep-sea HUD · crisp graphics again.
+New enemies per pressure level · weapon mastery at the workbench · diving bell instead of portal · ballast wager · new deep-sea HUD · sharper image.
 <a href="CHANGELOG.md">Full changelog</a>
 </td></tr></table>
 

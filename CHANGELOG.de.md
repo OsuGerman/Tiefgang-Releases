@@ -8,6 +8,24 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 28.10.2026 – Schärferes, kleineres HUD, Grafikstufen, die wirklich wirken (v2026.10.28.1931-303d9e9c)
+
+### Verbessert
+- **Schärferes HUD:** Die Rahmen um Leben, Waffe und Laufanzeige wirkten verwaschen. Sie werden jetzt aus voller Auflösung genau auf ihre Bildschirmgröße und auf ganze Pixel gesetzt, die weichen Leuchtsäume sind schmaler.
+- **Kleineres HUD:** Das HUD ist ab Werk 15 % kleiner (HUD-Größe 0,85), Leben und Munition bleiben gut lesbar. Wer die HUD-Größe selbst eingestellt hat, behält seinen Wert.
+- **Lebensanzeige mit mehr Leben:** Ein Tentakel umschlingt den Lebensring, dazu Perlboot, Koralle, Seegras und Blasen. Die Dash-Ladungen leuchten als Perlen oben in der Fassung, die Ampullen hängen an einem Fangarm.
+- **Grafikstufen, die wirklich wirken:** Die Qualitätsstufe setzt jetzt alle Grafikoptionen, auch Nebel, Partikel und Kantenglättung. Vorher sahen Mittel und Hoch fast gleich aus.
+- **Ultra ist wirklich Ultra:** 8×MSAA mit SMAA, Schatten in doppelter Auflösung mit weichsten Kanten, Umgebungsverdeckung und indirektes Licht in voller Auflösung, genauere Spiegelungen und feinster Volumennebel. Ultra braucht etwa die 2- bis 3-fache GPU-Leistung von Hoch, Hoch bleibt der Standard und sieht genau aus wie bisher.
+- **Jede Grafikoption einzeln:** Kantenglättung, Schatten, Umgebungsverdeckung, indirektes Licht und Spiegelungen, Texturfilter, Nebel, Partikel und Upscaling haben eigene Zeilen. Änderst du eine, zeigt die Stufe „Benutzerdefiniert“.
+- **Boss-Arenen:** Die Kanten der Arena leuchten als Röhren statt als flache Bänder.
+- **Raumstart und Ziele:** Die Raumstart-Karte sitzt höher und etwas kleiner, die Erklärzeile der Zielkarte wird zweizeilig statt abgeschnitten.
+- **Koop-Fenster** mit organischem Rahmen und Titelschild, der Titel der Einstellungen ist übersetzt.
+
+### Behoben
+- **Hub-Marken neben den Stationen:** Bei jeder HUD-Größe außer 1,0 standen „NEU“ und die Tauchkammer-Marke neben ihren Stationen.
+- **Xal'Tuun:** Änderte man während des Kampfes die Grafikeinstellungen, war der Schleier-Look bis zum Kampfende weg.
+- Der Tooltip versprach auf Ultra eine Lichttechnik (SDFGI), die nie aktiv war.
+
 ## 28.10.2026 – Erster Tauchgang ohne Standbild, legendäre Charms erwachen (v2026.10.28.1104-2387c5b2)
 
 ### Verbessert

@@ -8,6 +8,24 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 28.10.2026 – Sharper, smaller HUD, graphics presets that really work (v2026.10.28.1931-303d9e9c)
+
+### Improved
+- **Sharper HUD:** the frames around health, weapon and run info looked washed out. They are now drawn from full resolution at exactly their screen size on whole pixels, and the soft glow edges are narrower.
+- **Smaller HUD:** the HUD is 15 % smaller by default (HUD size 0.85), health and ammo stay easy to read. If you set the HUD size yourself, your value is kept.
+- **A livelier health display:** a tentacle wraps around the health ring, with a nautilus, coral, seagrass and bubbles. Dash charges glow as pearls in the rim, the ampoules hang from a tentacle.
+- **Graphics presets that really work:** the quality preset now sets every graphics option, including fog, particles and anti-aliasing. Before, Medium and High looked almost the same.
+- **Ultra is really Ultra:** 8×MSAA with SMAA, shadows at double resolution with the softest edges, ambient occlusion and indirect light at full resolution, sharper reflections and the finest volumetric fog. Ultra needs about 2 to 3 times the GPU power of High. High stays the default and looks exactly as before.
+- **Every graphics option on its own:** anti-aliasing, shadows, ambient occlusion, indirect light and reflections, texture filtering, fog, particles and upscaling each have their own row. Change one and the preset shows "Custom".
+- **Boss arenas:** the arena edges glow like light tubes instead of flat bands.
+- **Room start and objectives:** the room start card sits higher and a little smaller, and the objective card's explanation wraps onto two lines instead of being cut off.
+- **Co-op window** with an organic frame and title plate, and the settings title is translated.
+
+### Fixed
+- **Hub markers next to their stations:** at any HUD size other than 1.0, "NEW" and the dive chamber marker were shown beside their stations.
+- **Xal'Tuun:** changing graphics settings during the fight removed the veil look until the fight ended.
+- The tooltip promised a lighting technique on Ultra (SDFGI) that was never active.
+
 ## 28.10.2026 – First dive without freezing, legendary charms awaken (v2026.10.28.1104-2387c5b2)
 
 ### Improved

@@ -33,7 +33,7 @@ If you like **Roboquest**, **Gunfire Reborn** or **Risk of Rain 2**, this is tha
 
 <table><tr><td>
 <b>New in the latest update</b><br>
-Diving bell instead of portal · legendary charms awaken · weapon mastery · new enemies per pressure level · first dive without freezing · deep-sea HUD.
+Sharper, smaller deep-sea HUD · graphics presets that really work (true Ultra) · diving bell instead of portal · legendary charms awaken · weapon mastery.
 <a href="CHANGELOG.md">Full changelog</a>
 </td></tr></table>
 

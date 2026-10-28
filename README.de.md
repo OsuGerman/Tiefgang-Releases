@@ -33,7 +33,7 @@ Wenn du **Roboquest**, **Gunfire Reborn** oder **Risk of Rain 2** magst: genau d
 
 <table><tr><td>
 <b>Neu im letzten Update</b><br>
-Taucherglocke statt Portal · legendäre Charms erwachen · Waffen-Meisterschaft · neue Gegner je Druckstufe · erster Tauchgang ohne Standbild · Tiefsee-HUD.
+Schärferes, kleineres Tiefsee-HUD · Grafikstufen, die wirklich wirken (echtes Ultra) · Taucherglocke statt Portal · legendäre Charms erwachen · Waffen-Meisterschaft.
 <a href="CHANGELOG.de.md">Ganzer Changelog</a>
 </td></tr></table>
 

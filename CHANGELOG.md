@@ -8,6 +8,16 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 28.10.2026 – Diving bell fixes, co-op HUD, texts (v2026.10.28.0315-fdce9f4e)
+
+### Fixed
+- **Diving bell:** if you died exactly while boarding, the bell still departed behind the death screen and counted an extra depth. The bell no longer leaves when you die.
+- **Bell ride Coral → Archives:** a short stutter during the ride is gone.
+- **Ballast** can only be attached from inside the bell, no longer from outside through the open hatch.
+- **Co-op:** with a large HUD the teammate list covered the health gauge.
+- **Charm cards:** numbers and units ("3 s", "20 %") are no longer split across lines.
+- **English HUD:** the weapon's run level now reads LEVEL, so it is not confused with the workbench tiers.
+
 ## 27.10.2026 – Diving bell instead of portal, ballast wager, pressure ladder rewards, new HUD, crisp graphics again (v2026.10.28.0034-4f10f2cd)
 
 ### New

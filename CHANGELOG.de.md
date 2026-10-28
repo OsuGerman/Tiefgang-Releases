@@ -8,6 +8,15 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 28.10.2026 – Bugfixes für die Taucherglocke, Koop-HUD, Texte (v2026.10.28.0315-fdce9f4e)
+
+### Behoben
+- **Taucherglocke:** Wer genau beim Einsteigen starb, landete hinter dem Todesbildschirm trotzdem eine Tiefe weiter. Jetzt fährt die Glocke bei Tod nicht mehr ab.
+- **Glockenfahrt Korallen → Archive:** ein kurzes Ruckeln während der Fahrt ist weg.
+- **Ballast** lässt sich nur noch im Inneren der Glocke anhängen, nicht mehr durch die offene Luke von draußen.
+- **Koop:** Bei großem HUD überdeckte die Mitspielerliste die Lebensanzeige.
+- **Charm-Karten:** Zahl und Einheit („3 s“, „20 %“) werden nicht mehr über den Zeilenumbruch getrennt.
+
 ## 27.10.2026 – Taucherglocke statt Portal, Ballast-Wette, Druckstufen-Belohnungen, neues HUD, wieder knackige Grafik (v2026.10.28.0034-4f10f2cd)
 
 ### Neu

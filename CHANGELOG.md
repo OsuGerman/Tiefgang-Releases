@@ -8,6 +8,13 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 28.10.2026 – First dive without freezing, legendary charms awaken (v2026.10.28.1104-2387c5b2)
+
+### Improved
+- **First dive without freezing:** on the first dive the image froze for several seconds (over 4 s). Shaders are now prepared step by step behind the loading screen, no frame freezes for longer than about 0.3 s. ([#106](https://github.com/OsuGerman/Tiefgang-Releases/issues/106))
+- **Legendary charms awaken:** a second copy of a legendary is never wasted anymore. Most legendaries awaken with stronger values ("AWAKEN" on the card), the rest turn into charm shards. Boss rewards fill up with duplicates when you already own almost every legendary, and after a while without a legendary one is guaranteed to show up. ([#32](https://github.com/OsuGerman/Tiefgang-Releases/issues/32))
+- **Diving bell:** pearls with a nacre sheen, verdigris only in the seams, cleaner frames. The weapon rack in the submarine has a lighter back wall so the weapons stand out better.
+
 ## 28.10.2026 – Subtler HUD, menus in the deep-sea style, nicer diving bell (v2026.10.28.0752-c30756bd)
 
 ### Improved

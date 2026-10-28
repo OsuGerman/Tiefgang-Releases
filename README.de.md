@@ -33,7 +33,7 @@ Wenn du **Roboquest**, **Gunfire Reborn** oder **Risk of Rain 2** magst: genau d
 
 <table><tr><td>
 <b>Neu im letzten Update</b><br>
-Dezenteres Tiefsee-HUD · Menüs im selben Glasstil · schönere Taucherglocke · neue Gegner je Druckstufe · Waffen-Meisterschaft.
+Taucherglocke statt Portal · legendäre Charms erwachen · Waffen-Meisterschaft · neue Gegner je Druckstufe · erster Tauchgang ohne Standbild · Tiefsee-HUD.
 <a href="CHANGELOG.de.md">Ganzer Changelog</a>
 </td></tr></table>
 

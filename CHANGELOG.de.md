@@ -8,6 +8,13 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 28.10.2026 – Erster Tauchgang ohne Standbild, legendäre Charms erwachen (v2026.10.28.1104-2387c5b2)
+
+### Verbessert
+- **Erster Tauchgang ohne Einfrieren:** Beim ersten Abtauchen stand das Bild mehrere Sekunden still (bis über 4 s). Die Shader werden jetzt schrittweise hinter der Ladeblende vorbereitet, kein Bild steht mehr länger als etwa 0,3 s. ([#106](https://github.com/OsuGerman/Tiefgang-Releases/issues/106))
+- **Legendäre Charms erwachen:** Ein zweites Exemplar eines Legendären ist nie mehr umsonst. Die meisten erwachen mit stärkeren Werten (auf der Karte „ERWECKEN“), die übrigen werden zu Charm-Splittern. Boss-Belohnungen werden mit Duplikaten aufgefüllt, wenn du schon fast alle Legendären hast, und nach einer Weile ohne Legendären taucht sicher einer auf. ([#32](https://github.com/OsuGerman/Tiefgang-Releases/issues/32))
+- **Taucherglocke:** Perlen mit Perlmuttglanz, Grünspan nur noch in den Fugen, sauberere Spanten. Der Waffenständer im U-Boot hat eine hellere Rückwand, die Waffen heben sich besser ab.
+
 ## 28.10.2026 – Dezenteres HUD, Menüs im Tiefsee-Stil, schönere Taucherglocke (v2026.10.28.0752-c30756bd)
 
 ### Verbessert

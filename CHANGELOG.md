@@ -8,6 +8,20 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 31.10.2026 – Painted charms and weapons, new HUD frames, fresh textures (v2026.10.31.0121-2efbab1e)
+
+### New
+- **Painted artwork:** every charm and blessing now shows a painted image in brass, mother-of-pearl and deep-sea glass instead of a plain symbol. You see them on the reward cards, in the logbook and on the run summary. The nine weapons are repainted too and appear that way in the slot bar and the weapon display. The combat HUD keeps the simple symbols, because they read better at small sizes.
+
+### Improved
+- **HUD frames:** the weapon display, run card and ability now wear the same tentacle frame as the health display, with a nautilus, coral and seagrass. When the run card grows, for example with a radio contract, the frame grows cleanly with it.
+- **Temple:** the walls are rubble stone with a lime crust and algae in the joints instead of smeared blotches.
+- **Coral Cathedral:** the floor shows dense coral rubble, and the large bright patches that visibly repeated are gone.
+- **Sunken Archives:** the walls are straight ashlar blocks with drip and salt stains instead of muddy blocks.
+
+### Fixed
+- **Pressure leaderboard:** the category only counted runs in Corrupted mode. Now every run with a pressure level counts, including runs you already sent.
+
 ## 28.10.2026 – Sharper, smaller HUD, graphics presets that really work (v2026.10.28.1931-303d9e9c)
 
 ### Improved

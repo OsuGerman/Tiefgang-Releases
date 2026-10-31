@@ -8,6 +8,20 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 31.10.2026 – Gemalte Charms und Waffen, neue HUD-Rahmen, frische Texturen (v2026.10.31.0121-2efbab1e)
+
+### Neu
+- **Gemalte Motive:** Alle Charms und Segen zeigen jetzt gemalte Bilder aus Messing, Perlmutt und Tiefseeglas statt einfacher Symbole. Du siehst sie auf den Belohnungskarten, im Logbuch und im Run-Ende. Auch die neun Waffen sind neu gemalt und erscheinen so in der Slot-Leiste und der Waffenanzeige. Im Kampf-HUD bleiben die schlichten Symbole, weil sie klein besser lesbar sind.
+
+### Verbessert
+- **HUD-Rahmen:** Waffenanzeige, Laufkarte und Fähigkeit tragen jetzt denselben Tentakel-Rahmen wie die Lebensanzeige, mit Perlboot, Koralle und Seegras. Wächst die Laufkarte, etwa durch einen Funk-Auftrag, wächst der Rahmen sauber mit.
+- **Tempel:** Die Wände bestehen aus Bruchstein mit Kalkkruste und Algen in den Fugen statt aus verschmierten Flecken.
+- **Korallenkathedrale:** Der Boden zeigt dichten Korallenschutt, die großen hellen Flecken, die sich sichtbar wiederholten, sind weg.
+- **Versunkene Archive:** Die Wände bestehen aus geraden Quadern mit Tropf- und Salzspuren statt aus matschigen Blöcken.
+
+### Behoben
+- **Bestenliste Druck:** Die Kategorie zählte nur Runs im Modus „Korrumpiert“. Jetzt zählt jeder Run mit Druckstufe, auch rückwirkend für schon gesendete Runs.
+
 ## 28.10.2026 – Schärferes, kleineres HUD, Grafikstufen, die wirklich wirken (v2026.10.28.1931-303d9e9c)
 
 ### Verbessert

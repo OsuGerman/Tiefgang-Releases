@@ -33,7 +33,7 @@ If you like **Roboquest**, **Gunfire Reborn** or **Risk of Rain 2**, this is tha
 
 <table><tr><td>
 <b>New in the latest update</b><br>
-Sharper, smaller deep-sea HUD · graphics presets that really work (true Ultra) · diving bell instead of portal · legendary charms awaken · weapon mastery.
+Painted charms, blessings and weapons · tentacle frames for the whole HUD · new textures in the Temple, Coral Cathedral and Archives · graphics presets with true Ultra · pressure leaderboard counts every run with a pressure level.
 <a href="CHANGELOG.md">Full changelog</a>
 </td></tr></table>
 

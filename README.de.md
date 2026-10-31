@@ -33,7 +33,7 @@ Wenn du **Roboquest**, **Gunfire Reborn** oder **Risk of Rain 2** magst: genau d
 
 <table><tr><td>
 <b>Neu im letzten Update</b><br>
-Gemalte Charms, Segen und Waffen · Tentakel-Rahmen für das ganze HUD · neue Texturen in Tempel, Korallenkathedrale und Archiven · Grafikstufen mit echtem Ultra · Druck-Bestenliste zählt jeden Run mit Druckstufe.
+Bosse jagen dich mit neuen Angriffsmustern · detailreichere, lebendige Waffen · Bodenwarnungen nur noch bei Bossen und Eliten · gealterte Materialien in allen Gebieten · gemalte Charms und Waffen.
 <a href="CHANGELOG.de.md">Ganzer Changelog</a>
 </td></tr></table>
 

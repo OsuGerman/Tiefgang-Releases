@@ -33,7 +33,7 @@ If you like **Roboquest**, **Gunfire Reborn** or **Risk of Rain 2**, this is tha
 
 <table><tr><td>
 <b>New in the latest update</b><br>
-Painted charms, blessings and weapons · tentacle frames for the whole HUD · new textures in the Temple, Coral Cathedral and Archives · graphics presets with true Ultra · pressure leaderboard counts every run with a pressure level.
+Bosses hunt you with new attack patterns · more detailed, living weapons · floor warnings only for bosses and elites · aged materials in every area · painted charms and weapons.
 <a href="CHANGELOG.md">Full changelog</a>
 </td></tr></table>
 

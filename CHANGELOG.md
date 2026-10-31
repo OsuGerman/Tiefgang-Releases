@@ -8,6 +8,28 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 31.10.2026 – Bosses hunt you, detailed weapons, calmer warning zones (v2026.10.31.1826-8684f907)
+
+### New
+- **Bosses are the main threat:** every boss now has hunting patterns that catch you even while you move: eruptions beneath you, pincer impacts from two sides, a wave sweeping across the arena and an ember ring. Standing still gets punished. The Drill Mother summons fewer Sludge Crawlers to make room for this.
+- **Living weapons:** the Governor and the Shipyard Song carry engravings, meander bands and glowing cores, and some parts move while you shoot and reload. The Shipyard Song has its own draw animation.
+
+### Improved
+- **Floor warnings** only appear for bosses and elites. Hazard zones are drawn more subtly, and many zones at once no longer hide the floor.
+- **Warnings right next to you** are calmer; only the rim stays fully visible.
+- **Enemy health bars** match the HUD style.
+- **Frozen** enemies show an ice veil instead of turning white.
+- **Reaction texts** such as status labels rise on screen and no longer overlap.
+- **Materials:** aged brass and copper with patina, textured fossil bones and a stonework set of its own for each area. The temple has sharper ashlar blocks, the Drilling Station a bulkhead wall, and the Abyss violet-grey carved stone instead of salmon-pink sandstone. Barrels and shelves now match the world.
+- **Charms:** 12 motifs that were cut off at the edge, and the fang, are repainted.
+
+### Fixed
+- **Herald:** a bright rectangle showed around the Herald.
+- **Objective line:** a dark band sat behind the objective line.
+- **Blood stains** stayed behind when you moved to the next depth.
+
+---
+
 ## 31.10.2026 – Painted charms and weapons, new HUD frames, fresh textures (v2026.10.31.0121-2efbab1e)
 
 ### New

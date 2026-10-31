@@ -8,6 +8,28 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 31.10.2026 – Bosse jagen dich, detailreichere Waffen, ruhigere Warnflächen (v2026.10.31.1826-8684f907)
+
+### Neu
+- **Bosse sind die Hauptgefahr:** Jeder Boss hat jetzt Jagdmuster, die dich auch in Bewegung erwischen: Eruptionen unter dir, Zangen-Einschläge von zwei Seiten, eine Welle quer durch die Arena und ein Glutring. Wer stehen bleibt, wird bestraft. Die Bohrmutter ruft dafür weniger Schlickkriecher.
+- **Lebendige Waffen:** Gouverneur und Werftlied tragen Gravuren, Mäanderbänder und glühende Kerne, einzelne Teile bewegen sich beim Schießen und Nachladen. Das Werftlied hat eine eigene Ziehanimation.
+
+### Verbessert
+- **Warnflächen am Boden** gibt es nur noch bei Bossen und Eliten. Gefahrenzonen sind zurückhaltender gezeichnet, und viele Flächen gleichzeitig verdecken den Boden nicht mehr.
+- **Warnungen direkt neben dir** sind ruhiger, nur der Rand bleibt voll sichtbar.
+- **Gegner-Lebensbalken** im Stil des HUD.
+- **Eingefroren** zeigt einen Eisschleier statt einer weißen Einfärbung.
+- **Reaktionstexte** (z. B. Status-Schilder) steigen im Bild auf und überlappen sich nicht mehr.
+- **Materialien:** gealtertes Messing und Kupfer mit Patina, Fossilknochen mit Textur, eigene Werksteine je Gebiet. Der Tempel hat schärfere Quader, die Bohrstation eine Schottwand, der Abgrund violettgrauen Schnitzstein statt lachsrosa Sandstein. Fass und Regal passen farblich zur Welt.
+- **Charms:** 12 Motive, die am Bildrand abgeschnitten waren, und der Fangzahn sind neu gemalt.
+
+### Behoben
+- **Herold:** Um den Herold war ein helles Rechteck zu sehen.
+- **Zielzeile:** Hinter der Zielzeile lag ein dunkles Band.
+- **Blutflecken** blieben beim Wechsel in die nächste Tiefe liegen.
+
+---
+
 ## 31.10.2026 – Gemalte Charms und Waffen, neue HUD-Rahmen, frische Texturen (v2026.10.31.0121-2efbab1e)
 
 ### Neu

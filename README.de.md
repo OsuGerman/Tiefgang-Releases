@@ -33,7 +33,7 @@ Wenn du **Roboquest**, **Gunfire Reborn** oder **Risk of Rain 2** magst: genau d
 
 <table><tr><td>
 <b>Neu im letzten Update</b><br>
-Jede Waffe klingt eigen · Gegnerstimmen für 21 Gegnertypen · neue Musik für Tempel, Korallenriff und Archive · Koop-Mitspieler hören alles mit · Warnklänge werden nie übertönt.
+Lautere Schüsse · neue Musik für Schiffsfriedhof, Bohrstation, Abgrund, U-Boot und Hauptmenü · alle sieben Bossthemen neu, mit eigenem Auftritt · Bosswarnungen immer hörbar · Klänge für 22 weitere Gegner.
 <a href="CHANGELOG.de.md">Ganzer Changelog</a>
 </td></tr></table>
 

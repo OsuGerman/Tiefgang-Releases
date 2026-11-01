@@ -8,6 +8,19 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 01.11.2026 – Louder shots, new music for every area, new boss music (v2026.11.01.1735-1183027e)
+
+### New
+- **New music:** the Ship Graveyard, Drilling Station and Abyss have their own pieces that build with the situation, with cues on enemy contact, boss entrances and defeat. The submarine and the main menu have their own pieces with a shared theme.
+- **New boss music:** all seven boss themes are new. Each boss now gets its own entrance cue.
+- **Enemy sounds:** 22 more enemies, elites and fleet enemies have their own sounds for battle cries, attack warnings, hits and recovery.
+
+### Improved
+- **Louder shots:** weapons now cut clearly through voices, ambience and hit sounds. ([#156](https://github.com/OsuGerman/Tiefgang-Releases/issues/156))
+- **Boss warnings take priority:** when a boss announces an attack, the music dips briefly so the warning is always audible.
+
+---
+
 ## 01.11.2026 – Every weapon sounds its own, enemy voices, music for the coral reef and archives (v2026.11.01.1117-2054deb3)
 
 ### New

@@ -8,6 +8,19 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 01.11.2026 – Lautere Schüsse, neue Musik für alle Gebiete, neue Bossmusik (v2026.11.01.1735-1183027e)
+
+### Neu
+- **Neue Musik:** Schiffsfriedhof, Bohrstation und Abgrund haben eigene Stücke, die sich je nach Lage aufbauen, mit Klängen bei Feindkontakt, Bossauftritt und Niederlage. U-Boot und Hauptmenü haben eigene Stücke mit gemeinsamem Leitmotiv.
+- **Neue Bossmusik:** Alle sieben Bossthemen sind neu. Beim Auftritt eines Bosses erklingt ein eigener Einstieg.
+- **Gegnerklänge:** 22 weitere Gegner, Elites und Flottengegner haben eigene Klänge für Kampfschrei, Ankündigung, Treffer und Erholung.
+
+### Verbessert
+- **Schüsse sind lauter:** Waffen setzen sich klar gegen Stimmen, Umgebung und Trefferklänge durch. ([#156](https://github.com/OsuGerman/Tiefgang-Releases/issues/156))
+- **Bosswarnungen haben Vorrang:** Kündigt ein Boss einen Angriff an, wird die Musik kurz leiser, damit die Warnung immer zu hören ist.
+
+---
+
 ## 01.11.2026 – Jede Waffe klingt eigen, Gegnerstimmen, Musik für Koralle und Archive (v2026.11.01.1117-2054deb3)
 
 ### Neu

@@ -33,7 +33,7 @@ If you like **Roboquest**, **Gunfire Reborn** or **Risk of Rain 2**, this is tha
 
 <table><tr><td>
 <b>New in the latest update</b><br>
-Every weapon sounds its own · voices for 21 enemy types · new music for the Temple, Coral Reef and Archives · co-op teammates hear it all · warning sounds are never drowned out.
+Louder shots · new music for the Ship Graveyard, Drilling Station, Abyss, submarine and main menu · all seven boss themes rewritten with entrance cues · boss warnings always cut through · sounds for 22 more enemies.
 <a href="CHANGELOG.md">Full changelog</a>
 </td></tr></table>
 

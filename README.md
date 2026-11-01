@@ -33,7 +33,7 @@ If you like **Roboquest**, **Gunfire Reborn** or **Risk of Rain 2**, this is tha
 
 <table><tr><td>
 <b>New in the latest update</b><br>
-Bosses hunt you with new attack patterns · more detailed, living weapons · floor warnings only for bosses and elites · aged materials in every area · painted charms and weapons.
+New sound: music changes on the beat and picks up as soon as an enemy notices you · layered Governor shots · hits sound by material · room acoustics and a new Temple soundscape · own tones for each rarity.
 <a href="CHANGELOG.md">Full changelog</a>
 </td></tr></table>
 

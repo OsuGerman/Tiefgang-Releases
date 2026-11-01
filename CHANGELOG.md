@@ -8,6 +8,23 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 01.11.2026 – New sound: music on the beat, Governor, hits, rooms (v2026.11.01.0254-b75c9bc0)
+
+### New
+- **Music follows the fight:** changes now land on the beat and at the end of a phrase instead of cutting in mid-note. As soon as an enemy notices you, the music picks up, even before the arena starts.
+- **Governor:** the shot is built from several layers (crack, body, mechanism, steam, tail). Reloading plays in five distinct steps, with dry fire and draw sounds. Fan the Hammer is pitched slightly higher again.
+- **Hits by material:** flesh, metal, stone and energy sound different, and critical hits and kills get an accent of their own.
+- **Enemy voices:** the Shield Warden, Krakling and Spitter have their own sounds for noticing you, winding up, attacking, impact and death.
+- **Room acoustics:** arenas and corridors sound different, and the Temple Forecourt has a new soundscape. Stone doors sound new.
+- **Rewards:** each rarity has its own tone, plus accents for categories and synergies and new sounds when the cards land.
+- **Interface volume:** a separate slider for menu sounds. On first start it takes over your previous effects volume.
+
+### Improved
+- **Many hits at once** are grouped and no longer drown each other out. Important sounds such as warnings take priority when things get busy.
+- **Reload sounds** stop when you switch weapons, go down or die.
+
+---
+
 ## 31.10.2026 – Bosses hunt you, detailed weapons, calmer warning zones (v2026.10.31.1826-8684f907)
 
 ### New

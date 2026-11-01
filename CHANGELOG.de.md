@@ -8,6 +8,23 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 01.11.2026 – Neuer Klang: Musik im Takt, Gouverneur, Treffer, Räume (v2026.11.01.0254-b75c9bc0)
+
+### Neu
+- **Musik folgt dem Kampf:** Wechsel kommen jetzt auf den Takt und zum Ende einer Phrase statt mitten im Ton. Sobald dich ein Gegner bemerkt, zieht die Musik an, noch bevor die Arena startet.
+- **Gouverneur:** Der Schuss besteht aus mehreren Schichten (Knall, Körper, Mechanik, Dampf, Nachhall). Nachladen klingt in fünf Handgriffen, dazu Leerschuss und Ziehen. Fächerfeuer klingt wieder etwas höher.
+- **Treffer nach Material:** Fleisch, Metall, Stein und Energie klingen verschieden, kritische Treffer und Kills haben einen eigenen Akzent.
+- **Gegnerstimmen:** Schildwächter, Krakling und Speier haben eigene Klänge für Bemerken, Ausholen, Angriff, Einschlag und Tod.
+- **Raumklang:** Arenen und Gänge klingen unterschiedlich, der Tempelvorhof hat eine neue Klangwelt. Steintüren klingen neu.
+- **Belohnungen:** Jede Seltenheit hat einen eigenen Ton, dazu Akzente für Kategorien und Synergien und neue Klänge, wenn die Karten landen.
+- **Lautstärke Oberfläche:** eigener Regler für Menüklänge. Beim ersten Start übernimmt er deinen bisherigen Effekte-Wert.
+
+### Verbessert
+- **Viele Treffer gleichzeitig** werden gebündelt und übertönen sich nicht mehr. Wichtige Klänge wie Warnungen haben Vorrang, wenn viel los ist.
+- **Nachladeklänge** brechen ab, wenn du die Waffe wechselst, niedergehst oder stirbst.
+
+---
+
 ## 31.10.2026 – Bosse jagen dich, detailreichere Waffen, ruhigere Warnflächen (v2026.10.31.1826-8684f907)
 
 ### Neu

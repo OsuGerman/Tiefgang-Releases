@@ -33,7 +33,7 @@ Wenn du **Roboquest**, **Gunfire Reborn** oder **Risk of Rain 2** magst: genau d
 
 <table><tr><td>
 <b>Neu im letzten Update</b><br>
-Bosse jagen dich mit neuen Angriffsmustern · detailreichere, lebendige Waffen · Bodenwarnungen nur noch bei Bossen und Eliten · gealterte Materialien in allen Gebieten · gemalte Charms und Waffen.
+Neuer Klang: Musik wechselt im Takt und zieht an, sobald dich ein Gegner bemerkt · Gouverneur in Klangschichten · Treffer klingen nach Material · Raumakustik und neue Tempel-Klangwelt · eigene Töne für Seltenheiten.
 <a href="CHANGELOG.de.md">Ganzer Changelog</a>
 </td></tr></table>
 

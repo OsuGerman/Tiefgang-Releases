@@ -33,7 +33,7 @@ If you like **Roboquest**, **Gunfire Reborn** or **Risk of Rain 2**, this is tha
 
 <table><tr><td>
 <b>New in the latest update</b><br>
-New sound: music changes on the beat and picks up as soon as an enemy notices you · layered Governor shots · hits sound by material · room acoustics and a new Temple soundscape · own tones for each rarity.
+Every weapon sounds its own · voices for 21 enemy types · new music for the Temple, Coral Reef and Archives · co-op teammates hear it all · warning sounds are never drowned out.
 <a href="CHANGELOG.md">Full changelog</a>
 </td></tr></table>
 

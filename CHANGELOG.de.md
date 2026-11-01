@@ -8,6 +8,20 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 01.11.2026 – Jede Waffe klingt eigen, Gegnerstimmen, Musik für Koralle und Archive (v2026.11.01.1117-2054deb3)
+
+### Neu
+- **Alle Waffen neu vertont:** Kielbrecher, Walfänger, Werftlied, Tiefenbombe, Stimme der Tiefe, Leuchtfeuer, Gezeitenklinge und Zahn des Schläfers haben eigene Klänge für Schuss, Nachladen und Ziehen. Der Strahl des Leuchtfeuers steigt in der Tonhöhe, je länger du fokussierst.
+- **Gegnerstimmen:** Säure-Werfer, Schwärme, Nahkämpfer und Flieger klingen beim Bemerken, Ausholen, Angriff, Einschlag und Tod eigen.
+- **Neue Musik:** Tempel, Korallenriff und Archive haben eigene Stücke, die sich je nach Lage aufbauen, mit Klängen bei Feindkontakt und Bossauftritt. Sieg und Niederlage haben eigene Schlussklänge, Bossphasen wechseln auf den Takt.
+- **Koop:** Mitspieler hören deine neuen Waffen- und Gegnerklänge, ohne dass mehr über das Netz geht.
+
+### Verbessert
+- **Mix:** Der Gesamtklang übersteuert in großen Kämpfen nicht mehr. Arenen hallen weniger dumpf.
+- **Warnklänge** werden nie mehr von Einschlägen übertönt, auch nicht im dichtesten Kampf.
+
+---
+
 ## 01.11.2026 – Neuer Klang: Musik im Takt, Gouverneur, Treffer, Räume (v2026.11.01.0254-b75c9bc0)
 
 ### Neu

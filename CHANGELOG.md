@@ -8,6 +8,20 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 01.11.2026 – Every weapon sounds its own, enemy voices, music for the coral reef and archives (v2026.11.01.1117-2054deb3)
+
+### New
+- **Every weapon re-voiced:** the Keelbreaker, Whaler, Shipyard Song, Depth Bomb, Voice of the Deep, Beacon, Tide Blade and Sleeper’s Tooth have their own sounds for firing, reloading and drawing. The Beacon's beam rises in pitch the longer you focus.
+- **Enemy voices:** acid throwers, swarms, melee and flying enemies sound distinct when they notice you, wind up, attack, hit and die.
+- **New music:** the Temple, Coral Reef and Archives have their own pieces that build with the situation, with cues on enemy contact and boss entrances. Victory and defeat have their own closing cues, and boss phases change on the beat.
+- **Co-op:** your teammates hear the new weapon and enemy sounds, with no extra network traffic.
+
+### Improved
+- **Mix:** the overall sound no longer clips in big fights. Arenas sound less muddy.
+- **Warning sounds** are never drowned out by impacts, even in the busiest fights.
+
+---
+
 ## 01.11.2026 – New sound: music on the beat, Governor, hits, rooms (v2026.11.01.0254-b75c9bc0)
 
 ### New

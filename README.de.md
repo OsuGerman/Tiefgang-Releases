@@ -33,7 +33,7 @@ Wenn du **Roboquest**, **Gunfire Reborn** oder **Risk of Rain 2** magst: genau d
 
 <table><tr><td>
 <b>Neu im letzten Update</b><br>
-Neuer Klang: Musik wechselt im Takt und zieht an, sobald dich ein Gegner bemerkt · Gouverneur in Klangschichten · Treffer klingen nach Material · Raumakustik und neue Tempel-Klangwelt · eigene Töne für Seltenheiten.
+Jede Waffe klingt eigen · Gegnerstimmen für 21 Gegnertypen · neue Musik für Tempel, Korallenriff und Archive · Koop-Mitspieler hören alles mit · Warnklänge werden nie übertönt.
 <a href="CHANGELOG.de.md">Ganzer Changelog</a>
 </td></tr></table>
 

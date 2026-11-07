@@ -8,6 +8,59 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 07.11.2026 – Der Ertrunkene Dom, Tiefsee-Himmel, Boss-Auftritte, Lichttiefe, neue Segen und Risiko-Charms (v2026.11.07.0848-6cc583ccf)
+
+### Neue Welt: Der Ertrunkene Dom
+- **Eine versunkene Kathedrale als drittes Gebiet:** Hast du den Archivar einmal besiegt, kann in Gebiet 3 statt der Versunkenen Archive der Ertrunkene Dom auf dich warten. Basalt, Bronze und türkises Glas, hohe Hallen mit Emporen, Galerien und Treppen, in denen du nach oben und unten kämpfst.
+- **Hallen:** Von der Glockenlandung geht es durch das Schiff der Glocken, die Glockenvierung, den Chor der Pfeifen, die Gezeitenkrypta, den Kreuzgarten, die Rosettenhalle und die Glockengießerei bis zur Apsis der Großen Glocke. Dazwischen liegen ruhige Räume: die Kapelle der Gaben mit Segen, die Sakristei mit Schätzen und die Glöcknerstube mit Händler vor dem Boss.
+- **Neue Gegner:** Der Emporensänger hält Abstand und singt Schallbolzen von den Emporen, der Wasserspeier löst sich vom Gesims und stürzt sich von oben auf dich. Dazu kommen Glockenläuter, Taufpriester und weitere Bewohner des Doms. In der Glockengießerei wartet der Schmelzgießer als Elite.
+- **Neuer Boss: Der Glockenwächter** mit drei Phasen und acht Angriffen. Wenn die große Glocke schlägt, geh hinter eine Säule, denn ihr Schall trifft die ganze Apsis. Schießt du im richtigen Moment auf die Glocke, schlägt ihr Klang auf ihn zurück. Später bricht er die Säulen aus der Halle.
+- **Gefahren:** Gezeitenrinnen fluten nach kurzem Gurgeln, in den Bronzerinnen brodelt glühendes Metall.
+- **Eigener Klang:** Gebietsmusik mit Glocken-Leitmotiv, eigenes Bossthema, Raumklang je Halle und eigene Stimmen für die neuen Gegner.
+- **Im Koop** spielt sich der Dom samt Glockenwächter wie jedes andere Gebiet.
+
+### Neu
+- **Tiefsee-Himmel:** Wo ein Raum nach oben oder zur Seite offen ist, siehst du jetzt gestaffelte Felsgrate, ferne Ruinen und Lichtsäulen von der Oberfläche statt einer flachen Farbe. Das gilt für den Schiffsfriedhof, den Abgrund und die Deckenöffnungen in Tempel, Korallenkathedrale, Archiven und Bohrstation. Je tiefer du in einem Gebiet bist, desto schwächer fällt das Licht von oben ein. Am Horizont zieht manchmal ein Leviathan vorbei. ([#143](https://github.com/OsuGerman/Tiefgang-Releases/issues/143))
+- **Blick nach draußen:** Die Bullaugen im U-Boot zeigen eine Tiefseelandschaft mit Felsgraten, Säulenstümpfen und wiegendem Seetang. Auf der Fahrt mit der Taucherglocke reißt der Schacht in Spalten auf, dahinter ziehen nahe und ferne Felswände vorbei. Die Kuppeln über den Deckenöffnungen zeigen einen weichen Schimmer mit wandernden Lichtsäulen. ([#143](https://github.com/OsuGerman/Tiefgang-Releases/issues/143))
+- **Boss-Auftritte:** Jeder Boss erscheint mit einer eigenen Beschwörung. Ein Runenkreis zeichnet sich am Boden, Energie sammelt sich, die Arena wird dunkler, und auf dem Schlag des Auftrittsklangs entlädt sich alles. Die Kamera bleibt dabei kurz auf dem Boss. Wer das nicht möchte: neue Einstellung **Boss-Intros überspringen** unter Gameplay (kein Kameraschwenk, Titelkarte und Ton bleiben). ([#145](https://github.com/OsuGerman/Tiefgang-Releases/issues/145))
+- **8 neue Segen mit neuen Auslösern:** Tiefenlot (stärker bei Treffern auf Distanz), Sprungwoge und Himmelsschlag (der Doppelsprung schlägt eine Säule nach unten, belegt dafür den Dash-Platz), Blutrausch und Seelenfang (Kills laden die nächsten Schüsse auf), Aderöffner (die Fähigkeit lädt die nächsten Schüsse auf), Spannungsabwurf (jedes Nachladen löst einen Ring um dich aus, perfektes Nachladen einen größeren) und Abgrundnähe (stärker, je weniger Leben du hast). ([#38](https://github.com/OsuGerman/Tiefgang-Releases/issues/38))
+- **Elemente wirken auch bei Sekundärfeuer und Fähigkeit:** Die Segen dieser beiden Plätze verteilen nicht mehr nur Stapel. Beim Sekundärfeuer stößt Flut zurück, Blut heilt dich, Blitz springt auf einen weiteren Gegner über und Leere hindert getroffene Gegner kurz am Angreifen. Bei der Fähigkeit gibt Flut dir Schild, Blut reißt die Blutung auf, Blitz betäubt und Leere zieht Gegner zusammen. ([#38](https://github.com/OsuGerman/Tiefgang-Releases/issues/38))
+- **5 Risiko-Charms mit Vor- und Nachteil:** Sturzflug (mehr Schaden in der Luft, weniger am Boden), Enger Kreis (stark aus der Nähe, schwach auf Distanz), Heißes Rohr (kleineres Magazin, nach perfektem Nachladen deutlich mehr Schaden), Adrenalin (du nimmst mehr Schaden, jeder Treffer macht dich kurz stärker und schneller) und Aderlassventil (die Fähigkeit kostet Leben, trifft dafür härter und lädt schneller). Sie haben einen eigenen Kartenrahmen **Risiko**. ([#38](https://github.com/OsuGerman/Tiefgang-Releases/issues/38))
+- **Eigene Motive:** Die neuen Segen und Risiko-Charms haben gemalte Bilder wie alle anderen Karten.
+- **Tiefe Bässe:** Bossauftritte, Phasenwechsel, Bosstode, schwere Boss-Schläge, Explosionen und schwere Waffen haben einen eigenen Sub-Bass-Einschlag. Musik und Umgebung treten dabei kurz zurück. ([#146](https://github.com/OsuGerman/Tiefgang-Releases/issues/146))
+
+### Verbessert
+- **Lichttiefe unter Wasser:** Die Entfernung schluckt zuerst Rot, dann Grün, ferne Wände laufen ins Blaugrün. Lichtschächte von oben sind als Hauptlicht heller (außer im Abgrund, dort tragen die Lichtinseln), Ecken und Kontaktstellen haben weiche Schatten. ([#121](https://github.com/OsuGerman/Tiefgang-Releases/issues/121))
+- **Mehr Details in Archiven und Bohrstation:** In sechs Hallen der Versunkenen Archive und allen acht Hallen der Bohrstation haben Plattformkanten jetzt Sockel, Pfeiler oder Reliefs, Rampen und Treppen haben seitliche Wangen. Unter Kandelabern und Lampenmasten liegen Lichtinseln. Aufgang und Druckkammer der Bohrstation und der Aufgang der Archive haben Treppenwangen bekommen, in der Bohrstation aus Riffelstahl statt aus Stein. Das kostet keine messbare Leistung. ([#103](https://github.com/OsuGerman/Tiefgang-Releases/issues/103))
+- **Flüssigeres Laden:** Die Ladeblende bleibt jetzt stehen, bis alle Effekte vorbereitet sind. Auf langsameren Rechnern ruckelt das U-Boot nach dem Laden nicht mehr (die längsten Bilder sanken in der Messung von rund 140 auf 13 ms). Effekte werden nicht mehr schon im Hauptmenü aufgebaut, das Startbild ist früher da. Die Startgebiete laden bereits, während das U-Boot aufgebaut wird. Spielt ihr mit einer AMD-Grafikkarte: Bitte meldet uns, ob der erste Start und das Laden ins U-Boot jetzt flüssig sind. ([#106](https://github.com/OsuGerman/Tiefgang-Releases/issues/106))
+- **Erster Bossauftritt ohne Ruckler:** Die Beschwörung und der Boss selbst werden hinter der Ladeblende vorbereitet und müssen nicht erst im Kampf aufgebaut werden. In unserer Messung halbierte sich der längste Ruckler beim Erscheinen des Bosses (Mittel von rund 37 auf 18 ms).
+- **Bosskämpfe:** Beschworene Begleiter häufen sich nicht mehr unbegrenzt an: Fraktionswellen ab der zweiten Phase, die Diener des Archivars und von Xal-Tuun, Schlickkriecher und Rostdrohnen der Bohrmutter sowie Echo-Diener und Leerenkugeln des Ohrs des Schläfers. Wer sie stehen ließ, stand etwa beim Archivar nach vier Minuten vor über 30 Gegnern. Jetzt kommen keine neuen, solange 12 auf dem Feld sind.
+- **Koop beim Laden:** Hängt ein Rechner beim Aufbau des U-Boots oder einer neuen Tiefe länger als ein paar Sekunden, bleibt die Verbindung jetzt bestehen, statt den Spieler zu trennen. Beim Hosten und Beitreten bleibt die Ladeblende stehen, bis das U-Boot aufgebaut ist. Wichtig: Diese Version spielt im Koop nur mit derselben Version zusammen.
+- **Korallenschiff (Korallenkathedrale):** Die Kollision des Schiffswracks folgt jetzt der sichtbaren Plankenhaut. Im Durchgang und vor der Reling standen vorher unsichtbare Wände.
+- **Leuchtende Waffenteile:** Abyssalit-Türkis, Gold und Klingenkanten der Waffe in deiner Hand brennen beim Schießen und Überhitzen nicht mehr zu weißen Flecken aus, Form und Farbe bleiben erkennbar. Feuerschalen glühen satt orange statt weiß.
+- **Korallenkathedrale:** Die Hirnkorallen haben eine einfachere Kollision. Gegner bewegen sich dort mit weniger Rechenlast, die Form bleibt gleich.
+- **Einstellungen:** Die Erklärungen zu den Grafikoptionen brechen jetzt um und zeigen jede Stufe in einer eigenen Zeile statt als überlange Zeile.
+- **Tiefsee-Himmel ohne Ruckler:** Auch der Himmel wird hinter der Ladeblende vorbereitet.
+
+### Behoben
+- **Frostflecken, Blitzeinschläge, Explosionen und andere Effekte** zeigten manchmal ein helles, milchiges Rechteck mit geraden Kanten.
+- **Muster mit Kanten:** Kristalle, Lichtstrahlen, Druckwellen, Dampf, Bodenglut, Gegnereffekte, der Schleier im Kampf gegen Xal-Tuun, das Flutwasser im Schiffsfriedhof und Statusüberzüge wie Gefroren zeigten harte Rechteckkanten und versetzte Musterblöcke, vor allem weit draußen in großen Räumen und nach langer Spielzeit.
+- **Taucher-Gegner im Boden:** Taucherkoloss und Helmtaucher-Mannschaft sanken beim Ausholen, Kippen und Sterben ein paar Zentimeter in den Boden ein.
+- **Ampullen bei vollem Vorrat:** Eine Ampulle wurde auch bei vollem Vorrat eingesammelt und war verloren. Jetzt bleibt sie liegen, bis du wieder Platz hast.
+- **Schiffsfriedhof:** Der Lichtstrahl im Mondschacht endete an der Decksöffnung als heller, scharf abgeschnittener Block. Jetzt läuft er weich aus.
+- **Koop:** Die Angriffssperre des Leere-Sekundärfeuers und der Blutausbruch der Fähigkeit wirkten nicht, wenn ein Mitspieler statt des Hosts sie auslöste.
+- **Koop:** Löste ein Treffer eines Mitspielers sofort einen weiteren aus (Kill-Charm, Kette), ging gelegentlich ein Treffer verloren.
+- **Koop:** Brach ein Beitritt ab, meldete der Host beim zweiten Versuch manchmal „Das Spiel ist voll“, weil er den Platz für den abgebrochenen Versuch freihielt.
+- **Boss-Auftritt:** Nach einem Neustart mit demselben festen Seed blieb der Bossauftritt aus.
+- **Taucherglocke:** Nach der Ankunft lag oben an der Innenwand ein dunkler, verwischter Fleck.
+- **Flutschwall:** Beim Schrotschuss addierte sich der Rückstoß jeder Kugel, Gegner flogen viel zu weit. Jetzt wirkt er einmal je Schuss und Ziel.
+- **Seltene Fehlermeldungen** beim Beenden, beim Laden einzelner Räume und rund zwei Sekunden nach einem Bossauftritt.
+- **Wasserkuppel:** Auf der niedrigsten Nebelstufe lag ein Wellenmuster auf der Kuppel.
+- **Glockenschacht:** Die Schachtwand zeigte kantige Facetten und eine Naht.
+- **Auftrittsklänge** aller Gebiete und Bosse setzten mit einer kurzen Einblendung statt mit vollem Schlag ein.
+
+---
+
 ## 01.11.2026 – Lautere Schüsse, neue Musik für alle Gebiete, neue Bossmusik (v2026.11.01.1735-1183027e)
 
 ### Neu

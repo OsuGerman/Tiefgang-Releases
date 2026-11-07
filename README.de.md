@@ -33,7 +33,7 @@ Wenn du **Roboquest**, **Gunfire Reborn** oder **Risk of Rain 2** magst: genau d
 
 <table><tr><td>
 <b>Neu im letzten Update</b><br>
-Lautere Schüsse · neue Musik für Schiffsfriedhof, Bohrstation, Abgrund, U-Boot und Hauptmenü · alle sieben Bossthemen neu, mit eigenem Auftritt · Bosswarnungen immer hörbar · Klänge für 22 weitere Gegner.
+Neue Welt: Der Ertrunkene Dom mit Glockenwächter · Tiefsee-Himmel mit Felsgraten und Lichtsäulen · jeder Boss mit eigener Beschwörung · 8 neue Segen und 5 Risiko-Charms · flüssigeres Laden.
 <a href="CHANGELOG.de.md">Ganzer Changelog</a>
 </td></tr></table>
 

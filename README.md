@@ -33,7 +33,7 @@ If you like **Roboquest**, **Gunfire Reborn** or **Risk of Rain 2**, this is tha
 
 <table><tr><td>
 <b>New in the latest update</b><br>
-Louder shots · new music for the Ship Graveyard, Drilling Station, Abyss, submarine and main menu · all seven boss themes rewritten with entrance cues · boss warnings always cut through · sounds for 22 more enemies.
+New world: the Drowned Cathedral and its Bell Warden · deep-sea sky with rock ridges and light shafts · every boss gets its own summoning · 8 new blessings and 5 risk charms · smoother loading.
 <a href="CHANGELOG.md">Full changelog</a>
 </td></tr></table>
 

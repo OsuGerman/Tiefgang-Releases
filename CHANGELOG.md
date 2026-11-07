@@ -8,6 +8,59 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 07.11.2026 – The Drowned Cathedral, deep-sea sky, boss entrances, lighting depth, new blessings and risk charms (v2026.11.07.0848-6cc583ccf)
+
+### New world: The Drowned Cathedral
+- **A sunken cathedral as the third area:** once you have beaten the Archivist, area 3 may now take you to the Drowned Cathedral instead of the Sunken Archives. Basalt, bronze and turquoise glass, tall halls with galleries and stairs where you fight up and down.
+- **Halls:** from the Bell Landing you push through the Nave of Bells, the Bell Crossing, the Choir of Pipes, the Tidal Crypt, the Cloister Garth, the Rose Window Hall and the Bell Foundry to the Apse of the Great Bell. Quiet rooms lie in between: the Chapel of Offerings with a blessing, the Sacristy with treasure and the Bell-Ringer's Room with a merchant before the boss.
+- **New enemies:** the Gallery Singer keeps its distance and sings sonic bolts down from the galleries, and the Gargoyle breaks loose from the cornice and drops on you from above. Bell Ringers, Font Priests and other dwellers of the cathedral join them. The Smelt Caster waits in the Bell Foundry as an elite.
+- **New boss: The Bell Warden**, with three phases and eight attacks. When the great bell tolls, get behind a pillar, because its sound sweeps the whole apse. Shoot the bell at the right moment and its sound turns back on him. Later he breaks the pillars out of the hall.
+- **Hazards:** tidal channels flood after a short gurgle, and glowing metal bubbles in the bronze channels.
+- **Its own sound:** area music with a bell motif, its own boss theme, room acoustics per hall and voices for the new enemies.
+- **In co-op** the cathedral and the Bell Warden play like any other area.
+
+### New
+- **Deep-sea sky:** wherever a room opens upwards or to the side, you now see layered rock ridges, distant ruins and shafts of light from the surface instead of a flat colour. This covers the Ship Graveyard, the Abyss and the ceiling openings in the Temple, the Coral Cathedral, the Archives and the Drilling Station. The deeper you are in an area, the weaker the light from above. Now and then a leviathan drifts along the horizon. ([#143](https://github.com/OsuGerman/Tiefgang-Releases/issues/143))
+- **View outside:** the portholes in the submarine show a deep-sea landscape with rock ridges, broken columns and swaying kelp. During the diving bell ride the shaft tears open into gaps, with near and far rock walls sliding past. The domes over ceiling openings show a soft shimmer with drifting light shafts. ([#143](https://github.com/OsuGerman/Tiefgang-Releases/issues/143))
+- **Boss entrances:** every boss arrives with its own summoning. A rune circle draws itself on the floor, energy gathers, the arena darkens, and everything discharges on the beat of the entrance cue. The camera holds on the boss for a moment. If you prefer to skip that, there is a new **Skip boss intros** option under Gameplay (no camera pan, title card and sound remain). ([#145](https://github.com/OsuGerman/Tiefgang-Releases/issues/145))
+- **8 new blessings with new triggers:** Sounding Line (stronger on long-range hits), Leaping Swell and Sky Strike (your double jump slams a column downwards and takes the dash slot), Blood Frenzy and Soul Snare (kills charge your next shots), Vein Opener (your ability charges your next shots), Discharge (every reload sets off a ring around you, a perfect reload a bigger one) and Brink of the Abyss (stronger the less health you have). ([#38](https://github.com/OsuGerman/Tiefgang-Releases/issues/38))
+- **Elements now matter for secondary fire and abilities:** blessings in these two slots no longer just apply stacks. On secondary fire, Tide knocks back, Blood heals you, Lightning arcs to one more enemy and Void briefly stops struck enemies from attacking. On abilities, Tide gives you shield, Blood bursts open bleeding, Lightning stuns and Void pulls enemies together. ([#38](https://github.com/OsuGerman/Tiefgang-Releases/issues/38))
+- **5 risk charms with an upside and a downside:** Nosedive (more damage in the air, less on the ground), Close Quarters (strong up close, weak at range), Hot Barrel (smaller magazine, much more damage after a perfect reload), Adrenaline (you take more damage, every hit makes you briefly stronger and faster) and Bloodletting Valve (your ability costs health but hits harder and recharges faster). They have their own **Risk** card frame. ([#38](https://github.com/OsuGerman/Tiefgang-Releases/issues/38))
+- **Own artwork:** the new blessings and risk charms have painted images like every other card.
+- **Deep bass:** boss entrances, phase changes, boss deaths, heavy boss attacks, explosions and heavy weapons have their own sub-bass impact. Music and ambience step back for a moment. ([#146](https://github.com/OsuGerman/Tiefgang-Releases/issues/146))
+
+### Improved
+- **Lighting depth underwater:** distance swallows red first, then green, and far walls fade into blue-green. Light shafts from above are brighter as the key light (except in the Abyss, where the light islands carry the scene), and corners and contact points have soft shadows. ([#121](https://github.com/OsuGerman/Tiefgang-Releases/issues/121))
+- **More detail in the Archives and the Drilling Station:** in six halls of the Sunken Archives and all eight halls of the Drilling Station, platform edges now have plinths, pillars or reliefs, and ramps and stairs have side stringers. Pools of light lie under candelabras and lamp posts. The Drilling Station's stairway and pressure chamber and the Archives' stairway got stair stringers too, made of tread-plate steel instead of stone in the Drilling Station. There is no measurable performance cost. ([#103](https://github.com/OsuGerman/Tiefgang-Releases/issues/103))
+- **Smoother loading:** the loading screen now stays up until all effects are prepared. On slower PCs the submarine no longer stutters after loading (the longest frames dropped from about 140 to 13 ms in our measurements). Effects are no longer built in the main menu, so the first screen appears sooner. The starting areas already load while the submarine is being built. If you play on an AMD graphics card, please tell us whether the first start and loading into the submarine are smooth now. ([#106](https://github.com/OsuGerman/Tiefgang-Releases/issues/106))
+- **First boss entrance without a hitch:** the summoning and the boss itself are prepared behind the loading screen instead of being built mid-fight. In our measurements the longest hitch when the boss appears was cut in half (median about 37 down to 18 ms).
+- **Boss fights:** summoned adds no longer pile up without limit: faction waves from the second phase on, the minions of the Archivist and Xal-Tuun, the Drill Mother's sludge crawlers and rust drones, and the echo minions and void orbs of the Sleeper’s Ear. If you ignored them, you could face more than 30 enemies after four minutes against the Archivist. Now no new ones arrive while 12 are on the field.
+- **Co-op while loading:** if a PC stalls for more than a few seconds while building the submarine or a new depth, the connection now holds instead of dropping that player. Hosting and joining keep the loading screen up until the submarine is built. Note: in co-op this version only plays with the same version.
+- **Coral ship (Coral Cathedral):** the collision of the shipwreck now follows the visible planking. Before, there were invisible walls in the passage and in front of the railing.
+- **Glowing weapon parts:** the abyssalite turquoise, gold and blade edges of the weapon in your hand no longer blow out into white blotches when firing or overheating, so shape and colour stay readable. Braziers glow a rich orange instead of white.
+- **Coral Cathedral:** brain corals have simpler collision. Enemies move around them at a lower processing cost, and the shape stays the same.
+- **Settings:** the graphics option tooltips now wrap and show each level on its own line instead of one overly long line.
+- **Deep-sea sky without a hitch:** the sky is prepared behind the loading screen as well.
+
+### Fixed
+- **Frost patches, lightning strikes, explosions and other effects** sometimes showed a bright, milky, straight-edged rectangle.
+- **Patterns with hard edges:** crystals, light beams, pressure waves, steam, glowing embers, enemy effects, the veil in the Xal-Tuun fight, flood water in the Ship Graveyard and status overlays such as Frozen showed hard rectangular edges and offset pattern blocks, mostly far out in large rooms and after long sessions.
+- **Diver enemies in the floor:** the Diving Colossus and the helmet diver crew sank a few centimetres into the floor when winding up, tipping over and dying.
+- **Ampoules at full stock:** an ampoule was picked up and lost even when your stock was full. It now stays on the ground until you have room again.
+- **Ship Graveyard:** the light beam in the moon pool ended at the deck opening as a bright, sharply cut block. It now fades out softly.
+- **Co-op:** the Void secondary fire's attack lock and the ability's Blood burst did not work when a teammate other than the host triggered them.
+- **Co-op:** when a teammate's hit instantly triggered another one (kill charm, chain), a hit was occasionally lost.
+- **Co-op:** if a join attempt broke off, the host sometimes answered the second attempt with "The game is full" because it kept the slot reserved for the failed attempt.
+- **Boss entrance:** after restarting with the same fixed seed, the boss entrance did not play.
+- **Diving bell:** after arrival there was a dark, smeared blotch high on the inner wall.
+- **Tide Surge:** with a shotgun the knockback of every pellet added up and enemies flew far too far. It now applies once per shot and target.
+- **Rare error messages** when quitting, when loading certain rooms and about two seconds after a boss entrance.
+- **Water dome:** on the lowest fog setting a wave pattern lay over the dome.
+- **Bell shaft:** the shaft wall showed hard facets and a seam.
+- **Entrance cues** in every area and for every boss faded in briefly instead of starting with a full hit.
+
+---
+
 ## 01.11.2026 – Louder shots, new music for every area, new boss music (v2026.11.01.1735-1183027e)
 
 ### New

@@ -16,7 +16,7 @@
   <a href="https://github.com/OsuGerman/Tiefgang-Releases">Repo mit Stern markieren</a> · <a href="https://github.com/OsuGerman/Tiefgang-Releases/discussions">Discussions</a> · <a href="https://github.com/OsuGerman/Tiefgang-Releases/milestones">Roadmap</a> · <a href="https://github.com/OsuGerman/Tiefgang-Releases/issues/new/choose">Bug melden</a>
 </p>
 
-**TIEFGANG** ist ein kostenloser **Koop-Roguelite-Shooter (FPS)** im Jahr 1887. Tauch im schweren Messing-Taucheranzug durch versunkene Tempel, Archive und Schiffswracks und bau absurde Kombos aus 9 Waffen, 95 Charms und Element-Segen. Spiel **allein oder im Koop mit 1–4 Spielern**. Entwickelt mit **Godot 4** von einem Solo-Entwickler, kostenlose Test-Builds für **Windows** mit automatischen Updates.
+**TIEFGANG** ist ein kostenloser **Koop-Roguelite-Shooter (FPS)** im Jahr 1887. Tauch im schweren Messing-Taucheranzug durch versunkene Tempel, Schiffswracks, Archive und einen ertrunkenen Dom und bau absurde Kombos aus 9 Waffen, 110 Charms und Element-Segen. Spiel **allein oder im Koop mit 1–4 Spielern**. Entwickelt mit **Godot 4** von einem Solo-Entwickler, kostenlose Test-Builds für **Windows** mit automatischen Updates.
 
 Wenn du **Roboquest**, **Gunfire Reborn** oder **Risk of Rain 2** magst: genau diese Art Run-Shooter, nur tief unter Wasser im Jahr 1887, in Messing-Taucheranzügen wie aus BioShock, und am Grund wartet etwas Lovecraft-artiges.
 
@@ -39,7 +39,7 @@ Neue Welt: Der Ertrunkene Dom mit Glockenwächter · Tiefsee-Himmel mit Felsgrat
 
 <img src="media/readme/h_download_de.png" alt="TIEFGANG kostenlos für Windows herunterladen" width="100%">
 
-1. **[Tiefgang-Windows.zip herunterladen](https://github.com/OsuGerman/Tiefgang-Releases/releases/latest/download/Tiefgang-Windows.zip)** – oder über **[itch.io](https://osugerman.itch.io/tiefgang)**. Ältere Builds liegen unter [Releases](https://github.com/OsuGerman/Tiefgang-Releases/releases).
+1. **[Tiefgang-Windows.zip herunterladen](https://github.com/OsuGerman/Tiefgang-Releases/releases/latest/download/Tiefgang-Windows.zip)** (ca. 1,4 GB) – oder über **[itch.io](https://osugerman.itch.io/tiefgang)**. Ältere Builds liegen unter [Releases](https://github.com/OsuGerman/Tiefgang-Releases/releases).
 2. Den Ordner `Tiefgang` dorthin entpacken, wo du schreiben darfst (Desktop, Dokumente). Nicht nach `C:\Programme`, sonst kann das Auto-Update nicht arbeiten.
 3. `Tiefgang.exe` starten. Windows meldet vermutlich „Der Computer wurde durch Windows geschützt“ – **Weitere Informationen → Trotzdem ausführen**. Der Test-Build ist nicht signiert.
 
@@ -54,7 +54,7 @@ Neue Builds laden sich im Hintergrund und werden nur im Hauptmenü, beim Beenden
 | Grafik | Vulkan-fähig, 4 GB VRAM | Aktuelle Mittelklasse, 8 GB VRAM |
 | Prozessor | 4 Kerne | 6 Kerne oder mehr |
 | Arbeitsspeicher | 8 GB | 16 GB |
-| Speicherplatz | ca. 1 GB | ca. 1 GB |
+| Speicherplatz | ca. 2 GB | ca. 2 GB |
 
 Vorläufig – das Spiel ist noch in Entwicklung. Maus und Tastatur oder Controller, Deutsch und Englisch.
 
@@ -76,7 +76,7 @@ Alle Tasten lassen sich in den Einstellungen ändern.
 
 Ein schneller Ego-Shooter mit Roguelike-Runs. Du tauchst durch **14 Tiefen** aus Kampfräumen, Schatzkammern, Prüfungen und Bossarenen, sammelst nach jedem Kampf Charms und Segen, bis dein Build entweder unaufhaltsam oder sehr, sehr lustig ist. Stehenbleiben ist tödlich; Sprint, Dash und Doppelsprung sind deine eigentliche Rüstung. Zwischen den Tauchgängen geht’s zurück ins U-Boot: forschen, ausrüsten, wieder runter – eine Druckstufe tiefer.
 
-Ein Indie-Projekt in aktiver Entwicklung. Es ändert sich schnell, und vieles hier gibt es nur, weil Tester sich über etwas beschwert haben. Zuletzt dazugekommen: Koop für bis zu vier, drei Gebiete im neuen Grafik-Standard, neu gemachte Element-Effekte, 25 neue Gegnerangriffe und eine eigene Mechanik für jede Waffe. Alles Weitere steht im **[Changelog](CHANGELOG.de.md)**.
+Ein Indie-Projekt in aktiver Entwicklung. Es ändert sich schnell, und vieles hier gibt es nur, weil Tester sich über etwas beschwert haben. Zuletzt dazugekommen: eine neue Welt, der Ertrunkene Dom, mit dem Glockenwächter als Boss. Offene Räume zeigen jetzt einen Tiefsee-Himmel, jeder Boss erscheint mit einer eigenen Beschwörung, und es gibt 8 neue Segen und 5 Risiko-Charms. Alles Weitere steht im **[Changelog](CHANGELOG.de.md)**.
 
 <!-- TRAILER -->
 <p align="center">
@@ -97,20 +97,24 @@ Ein Indie-Projekt in aktiver Entwicklung. Es ändert sich schnell, und vieles hi
     <td width="50%" align="center"><img src="media/gifs/chain_lightning.gif" alt="Kettenblitz springt zwischen Gegnern in der Korallenkathedrale" width="100%"><br><b>Element-Reaktionen</b><br><sub>Flut, Blut, Blitz und Leere verketten sich zu Reaktionen.</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="media/gifs/charm_choice.gif" alt="Wahl eines legendären Charms auf genieteten Belohnungskarten" width="100%"><br><b>Builds, die nicht funktionieren dürften</b><br><sub>95 Charms und 36 Segen auf genieteten Belohnungskarten.</sub></td>
+    <td align="center"><img src="media/gifs/charm_choice.gif" alt="Wahl eines legendären Charms auf genieteten Belohnungskarten" width="100%"><br><b>Builds, die nicht funktionieren dürften</b><br><sub>110 Charms und 44 Segen auf genieteten Belohnungskarten.</sub></td>
     <td align="center"><img src="media/coop_vs_xal_tuun.jpg" alt="Zwei Taucher in Messinganzügen kämpfen im Koop gegen Xal-Tuun" width="100%"><br><b>Koop für 1–4 Taucher</b><br><sub>Raumcodes, eigene Beute, Mitspieler wiederbeleben.</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="media/dom_nave_of_bells.jpg" alt="Das Schiff der Glocken im Ertrunkenen Dom: Basaltsäulen, Bronzeleuchter und eine leuchtende Gezeitenrinne" width="100%"><br><b>Neue Welt: Der Ertrunkene Dom</b><br><sub>Basalt, Bronze und türkises Glas. Hohe Hallen mit Emporen und Treppen, in denen du nach oben und unten kämpfst.</sub></td>
+    <td align="center"><img src="media/boss_bell_warden.jpg" alt="Der Glockenwächter, ein Steinriese in Ketten mit einer Bronzeglocke als Leib, in der Apsis der Großen Glocke" width="100%"><br><b>Neuer Boss: Der Glockenwächter</b><br><sub>Drei Phasen, acht Angriffe. Wenn die große Glocke schlägt, geh hinter eine Säule.</sub></td>
   </tr>
 </table>
 
 
 <table>
   <tr>
-    <td width="50%"><b>5 Gebiete, 14 Tiefen</b><br>Tempelvorhof oder Bohrstation, danach Korallenkathedrale, Versunkene Archive und der Abgrund.</td>
-    <td width="50%"><b>5 Bosse, 4 Herolde</b><br>Xal-Tuun, die Bohrmutter, Ysmera, der Archivar, das Ohr des Schläfers – Phasen, Schwachstellen, eigene Musik.</td>
+    <td width="50%"><b>7 Gebiete, 14 Tiefen</b><br>Tempelvorhof oder Bohrstation, danach Korallenkathedrale, Schiffsfriedhof, Versunkene Archive oder der Ertrunkene Dom und ganz unten der Abgrund.</td>
+    <td width="50%"><b>7 Bosse, 4 Herolde</b><br>Xal-Tuun, die Bohrmutter, Ysmera, Admiral Varrow, der Archivar, der Glockenwächter und das Ohr des Schläfers. Phasen, Schwachstellen, eigene Beschwörung und eigene Musik.</td>
   </tr>
   <tr>
     <td><b>9 Waffen, 6 Fähigkeiten</b><br>Jede Waffe mit Zweitfeuer, aktivem Nachladen und eigenem Trick. Der Walfänger zieht Gegner an Widerhaken heran.</td>
-    <td><b>95 Charms, 36 Segen + 6 Duo</b><br>Flut, Blut, Blitz und Leere mit Reaktionen. Fühlt sich dein Build illegal an, machst du alles richtig.</td>
+    <td><b>110 Charms, 44 Segen + 6 Duo</b><br>Flut, Blut, Blitz und Leere mit Reaktionen. Fühlt sich dein Build illegal an, machst du alles richtig.</td>
   </tr>
   <tr>
     <td><b>10 Druckstufen</b><br>Den Abgrund geschafft? Dann dreh am Manometer. Dazu Tageslauf und Biom-Wahl.</td>
@@ -126,6 +130,11 @@ Bis zu **vier Taucher**. Einer hostet, die anderen tippen einen Raumcode ein –
 <img src="media/readme/h_gallery_de.png" alt="Screenshots und Galerie" width="100%">
 
 <table>
+  <tr>
+    <td width="33%"><a href="media/dom_choir_of_pipes.jpg"><img src="media/dom_choir_of_pipes.jpg" alt="Ertrunkener Dom: die große Orgel im Chor der Pfeifen"></a></td>
+    <td width="33%"><a href="media/dom_cloister_garth.jpg"><img src="media/dom_cloister_garth.jpg" alt="Ertrunkener Dom: ein Leviathan zieht über den offenen Kreuzgarten"></a></td>
+    <td width="33%"><a href="media/dom_bell_foundry.jpg"><img src="media/dom_bell_foundry.jpg" alt="Ertrunkener Dom: glühendes Metall in der Gießgrube der Glockengießerei"></a></td>
+  </tr>
   <tr>
     <td width="33%"><a href="media/great_hall_leviathan.jpg"><img src="media/great_hall_leviathan.jpg" alt="Ein Leviathan über dem Lichtschacht der Großen Halle in einem versunkenen Tempel"></a></td>
     <td width="33%"><a href="media/fx_black_hole.jpg"><img src="media/fx_black_hole.jpg" alt="Singularität: schwarzes Loch aus Leere + Blitz"></a></td>

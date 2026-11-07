@@ -16,7 +16,7 @@
   <a href="https://github.com/OsuGerman/Tiefgang-Releases">Star the repo</a> · <a href="https://github.com/OsuGerman/Tiefgang-Releases/discussions">Discussions</a> · <a href="https://github.com/OsuGerman/Tiefgang-Releases/milestones">Roadmap</a> · <a href="https://github.com/OsuGerman/Tiefgang-Releases/issues/new/choose">Report a bug</a>
 </p>
 
-**TIEFGANG** is a free **co-op roguelite FPS** set in 1887. Dive in a heavy brass diving suit, fight through drowned temples, sunken archives and ship wrecks, and build absurd combos from 9 weapons, 95 charms and elemental blessings. Play **solo or with 1–4 players in co-op**. Made with **Godot 4** by a solo developer, free test builds for **Windows** with automatic updates.
+**TIEFGANG** is a free **co-op roguelite FPS** set in 1887. Dive in a heavy brass diving suit, fight through drowned temples, ship wrecks, sunken archives and a drowned cathedral, and build absurd combos from 9 weapons, 110 charms and elemental blessings. Play **solo or with 1–4 players in co-op**. Made with **Godot 4** by a solo developer, free test builds for **Windows** with automatic updates.
 
 If you like **Roboquest**, **Gunfire Reborn** or **Risk of Rain 2**, this is that kind of run-based shooter, only deep underwater in 1887, in brass diving suits straight out of BioShock, with something Lovecraftian waiting at the bottom.
 
@@ -39,7 +39,7 @@ New world: the Drowned Cathedral and its Bell Warden · deep-sea sky with rock r
 
 <img src="media/readme/h_download_en.png" alt="Download TIEFGANG free for Windows" width="100%">
 
-1. **[Download Tiefgang-Windows.zip](https://github.com/OsuGerman/Tiefgang-Releases/releases/latest/download/Tiefgang-Windows.zip)** – or grab it on **[itch.io](https://osugerman.itch.io/tiefgang)**. Older builds live under [Releases](https://github.com/OsuGerman/Tiefgang-Releases/releases).
+1. **[Download Tiefgang-Windows.zip](https://github.com/OsuGerman/Tiefgang-Releases/releases/latest/download/Tiefgang-Windows.zip)** (approx. 1.4 GB) – or grab it on **[itch.io](https://osugerman.itch.io/tiefgang)**. Older builds live under [Releases](https://github.com/OsuGerman/Tiefgang-Releases/releases).
 2. Extract the `Tiefgang` folder somewhere you can write to (Desktop, Documents). Not into `C:\Program Files`, or the auto-update can’t do its job.
 3. Run `Tiefgang.exe`. Windows will probably say “Windows protected your PC” – **More info → Run anyway**. The test build isn’t signed.
 
@@ -54,7 +54,7 @@ New builds download themselves in the background and install only in the main me
 | Graphics | Vulkan-capable, 4 GB VRAM | Current mid-range, 8 GB VRAM |
 | CPU | 4 cores | 6 cores or more |
 | Memory | 8 GB | 16 GB |
-| Storage | approx. 1 GB | approx. 1 GB |
+| Storage | approx. 2 GB | approx. 2 GB |
 
 Provisional – the game is still in development. Mouse and keyboard or controller, English and German.
 
@@ -76,7 +76,7 @@ Every key can be rebound in the settings.
 
 A fast first-person shooter built on roguelike runs. You descend through **14 depths** of combat rooms, treasure vaults, trials and boss arenas, picking up charms and blessings after every fight, until your build is either unstoppable or very, very funny. Standing still gets you killed; sprint, dash and double jump are your real armour. Between dives you go back to your submarine, research, gear up and go down again – one pressure level deeper.
 
-It’s an indie project in active development. Things change fast, and a lot of what’s in here exists because testers complained about something. Latest round: co-op for up to four, three areas rebuilt to a new graphics standard, redone element effects, 25 new enemy attacks and a mechanic of its own for every weapon. Everything else is in the **[changelog](CHANGELOG.md)**.
+It’s an indie project in active development. Things change fast, and a lot of what’s in here exists because testers complained about something. Latest round: a new world, the Drowned Cathedral, with its own boss, the Bell Warden. Open rooms now look out onto a deep-sea sky, every boss arrives with a summoning of its own, and there are 8 new blessings and 5 risk charms. Everything else is in the **[changelog](CHANGELOG.md)**.
 
 <!-- TRAILER -->
 <p align="center">
@@ -97,20 +97,24 @@ It’s an indie project in active development. Things change fast, and a lot of 
     <td width="50%" align="center"><img src="media/gifs/chain_lightning.gif" alt="Chain lightning jumping between enemies in the Coral Cathedral" width="100%"><br><b>Elemental reactions</b><br><sub>Tide, Blood, Lightning and Void combine into chain reactions.</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="media/gifs/charm_choice.gif" alt="Picking a legendary charm from riveted reward cards" width="100%"><br><b>Builds that shouldn't work</b><br><sub>95 charms and 36 blessings, picked from riveted reward cards.</sub></td>
+    <td align="center"><img src="media/gifs/charm_choice.gif" alt="Picking a legendary charm from riveted reward cards" width="100%"><br><b>Builds that shouldn't work</b><br><sub>110 charms and 44 blessings, picked from riveted reward cards.</sub></td>
     <td align="center"><img src="media/coop_vs_xal_tuun.jpg" alt="Two divers in brass suits fighting Xal-Tuun together in co-op" width="100%"><br><b>Co-op for 1–4 divers</b><br><sub>Room codes, personal loot, revive your crew.</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="media/dom_nave_of_bells.jpg" alt="The Nave of Bells in the Drowned Cathedral: basalt pillars, bronze chandeliers and a glowing tidal channel" width="100%"><br><b>New world: the Drowned Cathedral</b><br><sub>Basalt, bronze and turquoise glass. Tall halls with galleries and stairs, fought up and down.</sub></td>
+    <td align="center"><img src="media/boss_bell_warden.jpg" alt="The Bell Warden, a stone giant in chains with a bronze bell for a body, in the Apse of the Great Bell" width="100%"><br><b>New boss: the Bell Warden</b><br><sub>Three phases, eight attacks. When the great bell tolls, get behind a pillar.</sub></td>
   </tr>
 </table>
 
 
 <table>
   <tr>
-    <td width="50%"><b>5 areas, 14 depths</b><br>Temple Forecourt or Drilling Station, then the Coral Cathedral, the Sunken Archives and the Abyss.</td>
-    <td width="50%"><b>5 bosses, 4 Heralds</b><br>Xal-Tuun, the Drill Mother, Ysmera, the Archivist, the Sleeper’s Ear – phases, weak points, their own music.</td>
+    <td width="50%"><b>7 areas, 14 depths</b><br>Temple Forecourt or Drilling Station, then the Coral Cathedral, the Ship Graveyard, the Sunken Archives or the Drowned Cathedral, and at the bottom the Abyss.</td>
+    <td width="50%"><b>7 bosses, 4 Heralds</b><br>Xal-Tuun, the Drill Mother, Ysmera, Admiral Varrow, the Archivist, the Bell Warden and the Sleeper’s Ear. Phases, weak points, a summoning and music of their own.</td>
   </tr>
   <tr>
     <td><b>9 weapons, 6 abilities</b><br>Every gun has an alt-fire, an active reload and a trick of its own. The Whaler reels enemies in on barbs.</td>
-    <td><b>95 charms, 36 blessings + 6 Duo</b><br>Tide, Blood, Lightning and Void with reactions. If your build feels illegal, you’re doing it right.</td>
+    <td><b>110 charms, 44 blessings + 6 Duo</b><br>Tide, Blood, Lightning and Void with reactions. If your build feels illegal, you’re doing it right.</td>
   </tr>
   <tr>
     <td><b>10 pressure levels</b><br>Beat the Abyss, turn the manometer up. Plus a Daily Run and Biome Choice.</td>
@@ -126,6 +130,11 @@ Up to **four divers**. One hosts, the others type in a room code – over the in
 <img src="media/readme/h_gallery_en.png" alt="Screenshots and gallery" width="100%">
 
 <table>
+  <tr>
+    <td width="33%"><a href="media/dom_choir_of_pipes.jpg"><img src="media/dom_choir_of_pipes.jpg" alt="Drowned Cathedral: the great organ of the Choir of Pipes"></a></td>
+    <td width="33%"><a href="media/dom_cloister_garth.jpg"><img src="media/dom_cloister_garth.jpg" alt="Drowned Cathedral: a leviathan drifts over the open Cloister Garth"></a></td>
+    <td width="33%"><a href="media/dom_bell_foundry.jpg"><img src="media/dom_bell_foundry.jpg" alt="Drowned Cathedral: glowing metal in the casting pit of the Bell Foundry"></a></td>
+  </tr>
   <tr>
     <td width="33%"><a href="media/great_hall_leviathan.jpg"><img src="media/great_hall_leviathan.jpg" alt="A leviathan over the Great Hall’s light shaft in a drowned temple"></a></td>
     <td width="33%"><a href="media/fx_black_hole.jpg"><img src="media/fx_black_hole.jpg" alt="Singularity: a black hole from Void + Lightning"></a></td>

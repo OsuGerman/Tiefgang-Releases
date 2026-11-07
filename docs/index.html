@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>TIEFGANG – Free Co-op Roguelite FPS in Drowned Ruins</title>
-<meta name="description" content="Free co-op roguelite FPS like Roboquest and Gunfire Reborn, set in 1887: dive in a brass suit, fight through drowned ruins and build absurd combos. 1–4 players, Windows.">
+<meta name="description" content="Free co-op roguelite FPS like Roboquest and Gunfire Reborn, set in 1887: dive in a brass suit, fight through drowned ruins and the new Drowned Cathedral, and build absurd combos. 1–4 players, Windows.">
 <meta name="theme-color" content="#061a22">
 <meta property="og:type" content="website">
 <meta property="og:title" content="TIEFGANG – Free Co-op Roguelite FPS in Drowned Ruins">
-<meta property="og:description" content="The Pacific, 1887. Descend in a brass diving suit into the ruins of the Thalassari – and assemble a build that has no right to work. Free Windows test build.">
+<meta property="og:description" content="The Pacific, 1887. Descend in a brass diving suit into the ruins of the Thalassari, now with the Drowned Cathedral and its Bell Warden, and assemble a build that has no right to work. Free Windows test build.">
 <meta property="og:image" content="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/promo_wakes_below.jpg">
 <meta property="og:url" content="https://osugerman.github.io/Tiefgang-Releases/">
 <meta property="og:site_name" content="TIEFGANG">
@@ -16,7 +16,7 @@
 <meta property="og:image:height" content="720">
 <meta property="og:image:alt" content="TIEFGANG – deep-sea roguelite FPS key art">
 <meta name="twitter:title" content="TIEFGANG – Free Co-op Roguelite FPS">
-<meta name="twitter:description" content="Dive in a brass suit, fight through drowned ruins, build absurd combos. Solo or co-op for 1–4. Free Windows test build.">
+<meta name="twitter:description" content="Dive in a brass suit, fight through drowned ruins and the new Drowned Cathedral, build absurd combos. Solo or co-op for 1–4. Free Windows test build.">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/promo_wakes_below.jpg">
 <meta name="keywords" content="roguelite FPS, roguelike shooter, co-op shooter, games like Roboquest, games like Gunfire Reborn, underwater game, steampunk, lovecraftian, indie game, Godot 4, free game">
 <meta name="author" content="OsuGerman">
@@ -26,7 +26,7 @@
  "@type": "VideoGame",
  "name": "TIEFGANG",
  "url": "https://osugerman.github.io/Tiefgang-Releases/",
- "description": "A fast co-op roguelite FPS set in 1887. Dive in a brass diving suit, fight through drowned temples, archives and ship wrecks, and build absurd combos from weapons, charms and elemental blessings.",
+ "description": "A fast co-op roguelite FPS set in 1887. Dive in a brass diving suit, fight through drowned temples, ship wrecks, archives and a drowned cathedral, and build absurd combos from weapons, charms and elemental blessings.",
  "image": "https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/promo_wakes_below.jpg",
  "genre": [
   "Roguelite",
@@ -437,7 +437,7 @@ section, header, #tiefgang-leaderboard { scroll-margin-top: 60px; }
 .cards-hint kbd, kbd { display: inline-block; min-width: 24px; padding: 2px 7px; margin: 0 2px; font: 600 13px/1.5 "Barlow", sans-serif; text-align: center; color: var(--text); background: #0c2129; border: 1px solid var(--brass-lo); border-bottom-width: 2px; border-radius: 3px; }
 
 /* ---------- Gebiete als Bullaugen ---------- */
-.portholes { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px 34px; margin-top: 90px; }
+.portholes { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px 34px; margin-top: 90px; max-width: 720px; margin-inline: auto; } /* sechs Gebiete: zwei Reihen à drei */
 .ph { width: 190px; text-align: center; --m-hi: #fbe4a2; --m: #c9a24a; --m-lo: #6a4f1c; }
 .ph .ring { position: relative; width: 190px; height: 190px; border-radius: 50%; padding: 14px; background: conic-gradient(from 210deg, var(--m-hi), var(--m), var(--m-lo), var(--m), var(--m-hi), var(--m), var(--m-lo), var(--m), var(--m-hi)); box-shadow: 0 14px 30px rgba(0, 0, 0, 0.6), inset 0 0 0 1px rgba(0, 0, 0, 0.5); transition: transform 0.3s, box-shadow 0.3s; }
 .ph .ring::before { content: ""; position: absolute; inset: 0; border-radius: 50%; z-index: 2; pointer-events: none;
@@ -797,10 +797,10 @@ new MutationObserver(() => __tpInit()).observe(document.documentElement, { attri
 <section id="neu" data-depth-name-en="What’s new" data-depth-name-de="Neu">
   <div class="wrap">
     <div class="head reveal">
-      <span class="kicker"><span data-l="de">Neu im Test-Build · 23. Oktober 2026</span><span data-l="en">New in the test build · 23 October 2026</span></span>
+      <span class="kicker"><span data-l="de">Neu im Test-Build · 7. November 2026</span><span data-l="en">New in the test build · 7 November 2026</span></span>
       <h2><span data-l="de">Frisch aus der Tiefe</span><span data-l="en">Fresh from the Deep</span></h2>
-      <p class="lead" data-l="de">Koop für bis zu vier, drei Gebiete im neuen Grafik-Standard, neu gemachte Element-Effekte, 25 neue Gegnerangriffe, eine eigene Mechanik für jede Waffe und neue Menüs samt HUD und Logbuch. Alles Weitere steht im <a href="https://github.com/OsuGerman/Tiefgang-Releases/blob/main/CHANGELOG.de.md">Changelog</a>.</p>
-      <p class="lead" data-l="en">Co-op for up to four, three areas rebuilt to the new graphics standard, redone element effects, 25 new enemy attacks, a mechanic of its own for every weapon, and new menus with a new HUD and logbook. The rest is in the <a href="https://github.com/OsuGerman/Tiefgang-Releases/blob/main/CHANGELOG.md">changelog</a>.</p>
+      <p class="lead" data-l="de">Eine neue Welt mit eigenem Boss, ein Tiefsee-Himmel über offenen Räumen, eine Beschwörung für jeden Boss, 8 neue Segen und 5 Risiko-Charms. Alles Weitere steht im <a href="https://github.com/OsuGerman/Tiefgang-Releases/blob/main/CHANGELOG.de.md">Changelog</a>.</p>
+      <p class="lead" data-l="en">A new world with its own boss, a deep-sea sky over open rooms, a summoning for every boss, 8 new blessings and 5 risk charms. The rest is in the <a href="https://github.com/OsuGerman/Tiefgang-Releases/blob/main/CHANGELOG.md">changelog</a>.</p>
     </div>
     <div class="promo reveal">
       <img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/promo_wakes_below.jpg" alt="TIEFGANG – Something wakes below · Roguelike FPS, 1–4 Co-op" loading="lazy">
@@ -808,53 +808,53 @@ new MutationObserver(() => __tpInit()).observe(document.documentElement, { attri
     </div>
     <div class="news">
       <article class="glass reveal wide">
-        <div class="shot"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/coop_vs_xal_tuun.jpg" alt="Two divers fighting the boss Xal-Tuun in co-op" data-de-alt="Zwei Tiefgänger gegen Xal-Tuun" data-en-alt="Two divers fighting the boss Xal-Tuun in co-op" loading="lazy"></div>
+        <div class="shot"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/dom_nave_of_bells.jpg" alt="The Nave of Bells in the Drowned Cathedral" data-de-alt="Das Schiff der Glocken im Ertrunkenen Dom" data-en-alt="The Nave of Bells in the Drowned Cathedral" loading="lazy"></div>
         <span class="entry"><span data-l="de">Logbuch · Eintrag 1</span><span data-l="en">Log · entry 1</span></span>
-        <h3><span data-l="de">Koop für <span class="num">1–4</span> Taucher</span><span data-l="en">Co-op for <span class="num">1–4</span> divers</span></h3>
-        <p data-l="de">Raumcode teilen, meist ohne Portfreigabe verbinden, eigene Charms und Segen, geteilte Muscheln, gegenseitig wiederbeleben. Mitspieler sind echte Messing-Taucher, und jede Angriffswarnung kommt bei allen an. <a href="https://github.com/OsuGerman/Tiefgang-Releases/blob/main/KOOP.de.md">Koop-Anleitung</a></p>
-        <p data-l="en">Share a room code, usually connect without port forwarding, pick your own charms and blessings, share shells, revive each other. Teammates show up as proper brass divers, and every attack warning reaches everyone. <a href="https://github.com/OsuGerman/Tiefgang-Releases/blob/main/KOOP.md">Co-op guide</a></p>
+        <h3><span data-l="de">Neue Welt: Der Ertrunkene Dom</span><span data-l="en">New world: The Drowned Cathedral</span></h3>
+        <p data-l="de">Hast du den Archivar einmal besiegt, kann in Gebiet 3 eine versunkene Kathedrale auf dich warten. Basalt, Bronze und türkises Glas, hohe Hallen mit Emporen und Treppen, in denen du nach oben und unten kämpfst. Von der Glockenlandung geht es durch das Schiff der Glocken, den Chor der Pfeifen, die Gezeitenkrypta und die Glockengießerei bis zur Apsis der Großen Glocke. Dazu eigene Musik mit Glocken-Leitmotiv und Raumklang je Halle.</p>
+        <p data-l="en">Once you have beaten the Archivist, area 3 may take you to a sunken cathedral. Basalt, bronze and turquoise glass, tall halls with galleries and stairs where you fight up and down. From the Bell Landing you push through the Nave of Bells, the Choir of Pipes, the Tidal Crypt and the Bell Foundry to the Apse of the Great Bell. It has its own music with a bell motif and room acoustics for every hall.</p>
       </article>
       <article class="glass reveal">
-        <div class="shot"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/great_hall_leviathan.jpg" alt="A leviathan above the Great Hall in a drowned temple" data-de-alt="Leviathan über der Großen Halle" data-en-alt="A leviathan above the Great Hall in a drowned temple" loading="lazy"></div>
+        <div class="shot"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/boss_bell_warden.jpg" alt="The Bell Warden in the Apse of the Great Bell" data-de-alt="Der Glockenwächter in der Apsis der Großen Glocke" data-en-alt="The Bell Warden in the Apse of the Great Bell" loading="lazy"></div>
         <span class="entry"><span data-l="de">Eintrag 2</span><span data-l="en">Entry 2</span></span>
-        <h3><span data-l="de">Neuer Look für <span class="num">3</span> Gebiete</span><span data-l="en">New look for <span class="num">3</span> areas</span></h3>
-        <p data-l="de">Tempel, Korallenkathedrale und Archive mit gebackenem Licht, Decals und Nebel – und über der Großen Halle zieht ein Leviathan vorbei.</p>
-        <p data-l="en">Temple, Coral Cathedral and Archives with baked light, decals and fog – and a leviathan drifting over the Great Hall.</p>
+        <h3><span data-l="de">Neuer Boss: Der Glockenwächter</span><span data-l="en">New boss: The Bell Warden</span></h3>
+        <p data-l="de">Drei Phasen, acht Angriffe. Schlägt die große Glocke, geh hinter eine Säule. Triffst du die Glocke im richtigen Moment, schlägt ihr Klang auf ihn zurück. Später bricht er die Säulen aus der Halle.</p>
+        <p data-l="en">Three phases, eight attacks. When the great bell tolls, get behind a pillar. Shoot the bell at the right moment and its sound turns back on him. Later he breaks the pillars out of the hall.</p>
       </article>
       <article class="glass reveal">
-        <div class="shot"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/fx_chain_lightning.jpg" alt="Chain lightning jumping between enemies" data-de-alt="Kettenblitz" data-en-alt="Chain lightning jumping between enemies" loading="lazy"></div>
+        <div class="shot"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/dom_combat.jpg" alt="Fighting a Font Priest and Bell Ringers in the Nave of Bells" data-de-alt="Kampf gegen Taufpriester und Glockenläuter im Schiff der Glocken" data-en-alt="Fighting a Font Priest and Bell Ringers in the Nave of Bells" loading="lazy"></div>
         <span class="entry"><span data-l="de">Eintrag 3</span><span data-l="en">Entry 3</span></span>
-        <h3><span data-l="de">Elemente neu gemacht</span><span data-l="en">Elements, redone</span></h3>
-        <p data-l="de">Gezackter Kettenblitz, ein schwarzes Loch für die Singularität, Frost, der zerspringt, Flutwellen mit Schaumkrone – und <span class="num">6</span> Duo-Segen mit eigener Optik.</p>
-        <p data-l="en">Jagged chain lightning, a black hole for Singularity, frost that shatters, tidal waves with a foaming crest – and <span class="num">6</span> Duo Blessings with a look of their own.</p>
+        <h3><span data-l="de">Die Bewohner des Doms</span><span data-l="en">The cathedral’s dwellers</span></h3>
+        <p data-l="de">Der Emporensänger singt Schallbolzen von den Emporen, der Wasserspeier stürzt sich vom Gesims auf dich. Dazu Glockenläuter, Taufpriester und in der Glockengießerei der Schmelzgießer als Elite.</p>
+        <p data-l="en">The Gallery Singer sings sonic bolts down from the galleries, the Gargoyle drops on you from the cornice. Bell Ringers and Font Priests join them, and the Smelt Caster waits in the Bell Foundry as an elite.</p>
       </article>
       <article class="glass reveal">
-        <div class="shot"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/attack_reef_cage.jpg" alt="Enemy attack: the Brood Matron’s reef cage" data-de-alt="Riffkäfig der Brutmutter" data-en-alt="Enemy attack: the Brood Matron’s reef cage" loading="lazy"></div>
+        <div class="shot"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/dom_cloister_garth.jpg" alt="A leviathan drifts over the open Cloister Garth" data-de-alt="Ein Leviathan zieht über den offenen Kreuzgarten" data-en-alt="A leviathan drifts over the open Cloister Garth" loading="lazy"></div>
         <span class="entry"><span data-l="de">Eintrag 4</span><span data-l="en">Entry 4</span></span>
-        <h3><span data-l="de"><span class="num">25</span> neue Gegnerangriffe</span><span data-l="en"><span class="num">25</span> new enemy attacks</span></h3>
-        <p data-l="de">Riffkäfige, Siegelstempel, Seitenstürme, Glutgitter, Überdruckkreuze. Jeder Angriff warnt klar und lässt ein Fenster zum Ausweichen.</p>
-        <p data-l="en">Reef cages, seal stamps, page storms, ember grids, overpressure crosses. Every attack warns you clearly and leaves a window to dodge.</p>
+        <h3><span data-l="de">Tiefsee-Himmel</span><span data-l="en">Deep-sea sky</span></h3>
+        <p data-l="de">Wo ein Raum nach oben oder zur Seite offen ist, siehst du gestaffelte Felsgrate, ferne Ruinen und Lichtsäulen von der Oberfläche. Am Horizont zieht manchmal ein Leviathan vorbei, und auch die Bullaugen im U-Boot zeigen jetzt die Tiefsee.</p>
+        <p data-l="en">Wherever a room opens upwards or to the side, you see layered rock ridges, distant ruins and shafts of light from the surface. Now and then a leviathan drifts along the horizon, and the submarine’s portholes look out onto the deep sea too.</p>
       </article>
       <article class="glass reveal">
-        <div class="shot"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/fx_tidal_wave.jpg" alt="Tidal wave element effect" data-de-alt="Flutwelle" data-en-alt="Tidal wave element effect" loading="lazy"></div>
+        <div class="shot"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/boss_bell_warden_awakens.jpg" alt="The Bell Warden is summoned in the Apse of the Great Bell" data-de-alt="Der Glockenwächter erscheint in der Apsis" data-en-alt="The Bell Warden is summoned in the Apse of the Great Bell" loading="lazy"></div>
         <span class="entry"><span data-l="de">Eintrag 5</span><span data-l="en">Entry 5</span></span>
-        <h3><span data-l="de">Jede Waffe mit eigener Mechanik</span><span data-l="en">Every weapon, its own trick</span></h3>
-        <p data-l="de">Der Walfänger holt Gegner an Widerhaken heran, die Tiefenbombe zündet Haftladungen als Kette, die Gezeitenklinge schickt parierte Schüsse als Welle zurück.</p>
-        <p data-l="en">The Whaler reels barbed enemies in, the Depth Bomb chains sticky shells, the Tide Blade sends parried shots back as a wave.</p>
+        <h3><span data-l="de">Boss-Auftritte</span><span data-l="en">Boss entrances</span></h3>
+        <p data-l="de">Jeder Boss erscheint mit einer eigenen Beschwörung: Ein Runenkreis zeichnet sich am Boden, die Arena wird dunkler, und auf dem Schlag des Auftrittsklangs entlädt sich alles. Wer es eilig hat, schaltet die Intros unter Gameplay ab.</p>
+        <p data-l="en">Every boss arrives with a summoning of its own: a rune circle draws itself on the floor, the arena darkens, and everything discharges on the beat of the entrance cue. In a hurry? Skip the intros under Gameplay.</p>
       </article>
       <article class="glass reveal">
-        <div class="shot"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/hud_combat.jpg" alt="First-person combat with the brass HUD" data-de-alt="Das neue HUD" data-en-alt="First-person combat with the brass HUD" loading="lazy"></div>
+        <div class="shot"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/cards_blessings.jpg" alt="Blessing altar with riveted reward cards" data-de-alt="Segensaltar mit genieteten Belohnungskarten" data-en-alt="Blessing altar with riveted reward cards" loading="lazy"></div>
         <span class="entry"><span data-l="de">Eintrag 6</span><span data-l="en">Entry 6</span></span>
-        <h3><span data-l="de">Neues Menü, HUD und Logbuch</span><span data-l="en">New menus, HUD, logbook</span></h3>
-        <p data-l="de">Kino-Hauptmenü mit Leviathan, Tauchkammer mit Manometer und Hebeln, Messing-HUD mit Rollzählwerken, Logbuch auf Tab. Belohnungskarten sind jetzt genietetes Metall.</p>
-        <p data-l="en">A cinematic main menu with a leviathan, a Diving Chamber with manometer and levers, a brass HUD with rolling counters, a Tab logbook. Reward cards are riveted metal now.</p>
+        <h3><span data-l="de"><span class="num">8</span> Segen, <span class="num">5</span> Risiko-Charms</span><span data-l="en"><span class="num">8</span> blessings, <span class="num">5</span> risk charms</span></h3>
+        <p data-l="de">Neue Auslöser wie Himmelsschlag, Seelenfang und Spannungsabwurf. Risiko-Charms wie Sturzflug oder Heißes Rohr geben dir einen Vorteil und nehmen dir etwas dafür. Elemente wirken jetzt auch bei Sekundärfeuer und Fähigkeit.</p>
+        <p data-l="en">New triggers such as Sky Strike, Soul Snare and Discharge. Risk charms such as Nosedive or Hot Barrel give you an edge and take something in return. Elements now matter for secondary fire and abilities too.</p>
       </article>
       <article class="glass reveal wide">
-        <div class="shot"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/diving_chamber.jpg" alt="Diving Chamber hub with game modes" data-de-alt="Tauchkammer mit Spielmodi" data-en-alt="Diving Chamber hub with game modes" loading="lazy"></div>
+        <div class="shot"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/dom_cloister_walk.jpg" alt="The Cloister Walk fading into blue-green with distance" data-de-alt="Der Kreuzganggang läuft in der Ferne ins Blaugrün" data-en-alt="The Cloister Walk fading into blue-green with distance" loading="lazy"></div>
         <span class="entry"><span data-l="de">Eintrag 7</span><span data-l="en">Entry 7</span></span>
-        <h3><span data-l="de">Bestenliste, Tageslauf, Biom-Wahl</span><span data-l="en">Leaderboard, Daily Run, Biome Choice</span></h3>
-        <p data-l="de">Gültige Runs zählen automatisch in der Online-Bestenliste (jederzeit abschaltbar), der Tageslauf hat für alle denselben Seed, und im Modus Biom-Wahl suchst du nach jedem Akt-Boss das nächste Gebiet selbst aus.</p>
-        <p data-l="en">Valid runs count on the online leaderboard automatically (opt out any time), the Daily Run gives everyone the same seed, and in Biome Choice you pick the next area yourself after every act boss.</p>
+        <h3><span data-l="de">Lichttiefe und flüssigeres Laden</span><span data-l="en">Lighting depth, smoother loading</span></h3>
+        <p data-l="de">Unter Wasser schluckt die Entfernung zuerst Rot, dann Grün, ferne Wände laufen ins Blaugrün, Ecken haben weiche Schatten. Die Ladeblende bleibt stehen, bis alle Effekte vorbereitet sind, damit das U-Boot nach dem Laden nicht mehr ruckelt und der erste Bossauftritt deutlich weniger hakt.</p>
+        <p data-l="en">Underwater, distance swallows red first, then green, far walls fade into blue-green, and corners get soft shadows. The loading screen now stays up until every effect is prepared, so the submarine no longer stutters after loading and the first boss entrance hitches far less.</p>
       </article>
     </div>
   </div>
@@ -901,10 +901,10 @@ new MutationObserver(() => __tpInit()).observe(document.documentElement, { attri
         <span class="glow-in"></span>
         <span class="seal" aria-hidden="true">II</span>
         <div class="port"><div class="glass-in"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M6 40l10-16 7 9 6-8 13 15z"/><circle cx="34" cy="12" r="5"/></svg></div></div>
-        <h3><span class="num">5</span> <span data-l="de">Gebiete</span><span data-l="en">Areas</span></h3>
+        <h3><span class="num">7</span> <span data-l="de">Gebiete</span><span data-l="en">Areas</span></h3>
         <div class="paper">
-          <p data-l="de">Tempelvorhof oder Bohrstation zum Start, danach Korallenkathedrale, Versunkene Archive und der Abgrund. Jedes mit eigener Architektur, eigenen Gegnern und eigenen Ideen, wie man dich loswird.</p>
-          <p data-l="en">Temple Forecourt or Drilling Station to start, then the Coral Cathedral, the Sunken Archives and the Abyss. Each with its own architecture, its own enemies and its own ideas about how to get rid of you.</p>
+          <p data-l="de">Tempelvorhof oder Bohrstation zum Start, danach Korallenkathedrale, Schiffsfriedhof, Versunkene Archive oder der neue Ertrunkene Dom und ganz unten der Abgrund. Jedes mit eigener Architektur, eigenen Gegnern und eigenen Ideen, wie man dich loswird.</p>
+          <p data-l="en">Temple Forecourt or Drilling Station to start, then the Coral Cathedral, the Ship Graveyard, the Sunken Archives or the new Drowned Cathedral, and at the bottom the Abyss. Each with its own architecture, its own enemies and its own ideas about how to get rid of you.</p>
           <span class="cat"><span data-l="de">14 Tiefen</span><span data-l="en">14 depths</span></span>
         </div>
         <span class="foot"><span data-l="de">Selten</span><span data-l="en">Rare</span></span><kbd class="key">2</kbd>
@@ -913,10 +913,10 @@ new MutationObserver(() => __tpInit()).observe(document.documentElement, { attri
         <span class="glow-in"></span>
         <span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3C7 3 4 6.5 4 10.5c0 2.5 1.2 4 3 5V19h2v-2h2v2h2v-2h2v2h2v-3.5c1.8-1 3-2.5 3-5C20 6.5 17 3 12 3zM9 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm6 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/></svg></span>
         <div class="port"><div class="glass-in"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="24" cy="20" r="11"/><path d="M18 19h.01M30 19h.01M19 26c3 2 7 2 10 0M14 30l-5 12M34 30l5 12M24 31v11"/></svg></div></div>
-        <h3><span data-l="de"><span class="num">5</span> Bosse, <span class="num">4</span> Herolde</span><span data-l="en"><span class="num">5</span> Bosses, <span class="num">4</span> Heralds</span></h3>
+        <h3><span data-l="de"><span class="num">7</span> Bosse, <span class="num">4</span> Herolde</span><span data-l="en"><span class="num">7</span> Bosses, <span class="num">4</span> Heralds</span></h3>
         <div class="paper">
-          <p data-l="de">Xal-Tuun, die Bohrmutter, Ysmera, der Archivar und das Ohr des Schläfers – dazu ein Herold je Fraktion. Eigene Auftritte, Phasenwechsel, Schwachstellen und Musik, die mit jeder Phase fester zudrückt.</p>
-          <p data-l="en">Xal-Tuun, the Drill Mother, Ysmera, the Archivist and the Sleeper’s Ear – plus a Herald for every faction. Big entrances, phase changes, weak points, and music that squeezes harder with every phase.</p>
+          <p data-l="de">Xal-Tuun, die Bohrmutter, Ysmera, Admiral Varrow, der Archivar, der neue Glockenwächter und das Ohr des Schläfers, dazu vier Herolde. Eigene Beschwörungen, Phasenwechsel, Schwachstellen und Musik, die mit jeder Phase fester zudrückt.</p>
+          <p data-l="en">Xal-Tuun, the Drill Mother, Ysmera, Admiral Varrow, the Archivist, the new Bell Warden and the Sleeper’s Ear, plus four Heralds. Summoned entrances, phase changes, weak points, and music that squeezes harder with every phase.</p>
           <span class="cat"><span data-l="de">Phasen · Schwachstellen</span><span data-l="en">Phases · weak points</span></span>
         </div>
         <span class="foot"><span data-l="de">Risiko</span><span data-l="en">Risk</span></span><kbd class="key">3</kbd>
@@ -925,11 +925,11 @@ new MutationObserver(() => __tpInit()).observe(document.documentElement, { attri
         <span class="glow-in"></span>
         <span class="seal" aria-hidden="true">I</span>
         <div class="port"><div class="glass-in"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M8 30c4-12 12-18 24-18 4 0 8 2 8 6s-4 6-8 6H22l-6 12z"/><circle cx="31" cy="17" r="1.5" fill="currentColor"/><path d="M40 34l4 6M34 36l2 6"/></svg></div></div>
-        <h3><span data-l="de">Fast <span class="num">50</span> Gegnerarten</span><span data-l="en">Nearly <span class="num">50</span> Enemies</span></h3>
+        <h3><span data-l="de">Über <span class="num">50</span> Gegnerarten</span><span data-l="en">Over <span class="num">50</span> Enemies</span></h3>
         <div class="paper">
-          <p data-l="de">Steinwächter, Ertrunkene Mannschaft, Korallenbrut und Ertrunkene Schreiber: Schützen, Flankierer, Schildträger, Kolosse und Laser-Flieger. Dazu Elites mit Affixen – für den Fall, dass es gerade zu gut lief.</p>
-          <p data-l="en">Stone Wardens, Drowned Crew, Coral Brood and Drowned Scribes: marksmen, flankers, shield-bearers, colossi and laser fliers. Plus elites with affixes, for when things were going a little too well.</p>
-          <span class="cat"><span data-l="de">4 Fraktionen · Elites</span><span data-l="en">4 factions · elites</span></span>
+          <p data-l="de">Steinwächter, Ertrunkene Mannschaft, Korallenbrut, Ertrunkene Schreiber, Ertrunkene Flotte und die Erweckten des Doms: Schützen, Flankierer, Schildträger, Kolosse und Laser-Flieger. Dazu Elites mit Affixen – für den Fall, dass es gerade zu gut lief.</p>
+          <p data-l="en">Stone Wardens, Drowned Crew, Coral Brood, Drowned Scribes, the Drowned Fleet and the Awakened of the Cathedral: marksmen, flankers, shield-bearers, colossi and laser fliers. Plus elites with affixes, for when things were going a little too well.</p>
+          <span class="cat"><span data-l="de">6 Fraktionen · Elites</span><span data-l="en">6 factions · elites</span></span>
         </div>
         <span class="foot"><span data-l="de">Gewöhnlich</span><span data-l="en">Common</span></span><kbd class="key">4</kbd>
       </article>
@@ -949,10 +949,10 @@ new MutationObserver(() => __tpInit()).observe(document.documentElement, { attri
         <span class="glow-in"></span>
         <span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 18h18l-1.5-9-4.5 4-3-7-3 7-4.5-4z"/></svg></span>
         <div class="port"><div class="glass-in"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M24 4l6 12 13 2-9 9 2 13-12-6-12 6 2-13-9-9 13-2z"/></svg></div></div>
-        <h3><span data-l="de"><span class="num">95</span> Charms, <span class="num">36</span> Segen</span><span data-l="en"><span class="num">95</span> Charms, <span class="num">36</span> Blessings</span></h3>
+        <h3><span data-l="de"><span class="num">110</span> Charms, <span class="num">44</span> Segen</span><span data-l="en"><span class="num">110</span> Charms, <span class="num">44</span> Blessings</span></h3>
         <div class="paper">
-          <p data-l="de">Charms stapeln sich, Legendäre brechen die Regeln, und Segen bringen Flut, Blut, Blitz und Leere samt Reaktionen – plus 6 Duo-Segen. Fühlt sich dein Build illegal an, machst du alles richtig.</p>
-          <p data-l="en">Charms stack, legendaries break the rules, and blessings bring Tide, Blood, Lightning and Void with reactions – plus 6 Duo Blessings. If your build feels illegal, you’re doing it right.</p>
+          <p data-l="de">Charms stapeln sich, Legendäre brechen die Regeln, Risiko-Charms verlangen einen Preis, und Segen bringen Flut, Blut, Blitz und Leere samt Reaktionen – plus 6 Duo-Segen. Fühlt sich dein Build illegal an, machst du alles richtig.</p>
+          <p data-l="en">Charms stack, legendaries break the rules, risk charms make you pay for their power, and blessings bring Tide, Blood, Lightning and Void with reactions – plus 6 Duo Blessings. If your build feels illegal, you’re doing it right.</p>
           <span class="cat"><span data-l="de">+ 6 Duo-Segen</span><span data-l="en">+ 6 Duo Blessings</span></span>
         </div>
         <span class="foot"><span data-l="de">Legendär</span><span data-l="en">Legendary</span></span><kbd class="key">6</kbd>
@@ -995,12 +995,13 @@ new MutationObserver(() => __tpInit()).observe(document.documentElement, { attri
       </article>
     </div>
     <p class="cards-hint reveal"><span data-l="de">Wie im Spiel: Karte anklicken oder <kbd>1</kbd>–<kbd>9</kbd> drücken.</span><span data-l="en">Just like in the game: click a card or press <kbd>1</kbd>–<kbd>9</kbd>.</span></p>
-    <div class="portholes reveal" data-de-label="Die fünf Gebiete" data-en-label="The five areas" aria-label="The five areas" role="list">
-      <div class="ph" role="listitem"><div class="ring"><div class="win"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_temple.jpg" alt="Temple Forecourt, the first underwater level" data-de-alt="Tempelvorhof" data-en-alt="Temple Forecourt, the first underwater level" loading="lazy"></div></div><b><span data-l="de">Tempelvorhof</span><span data-l="en">Temple Forecourt</span></b><span><span data-l="de">Tiefe</span><span data-l="en">Depth</span> 1–4</span></div>
-      <div class="ph" role="listitem"><div class="ring"><div class="win"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_bohrstation.jpg" alt="Drilling Station, an underwater level" data-de-alt="Bohrstation" data-en-alt="Drilling Station, an underwater level" loading="lazy"></div></div><b><span data-l="de">Bohrstation</span><span data-l="en">Drilling Station</span></b><span><span data-l="de">Tiefe</span><span data-l="en">Depth</span> 1–4</span></div>
-      <div class="ph" role="listitem"><div class="ring"><div class="win"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_coral.jpg" alt="Coral Cathedral, an underwater level" data-de-alt="Korallenkathedrale" data-en-alt="Coral Cathedral, an underwater level" loading="lazy"></div></div><b><span data-l="de">Korallenkathedrale</span><span data-l="en">Coral Cathedral</span></b><span><span data-l="de">Tiefe</span><span data-l="en">Depth</span> 5–8</span></div>
-      <div class="ph" role="listitem"><div class="ring"><div class="win"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_archives.jpg" alt="Sunken Archives, an underwater level" data-de-alt="Versunkene Archive" data-en-alt="Sunken Archives, an underwater level" loading="lazy"></div></div><b><span data-l="de">Versunkene Archive</span><span data-l="en">Sunken Archives</span></b><span><span data-l="de">Tiefe</span><span data-l="en">Depth</span> 9–12</span></div>
-      <div class="ph" role="listitem"><div class="ring"><div class="win"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_abgrund.jpg" alt="The Abyss, the deepest level" data-de-alt="Der Abgrund" data-en-alt="The Abyss, the deepest level" loading="lazy"></div></div><b><span data-l="de">Der Abgrund</span><span data-l="en">The Abyss</span></b><span><span data-l="de">Tiefe</span><span data-l="en">Depth</span> 13–14</span></div>
+    <div class="portholes reveal" data-de-label="Die Gebiete" data-en-label="The areas" aria-label="The areas" role="list">
+      <div class="ph" role="listitem"><div class="ring"><div class="win"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_temple.jpg" alt="Temple Forecourt, the first underwater level" data-de-alt="Tempelvorhof" data-en-alt="Temple Forecourt, the first underwater level" loading="lazy"></div></div><b><span data-l="de">Tempelvorhof</span><span data-l="en">Temple Forecourt</span></b><span><span data-l="de">Startgebiet</span><span data-l="en">Starting area</span></span></div>
+      <div class="ph" role="listitem"><div class="ring"><div class="win"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_bohrstation.jpg" alt="Drilling Station, an underwater level" data-de-alt="Bohrstation" data-en-alt="Drilling Station, an underwater level" loading="lazy"></div></div><b><span data-l="de">Bohrstation</span><span data-l="en">Drilling Station</span></b><span><span data-l="de">Startgebiet</span><span data-l="en">Starting area</span></span></div>
+      <div class="ph" role="listitem"><div class="ring"><div class="win"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_coral.jpg" alt="Coral Cathedral, an underwater level" data-de-alt="Korallenkathedrale" data-en-alt="Coral Cathedral, an underwater level" loading="lazy"></div></div><b><span data-l="de">Korallenkathedrale</span><span data-l="en">Coral Cathedral</span></b><span><span data-l="de">Ab Gebiet 2</span><span data-l="en">From area 2</span></span></div>
+      <div class="ph" role="listitem"><div class="ring"><div class="win"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_archives.jpg" alt="Sunken Archives, an underwater level" data-de-alt="Versunkene Archive" data-en-alt="Sunken Archives, an underwater level" loading="lazy"></div></div><b><span data-l="de">Versunkene Archive</span><span data-l="en">Sunken Archives</span></b><span><span data-l="de">Ab Gebiet 3</span><span data-l="en">From area 3</span></span></div>
+      <div class="ph" role="listitem"><div class="ring"><div class="win"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_dom.jpg" alt="The Drowned Cathedral, a sunken cathedral level" data-de-alt="Der Ertrunkene Dom" data-en-alt="The Drowned Cathedral, a sunken cathedral level" loading="lazy"></div></div><b><span data-l="de">Der Ertrunkene Dom</span><span data-l="en">The Drowned Cathedral</span></b><span><span data-l="de">Neu · Gebiet 3</span><span data-l="en">New · area 3</span></span></div>
+      <div class="ph" role="listitem"><div class="ring"><div class="win"><img src="https://raw.githubusercontent.com/OsuGerman/Tiefgang-Releases/main/media/area_abgrund.jpg" alt="The Abyss, the deepest level" data-de-alt="Der Abgrund" data-en-alt="The Abyss, the deepest level" loading="lazy"></div></div><b><span data-l="de">Der Abgrund</span><span data-l="en">The Abyss</span></b><span><span data-l="de">Letztes Gebiet</span><span data-l="en">Final area</span></span></div>
     </div>
   </div>
 </section>
@@ -1012,7 +1013,13 @@ new MutationObserver(() => __tpInit()).observe(document.documentElement, { attri
       <h2><span data-l="de">Durchs Bullauge</span><span data-l="en">Through the Porthole</span></h2>
     </div>
     <div class="gallery reveal" id="gallery">
-      <button class="wide" data-src="great_hall_leviathan.jpg" data-de-caption="Ein Leviathan gleitet über den Lichtschacht der Großen Halle" data-en-caption="A leviathan glides over the Great Hall’s light shaft"><img alt="A leviathan glides over the Great Hall’s light shaft – TIEFGANG, co-op roguelite FPS" loading="lazy"></button>
+      <button class="wide" data-src="dom_nave_of_bells.jpg" data-de-caption="Ertrunkener Dom: das Schiff der Glocken" data-en-caption="The Drowned Cathedral: the Nave of Bells"><img alt="The Drowned Cathedral: the Nave of Bells – TIEFGANG, co-op roguelite FPS" loading="lazy"></button>
+      <button data-src="boss_bell_warden.jpg" data-de-caption="Der Glockenwächter in der Apsis der Großen Glocke" data-en-caption="The Bell Warden in the Apse of the Great Bell"><img alt="The Bell Warden in the Apse of the Great Bell – TIEFGANG, co-op roguelite FPS" loading="lazy"></button>
+      <button data-src="dom_choir_of_pipes.jpg" data-de-caption="Die große Orgel im Chor der Pfeifen" data-en-caption="The great organ in the Choir of Pipes"><img alt="The great organ in the Choir of Pipes – TIEFGANG, co-op roguelite FPS" loading="lazy"></button>
+      <button data-src="dom_rose_window_hall.jpg" data-de-caption="Die Rosettenhalle mit türkisem Glas" data-en-caption="The Rose Window Hall in turquoise glass"><img alt="The Rose Window Hall in turquoise glass – TIEFGANG, co-op roguelite FPS" loading="lazy"></button>
+      <button data-src="dom_bell_foundry.jpg" data-de-caption="Glühendes Metall in der Glockengießerei" data-en-caption="Glowing metal in the Bell Foundry"><img alt="Glowing metal in the Bell Foundry – TIEFGANG, co-op roguelite FPS" loading="lazy"></button>
+      <button data-src="dom_chapel_of_offerings.jpg" data-de-caption="Die Kapelle der Gaben, ein ruhiger Raum mit Segen" data-en-caption="The Chapel of Offerings, a quiet room with a blessing"><img alt="The Chapel of Offerings, a quiet room with a blessing – TIEFGANG, co-op roguelite FPS" loading="lazy"></button>
+      <button data-src="great_hall_leviathan.jpg" data-de-caption="Ein Leviathan gleitet über den Lichtschacht der Großen Halle" data-en-caption="A leviathan glides over the Great Hall’s light shaft"><img alt="A leviathan glides over the Great Hall’s light shaft – TIEFGANG, co-op roguelite FPS" loading="lazy"></button>
       <button data-src="fx_chain_lightning.jpg" data-de-caption="Kettenblitz springt von Ziel zu Ziel" data-en-caption="Chain lightning jumps from target to target"><img alt="Chain lightning jumps from target to target – TIEFGANG, co-op roguelite FPS" loading="lazy"></button>
       <button data-src="fx_black_hole.jpg" data-de-caption="Singularität: Leere + Blitz reißt ein schwarzes Loch auf" data-en-caption="Singularity: Void + Lightning tears open a black hole"><img alt="Singularity: Void + Lightning tears open a black hole – TIEFGANG, co-op roguelite FPS" loading="lazy"></button>
       <button data-src="promo_wakes_below.jpg" data-de-caption="Something wakes below – Roguelike FPS, Koop für 1–4" data-en-caption="Something wakes below – roguelike FPS, 1–4 co-op"><img alt="Something wakes below – roguelike FPS, 1–4 co-op – TIEFGANG, co-op roguelite FPS" loading="lazy"></button>
@@ -1238,7 +1245,7 @@ new MutationObserver(() => __tgInit()).observe(document.documentElement, { attri
         <a class="plaque-btn" href="https://github.com/OsuGerman/Tiefgang-Releases/releases/latest/download/Tiefgang-Windows.zip">
           <span class="lamp" aria-hidden="true"></span>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 19h16"/></svg>
-          <span><span data-l="en"><span class="eng">Download for Windows</span><small>Latest test build · ZIP · free</small></span><span data-l="de"><span class="eng">Download für Windows</span><small>Neuester Test-Build · ZIP · kostenlos</small></span></span>
+          <span><span data-l="en"><span class="eng">Download for Windows</span><small>Latest test build · ZIP, approx. 1.4 GB · free</small></span><span data-l="de"><span class="eng">Download für Windows</span><small>Neuester Test-Build · ZIP, ca. 1,4 GB · kostenlos</small></span></span>
           <span class="lamp" aria-hidden="true"></span>
         </a>
         <a class="steel-btn" href="https://osugerman.itch.io/tiefgang"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 9l2-4h12l2 4M4 9v10h16V9M4 9h16M10 13h4"/></svg><span data-l="en">Also on itch.io</span><span data-l="de">Auch auf itch.io</span></a>
@@ -1274,7 +1281,7 @@ new MutationObserver(() => __tgInit()).observe(document.documentElement, { attri
             <tr><td><span data-l="de">Grafik</span><span data-l="en">Graphics</span></td><td><span data-l="de">Vulkan-fähig, 4 GB VRAM</span><span data-l="en">Vulkan-capable, 4 GB VRAM</span></td><td><span data-l="de">Aktuelle Mittelklasse, 8 GB VRAM</span><span data-l="en">Current mid-range, 8 GB VRAM</span></td></tr>
             <tr><td><span data-l="de">Prozessor</span><span data-l="en">Processor</span></td><td><span data-l="de">4 Kerne</span><span data-l="en">4 cores</span></td><td><span data-l="de">6 Kerne oder mehr</span><span data-l="en">6 cores or more</span></td></tr>
             <tr><td><span data-l="de">Speicher</span><span data-l="en">Memory</span></td><td>8 GB RAM</td><td>16 GB RAM</td></tr>
-            <tr><td><span data-l="de">Platz</span><span data-l="en">Storage</span></td><td><span data-l="de">ca. 1 GB</span><span data-l="en">approx. 1 GB</span></td><td><span data-l="de">ca. 1 GB</span><span data-l="en">approx. 1 GB</span></td></tr>
+            <tr><td><span data-l="de">Platz</span><span data-l="en">Storage</span></td><td><span data-l="de">ca. 2 GB</span><span data-l="en">approx. 2 GB</span></td><td><span data-l="de">ca. 2 GB</span><span data-l="en">approx. 2 GB</span></td></tr>
           </tbody>
         </table>
         <p class="small" data-l="de">Vorläufige Werte, das Spiel ist in Entwicklung. Maus und Tastatur oder Controller. Sprachen: Deutsch und Englisch.</p>
@@ -1397,7 +1404,7 @@ new MutationObserver(() => __tgInit()).observe(document.documentElement, { attri
     top: { en: "Tiefgang, Marsh here. Signal’s steady. Please don’t press the download button with wet gloves.", de: "Tiefgang, hier Marsh. Signal steht. Bitte den Download-Knopf nicht mit nassen Handschuhen drücken." },
     neu: { en: "New build on the wire. I read the whole changelog so you don’t have to. Read it anyway.", de: "Neuer Build auf der Leitung. Ich hab das ganze Changelog gelesen, damit du es nicht musst. Lies es trotzdem." },
     trailer: { en: "Trailer’s rolling. If the leviathan looks into the camera: do not look back.", de: "Der Trailer läuft. Wenn der Leviathan in die Kamera schaut: nicht zurückschauen." },
-    features: { en: "Ninety-five charms. I once tried stacking all of them. The submarine still smells of it.", de: "Fünfundneunzig Charms. Ich hab mal versucht, alle zu stapeln. Das U-Boot riecht immer noch danach." },
+    features: { en: "A hundred and ten charms. I once tried stacking all of them. The submarine still smells of it.", de: "Hundertzehn Charms. Ich hab mal versucht, alle zu stapeln. Das U-Boot riecht immer noch danach." },
     galerie: { en: "Every picture is genuine. I’d know – I had to wipe the porthole glass afterwards.", de: "Alle Bilder echt. Ich muss es wissen – ich durfte danach das Bullaugenglas putzen." },
     "tiefgang-leaderboard": { en: "Someone down there clears depths faster than my coffee goes cold. Rude.", de: "Einer da unten räumt Tiefen schneller, als mein Kaffee kalt wird. Frech." },
     download: { en: "Unzip it somewhere sensible. Not “Program Files”. I’ve seen what happens.", de: "Entpack es an einen vernünftigen Ort. Nicht nach „Programme“. Ich hab gesehen, was dann passiert." },

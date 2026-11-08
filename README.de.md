@@ -33,7 +33,7 @@ Wenn du **Roboquest**, **Gunfire Reborn** oder **Risk of Rain 2** magst: genau d
 
 <table><tr><td>
 <b>Neu im letzten Update</b><br>
-Gegner mit Gewicht: Rennen, Ausholen, Zerbrechen beim Tod · Glockenwächter überarbeitet (Gegenklang, Druckwellen, Säulensturz) · kein Hologramm-Look mehr bei Ankündigungen · Z-Fighting behoben · Jagd-Raumziel nicht mehr unlösbar.
+Gegner in allen Gebieten rennen und zerbrechen beim Tod · echte Flammen und Leuchter aus gealterter Bronze im Dom · Dom-Gegner mit Signaturfarben · neuer Wal und Fernsicht · Glockenwächter mit Phasenglut.
 <a href="CHANGELOG.de.md">Ganzer Changelog</a>
 </td></tr></table>
 

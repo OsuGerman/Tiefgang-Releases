@@ -33,7 +33,7 @@ If you like **Roboquest**, **Gunfire Reborn** or **Risk of Rain 2**, this is tha
 
 <table><tr><td>
 <b>New in the latest update</b><br>
-Enemies with weight: running, wind-ups and shattering on death · Bell Warden reworked (counter-toll, pressure waves, toppling pillars) · no more hologram look on telegraphs · z-fighting fixed · hunt objective can no longer get stuck.
+Enemies in every area run and shatter on death · real flames and aged-bronze candelabras in the cathedral · cathedral enemies with signature colours · new whale and distant views · Bell Warden phase glow.
 <a href="CHANGELOG.md">Full changelog</a>
 </td></tr></table>
 

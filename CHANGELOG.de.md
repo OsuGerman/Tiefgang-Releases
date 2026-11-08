@@ -8,6 +8,42 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 08.11.2026 – Gegner aller Gebiete rennen und zerbrechen, echte Flammen im Dom, Dom-Gegner mit Signaturfarben (v2026.11.08.0725-709020619)
+
+### Neu
+- **Gegner aus Tempel, Korallenkathedrale, Archiven und Bohrstation rennen:** Krakling, Korallenlarve, Tintenmilbe und Stachelläufer sprinten jetzt richtig, statt mit schnell abgespielten Schritten zu trippeln. Nietenschläger und Kesselträger traben schwer in ihren Bleistiefeln. ([#159](https://github.com/OsuGerman/Tiefgang-Releases/issues/159))
+- **Diese Gegner zerbrechen beim Tod:** Krakling, Steinbeißer (auch der Veteran), Korallenlarve, Stachelläufer, Tintenmilbe, Tafelträger, Nietenschläger und Kesselträger (auch der Überdruck-Kesselträger) zerfallen in Bruchstücke. Die Bruchflächen zeigen, woraus der Gegner ist: Basalt mit Glut im Tempel, rosa Korallenfleisch in der Korallenkathedrale, Tinte mit Bernsteinschimmer in den Archiven, Rost mit heißem Metall in der Bohrstation. Staub und Bruchklang passen zum Gebiet. ([#159](https://github.com/OsuGerman/Tiefgang-Releases/issues/159))
+- **Angriffseffekte in allen Gebieten:** Stampfer des Steinbeißers, Hammerschlag des Nietenschlägers, die Sprünge von Krakling, Korallenlarve und Tintenmilbe, die Rolle des Stachelläufers, der Schlag des Tafelträgers und der Dampfstoß des Kesselträgers haben eigene Effekte in den Farben ihres Gebiets: Stein und Glut im Tempel, Kalk und Seepocken in der Korallenkathedrale, Stein, Papier und Schlick in den Archiven, Funken und Dampf in der Bohrstation. ([#159](https://github.com/OsuGerman/Tiefgang-Releases/issues/159))
+
+### Verbessert
+- **Dom-Gegner mit Signaturfarbe:** Jeder Dom-Gegner hat eigene Leuchtpunkte und Glutadern. Glockenläuter, Kerzenmolch, Emporensänger und Wasserspeier leuchten bronzegold, Weihrauchschwinger, Leuchterqualle, Gruftbrecher und Taufpriester türkis. Die Haut ist dunkler und die Bronze heller, auf Abstand zeichnet ein Randlicht die Umrisse nach. Dadurch heben sie sich vom Dom-Stein ab.
+- **Glockenwächter:**
+  - Phasenwechsel zeigt er am eigenen Körper: Die Risse glühen erst türkis, dann orange, in Phase 3 rot, Herz, Glockenmund und Augen glühen mit. Die Apsis wird nicht mehr rot eingefärbt.
+  - Der Bodenring ist dezenter und blendet erst ab etwas Abstand zum Körper ein. Er überstrahlt die Füße nicht mehr.
+  - Einschläge blitzen und glühen schwächer.
+- **Echte Flammen:** Kohlebecken und Kandelaber im Dom brennen mit flackernden Flammen, deren Zungen sich oben lösen. Vorher waren dort weiße, eiförmige Leuchtkugeln. Die Kerzen brennen wärmer.
+- **Leuchter und Laternen:** Kandelaber, Kohlebecken und Laternen sind gedrechselt, mit Fuß, Kehlen, Tropftellern, Rollrand und Laternenhaube. Sie sind aus gealterter Bronze mit Grünspan, Ruß und abgewetzten Kanten statt aus glattem Kupfer.
+- **Bodendetails:** Leere Dom-Böden haben jetzt Grabplatten, Teppichreste, Wachslachen, Risse und nasse Stellen, an den Wänden stehen Kerzen, liegen Schädel, Schutt und Bücher, dazu Opferschalen. Die Wege zwischen den Türen bleiben frei.
+- **Stein:** Pfeiler, Brüstungen und Treppen haben weichere Oberflächen, Brüstungen und Treppenwangen sind nicht mehr streifig. Fenstersimse und Abdeckungen sind aus Quaderkalk mit Fugen.
+- **Wale neu bemalt:** Die Wale, die draußen um den Dom ziehen, haben einen dunklen blaugrauen Rücken, einen grauen Bauch mit weichem Übergang, Kehlfurchen und Seepocken an Kopf und Flossen. Vorher waren sie schwarz-weiß gefleckt.
+- **Kanal im Schiff der Glocken:** Das Wasser ist dunkler, das Lichtnetz darauf feiner und weicher.
+- **Fernsicht:** Hinter den Fenstern von Kreuzganggang und Kapelle der Gaben staffelt sich der Blick jetzt in die Tiefe, statt wie eine flache Kulisse zu wirken. Lichtsäulen draußen haben weiche Ränder und verschwinden in der Ferne im Dunst.
+- **Dom-Hallen:**
+  - Gezeitenkrypta: Die Lichtsäule ist weicher, die Halle ist heller.
+  - Glockengießerei: Warmer Glutschein auf der Kranbrücke, den Krangerüsten und unter den Dachbindern.
+  - Chor der Pfeifen: Die leuchtende Bahn ist dunkler.
+  - Rosettenhalle: Die Rosette leuchtet stärker.
+  - Turmtreppe: Das kalte Brunnenlicht ist gedämpft, der Stein wirkt weniger blass.
+  - Apsis der Großen Glocke: Der Arenaboden hat Platten mit Fasen, Fugenschmutz, Abnutzung und feinen Rissen.
+
+### Behoben
+- **Texturfehler:** Der schlafende Wächterkopf hinter dem Fenster der Apsis hatte helle Flecken am Kopf. Der Tiegel in der Glockengießerei hatte eine harte Glutkante. Die Flecken sind weg, und die Glut des Tiegels liegt als weiches Band an der Innenwand.
+- **Doppelte Treppenwange:** In der Glockenlandung und in der Kapelle der Gaben stand neben der Treppenbrüstung eine zweite, gezackte Wange.
+- **Glockenvierung:** Die roten Kristallkegel um das Becken in der Mitte sind weg. Die Laternen an den Säulen waren von unten nur eine flache orange Scheibe und glühen jetzt von innen nach außen.
+- **Kohlebecken:** Die Kollision passt jetzt zur Form der Becken.
+
+---
+
 ## 08.11.2026 – Gegner mit Gewicht, Glockenwächter überarbeitet, Dom-Hallen, Z-Fighting behoben (v2026.11.08.0254-23f5384c1)
 
 ### Neu

@@ -8,6 +8,42 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 08.11.2026 – Enemies in every area run and shatter, real flames in the cathedral, cathedral enemies with signature colours (v2026.11.08.0725-709020619)
+
+### New
+- **Enemies of the Temple, Coral Cathedral, Archives and Drilling Station run:** Krakling, Coral Larva, Ink Mite and Spike Runner now sprint properly instead of scurrying with sped-up steps. Rivet Strikers and Boiler Bearers trot heavily in their lead boots. ([#159](https://github.com/OsuGerman/Tiefgang-Releases/issues/159))
+- **These enemies shatter on death:** Krakling, Stone Biter (and its Veteran), Coral Larva, Spike Runner, Ink Mite, Tablet Bearer, Rivet Striker and Boiler Bearer (and the Overpressure Boiler Bearer) break into fragments. The broken faces show what each enemy is made of: basalt with embers in the Temple, pink coral flesh in the Coral Cathedral, ink with an amber sheen in the Archives, rust with hot metal in the Drilling Station. Dust and the sound of the break match the area. ([#159](https://github.com/OsuGerman/Tiefgang-Releases/issues/159))
+- **Attack effects in every area:** the Stone Biter’s stomp, the Rivet Striker’s hammer blow, the leaps of Krakling, Coral Larva and Ink Mite, the Spike Runner’s roll, the Tablet Bearer’s slam and the Boiler Bearer’s steam blast have their own effects in the colours of their area: stone and embers in the Temple, lime and barnacles in the Coral Cathedral, stone, paper and silt in the Archives, sparks and steam in the Drilling Station. ([#159](https://github.com/OsuGerman/Tiefgang-Releases/issues/159))
+
+### Improved
+- **Cathedral enemies with a signature colour:** every cathedral enemy has its own glowing points and ember veins. Bell Ringer, Candle Newt, Gallery Singer and Gargoyle glow bronze-gold; Censer Acolyte, Chandelier Jelly, Crypt Breaker and Font Priest glow turquoise. Their skin is darker and their bronze brighter, and at a distance a rim light traces their outline, so they stand out against the cathedral stone.
+- **Bell Warden:**
+  - He shows each phase change on his own body: the cracks glow turquoise first, then orange, and red in phase 3, with his heart, bell mouth and eyes glowing along. The apse is no longer washed in red.
+  - The ground ring is subtler and only fades in a little away from his body. It no longer drowns out his feet.
+  - Impacts flash and glow less.
+- **Real flames:** braziers and candelabra in the cathedral burn with flickering flames whose tongues break off at the top. Before, they showed white, egg-shaped balls of light. Candles burn warmer.
+- **Candelabra and lanterns:** candelabra, braziers and lanterns are turned on a lathe, with a foot, mouldings, drip pans, a rolled rim and a lantern hood. They are made of aged bronze with verdigris, soot and worn edges instead of smooth copper.
+- **Floor details:** empty cathedral floors now have tomb slabs, scraps of carpet, pools of wax, cracks and wet patches, with candles, skulls, rubble, books and offering bowls along the walls. The paths between the doors stay clear.
+- **Stone:** pillars, parapets and stairs have softer surfaces, and parapets and stair strings are no longer streaky. Window sills and copings are made of dressed limestone with joints.
+- **Whales repainted:** the whales circling outside the cathedral have a dark blue-grey back, a grey belly with a soft transition, throat grooves and barnacles on their heads and flippers. Before, they were covered in black-and-white blotches.
+- **Channel in the Nave of Bells:** the water is darker, and the net of light on it is finer and softer.
+- **Distant view:** behind the windows of the Cloister Walk and the Chapel of Offerings, the view now recedes into the distance instead of looking like a flat backdrop. Shafts of light outside have soft edges and fade into the haze far away.
+- **Cathedral halls:**
+  - Tidal Crypt: the column of light is softer, and the hall is brighter.
+  - Bell Foundry: a warm glow on the crane bridge, the crane frames and under the roof trusses.
+  - Choir of Pipes: the glowing strip is darker.
+  - Rose Window Hall: the rose window shines brighter.
+  - Tower Stair: the cold light from the well is toned down, and the stone looks less pale.
+  - Apse of the Great Bell: the arena floor has slabs with bevels, dirt in the joints, wear and fine cracks.
+
+### Fixed
+- **Texture errors:** the sleeping guardian’s head behind the apse window had bright blotches on it. The crucible in the Bell Foundry had a hard edge of glow. The blotches are gone, and the crucible’s glow sits as a soft band on the inner wall.
+- **Double stair string:** in the Bell Landing and the Chapel of Offerings, a second, jagged string stood next to the stair parapet.
+- **Bell Crossing:** the red crystal cones around the central basin are gone. From below, the lanterns on the pillars were just a flat orange disc; now they glow from the inside out.
+- **Braziers:** their collision now matches their shape.
+
+---
+
 ## 08.11.2026 – Enemies with weight, Bell Warden reworked, cathedral halls, z-fighting fixed (v2026.11.08.0254-23f5384c1)
 
 ### New

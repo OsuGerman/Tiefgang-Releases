@@ -8,6 +8,47 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 08.11.2026 – Enemies with weight, Bell Warden reworked, cathedral halls, z-fighting fixed (v2026.11.08.0254-23f5384c1)
+
+### New
+- **Enemies shatter on death:** Bell Ringers, Font Priests, Crypt Breakers and Candle Newts no longer dissolve. They buckle, then break into fragments of their own bodies. ([#159](https://github.com/OsuGerman/Tiefgang-Releases/issues/159))
+- **Running instead of scurrying:** Bell Ringers, Font Priests, Crypt Breakers and Candle Newts now have proper running cycles. The Crypt Breaker gallops on its knuckles, the Candle Newt bounds in half-leaps. When they slow down, they drop back to a walk. ([#159](https://github.com/OsuGerman/Tiefgang-Releases/issues/159))
+
+### Improved
+- **Attacks with body weight:** enemies wind up with their whole body. They lean back, tense before the strike, lunge into the blow and settle afterwards. Hits knock them back more visibly. ([#159](https://github.com/OsuGerman/Tiefgang-Releases/issues/159))
+- **Walking without sliding:** the cathedral enemies' steps now match their speed, and their feet no longer skate across the floor. ([#159](https://github.com/OsuGerman/Tiefgang-Releases/issues/159))
+- **Cathedral enemy attack effects:** strikes and impacts have a flash of light, a pressure ring, sparks, dust and splinters. The Gallery Singer's sonic bolts roll through the air as a pressure wave with an echo and break against the wall. Shards, embers and the Bell Ringer's hook leave a trail behind them. ([#159](https://github.com/OsuGerman/Tiefgang-Releases/issues/159))
+- **Death:** enemies stay down until their death animation has played out. Cathedral enemies break into basalt and abyssalite splinters with stone dust.
+- **Bell Ringer:** its stone skin no longer shines like glass, and the bronze looks aged.
+- **Bell Warden** ([#160](https://github.com/OsuGerman/Tiefgang-Releases/issues/160)):
+  - Impacts have a shockwave, a dust ring, stone splinters that stay on the ground and glowing cracks that slowly cool. The closer you stand, the harder the camera shakes.
+  - The sound rings push a visible pressure wave with dust ahead of them.
+  - The storm bell swings on its chain and glows during the wind-up, leaving a trail as it swings. The Warden leans back before a strike and throws his weight into it, so his blows hit harder.
+  - The great bell swings with every toll. It only glimmers before the toll and lights up fully only when the toll is not dampened.
+  - Hit the bell at the right moment (counter-toll) and it flares gold and falls silent. Three golden sound rings fly at the Warden and he staggers back.
+  - Phase 2 opens with three tolls of the bell. On the way into phase 3 the bell cracks: the chain snaps, bronze splinters fly, dust and rubble fall from the dome, and the bell's light flickers out.
+  - Pillars topple instead of vanishing: they tremble, tip over and collapse with rubble and a cloud of dust.
+  - During the clapper rain, a clapper visibly drops into each circle before it lands.
+  - In co-op every player sees the counter-toll and the falling clappers.
+- **Cathedral halls:**
+  - Bell Landing: a collapsed vault with the remains of a diver from the first expedition, an overturned pew, a ring of candles above the central aisle and a glow in front of the portal.
+  - Bell Foundry: the ladles are bulging iron cauldrons with a spout and drips instead of flat lampshades. Their glow falls softly on the ceiling and the trusses cast shadows. Patches of embers lie on the floor.
+  - Cloister Walk: wall tombs with candles and pools of light along the right-hand wall, twin arcades in the open arches and less rubble along the foot of the walls.
+  - Sacristy: a reliquary shrine under the ring of candles and sacristy cupboards on the back wall. The lighting sets warm pools against a cool base, and the vault looks calmer.
+  - Chapel of Offerings: a column of light now stands beneath the wheel chandelier.
+  - Rose Window Hall: the hard edge of fog next to the rose window is gone.
+  - Apse and all other halls: braziers now have flames. Before, all you could see from below was a floating orange ring.
+- **Particles that change size:** dust billows, steam grows, the guide particles at doors shrink as they fade, and particles vary in size. Before, many effects drew every particle at the same size. Fire bowls now burn with flames that taper towards the top.
+- **The cathedral is no tougher than the Archives:** large cathedral halls sent noticeably more enemies than the Sunken Archives. Waves and enemy numbers are now roughly equal, so the choice in area 3 is not about which one is tougher.
+
+### Fixed
+- **Hunt objective could not be finished:** enemies with the Healing affix could heal a marked hunt target faster than you could damage it, so the room objective got stuck and the run was lost. Marked targets can no longer be healed, and if a hunt makes no progress for 25 seconds, a different target is marked. ([#161](https://github.com/OsuGerman/Tiefgang-Releases/issues/161))
+- **Telegraphs without the hologram look:** when announcing an attack, enemies turned almost entirely see-through turquoise, and you could no longer make out their shape or material. Now the body stays visible, and the attack is announced by a thin glowing edge, glowing parts, the weak point and ground warnings. Small enemies stay easy to read at a distance. This applies to all enemies and bosses.
+- **Z-fighting:** flickering surfaces at room borders, door reveals, thresholds, steps, platforms, floor tiles, cornices, the well parapet in the Tower Stair and inside models are fixed, mostly in the Drowned Cathedral but also in the Temple, the Coral Cathedral, the Archives, the Drilling Station and the submarine. In the Bell Landing, four wall shafts stood twice in the same spot. ([#158](https://github.com/OsuGerman/Tiefgang-Releases/issues/158))
+- **Dust in the Bell Warden fight** showed up as small dots instead of clouds and was almost black in the dark apse.
+
+---
+
 ## 07.11.2026 – The Drowned Cathedral, deep-sea sky, boss entrances, lighting depth, new blessings and risk charms (v2026.11.07.0848-6cc583ccf)
 
 ### New world: The Drowned Cathedral

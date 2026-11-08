@@ -8,6 +8,47 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 08.11.2026 – Gegner mit Gewicht, Glockenwächter überarbeitet, Dom-Hallen, Z-Fighting behoben (v2026.11.08.0254-23f5384c1)
+
+### Neu
+- **Gegner zerbrechen beim Tod:** Glockenläuter, Taufpriester, Gruftbrecher und Kerzenmolch lösen sich nicht mehr auf. Sie knicken ein und zerfallen dann in Bruchstücke aus ihrem eigenen Körper. ([#159](https://github.com/OsuGerman/Tiefgang-Releases/issues/159))
+- **Rennen statt Trippeln:** Glockenläuter, Taufpriester, Gruftbrecher und Kerzenmolch haben echte Rennbewegungen. Der Gruftbrecher galoppiert auf den Knöcheln, der Kerzenmolch springt in halben Sätzen. Werden sie langsamer, gehen sie wieder in den Schritt über. ([#159](https://github.com/OsuGerman/Tiefgang-Releases/issues/159))
+
+### Verbessert
+- **Angriffe mit Körper:** Gegner holen mit dem ganzen Körper aus. Sie lehnen sich zurück, spannen sich vor dem Schlag an, schlagen mit Ausfallschritt zu und pendeln danach aus. Treffer werfen sie sichtbarer zurück. ([#159](https://github.com/OsuGerman/Tiefgang-Releases/issues/159))
+- **Laufen ohne Gleiten:** Die Schritte der Dom-Gegner passen jetzt zu ihrem Tempo, die Füße rutschen nicht mehr über den Boden. ([#159](https://github.com/OsuGerman/Tiefgang-Releases/issues/159))
+- **Angriffseffekte der Dom-Gegner:** Schläge und Einschläge haben Lichtblitz, Druckring, Funken, Staub und Splitter. Die Schallbolzen des Emporensängers rollen als Druckwelle mit Nachhall durch die Luft und zerbrechen an der Wand. Splitter, Glutklumpen und der Haken des Glockenläuters ziehen eine Spur hinter sich her. ([#159](https://github.com/OsuGerman/Tiefgang-Releases/issues/159))
+- **Tod:** Gegner bleiben liegen, bis ihre Todesbewegung ganz zu sehen war. Dom-Gegner zerfallen in Basalt- und Abyssalit-Splitter mit Steinstaub.
+- **Glockenläuter:** Die Steinhaut glänzt nicht mehr wie Glas, die Bronze wirkt gealtert.
+- **Glockenwächter** ([#160](https://github.com/OsuGerman/Tiefgang-Releases/issues/160)):
+  - Einschläge haben Schockwelle, Staubring, Steinsplitter, die liegen bleiben, und glühende Bodenrisse, die langsam abkühlen. Je näher du stehst, desto stärker wackelt die Kamera.
+  - Die Schallringe schieben eine sichtbare Druckwelle mit Staub vor sich her.
+  - Die Sturmglocke pendelt an ihrer Kette und glüht beim Ausholen. Beim Schwung zieht sie einen Schweif hinter sich her. Der Wächter lehnt sich vor dem Schlag zurück und legt sich beim Schlag hinein, seine Schläge haben mehr Wucht.
+  - Die Große Glocke schwingt bei jedem Schlag. Vor dem Schlag glimmt sie nur, voll leuchtet sie erst beim ungedämpften Schlag.
+  - Triffst du die Glocke im richtigen Moment (Gegenklang), flammt sie golden auf und verstummt. Drei goldene Schallringe fliegen zum Wächter, und er taumelt zurück.
+  - Phase 2 beginnt mit drei Glockenschlägen. Beim Übergang zu Phase 3 springt die Glocke: Die Kette reißt, Bronzesplitter fliegen, Staub und Brocken fallen aus der Kuppel, das Glockenlicht flackert und erlischt.
+  - Säulen stürzen um, statt zu verschwinden: Sie zittern, kippen und brechen mit Brocken und einer Staubwolke zusammen.
+  - Beim Klöppelregen fällt vor jedem Einschlag ein Klöppel sichtbar in den Kreis.
+  - Im Koop sehen alle Spieler den Gegenklang und die fallenden Klöppel.
+- **Dom-Hallen:**
+  - Glockenlandung: Ein eingestürztes Gewölbe mit den Überresten eines Tauchers der ersten Expedition, eine umgestürzte Bank, ein Kerzenkranz über dem Mittelgang und ein Schein vor dem Portal.
+  - Glockengießerei: Die Gießpfannen sind bauchige Eisenkessel mit Ausguss und Tropfen statt flacher Lampenschirme. Ihre Glut fällt weich an die Decke, die Binder werfen Schatten. Glutflecken liegen auf dem Boden.
+  - Kreuzganggang: Wandgräber mit Kerzen und Lichtinseln an der rechten Wand, Doppelarkaden in den offenen Bögen, weniger Schutt am Wandfuß.
+  - Sakristei: Ein Reliquienschrein unter dem Kerzenkranz und Sakristeischränke an der Rückwand. Das Licht setzt warme Inseln vor eine kühle Grundstimmung, das Gewölbe wirkt ruhiger.
+  - Kapelle der Gaben: Unter dem Radleuchter steht eine Lichtsäule.
+  - Rosettenhalle: Die harte Nebelkante neben der Rosette ist weg.
+  - Apsis und alle anderen Hallen: Kohlebecken haben Flammen. Vorher war von unten nur ein schwebender oranger Ring zu sehen.
+- **Partikel mit Größenverlauf:** Staub quillt auf, Dampf wächst, die Leitpartikel an den Türen schrumpfen beim Verlöschen, und die Teilchen sind unterschiedlich groß. Vorher hatten viele Effekte alle dieselbe Teilchengröße. Feuerschalen brennen jetzt mit schmaler werdenden Flammen.
+- **Dom so zäh wie die Archive:** In großen Dom-Hallen kamen deutlich mehr Gegner als in den Versunkenen Archiven. Wellen und Gegnerzahl sind jetzt etwa gleich, damit die Wahl in Gebiet 3 nicht über die Zähigkeit entscheidet.
+
+### Behoben
+- **Jagd-Raumziel unlösbar:** Gegner mit dem Affix „Heilend“ konnten ein markiertes Jagdziel schneller heilen, als man es beschädigen konnte. Das Raumziel blieb dann hängen, und der Run war verloren. Markierte Ziele werden jetzt nicht mehr geheilt. Kommt eine Jagd 25 Sekunden lang nicht voran, wird ein anderes Ziel markiert. ([#161](https://github.com/OsuGerman/Tiefgang-Releases/issues/161))
+- **Telegraph ohne Hologramm-Look:** Bei der Angriffsankündigung wurden Gegner fast ganz türkis-durchscheinend, Form und Material waren nicht mehr zu erkennen. Jetzt bleibt der Körper sichtbar, angekündigt wird über eine schmale Leuchtkante, Leuchtteile, Schwachpunkt und Bodenwarnungen. Kleine Gegner bleiben auf Abstand gut lesbar. Gilt für alle Gegner und Bosse.
+- **Z-Fighting:** Flackernde Flächen an Raumgrenzen, Türlaibungen, Schwellen, Stufen, Plattformen, Bodenplatten, Gesimsen, an der Brunnenbrüstung der Turmtreppe und in Modellen sind behoben, vor allem im Dom, aber auch in Tempel, Korallenkathedrale, Archiven, Bohrstation und im U-Boot. In der Glockenlandung standen vier Wandpfeiler doppelt an derselben Stelle. ([#158](https://github.com/OsuGerman/Tiefgang-Releases/issues/158))
+- **Staub im Glockenwächter-Kampf** war nur als kleine Punkte zu sehen statt als Wolken und in der dunklen Apsis fast schwarz.
+
+---
+
 ## 07.11.2026 – Der Ertrunkene Dom, Tiefsee-Himmel, Boss-Auftritte, Lichttiefe, neue Segen und Risiko-Charms (v2026.11.07.0848-6cc583ccf)
 
 ### Neue Welt: Der Ertrunkene Dom

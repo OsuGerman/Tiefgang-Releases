@@ -33,7 +33,7 @@ If you like **Roboquest**, **Gunfire Reborn** or **Risk of Rain 2**, this is tha
 
 <table><tr><td>
 <b>New in the latest update</b><br>
-New world: the Drowned Cathedral and its Bell Warden · deep-sea sky with rock ridges and light shafts · every boss gets its own summoning · 8 new blessings and 5 risk charms · smoother loading.
+Enemies with weight: running, wind-ups and shattering on death · Bell Warden reworked (counter-toll, pressure waves, toppling pillars) · no more hologram look on telegraphs · z-fighting fixed · hunt objective can no longer get stuck.
 <a href="CHANGELOG.md">Full changelog</a>
 </td></tr></table>
 

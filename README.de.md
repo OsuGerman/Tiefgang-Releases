@@ -33,7 +33,7 @@ Wenn du **Roboquest**, **Gunfire Reborn** oder **Risk of Rain 2** magst: genau d
 
 <table><tr><td>
 <b>Neu im letzten Update</b><br>
-Neue Welt: Der Ertrunkene Dom mit Glockenwächter · Tiefsee-Himmel mit Felsgraten und Lichtsäulen · jeder Boss mit eigener Beschwörung · 8 neue Segen und 5 Risiko-Charms · flüssigeres Laden.
+Gegner mit Gewicht: Rennen, Ausholen, Zerbrechen beim Tod · Glockenwächter überarbeitet (Gegenklang, Druckwellen, Säulensturz) · kein Hologramm-Look mehr bei Ankündigungen · Z-Fighting behoben · Jagd-Raumziel nicht mehr unlösbar.
 <a href="CHANGELOG.de.md">Ganzer Changelog</a>
 </td></tr></table>
 

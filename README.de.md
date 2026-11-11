@@ -33,7 +33,7 @@ Wenn du **Roboquest**, **Gunfire Reborn** oder **Risk of Rain 2** magst: genau d
 
 <table><tr><td>
 <b>Neu im letzten Update</b><br>
-Gegner in allen Gebieten rennen und zerbrechen beim Tod · echte Flammen und Leuchter aus gealterter Bronze im Dom · Dom-Gegner mit Signaturfarben · neuer Wal und Fernsicht · Glockenwächter mit Phasenglut.
+Bosse beim Betreten sichtbar · neue Deckenöffnungen mit Blick in den Tiefsee-Himmel · hellere Bohrstation mit Funken und Glut · Wrack-Gegner mit Kopflicht · neuer Kerzenmolch, Wasserspeier und Taufpriester · Rosettenhalle im Dom.
 <a href="CHANGELOG.de.md">Ganzer Changelog</a>
 </td></tr></table>
 

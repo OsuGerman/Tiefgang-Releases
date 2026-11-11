@@ -33,7 +33,7 @@ If you like **Roboquest**, **Gunfire Reborn** or **Risk of Rain 2**, this is tha
 
 <table><tr><td>
 <b>New in the latest update</b><br>
-Enemies in every area run and shatter on death · real flames and aged-bronze candelabras in the cathedral · cathedral enemies with signature colours · new whale and distant views · Bell Warden phase glow.
+Bosses visible on entry · new ceiling openings looking into the deep-sea sky · brighter Drilling Station with sparks and embers · wreck enemies with head lights · new Candle Newt, Gargoyle and Font Priest · Rose Window Hall in the cathedral.
 <a href="CHANGELOG.md">Full changelog</a>
 </td></tr></table>
 

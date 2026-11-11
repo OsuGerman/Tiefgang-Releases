@@ -8,6 +8,35 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 11.11.2026 – Bosses visible on entry, new ceiling openings, brighter Drilling Station, wreck enemies with head lights (v2026.11.11.2145-c19b90861)
+
+### New
+- **Bosses are easy to find on entry:** a soft halo in the boss’s colour glows behind every boss, with a glow on the body and a ring of light on the floor. The further away you are, the stronger it glows, and right after the boss appears it shines brighter still. This also works when boss intros are skipped. Xal-Tuun glows gold and the Sleeper’s Ear pale cyan, so they stand out from the background. The intro camera zooms in closer on distant bosses.
+- **Ceiling openings for each area:** the square ceiling opening with its grid of beams looked the same in many rooms. Now every area has its own. The Temple Forecourt has a masonry light shaft hung with kelp, the Coral Cathedral an irregular coral tube with limestone stalactites, the Sunken Archives a shelf gallery with a window drum and a glass rose, the Drilling Station a steel shaft with a crane girder, chains and a crane lamp, and the Abyss a rock fissure with spires and crystals. Through the shaft you can see the deep-sea sky with ridges, towers and huge creatures. The light column below has soft edges instead of a hard cylinder.
+- **Candle Newt and Gargoyle get their own shapes:** both used to share the same four-legged body. The Candle Newt is now a long, flat newt with splayed legs, bulging eyes, feathery gills, a paddle tail and seven burning wax candles on its back. The Gargoyle is squat and grotesque, with a hunched back, long forelegs, a gaping spout mouth with a glowing throat, ram’s horns and large stone wings that it spreads when it leaps. Hit zones match the new shapes, and the Gargoyle’s wings are stone.
+- **Font Priest redesigned:** broader shoulders, long arms with clawed hands, wide hanging sleeves and a collar of stone scales. Robe, cape, stole and font sway with every movement. The hit zone matches the wider figure.
+
+### Improved
+- **Drilling Station:** the halls are brighter and neutral instead of olive green. Molten channels run along the walls under grating, furnace embers glow at the machines, welding sparks rain down, beacons rotate, red warning lights flash at the exits and floodlights hang from the ceiling. Plankton glimmers amber. The tread plate on ramps is finer, and the ramp stringers are no longer stretched.
+- **Drowned Fleet:** Sailor, Musketeer, Boatswain, Cannoneer, Barnacle Brood and Figurehead Warden carry a mint-green head light in front of their faces and a rim light that picks out their outlines against the dark planking. Weak points glow red.
+- **Ship Graveyard:** sails have cloth panels with seams, algae growing towards the free end, thin patches and frayed tears instead of round holes. Candles and coal pans light up dark interiors as warm pools of light. The coal smoulders dark instead of showing as a bright disc.
+- **Glowing bodies instead of flat discs:** glowing chunks in the Ship Graveyard, coral orbs, brood sacs and candle pillars now glow from within and darken towards the edge. Before, they looked like flat discs that burned out white. The glowing line on cover walls looks like a wet mineral vein, and coral rims and stalactite tips in the Abyss no longer burn out white. Glyph seals are stone plates on which only the ring, core and spokes glow. The light tube along the edges of boss arenas is thinner and has a glassy sheen.
+- **Drowned Cathedral:**
+  - **Light no longer passes through walls:** the window light of the Apse of the Great Bell tinted rooms two doors away turquoise. Now each room’s light stays in that room.
+  - **Rose Window Hall:** the eastern arms of the cross bridges have collapsed, with their rubble on the floor. The rose window is no longer hidden from the entrance.
+  - **Tidal Crypt:** braziers and candelabra line the way. The light column in the shaft is soft, and the shaft ring no longer reads as a hard white ring.
+  - **Bell Foundry:** the bronze channels look more natural, with a crust of varying width, irregular plates and islands of slag. The galleries and the crane bridge catch the glow of the embers, and more lanterns hang on the balustrade.
+  - **Apse of the Great Bell:** the window light is less turquoise, and four braziers on the arena floor warm the ground around the dais.
+  - **Tower Stair:** the stone looks more neutral and the well wall less cold. The well cover has jointed arch stones instead of a jagged crown.
+  - **Lantern glass:** the panes no longer glow as a flat orange surface. You can see the flame and the candle behind them, diamond-pattern leading and hammered glass.
+  - **Carpet remnants** are faded, silted church carpets with fringes and holes instead of red stains.
+  - **Tube corals** are curved, with growth rings and a wavy mouth, coral red with a warm glow in the throat instead of black cylinders with white caps.
+  - **Stone and furnishings:** the dais edges in the Bell Landing and the Chapel of Offerings have jointed, chamfered dressed stones. The altar and shrine dais in the Sacristy are made of basalt blocks. Expedition crates stand in the Bell Landing. In the Choir of Pipes the balustrade is more matt, the walkway glows more calmly and the ribs are lighter. The column lanterns in the Bell Crossing are smaller.
+  - **Bell Warden:** the ground circles, cracks and flashes of his attacks are toned down and no longer drown out the floor. The chain swing stays orange but is darker.
+  - **Cathedral enemies:** their glowing seams are wider, with a soft ember fringe instead of thin lines.
+
+---
+
 ## 08.11.2026 – Enemies in every area run and shatter, real flames in the cathedral, cathedral enemies with signature colours (v2026.11.08.0725-709020619)
 
 ### New

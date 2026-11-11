@@ -8,6 +8,35 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 11.11.2026 – Bosse beim Betreten sichtbar, neue Deckenöffnungen, hellere Bohrstation, Wrack-Gegner mit Kopflicht (v2026.11.11.2145-c19b90861)
+
+### Neu
+- **Bosse sind beim Betreten zu finden:** Hinter jedem Boss leuchtet ein weicher Lichthof in seiner Farbe, dazu ein Leuchten am Körper und ein Lichtkreis am Boden. Je weiter du weg bist, desto stärker leuchtet es, und kurz nach dem Auftritt strahlt es noch heller. Das gilt auch, wenn die Boss-Intros übersprungen werden. Xal-Tuun leuchtet gold, das Ohr des Schläfers blass cyan, damit sie sich vom Hintergrund abheben. Die Intro-Kamera zoomt näher an ferne Bosse heran.
+- **Deckenöffnungen je Gebiet:** Die quadratische Deckenöffnung mit Balkenraster, die in vielen Räumen gleich aussah, hat jetzt in jedem Gebiet eine eigene Form. Im Tempelvorhof ist es ein gemauerter Lichtschacht mit Seetang, in der Korallenkathedrale eine unregelmäßige Korallenröhre mit Kalkstalaktiten, in den Versunkenen Archiven eine Regalgalerie mit Fenstertrommel und Glasrosette, in der Bohrstation ein Stahlschacht mit Kranträger, Ketten und Kranlampe, im Abgrund eine Felsspalte mit Felsnadeln und Kristallen. Durch den Schacht siehst du in den Tiefsee-Himmel mit Felsgraten, Türmen und großen Tieren. Die Lichtsäule darunter hat weiche Ränder statt einer harten Zylinderkante.
+- **Kerzenmolch und Wasserspeier mit eigener Gestalt:** Beide teilten bisher denselben Vierbeiner-Körper. Der Kerzenmolch ist jetzt ein flacher, langer Molch mit gespreizten Beinen, Glotzaugen, gefiederten Kiemen, Ruderschwanz und sieben brennenden Wachskerzen auf dem Rücken. Der Wasserspeier ist gedrungen und grotesk, mit Buckel, langen Vorderläufen, offenem Speiermaul mit Glutschlund, Widderhörnern und großen Steinschwingen, die er beim Sprung aufklappt. Die Trefferzonen passen zur neuen Form, die Schwingen des Wasserspeiers sind Stein.
+- **Taufpriester neu gestaltet:** Breitere Schultern, lange Arme mit Krallenhänden, weite Hängeärmel und ein Kragen aus Steinschuppen. Gewand, Mantel, Stola und Taufschale schwingen bei jeder Bewegung nach. Die Trefferzone ist an die breitere Gestalt angepasst.
+
+### Verbessert
+- **Bohrstation:** Die Hallen sind heller und neutraler statt olivgrün. Schmelzrinnen unter Gitterrosten laufen an den Wänden entlang, an Maschinen glüht Ofenglut, Schweißfunken regnen herab, Rundumleuchten drehen sich, an den Ausgängen blinken rote Warnleuchten und von der Decke hängen Hallenstrahler. Das Plankton schimmert bernsteinfarben. Das Riffelblech an Rampen ist feiner, die Rampenwangen sind nicht mehr verzerrt.
+- **Ertrunkene Flotte:** Matrose, Musketier, Bootsmann, Kanonier, Seepockenbrut und Galionswächter tragen ein mintgrünes Kopflicht vor dem Gesicht und ein Randlicht, das ihre Umrisse vor den dunklen Planken zeigt. Schwachpunkte glühen rot.
+- **Schiffsfriedhof:** Segel haben Tuchbahnen mit Nähten, Algenbewuchs zum freien Ende hin, dünne Stellen und ausgefranste Risse statt runder Löcher. In dunklen Innenräumen stehen Kerzen und Kohlepfannen als warme Lichtinseln. Die Kohle glimmt dunkel statt als helle Scheibe.
+- **Leuchtkörper statt flacher Scheiben:** Leuchtbrocken im Schiffsfriedhof, Korallenkugeln, Brutsäcke und Kerzensäulen glühen jetzt von innen und werden zum Rand hin dunkler. Vorher wirkten sie wie flache Scheiben, die weiß ausbrannten. Die Leuchtlinie an Deckungsmauern sieht aus wie eine nasse Mineralader, Korallenränder und Stalaktitspitzen im Abgrund brennen nicht mehr weiß aus. Glyphensiegel sind Steinteller, auf denen nur Ring, Kern und Speichen glühen. Die Leuchtröhre an den Kanten der Boss-Arenen ist schmaler und glänzt wie Glas.
+- **Ertrunkener Dom:**
+  - **Licht nicht mehr durch Wände:** Das Fensterlicht der Apsis der Großen Glocke färbte Räume zwei Türen weiter türkis. Jetzt bleibt das Licht jedes Raums in seinem Raum.
+  - **Rosettenhalle:** Die Ostarme der Kreuzbrücken sind eingestürzt, ihre Trümmer liegen am Boden. Vom Eingang aus ist die Rosette nicht mehr verdeckt.
+  - **Gezeitenkrypta:** Kohlebecken und Kandelaber säumen den Weg. Die Lichtsäule im Schacht ist weich und der Schachtring nicht mehr als harter weißer Ring zu sehen.
+  - **Glockengießerei:** Die Bronzerinnen sehen mit wechselnder Kruste, unregelmäßigen Schollen und Schlackeninseln natürlicher aus. Emporen und Kranbrücke werden von der Glut angestrahlt, an der Brüstung hängen mehr Laternen.
+  - **Apsis der Großen Glocke:** Das Fensterlicht ist weniger türkis, vier Kohlebecken auf dem Arenaboden wärmen den Boden um das Podest.
+  - **Turmtreppe:** Der Stein wirkt neutraler, die Brunnenwand weniger kühl. Die Brunnenabdeckung hat gefugte Bogensteine statt Zackenkrone.
+  - **Laternenglas:** Die Scheiben leuchten nicht mehr als flache orange Fläche. Man sieht Flamme und Kerze dahinter, Bleiruten im Rautenmuster und gehämmertes Glas.
+  - **Teppichreste** sind verblasste, verschlammte Kirchenteppiche mit Fransen und Löchern statt roter Flecken.
+  - **Röhrenkorallen** sind gekrümmt, mit Wachstumsringen und gewellter Mündung, in Korallenrot mit warmem Leuchten im Schlund statt schwarzer Zylinder mit weißen Deckeln.
+  - **Stein und Mobiliar:** Podestkanten in der Glockenlandung und der Kapelle der Gaben haben Werksteine mit Fugen und Fasen. Altar und Schreinpodest in der Sakristei sind aus Basaltquadern. In der Glockenlandung stehen Expeditionskisten. Im Chor der Pfeifen ist die Brüstung matter, die Bahn leuchtet ruhiger, die Rippen sind heller. Die Säulenlaternen in der Glockenvierung sind kleiner.
+  - **Glockenwächter:** Bodenkreise, Risse und Blitze seiner Angriffe sind gedämpft und überstrahlen den Boden nicht mehr. Der Kettenschwung bleibt orange, ist aber dunkler.
+  - **Dom-Gegner:** Die Leuchtnähte sind breiter und haben einen weichen Glutsaum statt dünner Linien.
+
+---
+
 ## 08.11.2026 – Gegner aller Gebiete rennen und zerbrechen, echte Flammen im Dom, Dom-Gegner mit Signaturfarben (v2026.11.08.0725-709020619)
 
 ### Neu

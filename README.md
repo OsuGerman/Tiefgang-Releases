@@ -33,7 +33,7 @@ If you like **Roboquest**, **Gunfire Reborn** or **Risk of Rain 2**, this is tha
 
 <table><tr><td>
 <b>New in the latest update</b><br>
-Bosses visible on entry · new ceiling openings looking into the deep-sea sky · brighter Drilling Station with sparks and embers · wreck enemies with head lights · new Candle Newt, Gargoyle and Font Priest · Rose Window Hall in the cathedral.
+New elite arenas with reef island, drill tower and colossal head · reworked boss arenas in the Sunken Archives, Coral Cathedral, Temple Forecourt and Abyss · submarine with brass signs and woven carpet · rebuilt Gargoyle · smoother fights.
 <a href="CHANGELOG.md">Full changelog</a>
 </td></tr></table>
 

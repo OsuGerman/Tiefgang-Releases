@@ -33,7 +33,7 @@ Wenn du **Roboquest**, **Gunfire Reborn** oder **Risk of Rain 2** magst: genau d
 
 <table><tr><td>
 <b>Neu im letzten Update</b><br>
-Bosse beim Betreten sichtbar · neue Deckenöffnungen mit Blick in den Tiefsee-Himmel · hellere Bohrstation mit Funken und Glut · Wrack-Gegner mit Kopflicht · neuer Kerzenmolch, Wasserspeier und Taufpriester · Rosettenhalle im Dom.
+Neue Elitearenen mit Riffinsel, Bohrturm und Kolosskopf · überarbeitete Bossarenen in Archiven, Korallenkathedrale, Tempelvorhof und Abgrund · U-Boot mit Messingschildern und Webteppich · neuer Wasserspeier · flüssigere Kämpfe.
 <a href="CHANGELOG.de.md">Ganzer Changelog</a>
 </td></tr></table>
 

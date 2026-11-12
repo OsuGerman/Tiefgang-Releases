@@ -8,6 +8,39 @@ German version: [CHANGELOG.de.md](https://github.com/OsuGerman/Tiefgang-Releases
 
 ---
 
+## 12.11.2026 – New elite arenas, reworked boss arenas, brass signs in the sub, smoother fights (v2026.11.12.0715-1405c12b8)
+
+### New
+- **Elite arenas with a centrepiece:** the Coral Cathedral has a reef island with a coral tower, brain coral and glowing anemones, the Drilling Station a drill tower with falling sparks, rotating beacons and a work light. In the Temple Forecourt a colossal head sits on a dais between braziers, framed by statues and fallen columns.
+- **Submarine:** sea charts, photo walls with a clock, lockers, fold-down tables and gauges now hang between the portholes. The runner is a woven carpet with fringes and a worn walking lane. Stations carry brass signs on wall arms instead of floating text, and cross pipes with valve wheels and cable trays with warning lamps run along the ceiling.
+
+### Improved
+- **Smoother fights:** enemy AI needs about a third less CPU time. Big fights in the Drowned Cathedral run noticeably smoother.
+- **Shorter loading hitches:** on depth changes in the Drowned Cathedral, the expedition bell and the first room are built over several frames. The longest freeze behind the fade is about half as long.
+- **Helmet lamp:** right in front of a wall the lamp no longer throws a harsh, hard-edged circle. It dims softly as you get closer and reaches as far as before at range.
+- **Drowned Cathedral:**
+  - **Gargoyle** rebuilt: dark weathered basalt with cracks, lime crust and moss, squat with a broad chest, short heavy legs and heavy wings. It now gallops at you.
+  - **Font Priest:** the robe no longer looks milky and see-through but like wet dark stone. Raising its arms to sing no longer stretches pale sheets from the sleeves to the chest.
+  - **Glow seams** on the Drowned Cathedral enemies are wider and softer instead of thin wire lines.
+  - **Lanterns** have domed bullseye glass with streaks instead of a smooth orange surface.
+  - **Nave of Bells:** a staghorn coral with polyps and anemones grows in the foreground, and the pillars show calmer stone with dark joints.
+  - **Bell Foundry:** the glowing channels burn hotter and cooler in sections, the crust carries ash and embers, and the moulds are now stacked wooden crates with iron fittings.
+  - **Apse of the Great Bell:** the cover blocks are rubble heaps of masonry.
+- **Ship Graveyard:** glow mushrooms are real mushrooms with flat caps, glowing rims and spots, and the green floor light comes from glowing bottles. Sails and flags are cloth with folds and frayed edges. The crew quarters are brighter with hanging lanterns. Fleet enemies have glowing veins and a rim light that stays subtle up close and shows their outline at range.
+- **Coral Cathedral:** the coral ship is overgrown with coral, sea fans and anemones, a lamp-lit cabin sits behind the stern windows, and the portholes have brass rings and dark glass. Warm orange, pink and amber corals set accents against the blue, and each one only lights its surroundings. The giant coral lost its white neon strip. Stairs and wall stones are at the right scale. In the boss arena coral towers and a coral portal frame the entrance, and Ysmera appears closer.
+- **Sunken Archives:** the boss arena is no longer black: masonry with ink runs, hanging ink lanterns and soft light from above, and the ring walls cast soft shadows. The ink pool is filled with dark glossy ink with swirls. The cloister and the elite arena have lanterns and a chandelier.
+- **Temple Forecourt:** walls show weathered masonry with lime streaks and moss instead of a uniform glyph grid. Cover walls have a worn stone joint instead of a glowing line. The trench has a watery floor with rubble. In the boss arena the pillars are fluted, guardian heads flank the entrance, and a stone rim edges the platform instead of the glowing turquoise tube.
+- **Abyss:** amber crystals with ember veins break up the violet. Behind the Herald and final boss arenas stand layered rock needles with glowing cracks, with crystal fields glowing below. Rune columns and rocks carry carved, softly glowing signs instead of white lines, and the disc edge is a ring of stone.
+- **Sacrificial altar:** the orb is dark glass with a slowly swirling core instead of a harsh pastel ball.
+
+### Fixed
+- In the Nave of Bells and at the Bell Landing, brazier embers showed as a thin line through walls.
+- During a fight in the Drowned Cathedral, outer walls and door frames of neighbouring rooms seen through arcades disappeared.
+- The exit and entrance doors of two Cathedral rooms flickered because they sat exactly on top of each other.
+- Warm coral lights tinted stair steps and corners pink with no coral in sight.
+
+---
+
 ## 11.11.2026 – Bosses visible on entry, new ceiling openings, brighter Drilling Station, wreck enemies with head lights (v2026.11.11.2145-c19b90861)
 
 ### New

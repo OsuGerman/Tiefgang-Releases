@@ -8,6 +8,39 @@ Englische Fassung · English version: [CHANGELOG.md](https://github.com/OsuGerma
 
 ---
 
+## 12.11.2026 – Neue Elitearenen, überarbeitete Bossarenen, Hub mit Messingschildern, flüssigere Kämpfe (v2026.11.12.0715-1405c12b8)
+
+### Neu
+- **Elitearenen mit eigenem Mittelpunkt:** In der Korallenkathedrale steht eine Riffinsel mit Korallenturm, Hirnkoralle und glühenden Anemonen, in der Bohrstation ein Bohrturm mit Funkenregen, Rundumleuchten und Arbeitslicht. Im Tempelvorhof thront ein Kolosskopf auf einem Podest zwischen Kohlebecken, gesäumt von Statuen und umgestürzten Säulen.
+- **U-Boot:** Zwischen den Bullaugen hängen jetzt Seekarten, Fotowände mit Uhr, Spinde, Klapptische und Manometer. Der Läufer ist ein gewebter Teppich mit Fransen und abgelaufener Gehspur. Die Stationen tragen Messingschilder an Wandarmen statt schwebender Schrift, an der Decke laufen Querrohre mit Ventilrad und Kabelkanäle mit Warnlampe.
+
+### Verbessert
+- **Flüssigere Kämpfe:** Die Gegner-KI braucht rund ein Drittel weniger Rechenzeit. Mit vielen Gegnern im Dom läuft das Spiel spürbar runder.
+- **Kürzere Laderuckler:** Beim Tiefenwechsel im Dom werden die Expeditionsglocke und der erste Raum über mehrere Bilder aufgebaut. Das längste Standbild hinter der Blende ist etwa halb so lang.
+- **Helmlampe:** Direkt vor einer Wand wirft die Lampe keinen grellen, hart umrandeten Kreis mehr. Sie dimmt weich ab, je näher du kommst, und leuchtet aus der Entfernung so weit wie vorher.
+- **Ertrunkener Dom:**
+  - **Wasserspeier** neu gebaut: dunkler, verwitterter Basalt mit Rissen, Kalkkrusten und Moos, gedrungen mit breiter Brust, kurzen kräftigen Beinen und schweren Schwingen. Er galoppiert jetzt schwerfällig auf dich zu.
+  - **Taufpriester:** Die Robe wirkt nicht mehr milchig-durchscheinend, sondern wie nasser, dunkler Stein. Beim Singen mit erhobenen Armen spannen sich keine hellen Flächen mehr von den Ärmeln zur Brust.
+  - **Leuchtnähte** der Dom-Gegner sind breiter und weicher statt dünner Drahtlinien.
+  - **Laternen** haben gewölbtes Butzenglas mit Schlieren statt einer glatten orangefarbenen Fläche.
+  - **Hauptschiff:** Im Vordergrund wächst eine Hirschgeweihkoralle mit Polypen und Anemonen. Die Pfeiler zeigen ruhigeren Stein mit dunklen Fugen.
+  - **Glockengießerei:** Die Glutrinnen glühen abschnittsweise unterschiedlich heiß, die Kruste trägt Asche und Glutpunkte. Die Gussformen sind jetzt gestapelte Holzkisten mit Eisenbeschlägen.
+  - **Apsis der Großen Glocke:** Die Deckungsblöcke sind Schuttberge aus Mauerwerk.
+- **Schiffsfriedhof:** Leuchtpilze sind echte Pilze mit flachem Hut, leuchtendem Rand und Leuchtpunkten, das grüne Bodenlicht kommt aus leuchtenden Flaschen. Segel und Flaggen sind Stoff mit Falten und ausgefranstem Rand. Die Mannschaftsquartiere sind mit Hängelaternen heller. Die Flotten-Gegner haben leuchtende Adern und ein Randlicht, das aus der Nähe dezent bleibt und auf Entfernung ihre Umrisse zeigt.
+- **Korallenkathedrale:** Das Korallenschiff ist mit Korallen, Seefächern und Anemonen überwachsen, hinter den Heckfenstern liegt eine Kajüte mit Hängelampe, die Bullaugen haben Messingringe und dunkles Glas. Warme Korallen in Orange, Rosa und Bernstein setzen Akzente gegen das Blau. Jede leuchtet nur in ihrer Umgebung. Die Riesenkoralle hat keinen weißen Neonstreifen mehr. Treppen und Wandsteine sind im richtigen Maßstab. In der Bossarena rahmen Korallentürme und ein Korallenportal den Auftritt, Ysmera erscheint näher.
+- **Versunkene Archive:** Die Bossarena ist nicht mehr schwarz. Mauerwerk mit Tintenläufen, hängende Tintenlaternen und weiches Licht von oben, die Schatten der Ringmauern sind weich. Das Tintenbecken ist mit dunkler, glänzender Tinte mit Schlieren gefüllt. Kreuzgang und Elitearena haben Laternen und einen Kronleuchter.
+- **Tempelvorhof:** Die Wände zeigen verwittertes Mauerwerk mit Kalkfahnen und Moos statt eines gleichmäßigen Glyphenrasters. Deckungsmauern haben eine abgenutzte Steinfuge statt einer leuchtenden Linie. Der Graben hat einen Wassergrund mit Geröll. In der Bossarena sind die Säulen kanneliert, Wächterköpfe flankieren den Eingang, und statt des leuchtenden Türkis-Schlauchs fasst ein Steinrand die Plattform ein.
+- **Abgrund:** Bernsteinkristalle mit Glutadern brechen das Violett. Hinter den Herold- und Endboss-Arenen stehen gestaffelte Felsnadeln mit Glutrissen, darunter glühen Kristallfelder. Runensäulen und Felsen tragen eingeritzte, matt glimmende Zeichen statt weißer Linien, der Scheibenrand ist ein Steinkranz.
+- **Opferaltar:** Die Kugel ist dunkles Glas mit langsam wirbelndem Kern statt einer grellen Pastellkugel.
+
+### Behoben
+- Im Hauptschiff und an der Glockenlandung schien die Glut der Kohlebecken als dünne Linie durch Wände.
+- Während eines Kampfes im Dom verschwanden Außenwände und Türrahmen der Nachbarräume, die durch Arkaden sichtbar waren.
+- Ausgangs- und Eingangstür zweier Dom-Räume flackerten, weil sie genau übereinanderlagen.
+- Warme Korallenlichter färbten Treppenstufen und Ecken rosa, ohne dass eine Koralle zu sehen war.
+
+---
+
 ## 11.11.2026 – Bosse beim Betreten sichtbar, neue Deckenöffnungen, hellere Bohrstation, Wrack-Gegner mit Kopflicht (v2026.11.11.2145-c19b90861)
 
 ### Neu
